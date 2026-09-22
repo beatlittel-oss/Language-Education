@@ -1,0 +1,1271 @@
+{
+  "schema": "speakly.content.v1",
+  "doc": "courses_advanced",
+  "collection": "courses",
+  "version": 1,
+  "updatedAt": "2026-09-22",
+  "locale": "en",
+  "count": 1,
+  "items": [
+    {
+      "id": "en_advanced",
+      "band": 2,
+      "title": "Advanced",
+      "subtitle": "Precision, nuance and persuasion",
+      "units": [
+        {
+          "id": "en_a_u1",
+          "title": "Unit 1 - Precision",
+          "subtitle": "Nuance, hedging, idiom, register",
+          "lessons": [
+            {
+              "id": "en_a_u1_l1",
+              "title": "Saying it more precisely",
+              "topic": "business",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_a_u1_l1_nuance",
+                  "word": "nuance",
+                  "phonetic": "/ˈnjuːɑːns/",
+                  "meaning": "A very small difference in meaning.",
+                  "example": "The nuance is lost in translation.",
+                  "translations": {
+                    "hi": "बारीकी",
+                    "gu": "સૂક્ષ્મતા",
+                    "es": "matiz"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u1_l1_arguably",
+                  "word": "arguably",
+                  "phonetic": "/ˈɑːɡjuəbli/",
+                  "meaning": "It can be argued that.",
+                  "example": "This is arguably the best option.",
+                  "translations": {
+                    "hi": "यकीनन",
+                    "gu": "દલીલપૂર્વક",
+                    "es": "posiblemente"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u1_l1_marginal",
+                  "word": "marginal",
+                  "phonetic": "/ˈmɑːdʒɪnl/",
+                  "meaning": "Very small and barely important.",
+                  "example": "The difference was marginal.",
+                  "translations": {
+                    "hi": "मामूली",
+                    "gu": "નજીવું",
+                    "es": "marginal"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u1_l1_compelling",
+                  "word": "compelling",
+                  "phonetic": "/kəmˈpelɪŋ/",
+                  "meaning": "Convincing and hard to argue with.",
+                  "example": "She made a compelling case.",
+                  "translations": {
+                    "hi": "प्रभावशाली",
+                    "gu": "આકર્ષક",
+                    "es": "convincente"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u1_l1_underestimate",
+                  "word": "underestimate",
+                  "phonetic": "/ˌʌndərˈestɪmeɪt/",
+                  "meaning": "To think something is smaller than it is.",
+                  "example": "Do not underestimate the cost.",
+                  "translations": {
+                    "hi": "कम आंकना",
+                    "gu": "ઓછું આંકવું",
+                    "es": "subestimar"
+                  }
+                }
+              ],
+              "listen": ["The improvement was real but marginal, and arguably not worth the disruption.", "What makes the argument compelling is not the data but the framing."],
+              "speak": ["The difference is marginal rather than decisive.", "This is arguably the strongest option we have."],
+              "grammar": {
+                "title": "Hedging and softening",
+                "rule": "Advanced speakers rarely state things absolutely: they qualify claims.",
+                "explanation": "",
+                "examples": ["It tends to work better in practice.", "This may well be the deciding factor.", "There is a case for waiting."]
+              },
+              "quiz": [
+                {
+                  "id": "en_a_u1_l1_q1",
+                  "prompt": "Which sentence hedges the claim?",
+                  "options": ["This is the best option.", "This is arguably the best option.", "This is definitely best.", "Everyone knows this is best."],
+                  "answer": 1,
+                  "explanation": "Arguably marks it as an argument, not a fact.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_a_u1_l1_q2",
+                  "prompt": "Complete: The effect was ___ rather than dramatic.",
+                  "options": ["compelling", "marginal", "nuanced", "urgent"],
+                  "answer": 1,
+                  "explanation": "Marginal contrasts with dramatic.",
+                  "skill": "vocabulary"
+                },
+                {
+                  "id": "en_a_u1_l1_q3",
+                  "prompt": "Which is the most cautious?",
+                  "options": ["It will fail.", "It might fail.", "It always fails.", "It has failed."],
+                  "answer": 1,
+                  "explanation": "Might expresses possibility.",
+                  "skill": "grammar"
+                }
+              ]
+            },
+            {
+              "id": "en_a_u1_l2",
+              "title": "Idiomatic English",
+              "topic": "daily",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_a_u1_l2_cut_corners",
+                  "word": "cut corners",
+                  "phonetic": "/kʌt ˈkɔːnəz/",
+                  "meaning": "To do something badly to save time.",
+                  "example": "They cut corners on testing.",
+                  "translations": {
+                    "hi": "शॉर्टकट लेना",
+                    "gu": "શોર્ટકટ લેવો",
+                    "es": "hacer chapuzas"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u1_l2_on_the_same_page",
+                  "word": "on the same page",
+                  "phonetic": "/ɒn ðə seɪm peɪdʒ/",
+                  "meaning": "In agreement.",
+                  "example": "Let us make sure we are on the same page.",
+                  "translations": {
+                    "hi": "एकमत",
+                    "gu": "એકમત",
+                    "es": "de acuerdo"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u1_l2_bite_the_bullet",
+                  "word": "bite the bullet",
+                  "phonetic": "/baɪt ðə ˈbʊlɪt/",
+                  "meaning": "To accept something unpleasant.",
+                  "example": "We bit the bullet and rewrote it.",
+                  "translations": {
+                    "hi": "हिम्मत करना",
+                    "gu": "હિંમત કરવી",
+                    "es": "hacer de tripas corazón"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u1_l2_a_long_shot",
+                  "word": "a long shot",
+                  "phonetic": "/ə lɒŋ ʃɒt/",
+                  "meaning": "Unlikely to succeed.",
+                  "example": "It is a long shot, but worth trying.",
+                  "translations": {
+                    "hi": "मुश्किल संभावना",
+                    "gu": "ઓછી શક્યતા",
+                    "es": "poco probable"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u1_l2_play_it_by_ear",
+                  "word": "play it by ear",
+                  "phonetic": "/pleɪ ɪt baɪ ɪə/",
+                  "meaning": "To decide as you go.",
+                  "example": "Let us play it by ear.",
+                  "translations": {
+                    "hi": "देखकर तय करना",
+                    "gu": "જોઈને નક્કી કરવું",
+                    "es": "improvisar"
+                  }
+                }
+              ],
+              "listen": ["We could not agree on a date, so we decided to play it by ear.", "It is a long shot, but if it works we save a month."],
+              "speak": ["I want to make sure we are on the same page.", "We had to bite the bullet and start again."],
+              "grammar": {
+                "title": "Idioms and collocation",
+                "rule": "Idioms are fixed: changing one word breaks them. Learn the whole phrase.",
+                "explanation": "",
+                "examples": ["Correct: cut corners. Wrong: cut the corners.", "Correct: make a decision. Wrong: do a decision.", "Correct: take a risk. Wrong: make a risk."]
+              },
+              "quiz": [
+                {
+                  "id": "en_a_u1_l2_q1",
+                  "prompt": "Choose the correct collocation.",
+                  "options": ["do a decision", "make a decision", "take a decision quickly do", "have a decision"],
+                  "answer": 1,
+                  "explanation": "Make collocates with decision.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_a_u1_l2_q2",
+                  "prompt": "It is a long shot means it is:",
+                  "options": ["certain", "unlikely", "expensive", "slow"],
+                  "answer": 1,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                },
+                {
+                  "id": "en_a_u1_l2_q3",
+                  "prompt": "Choose the correct idiom.",
+                  "options": ["cut the corners", "cut corners", "cutting corner", "cut a corner off"],
+                  "answer": 1,
+                  "explanation": "Idioms are fixed phrases.",
+                  "skill": "grammar"
+                }
+              ]
+            },
+            {
+              "id": "en_a_u1_l3",
+              "title": "Formal presentations",
+              "topic": "business",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_a_u1_l3_outline",
+                  "word": "outline",
+                  "phonetic": "/ˈaʊtlaɪn/",
+                  "meaning": "To give the main points.",
+                  "example": "Let me outline the plan.",
+                  "translations": {
+                    "hi": "रूपरेखा",
+                    "gu": "રૂપરેખા",
+                    "es": "esbozar"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u1_l3_highlight",
+                  "word": "highlight",
+                  "phonetic": "/ˈhaɪlaɪt/",
+                  "meaning": "To draw attention to something.",
+                  "example": "I want to highlight two risks.",
+                  "translations": {
+                    "hi": "उजागर करना",
+                    "gu": "પ્રકાશિત કરવું",
+                    "es": "destacar"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u1_l3_implication",
+                  "word": "implication",
+                  "phonetic": "/ˌɪmplɪˈkeɪʃn/",
+                  "meaning": "A likely result of something.",
+                  "example": "The implication is a longer timeline.",
+                  "translations": {
+                    "hi": "निहितार्थ",
+                    "gu": "સૂચિતાર્થ",
+                    "es": "implicación"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u1_l3_bottom_line",
+                  "word": "bottom line",
+                  "phonetic": "/ˈbɒtəm laɪn/",
+                  "meaning": "The most important fact.",
+                  "example": "The bottom line is cost.",
+                  "translations": {
+                    "hi": "मुख्य बात",
+                    "gu": "મુખ્ય વાત",
+                    "es": "conclusión"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u1_l3_to_sum_up",
+                  "word": "to sum up",
+                  "phonetic": "/tə sʌm ʌp/",
+                  "meaning": "To give a short final summary.",
+                  "example": "To sum up, we recommend option B.",
+                  "translations": {
+                    "hi": "संक्षेप में",
+                    "gu": "ટૂંકમાં",
+                    "es": "en resumen"
+                  }
+                }
+              ],
+              "listen": ["Let me outline three points, then I will take questions at the end.", "To sum up: the cost is higher, but the risk is significantly lower."],
+              "speak": ["Let me outline the three main points.", "To sum up, I recommend the second option."],
+              "grammar": {
+                "title": "Signposting language",
+                "rule": "Signposts tell the listener where you are, which is what makes a talk easy to follow.",
+                "explanation": "",
+                "examples": ["First, I will cover the background.", "Moving on to the second point.", "That brings me to my conclusion."]
+              },
+              "quiz": [
+                {
+                  "id": "en_a_u1_l3_q1",
+                  "prompt": "Which phrase signals a summary?",
+                  "options": ["First of all", "Moving on", "To sum up", "For example"],
+                  "answer": 2,
+                  "explanation": "To sum up closes a talk.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_a_u1_l3_q2",
+                  "prompt": "Complete: That ___ me to my final point.",
+                  "options": ["takes", "brings", "puts", "gives"],
+                  "answer": 1,
+                  "explanation": "Brings me to is the fixed phrase.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_a_u1_l3_q3",
+                  "prompt": "Which word means a likely result?",
+                  "options": ["outline", "implication", "highlight", "bottom line"],
+                  "answer": 1,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en_a_u2",
+          "title": "Unit 2 - Persuasion",
+          "subtitle": "Argument, negotiation, difficult conversations",
+          "lessons": [
+            {
+              "id": "en_a_u2_l1",
+              "title": "Building an argument",
+              "topic": "business",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_a_u2_l1_evidence",
+                  "word": "evidence",
+                  "phonetic": "/ˈevɪdəns/",
+                  "meaning": "Facts that support a claim.",
+                  "example": "The evidence points the other way.",
+                  "translations": {
+                    "hi": "प्रमाण",
+                    "gu": "પુરાવો",
+                    "es": "evidencia"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u2_l1_counterargument",
+                  "word": "counterargument",
+                  "phonetic": "/ˈkaʊntərɑːɡjumənt/",
+                  "meaning": "An argument against yours.",
+                  "example": "Let me address the counterargument.",
+                  "translations": {
+                    "hi": "प्रतिवाद",
+                    "gu": "પ્રતિદલીલ",
+                    "es": "contraargumento"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u2_l1_undermine",
+                  "word": "undermine",
+                  "phonetic": "/ˌʌndəˈmaɪn/",
+                  "meaning": "To weaken something gradually.",
+                  "example": "That figure undermines the whole case.",
+                  "translations": {
+                    "hi": "कमजोर करना",
+                    "gu": "નબળું પાડવું",
+                    "es": "socavar"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u2_l1_premise",
+                  "word": "premise",
+                  "phonetic": "/ˈpremɪs/",
+                  "meaning": "The idea an argument starts from.",
+                  "example": "The premise is questionable.",
+                  "translations": {
+                    "hi": "आधार",
+                    "gu": "આધાર",
+                    "es": "premisa"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u2_l1_concede",
+                  "word": "concede",
+                  "phonetic": "/kənˈsiːd/",
+                  "meaning": "To admit a point is true.",
+                  "example": "I concede that the cost is high.",
+                  "translations": {
+                    "hi": "स्वीकार करना",
+                    "gu": "સ્વીકારવું",
+                    "es": "conceder"
+                  }
+                }
+              ],
+              "listen": ["I concede the first point, but the evidence for the second is much weaker.", "The strongest counterargument is cost, so let me address it directly."],
+              "speak": ["I concede that point, but it does not change the conclusion.", "The evidence for that claim is thin."],
+              "grammar": {
+                "title": "Concession structures",
+                "rule": "Granting a point before answering it makes an argument far more persuasive.",
+                "explanation": "",
+                "examples": ["While I accept the cost, the risk is lower.", "Granted, it is slower. It is also safer.", "Even if that is true, it does not follow that we should stop."]
+              },
+              "quiz": [
+                {
+                  "id": "en_a_u2_l1_q1",
+                  "prompt": "Which sentence concedes then counters?",
+                  "options": ["It is expensive.", "It is cheap and fast.", "While it is expensive, it lasts twice as long.", "I disagree completely."],
+                  "answer": 2,
+                  "explanation": "Concession plus counter is the persuasive shape.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_a_u2_l1_q2",
+                  "prompt": "Complete: Even ___ that is true, the conclusion does not follow.",
+                  "options": ["if", "though so", "as", "while if"],
+                  "answer": 0,
+                  "explanation": "Even if introduces a hypothetical concession.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_a_u2_l1_q3",
+                  "prompt": "Which word means to weaken gradually?",
+                  "options": ["concede", "undermine", "outline", "highlight"],
+                  "answer": 1,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            },
+            {
+              "id": "en_a_u2_l2",
+              "title": "Negotiating",
+              "topic": "business",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_a_u2_l2_leverage",
+                  "word": "leverage",
+                  "phonetic": "/ˈliːvərɪdʒ/",
+                  "meaning": "Power that helps you get what you want.",
+                  "example": "We have very little leverage here.",
+                  "translations": {
+                    "hi": "लाभ",
+                    "gu": "લાભ",
+                    "es": "influencia"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u2_l2_compromise",
+                  "word": "compromise",
+                  "phonetic": "/ˈkɒmprəmaɪz/",
+                  "meaning": "An agreement where both sides give something.",
+                  "example": "We reached a compromise.",
+                  "translations": {
+                    "hi": "समझौता",
+                    "gu": "સમાધાન",
+                    "es": "compromiso"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u2_l2_flexible",
+                  "word": "flexible",
+                  "phonetic": "/ˈfleksəbl/",
+                  "meaning": "Able to change.",
+                  "example": "We can be flexible on timing.",
+                  "translations": {
+                    "hi": "लचीला",
+                    "gu": "લવચીક",
+                    "es": "flexible"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u2_l2_walk_away",
+                  "word": "walk away",
+                  "phonetic": "/wɔːk əˈweɪ/",
+                  "meaning": "To leave a negotiation.",
+                  "example": "We are prepared to walk away.",
+                  "translations": {
+                    "hi": "हट जाना",
+                    "gu": "ચાલ્યા જવું",
+                    "es": "retirarse"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u2_l2_deal_breaker",
+                  "word": "deal breaker",
+                  "phonetic": "/diːl ˈbreɪkə/",
+                  "meaning": "A condition you cannot accept.",
+                  "example": "The delivery date is a deal breaker.",
+                  "translations": {
+                    "hi": "अस्वीकार्य शर्त",
+                    "gu": "અસ્વીકાર્ય શરત",
+                    "es": "condición inaceptable"
+                  }
+                }
+              ],
+              "listen": ["We can be flexible on the timeline, but the budget is a deal breaker.", "If we cannot agree on support, we are prepared to walk away."],
+              "speak": ["We can be flexible on timing if you can move on price.", "That would be a deal breaker for us."],
+              "grammar": {
+                "title": "Conditional bargaining",
+                "rule": "Trade concessions with if clauses so nothing is given away for free.",
+                "explanation": "",
+                "examples": ["If you can move on price, we can be flexible on delivery.", "We would consider that, provided the support is included.", "Were you to extend the contract, we could reduce the rate."]
+              },
+              "quiz": [
+                {
+                  "id": "en_a_u2_l2_q1",
+                  "prompt": "Which is a conditional trade?",
+                  "options": ["We need a discount.", "If you extend the contract, we can reduce the rate.", "The price is too high.", "We cannot accept."],
+                  "answer": 1,
+                  "explanation": "The concession is tied to a condition.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_a_u2_l2_q2",
+                  "prompt": "Complete: We would agree, ___ support is included.",
+                  "options": ["provided", "despite", "however", "although"],
+                  "answer": 0,
+                  "explanation": "Provided introduces a condition.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_a_u2_l2_q3",
+                  "prompt": "A deal breaker is something you:",
+                  "options": ["want", "cannot accept", "already agreed", "will pay extra for"],
+                  "answer": 1,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            },
+            {
+              "id": "en_a_u2_l3",
+              "title": "Difficult conversations",
+              "topic": "work",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_a_u2_l3_address",
+                  "word": "address",
+                  "phonetic": "/əˈdres/",
+                  "meaning": "To deal with a problem directly.",
+                  "example": "We need to address the delay.",
+                  "translations": {
+                    "hi": "संबोधित करना",
+                    "gu": "સંબોધવું",
+                    "es": "abordar"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u2_l3_defensive",
+                  "word": "defensive",
+                  "phonetic": "/dɪˈfensɪv/",
+                  "meaning": "Reacting as if attacked.",
+                  "example": "He became defensive immediately.",
+                  "translations": {
+                    "hi": "रक्षात्मक",
+                    "gu": "રક્ષણાત્મક",
+                    "es": "defensivo"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u2_l3_acknowledge",
+                  "word": "acknowledge",
+                  "phonetic": "/əkˈnɒlɪdʒ/",
+                  "meaning": "To accept that something is true.",
+                  "example": "I acknowledge the frustration.",
+                  "translations": {
+                    "hi": "स्वीकार करना",
+                    "gu": "સ્વીકારવું",
+                    "es": "reconocer"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u2_l3_escalate",
+                  "word": "escalate",
+                  "phonetic": "/ˈeskəleɪt/",
+                  "meaning": "To make bigger, or to take to a manager.",
+                  "example": "Let us not escalate this.",
+                  "translations": {
+                    "hi": "बढ़ाना",
+                    "gu": "વધારવું",
+                    "es": "escalar"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u2_l3_common_ground",
+                  "word": "common ground",
+                  "phonetic": "/ˈkɒmən ɡraʊnd/",
+                  "meaning": "Something both sides agree on.",
+                  "example": "Let us start from common ground.",
+                  "translations": {
+                    "hi": "साझा आधार",
+                    "gu": "સામાન્ય આધાર",
+                    "es": "puntos en común"
+                  }
+                }
+              ],
+              "listen": ["I want to acknowledge that the last month has been difficult before we talk about next steps.", "Rather than escalate, can we find some common ground first?"],
+              "speak": ["I want to acknowledge how difficult this has been.", "Can we start from what we agree on?"],
+              "grammar": {
+                "title": "Depersonalising language",
+                "rule": "Describing the situation instead of blaming the person keeps the conversation open.",
+                "explanation": "",
+                "examples": ["Blaming: You missed the deadline.", "Neutral: The deadline was missed and I want to understand why.", "Neutral: There seems to be a gap between what we expected."]
+              },
+              "quiz": [
+                {
+                  "id": "en_a_u2_l3_q1",
+                  "prompt": "Which sentence is least likely to trigger defensiveness?",
+                  "options": ["You always do this.", "You are wrong again.", "There seems to be a gap in expectations.", "This is your fault."],
+                  "answer": 2,
+                  "explanation": "It describes the situation, not the person.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_a_u2_l3_q2",
+                  "prompt": "Complete: I want to ___ that this has been hard.",
+                  "options": ["acknowledge", "escalate", "undermine", "concede to"],
+                  "answer": 0,
+                  "explanation": "Acknowledge accepts the other side feeling.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_a_u2_l3_q3",
+                  "prompt": "Common ground means:",
+                  "options": ["a disagreement", "something both sides agree on", "a formal complaint", "a deadline"],
+                  "answer": 1,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en_a_u3",
+          "title": "Unit 3 - Abstraction and Argument",
+          "subtitle": "Evidence, causation, concession, structure",
+          "lessons": [
+            {
+              "id": "en_a_u3_l1",
+              "title": "Claims and evidence",
+              "topic": "academic",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_a_u3_l1_assertion",
+                  "word": "assertion",
+                  "phonetic": "/əˈsɜːʃn/",
+                  "meaning": "A confident statement made without proof.",
+                  "example": "That is an assertion, not a finding.",
+                  "translations": {
+                    "hi": "दावा",
+                    "gu": "દાવો",
+                    "es": "afirmación"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u3_l1_corroborate",
+                  "word": "corroborate",
+                  "phonetic": "/kəˈrɒbəreɪt/",
+                  "meaning": "To confirm with independent support.",
+                  "example": "Two other studies corroborate it.",
+                  "translations": {
+                    "hi": "पुष्टि करना",
+                    "gu": "સમર્થન કરવું",
+                    "es": "corroborar"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u3_l1_anecdotal",
+                  "word": "anecdotal",
+                  "phonetic": "/ˌænɪkˈdəʊtl/",
+                  "meaning": "Based on personal stories rather than data.",
+                  "example": "The evidence is purely anecdotal.",
+                  "translations": {
+                    "hi": "किस्सा आधारित",
+                    "gu": "કિસ્સા આધારિત",
+                    "es": "anecdótico"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u3_l1_robust",
+                  "word": "robust",
+                  "phonetic": "/rəʊˈbʌst/",
+                  "meaning": "Strong enough to survive scrutiny.",
+                  "example": "The finding is robust across samples.",
+                  "translations": {
+                    "hi": "मजबूत",
+                    "gu": "મજબૂત",
+                    "es": "sólido"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u3_l1_conflate",
+                  "word": "conflate",
+                  "phonetic": "/kənˈfleɪt/",
+                  "meaning": "To wrongly treat two things as one.",
+                  "example": "The article conflates cost and value.",
+                  "translations": {
+                    "hi": "गड्डमड्ड करना",
+                    "gu": "ભેળસેળ કરવી",
+                    "es": "confundir"
+                  }
+                }
+              ],
+              "listen": ["My objection is not that the claim is false. It is that nothing in the paper corroborates it.", "We keep conflating two questions here, and until we separate them we will talk past each other."],
+              "speak": ["The evidence is largely anecdotal.", "I think we are conflating two separate questions."],
+              "grammar": {
+                "title": "Distancing yourself from a claim",
+                "rule": "It is claimed that, the argument goes and on this account report a position without adopting it.",
+                "explanation": "",
+                "examples": ["It is claimed that the policy worked.", "The argument goes that prices would fall.", "On this account, the delay was unavoidable."]
+              },
+              "quiz": [
+                {
+                  "id": "en_a_u3_l1_q1",
+                  "prompt": "Which sentence reports a claim without endorsing it?",
+                  "options": ["The policy worked.", "It is claimed that the policy worked.", "The policy clearly worked.", "The policy worked well."],
+                  "answer": 1,
+                  "explanation": "It is claimed that distances the speaker.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_a_u3_l1_q2",
+                  "prompt": "Which word means to wrongly treat two things as one?",
+                  "options": ["corroborate", "conflate", "constitute", "construe"],
+                  "answer": 1,
+                  "explanation": "Conflate means to merge wrongly.",
+                  "skill": "vocabulary"
+                },
+                {
+                  "id": "en_a_u3_l1_q3",
+                  "prompt": "Evidence based only on personal stories is ___.",
+                  "options": ["robust", "anecdotal", "empirical", "systematic"],
+                  "answer": 1,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            },
+            {
+              "id": "en_a_u3_l2",
+              "title": "Cause, correlation and consequence",
+              "topic": "academic",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_a_u3_l2_attribute",
+                  "word": "attribute",
+                  "phonetic": "/əˈtrɪbjuːt/",
+                  "meaning": "To say something was caused by a particular thing.",
+                  "example": "They attribute the fall to the weather.",
+                  "translations": {
+                    "hi": "श्रेय देना",
+                    "gu": "શ્રેય આપવું",
+                    "es": "atribuir"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u3_l2_coincide",
+                  "word": "coincide",
+                  "phonetic": "/ˌkəʊɪnˈsaɪd/",
+                  "meaning": "To happen at the same time.",
+                  "example": "The two changes coincided exactly.",
+                  "translations": {
+                    "hi": "साथ होना",
+                    "gu": "એકસાથે થવું",
+                    "es": "coincidir"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u3_l2_underlying",
+                  "word": "underlying",
+                  "phonetic": "/ˌʌndəˈlaɪɪŋ/",
+                  "meaning": "Hidden beneath the visible surface.",
+                  "example": "The underlying cause was never addressed.",
+                  "translations": {
+                    "hi": "अंतर्निहित",
+                    "gu": "અંતર્ગત",
+                    "es": "subyacente"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u3_l2_knock_on_effect",
+                  "word": "knock-on effect",
+                  "phonetic": "/ˈnɒk ɒn ɪfekt/",
+                  "meaning": "A result that then causes further results.",
+                  "example": "The strike had a knock-on effect on deliveries.",
+                  "translations": {
+                    "hi": "श्रृंखला प्रभाव",
+                    "gu": "સાંકળ અસર",
+                    "es": "efecto dominó"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u3_l2_spurious",
+                  "word": "spurious",
+                  "phonetic": "/ˈspjʊəriəs/",
+                  "meaning": "Appearing genuine but actually false.",
+                  "example": "That is a spurious correlation.",
+                  "translations": {
+                    "hi": "मिथ्या",
+                    "gu": "ખોટું",
+                    "es": "espurio"
+                  }
+                }
+              ],
+              "listen": ["The two trends coincide, certainly. Coinciding is not the same as causing, and the paper knows that.", "Fixing the symptom without touching the underlying cause bought us about six weeks."],
+              "speak": ["The two things coincide, but I would not attribute one to the other.", "The underlying cause is different from the one being reported."],
+              "grammar": {
+                "title": "Cause and effect linkers",
+                "rule": "Because and since introduce a cause; consequently, hence and as a result introduce an effect.",
+                "explanation": "",
+                "examples": ["Since demand fell, we cut the order.", "Demand fell; consequently, we cut the order.", "Hence the revision."]
+              },
+              "quiz": [
+                {
+                  "id": "en_a_u3_l2_q1",
+                  "prompt": "Which linker introduces a consequence?",
+                  "options": ["Since", "Because", "Consequently", "Although"],
+                  "answer": 2,
+                  "explanation": "Consequently marks a result.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_a_u3_l2_q2",
+                  "prompt": "Complete: The data ___ with the policy change, but proves nothing on its own.",
+                  "options": ["coincides", "attributes", "conflates", "corroborates"],
+                  "answer": 0,
+                  "explanation": "Coincide means happen at the same time.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_a_u3_l2_q3",
+                  "prompt": "A relationship that looks real but is not is ___.",
+                  "options": ["robust", "underlying", "spurious", "explicit"],
+                  "answer": 2,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            },
+            {
+              "id": "en_a_u3_l3",
+              "title": "Conceding and rebutting",
+              "topic": "academic",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_a_u3_l3_granted",
+                  "word": "granted",
+                  "phonetic": "/ˈɡrɑːntɪd/",
+                  "meaning": "Used to admit a point before disagreeing.",
+                  "example": "Granted, the cost is high.",
+                  "translations": {
+                    "hi": "मान लिया",
+                    "gu": "માની લીધું",
+                    "es": "de acuerdo"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u3_l3_notwithstanding",
+                  "word": "notwithstanding",
+                  "phonetic": "/ˌnɒtwɪθˈstændɪŋ/",
+                  "meaning": "Despite.",
+                  "example": "Notwithstanding the delay, it worked.",
+                  "translations": {
+                    "hi": "इसके बावजूद",
+                    "gu": "તેમ છતાં",
+                    "es": "no obstante"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u3_l3_overstate",
+                  "word": "overstate",
+                  "phonetic": "/ˌəʊvəˈsteɪt/",
+                  "meaning": "To describe as more important than it is.",
+                  "example": "I think you overstate the risk.",
+                  "translations": {
+                    "hi": "बढ़ाकर कहना",
+                    "gu": "વધારીને કહેવું",
+                    "es": "exagerar la importancia de"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u3_l3_proviso",
+                  "word": "proviso",
+                  "phonetic": "/prəˈvaɪzəʊ/",
+                  "meaning": "A condition attached to an agreement.",
+                  "example": "I accept, with one proviso about the timing.",
+                  "translations": {
+                    "hi": "शर्त",
+                    "gu": "શરત",
+                    "es": "salvedad"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u3_l3_qualify",
+                  "word": "qualify",
+                  "phonetic": "/ˈkwɒlɪfaɪ/",
+                  "meaning": "To add a limit to a statement.",
+                  "example": "Let me qualify that slightly.",
+                  "translations": {
+                    "hi": "सीमित करना",
+                    "gu": "મર્યાદિત કરવું",
+                    "es": "matizar"
+                  }
+                }
+              ],
+              "listen": ["Granted, the first year was expensive. Notwithstanding that, the running cost is now lower than before.", "I take the principle. What I would qualify is the scale you are claiming for it."],
+              "speak": ["Granted, the cost was higher than planned.", "I take that point, but I would add one proviso."],
+              "grammar": {
+                "title": "Concession structures",
+                "rule": "While, whereas and much as concede a point inside the same sentence as the rebuttal.",
+                "explanation": "",
+                "examples": ["While I accept the cost, the benefit is larger.", "Much as I agree in principle, the timing is wrong.", "Whereas the first study was small, the second was not."]
+              },
+              "quiz": [
+                {
+                  "id": "en_a_u3_l3_q1",
+                  "prompt": "Complete: ___ I agree in principle, the timing is wrong.",
+                  "options": ["Much as", "So as", "Even so", "As much"],
+                  "answer": 0,
+                  "explanation": "Much as concedes a point.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_a_u3_l3_q2",
+                  "prompt": "Which word means to add a limit to a statement?",
+                  "options": ["proviso", "qualify", "overstate", "corroborate"],
+                  "answer": 1,
+                  "explanation": "Qualify narrows a claim.",
+                  "skill": "vocabulary"
+                },
+                {
+                  "id": "en_a_u3_l3_q3",
+                  "prompt": "Complete: ___ the delay, the project came in under budget.",
+                  "options": ["Notwithstanding", "Therefore", "Whereas", "Hence"],
+                  "answer": 0,
+                  "explanation": "Notwithstanding means despite.",
+                  "skill": "grammar"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en_a_u4",
+          "title": "Unit 4 - Register and Impact",
+          "subtitle": "Formality, diplomacy, concision, delivery",
+          "lessons": [
+            {
+              "id": "en_a_u4_l1",
+              "title": "Matching the register",
+              "topic": "work",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_a_u4_l1_formal",
+                  "word": "formal",
+                  "phonetic": "/ˈfɔːml/",
+                  "meaning": "Following official or serious convention.",
+                  "example": "The formal version goes to the board.",
+                  "translations": {
+                    "hi": "औपचारिक",
+                    "gu": "ઔપચારિક",
+                    "es": "formal"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u4_l1_colloquial",
+                  "word": "colloquial",
+                  "phonetic": "/kəˈləʊkwiəl/",
+                  "meaning": "Belonging to ordinary conversation.",
+                  "example": "That phrasing is too colloquial for a report.",
+                  "translations": {
+                    "hi": "बोलचाल का",
+                    "gu": "બોલચાલનું",
+                    "es": "coloquial"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u4_l1_verbose",
+                  "word": "verbose",
+                  "phonetic": "/vɜːˈbəʊs/",
+                  "meaning": "Using far more words than necessary.",
+                  "example": "The draft is accurate but verbose.",
+                  "translations": {
+                    "hi": "शब्दाडंबरपूर्ण",
+                    "gu": "શબ્દાળુ",
+                    "es": "prolijo"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u4_l1_succinct",
+                  "word": "succinct",
+                  "phonetic": "/səkˈsɪŋkt/",
+                  "meaning": "Expressed clearly in few words.",
+                  "example": "Keep the summary succinct.",
+                  "translations": {
+                    "hi": "संक्षिप्त",
+                    "gu": "સંક્ષિપ્ત",
+                    "es": "conciso"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u4_l1_tone",
+                  "word": "tone",
+                  "phonetic": "/təʊn/",
+                  "meaning": "The attitude a piece of writing conveys.",
+                  "example": "The tone reads as annoyed.",
+                  "translations": {
+                    "hi": "लहज़ा",
+                    "gu": "લહેકો",
+                    "es": "tono"
+                  }
+                }
+              ],
+              "listen": ["It is not wrong, it is just verbose. Cut it by half and the argument gets stronger, not weaker.", "The tone is the problem rather than the content. It reads as annoyed, and I do not think you are."],
+              "speak": ["The draft is accurate but far too verbose.", "I would make the summary more succinct."],
+              "grammar": {
+                "title": "Nominalisation and formality",
+                "rule": "Formal English turns verbs into nouns: we decided becomes the decision was taken. It is more distant, and often less clear.",
+                "explanation": "",
+                "examples": ["We decided to delay. -> The decision was taken to delay.", "They failed to reply. -> There was no response.", "We will investigate. -> An investigation will follow."]
+              },
+              "quiz": [
+                {
+                  "id": "en_a_u4_l1_q1",
+                  "prompt": "Which is the more formal version?",
+                  "options": ["We decided to stop.", "The decision was taken to stop.", "We stopped it.", "Stopping it was us."],
+                  "answer": 1,
+                  "explanation": "Nominalisation raises formality.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_a_u4_l1_q2",
+                  "prompt": "Which word means expressed clearly in few words?",
+                  "options": ["verbose", "colloquial", "succinct", "formal"],
+                  "answer": 2,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                },
+                {
+                  "id": "en_a_u4_l1_q3",
+                  "prompt": "A phrase that belongs in conversation but not a report is ___.",
+                  "options": ["formal", "colloquial", "succinct", "technical"],
+                  "answer": 1,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            },
+            {
+              "id": "en_a_u4_l2",
+              "title": "Difficult messages",
+              "topic": "work",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_a_u4_l2_candid",
+                  "word": "candid",
+                  "phonetic": "/ˈkændɪd/",
+                  "meaning": "Honest even when it is uncomfortable.",
+                  "example": "Let me be candid about the timeline.",
+                  "translations": {
+                    "hi": "स्पष्टवादी",
+                    "gu": "સ્પષ્ટવક્તા",
+                    "es": "franco"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u4_l2_shortfall",
+                  "word": "shortfall",
+                  "phonetic": "/ˈʃɔːtfɔːl/",
+                  "meaning": "The amount by which something is less than needed.",
+                  "example": "There is a shortfall of two weeks.",
+                  "translations": {
+                    "hi": "कमी",
+                    "gu": "ઘટ",
+                    "es": "déficit"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u4_l2_mitigate",
+                  "word": "mitigate",
+                  "phonetic": "/ˈmɪtɪɡeɪt/",
+                  "meaning": "To make something bad less severe.",
+                  "example": "We can mitigate the delay by resequencing.",
+                  "translations": {
+                    "hi": "कम करना",
+                    "gu": "ઘટાડવું",
+                    "es": "mitigar"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u4_l2_accountable",
+                  "word": "accountable",
+                  "phonetic": "/əˈkaʊntəbl/",
+                  "meaning": "Responsible and required to explain.",
+                  "example": "I am accountable for this decision.",
+                  "translations": {
+                    "hi": "जवाबदेह",
+                    "gu": "જવાબદાર",
+                    "es": "responsable"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u4_l2_contingency",
+                  "word": "contingency",
+                  "phonetic": "/kənˈtɪndʒənsi/",
+                  "meaning": "A plan for something that might go wrong.",
+                  "example": "We built in a two-week contingency.",
+                  "translations": {
+                    "hi": "आकस्मिक योजना",
+                    "gu": "આકસ્મિક યોજના",
+                    "es": "plan de contingencia"
+                  }
+                }
+              ],
+              "listen": ["I want to be candid: there is a two-week shortfall and no contingency left to absorb it.", "I am accountable for the estimate. What I can offer now is a way to mitigate it, not to undo it."],
+              "speak": ["I want to be candid about where we are.", "I am accountable for that estimate."],
+              "grammar": {
+                "title": "Taking responsibility without hedging it away",
+                "rule": "The active voice names the actor. In bad news, the passive can read as evasion.",
+                "explanation": "",
+                "examples": ["I underestimated the work. (owns it)", "The work was underestimated. (hides who)", "We will fix it by Friday. (commits)"]
+              },
+              "quiz": [
+                {
+                  "id": "en_a_u4_l2_q1",
+                  "prompt": "Which sentence takes responsibility most clearly?",
+                  "options": ["Mistakes were made.", "The estimate was wrong.", "I got the estimate wrong.", "It turned out to be wrong."],
+                  "answer": 2,
+                  "explanation": "The active voice names the actor.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_a_u4_l2_q2",
+                  "prompt": "Which word means to make something bad less severe?",
+                  "options": ["mitigate", "escalate", "concede", "attribute"],
+                  "answer": 0,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                },
+                {
+                  "id": "en_a_u4_l2_q3",
+                  "prompt": "A plan for something that might go wrong is a ___.",
+                  "options": ["shortfall", "contingency", "commitment", "proposal"],
+                  "answer": 1,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            },
+            {
+              "id": "en_a_u4_l3",
+              "title": "Speaking with impact",
+              "topic": "work",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_a_u4_l3_emphasis",
+                  "word": "emphasis",
+                  "phonetic": "/ˈemfəsɪs/",
+                  "meaning": "Special importance given to something.",
+                  "example": "Put the emphasis on the second point.",
+                  "translations": {
+                    "hi": "बल",
+                    "gu": "ભાર",
+                    "es": "énfasis"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u4_l3_pause",
+                  "word": "pause",
+                  "phonetic": "/pɔːz/",
+                  "meaning": "A short silence used deliberately.",
+                  "example": "A pause there does more than a louder voice.",
+                  "translations": {
+                    "hi": "ठहराव",
+                    "gu": "વિરામ",
+                    "es": "pausa"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u4_l3_filler",
+                  "word": "filler",
+                  "phonetic": "/ˈfɪlə/",
+                  "meaning": "A sound or word used while thinking.",
+                  "example": "Cut the fillers and you sound certain.",
+                  "translations": {
+                    "hi": "भराव शब्द",
+                    "gu": "ભરતી શબ્દ",
+                    "es": "muletilla"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u4_l3_pace",
+                  "word": "pace",
+                  "phonetic": "/peɪs/",
+                  "meaning": "The speed at which you speak.",
+                  "example": "Slow the pace for the key sentence.",
+                  "translations": {
+                    "hi": "गति",
+                    "gu": "ગતિ",
+                    "es": "ritmo"
+                  }
+                },
+                {
+                  "id": "lw_en_a_u4_l3_persuasive",
+                  "word": "persuasive",
+                  "phonetic": "/pəˈsweɪsɪv/",
+                  "meaning": "Able to convince someone.",
+                  "example": "That is a persuasive argument.",
+                  "translations": {
+                    "hi": "प्रभावशाली",
+                    "gu": "સમજાવે તેવું",
+                    "es": "persuasivo"
+                  }
+                }
+              ],
+              "listen": ["You do not need a louder voice. You need a pause before the number, so it has somewhere to land.", "The content was persuasive. The pace was not - the whole middle went past too fast to follow."],
+              "speak": ["I want to put the emphasis on the second point.", "That is a persuasive argument, and here is my one reservation."],
+              "grammar": {
+                "title": "Fronting for emphasis",
+                "rule": "Move the important element to the front of the sentence. It changes the emphasis without changing the meaning.",
+                "explanation": "",
+                "examples": ["That, I disagree with.", "What worries me is the timeline.", "Never before had we missed a date."]
+              },
+              "quiz": [
+                {
+                  "id": "en_a_u4_l3_q1",
+                  "prompt": "Which sentence emphasises the timeline?",
+                  "options": ["The timeline worries me.", "What worries me is the timeline.", "I am worried.", "The timeline is a worry."],
+                  "answer": 1,
+                  "explanation": "The cleft moves it into focus.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_a_u4_l3_q2",
+                  "prompt": "Which word means the speed at which you speak?",
+                  "options": ["tone", "pace", "emphasis", "pause"],
+                  "answer": 1,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                },
+                {
+                  "id": "en_a_u4_l3_q3",
+                  "prompt": "Complete: Never before ___ we faced this.",
+                  "options": ["have", "had", "did", "has"],
+                  "answer": 1,
+                  "explanation": "Fronting a negative triggers inversion.",
+                  "skill": "grammar"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
