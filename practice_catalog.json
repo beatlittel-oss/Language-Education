@@ -1,0 +1,103 @@
+{
+  "schema": "speakly.content.v1",
+  "doc": "practice_catalog",
+  "collection": "practice",
+  "version": 1,
+  "updatedAt": "2026-09-22",
+  "locale": "en",
+  "challengeRounds": 4,
+  "bandLabels": {
+    "0": "Beginner",
+    "1": "Intermediate",
+    "2": "Advanced"
+  },
+  "skills": [
+    { "id": "skill_speaking", "key": "speaking", "label": "Speaking" },
+    { "id": "skill_listening", "key": "listening", "label": "Listening" },
+    { "id": "skill_reading", "key": "reading", "label": "Reading" },
+    { "id": "skill_writing", "key": "writing", "label": "Writing" },
+    { "id": "skill_grammar", "key": "grammar", "label": "Grammar" },
+    { "id": "skill_vocabulary", "key": "vocabulary", "label": "Vocabulary" },
+    { "id": "skill_pronunciation", "key": "pronunciation", "label": "Pronunciation" }
+  ],
+  "tiles": [
+    {
+      "id": "tile_speaking",
+      "emoji": "🎤",
+      "title": "Speaking Coach",
+      "kind": "speaking",
+      "skill": "speaking",
+      "subtitle": "Answer out loud and get scored"
+    },
+    {
+      "id": "tile_pronunciation",
+      "emoji": "🔤",
+      "title": "Pronunciation",
+      "kind": "pronunciation",
+      "skill": "pronunciation",
+      "subtitle": "Copy the audio, word by word"
+    },
+    {
+      "id": "tile_listening",
+      "emoji": "👂",
+      "title": "Listening",
+      "kind": "listening",
+      "skill": "listening",
+      "subtitle": "Hear it once, then answer"
+    },
+    {
+      "id": "tile_reading",
+      "emoji": "📖",
+      "title": "Reading",
+      "kind": "reading",
+      "skill": "reading",
+      "subtitle": "One short text, three questions"
+    },
+    {
+      "id": "tile_writing",
+      "emoji": "✍️",
+      "title": "Writing",
+      "kind": "writing",
+      "skill": "writing",
+      "subtitle": "Write it, then see it marked"
+    },
+    {
+      "id": "tile_grammar",
+      "emoji": "🧠",
+      "title": "Grammar",
+      "kind": "grammar",
+      "skill": "grammar",
+      "subtitle": "One rule, explained and drilled"
+    },
+    {
+      "id": "tile_vocabulary",
+      "emoji": "📚",
+      "title": "Vocabulary review",
+      "kind": "vocabulary",
+      "skill": "vocabulary",
+      "subtitle": "Words that are due today"
+    },
+    {
+      "id": "tile_dictionary",
+      "emoji": "🔍",
+      "title": "Dictionary",
+      "kind": "dictionary",
+      "skill": "",
+      "subtitle": "Look up any word"
+    },
+    {
+      "id": "tile_translation",
+      "emoji": "🌎",
+      "title": "Translation",
+      "kind": "translation",
+      "skill": "",
+      "subtitle": "Think in English"
+    }
+  ],
+  "quickActions": [
+    { "id": "qa_speak", "emoji": "🎤", "label": "Speak", "target": "speaking" },
+    { "id": "qa_words", "emoji": "📚", "label": "Words", "target": "vocabulary" },
+    { "id": "qa_quiz", "emoji": "🧠", "label": "Quiz", "target": "challenge" },
+    { "id": "qa_tutor", "emoji": "🤖", "label": "AI Tutor", "target": "tutor" }
+  ]
+}

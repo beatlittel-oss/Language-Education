@@ -1,0 +1,191 @@
+{
+  "schema": "speakly.content.v1",
+  "doc": "writing_prompts",
+  "collection": "writing_prompts",
+  "version": 1,
+  "updatedAt": "2026-09-22",
+  "locale": "en",
+  "count": 36,
+  "items": [
+    {
+      "id": "wp_001",
+      "text": "Write an email to your manager asking for one day off.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_002",
+      "text": "Write a cover-letter opening for a job you actually want.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_003",
+      "text": "Write an email telling a client a deadline will slip by a week.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_004",
+      "text": "Write a short handover note for a colleague covering your work.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_005",
+      "text": "Write an email declining a meeting invitation politely.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_006",
+      "text": "Write a follow-up email after an interview.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_007",
+      "text": "Write a message asking a colleague to redo work, without offending them.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_008",
+      "text": "Write an email introducing yourself to a new team.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_009",
+      "text": "Write a short message to a friend inviting them to your birthday.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_010",
+      "text": "Write a message apologising for forgetting something important.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_011",
+      "text": "Write a message to a friend who has had bad news.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_012",
+      "text": "Write a message cancelling plans at short notice.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_013",
+      "text": "Write a thank-you note to someone who helped you.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_014",
+      "text": "Write a message asking a neighbour for a favour.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_015",
+      "text": "Write a complaint about a delivery that arrived broken.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_016",
+      "text": "Write an email asking a hotel to change your booking dates.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_017",
+      "text": "Write a request to your landlord about a repair that keeps being ignored.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_018",
+      "text": "Write a polite complaint about noise from a neighbouring flat.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_019",
+      "text": "Write to a company asking for a refund you have already been refused once.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_020",
+      "text": "Write a paragraph about the advantages of learning a language as an adult.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_021",
+      "text": "Argue in one paragraph for or against working from home.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_022",
+      "text": "Write a short opinion on whether cities should charge cars to enter.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_023",
+      "text": "Write a paragraph arguing something most people around you disagree with.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_024",
+      "text": "Write a short response to the claim that exams should be abolished.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_025",
+      "text": "Describe your home town in one short paragraph.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_026",
+      "text": "Write a review of a restaurant you visited recently.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_027",
+      "text": "Write about a day that did not go to plan.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_028",
+      "text": "Describe a person you admire without naming their job.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_029",
+      "text": "Write the opening paragraph of a story set where you live.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_030",
+      "text": "Write about something you have changed your mind about.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_031",
+      "text": "Write instructions for someone looking after your home for a week.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_032",
+      "text": "Summarise what you did last week in five sentences.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_033",
+      "text": "Write a short profile of yourself for a professional website.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_034",
+      "text": "Write a list of instructions for a task you do at work, for a newcomer.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_035",
+      "text": "Write a one-paragraph summary of a film for someone deciding whether to watch it.",
+      "kind": "writing"
+    },
+    {
+      "id": "wp_036",
+      "text": "Write a note explaining to a friend how to use something you own.",
+      "kind": "writing"
+    }
+  ]
+}

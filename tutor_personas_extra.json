@@ -1,0 +1,182 @@
+{
+  "schema": "speakly.content.v1",
+  "doc": "tutor_personas_extra",
+  "collection": "personas",
+  "version": 1,
+  "updatedAt": "2026-09-22",
+  "locale": "en",
+  "count": 8,
+  "personas": [
+    {
+      "id": "persona_pharmacy",
+      "mode": "roleplay",
+      "scenario": "pharmacy",
+      "title": "Pharmacy",
+      "emoji": "💊",
+      "role": "a pharmacist behind the counter",
+      "opener": "Hello. What can I get for you today?",
+      "level": 0
+    },
+    {
+      "id": "persona_post_office",
+      "mode": "roleplay",
+      "scenario": "post_office",
+      "title": "Post office",
+      "emoji": "📮",
+      "role": "a post office clerk",
+      "opener": "Next, please. What are you sending?",
+      "level": 0
+    },
+    {
+      "id": "persona_gym_signup",
+      "mode": "roleplay",
+      "scenario": "gym_signup",
+      "title": "Joining a gym",
+      "emoji": "🏋",
+      "role": "a gym adviser showing someone round",
+      "opener": "Welcome in. Have you trained somewhere before?",
+      "level": 1
+    },
+    {
+      "id": "persona_parent_teacher",
+      "mode": "roleplay",
+      "scenario": "parent_teacher",
+      "title": "Parents evening",
+      "emoji": "🏫",
+      "role": "a class teacher at a parents evening",
+      "opener": "Thanks for coming in. How do you think things are going at home?",
+      "level": 2
+    },
+    {
+      "id": "persona_interview_retail",
+      "mode": "interview",
+      "scenario": "interview_retail",
+      "title": "Retail interview",
+      "emoji": "🛒",
+      "role": "a store manager interviewing for a shop assistant role",
+      "opener": "Thanks for coming. Have you worked with customers before?",
+      "level": 0
+    },
+    {
+      "id": "persona_debate_ai_jobs",
+      "mode": "debate",
+      "scenario": "debate_ai_jobs",
+      "title": "Automation and jobs",
+      "emoji": "🤖",
+      "role": "a debate partner who argues the opposite side",
+      "opener": "Automation destroys more jobs than it creates. Persuade me otherwise.",
+      "level": 2
+    },
+    {
+      "id": "persona_business_postmortem",
+      "mode": "business",
+      "scenario": "business_postmortem",
+      "title": "After it went wrong",
+      "emoji": "🔍",
+      "role": "a colleague running a blameless review after a failure",
+      "opener": "Nobody is in trouble here. Walk me through what happened, in order.",
+      "level": 3
+    },
+    {
+      "id": "persona_job_first_week",
+      "mode": "job",
+      "scenario": "job_first_week",
+      "title": "First week questions",
+      "emoji": "🧭",
+      "role": "a buddy assigned to you in your first week",
+      "opener": "You have survived three days. What is still confusing?",
+      "level": 1
+    }
+  ],
+  "scripts": {
+    "pharmacy": [
+      { "id": "pharmacy_b1", "line": "How long have you had it?", "expects": ["day", "days", "week", "since", "yesterday"], "nudge": "Roughly how many days has it been going on?" },
+      { "id": "pharmacy_b2", "line": "Are you taking anything else at the moment?", "expects": ["no", "yes", "tablet", "medicine", "nothing"], "nudge": "" },
+      { "id": "pharmacy_b3", "line": "This one works well, but it can make you sleepy. Is that a problem for you?", "expects": ["yes", "no", "drive", "work", "fine"], "nudge": "" },
+      { "id": "pharmacy_b4", "line": "Take one twice a day with food. Anything else today?", "expects": ["no", "yes", "thanks", "also"], "nudge": "" },
+      { "id": "pharmacy_b5", "line": "That is six fifty. If it is no better in three days, see a doctor.", "expects": [], "nudge": "" }
+    ],
+    "post_office": [
+      { "id": "post_office_b1", "line": "Is there anything fragile or liquid inside?", "expects": ["no", "yes", "glass", "book", "clothes"], "nudge": "" },
+      { "id": "post_office_b2", "line": "Do you want it there tomorrow, or is a few days fine?", "expects": ["tomorrow", "fast", "cheap", "days", "no rush"], "nudge": "Quick and dearer, or slow and cheaper?" },
+      { "id": "post_office_b3", "line": "Would you like tracking on that?", "expects": ["yes", "no", "track", "how much"], "nudge": "" },
+      { "id": "post_office_b4", "line": "That is eight pounds twenty. Card or cash?", "expects": ["card", "cash"], "nudge": "" },
+      { "id": "post_office_b5", "line": "Here is your receipt. Keep the number at the bottom.", "expects": [], "nudge": "" }
+    ],
+    "gym_signup": [
+      { "id": "gym_signup_b1", "line": "What are you hoping to get out of it?", "expects": ["fit", "strong", "weight", "health", "stress"], "nudge": "Fitness, strength, or just getting out of the house?" },
+      { "id": "gym_signup_b2", "line": "How many times a week could you realistically come?", "expects": ["two", "three", "four", "once", "week"], "nudge": "" },
+      { "id": "gym_signup_b3", "line": "We have a monthly plan and a yearly one. The yearly is cheaper but it locks you in.", "expects": ["month", "year", "monthly", "cheap", "flexible"], "nudge": "" },
+      { "id": "gym_signup_b4", "line": "Any injuries I should tell the trainers about?", "expects": ["no", "yes", "back", "knee", "shoulder"], "nudge": "" },
+      { "id": "gym_signup_b5", "line": "Great. Your first session with a trainer is free - shall I book it?", "expects": ["yes", "no", "book", "later"], "nudge": "" }
+    ],
+    "parent_teacher": [
+      { "id": "parent_teacher_b1", "line": "In class the work is strong, but homework arrives late. Does that match what you see?", "expects": ["yes", "no", "home", "late", "busy"], "nudge": "" },
+      { "id": "parent_teacher_b2", "line": "What does the evening usually look like at home?", "expects": ["after", "school", "dinner", "phone", "time"], "nudge": "" },
+      { "id": "parent_teacher_b3", "line": "If we set a fixed half hour, could you support that at your end?", "expects": ["yes", "no", "try", "difficult", "work"], "nudge": "" },
+      { "id": "parent_teacher_b4", "line": "One more thing: reading. Is there anything they read willingly?", "expects": ["book", "comic", "online", "no", "sport"], "nudge": "" },
+      { "id": "parent_teacher_b5", "line": "That is useful. I will try that in class and email you in a month.", "expects": [], "nudge": "" }
+    ],
+    "interview_retail": [
+      { "id": "interview_retail_b1", "line": "A customer is angry about something that is not your fault. What do you do?", "expects": ["listen", "sorry", "manager", "calm", "help"], "nudge": "Take me through the first thing you would say." },
+      { "id": "interview_retail_b2", "line": "Which shifts could you work?", "expects": ["weekend", "evening", "morning", "any", "day"], "nudge": "" },
+      { "id": "interview_retail_b3", "line": "The shop is empty for an hour. What do you do with that time?", "expects": ["tidy", "stock", "clean", "learn", "shelves"], "nudge": "" },
+      { "id": "interview_retail_b4", "line": "Do you have any questions for me?", "expects": ["yes", "no", "hours", "training", "team"], "nudge": "" },
+      { "id": "interview_retail_b5", "line": "Thanks. We will call either way by Friday.", "expects": [], "nudge": "" }
+    ],
+    "debate_ai_jobs": [
+      { "id": "debate_ai_jobs_b1", "line": "You say new jobs appear. Appear where, and for whom?", "expects": ["new", "jobs", "training", "sector", "because"], "nudge": "" },
+      { "id": "debate_ai_jobs_b2", "line": "What happens to a fifty-year-old driver in the ten years before those jobs exist?", "expects": ["retrain", "support", "government", "time", "difficult"], "nudge": "" },
+      { "id": "debate_ai_jobs_b3", "line": "Retraining sounds easy in a sentence. Who pays for it?", "expects": ["company", "government", "tax", "worker", "pay"], "nudge": "" },
+      { "id": "debate_ai_jobs_b4", "line": "Fine. Name one job you are confident will still exist in twenty years.", "expects": ["care", "teach", "build", "nurse", "still"], "nudge": "" },
+      { "id": "debate_ai_jobs_b5", "line": "That is a fair answer, and you argued it without exaggerating. That is the harder skill.", "expects": [], "nudge": "" }
+    ],
+    "business_postmortem": [
+      { "id": "business_postmortem_b1", "line": "What did you believe was true at the time that turned out not to be?", "expects": ["thought", "assumed", "believed", "did not know"], "nudge": "" },
+      { "id": "business_postmortem_b2", "line": "At what point could someone have noticed, and what would they have needed to see?", "expects": ["alert", "log", "check", "monitor", "earlier"], "nudge": "" },
+      { "id": "business_postmortem_b3", "line": "What made the recovery slower than it should have been?", "expects": ["access", "waiting", "approval", "unclear", "nobody"], "nudge": "" },
+      { "id": "business_postmortem_b4", "line": "What is the one change you would actually make, rather than the five we will forget?", "expects": ["one", "change", "add", "remove", "would"], "nudge": "" },
+      { "id": "business_postmortem_b5", "line": "Good. I will write that up as a single action with your name on it.", "expects": [], "nudge": "" }
+    ],
+    "job_first_week": [
+      { "id": "job_first_week_b1", "line": "Who have you not met yet that you should have?", "expects": ["team", "manager", "not met", "nobody", "design"], "nudge": "" },
+      { "id": "job_first_week_b2", "line": "What is the thing everyone assumes you already know?", "expects": ["system", "tool", "process", "code", "nobody explained"], "nudge": "" },
+      { "id": "job_first_week_b3", "line": "Do you know where to ask a stupid question safely?", "expects": ["yes", "no", "channel", "chat", "you"], "nudge": "" },
+      { "id": "job_first_week_b4", "line": "What would make week two easier?", "expects": ["access", "time", "example", "documentation", "pair"], "nudge": "" },
+      { "id": "job_first_week_b5", "line": "I will sort two of those today. The rest, ask me again on Friday.", "expects": [], "nudge": "" }
+    ]
+  },
+  "followUps": {
+    "weather": [
+      "Does the weather change what you do at the weekend?",
+      "What is the worst weather you have travelled in?",
+      "Do you prefer heat or cold, and why?",
+      "Has the weather where you live changed over your lifetime?",
+      "What is the first thing you do on a rainy day?"
+    ],
+    "city": [
+      "What is the one thing visitors always get wrong about your city?",
+      "Where would you take someone on their first evening there?",
+      "Has anything been built recently that people argue about?",
+      "How long is your journey across town, and is that normal?",
+      "What is missing from your neighbourhood?"
+    ],
+    "science": [
+      "Was there a subject at school that suddenly made sense?",
+      "Do you believe something is true mainly because an expert said so?",
+      "What technology do you use daily without understanding it?",
+      "Has a study ever changed what you actually do?"
+    ]
+  },
+  "acknowledgements": [
+    "That is a good example.",
+    "Right, I follow.",
+    "Useful detail.",
+    "That is clearer now.",
+    "Good, keep going."
+  ],
+  "repairs": [
+    { "id": "repair_x1", "text": "I did not catch the middle of that. Could you say it again more slowly?" },
+    { "id": "repair_x2", "text": "Let us take that one idea at a time. What is the first part?" }
+  ]
+}

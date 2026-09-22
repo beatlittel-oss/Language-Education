@@ -1,0 +1,54 @@
+{
+  "schema": "speakly.content.v1",
+  "doc": "notifications",
+  "collection": "notifications",
+  "version": 1,
+  "updatedAt": "2026-09-22",
+  "locale": "en",
+  "channelName": "Daily practice",
+  "channelDescription": "Streak reminders and vocabulary reviews",
+  "messages": [
+    {
+      "id": "notif_streak_at_risk",
+      "trigger": "streak_at_risk",
+      "priority": 100,
+      "title": "🔥 Keep your {streak} day streak alive",
+      "body": "A five minute session is enough to keep it going."
+    },
+    {
+      "id": "notif_reviews_due",
+      "trigger": "reviews_due",
+      "priority": 90,
+      "title": "📚 {due} words are waiting for review",
+      "body": "Reviewing today is what stops you forgetting them."
+    },
+    {
+      "id": "notif_near_goal",
+      "trigger": "near_goal",
+      "priority": 80,
+      "title": "🎯 You are {minutes} minutes from today's goal",
+      "body": "One speaking exercise and you are done."
+    },
+    {
+      "id": "notif_goal_met",
+      "trigger": "goal_met",
+      "priority": 70,
+      "title": "🏁 Goal met for today",
+      "body": "Anything you add now is a bonus. Two minutes with the tutor?"
+    },
+    {
+      "id": "notif_practised",
+      "trigger": "practised_today",
+      "priority": 60,
+      "title": "🎉 Nice work today",
+      "body": "Want to add a two minute conversation before bed?"
+    },
+    {
+      "id": "notif_default",
+      "trigger": "default",
+      "priority": 0,
+      "title": "🎤 Time to practise speaking",
+      "body": "Five minutes with the AI tutor beats an hour you never start."
+    }
+  ]
+}

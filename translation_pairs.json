@@ -1,0 +1,739 @@
+{
+  "schema": "speakly.content.v1",
+  "doc": "translation_pairs",
+  "collection": "translation",
+  "version": 1,
+  "updatedAt": "2026-09-22",
+  "locale": "en",
+  "count": 104,
+  "items": [
+    {
+      "id": "tr_hi_hi01",
+      "nativeLang": "hi",
+      "source": "मुझे कल ऑफिस जाना है।",
+      "reference": "I have to go to the office tomorrow.",
+      "hint": "Do not forget to before the office."
+    },
+    {
+      "id": "tr_hi_hi02",
+      "nativeLang": "hi",
+      "source": "मैं पांच साल से यहाँ रह रहा हूँ।",
+      "reference": "I have been living here for five years.",
+      "hint": "Use for with a length of time."
+    },
+    {
+      "id": "tr_hi_hi03",
+      "nativeLang": "hi",
+      "source": "क्या आप मेरी मदद कर सकते हैं?",
+      "reference": "Could you help me, please?",
+      "hint": "Could is more polite than can."
+    },
+    {
+      "id": "tr_hi_hi04",
+      "nativeLang": "hi",
+      "source": "कल मैंने एक फिल्म देखी।",
+      "reference": "I watched a film yesterday.",
+      "hint": "Yesterday needs the past simple."
+    },
+    {
+      "id": "tr_hi_hi05",
+      "nativeLang": "hi",
+      "source": "उसे चाय बहुत पसंद है।",
+      "reference": "She really likes tea.",
+      "hint": "Very cannot modify a verb."
+    },
+    {
+      "id": "tr_hi_hi06",
+      "nativeLang": "hi",
+      "source": "मुझे नहीं पता वह कहाँ है।",
+      "reference": "I do not know where he is.",
+      "hint": "Reported questions use statement order."
+    },
+    {
+      "id": "tr_hi_hi07",
+      "nativeLang": "hi",
+      "source": "अगर बारिश होगी तो हम नहीं जाएंगे।",
+      "reference": "If it rains, we will not go.",
+      "hint": "After if use the present, not will."
+    },
+    {
+      "id": "tr_hi_hi08",
+      "nativeLang": "hi",
+      "source": "मैं आपसे मिलने के लिए उत्सुक हूँ।",
+      "reference": "I am looking forward to meeting you.",
+      "hint": "Looking forward to takes -ing."
+    },
+    {
+      "id": "tr_hi_hi09",
+      "nativeLang": "hi",
+      "source": "मेरे पास समय नहीं है।",
+      "reference": "I do not have time.",
+      "hint": "English uses have, not there is with me."
+    },
+    {
+      "id": "tr_hi_hi10",
+      "nativeLang": "hi",
+      "source": "वह दो घंटे से इंतज़ार कर रहा है।",
+      "reference": "He has been waiting for two hours.",
+      "hint": "An action still going on takes have been -ing."
+    },
+    {
+      "id": "tr_hi_hi11",
+      "nativeLang": "hi",
+      "source": "मुझे यह फिल्म पसंद नहीं आई।",
+      "reference": "I did not like this film.",
+      "hint": "Like takes a direct object, no to."
+    },
+    {
+      "id": "tr_hi_hi12",
+      "nativeLang": "hi",
+      "source": "क्या तुमने खाना खा लिया?",
+      "reference": "Have you eaten?",
+      "hint": "A finished action with present relevance takes the present perfect."
+    },
+    {
+      "id": "tr_hi_hi13",
+      "nativeLang": "hi",
+      "source": "वह मुझसे बड़ा है।",
+      "reference": "He is older than me.",
+      "hint": "Comparatives take than, not from."
+    },
+    {
+      "id": "tr_hi_hi14",
+      "nativeLang": "hi",
+      "source": "मैं कल से बीमार हूँ।",
+      "reference": "I have been ill since yesterday.",
+      "hint": "Since marks a starting point; for marks a duration."
+    },
+    {
+      "id": "tr_hi_hi15",
+      "nativeLang": "hi",
+      "source": "मुझे अंग्रेज़ी सीखनी चाहिए।",
+      "reference": "I should learn English.",
+      "hint": "Modals take the base verb with no to."
+    },
+    {
+      "id": "tr_hi_hi16",
+      "nativeLang": "hi",
+      "source": "वह ऑफिस नहीं गया।",
+      "reference": "He did not go to the office.",
+      "hint": "After did not, the verb returns to its base form."
+    },
+    {
+      "id": "tr_hi_hi17",
+      "nativeLang": "hi",
+      "source": "यहाँ बहुत लोग हैं।",
+      "reference": "There are a lot of people here.",
+      "hint": "Use there are for plural countable nouns."
+    },
+    {
+      "id": "tr_hi_hi18",
+      "nativeLang": "hi",
+      "source": "मैं सोच रहा था कि आप मदद कर सकते हैं।",
+      "reference": "I was wondering whether you could help.",
+      "hint": "I was wondering is the polite way to open a request."
+    },
+    {
+      "id": "tr_hi_hi19",
+      "nativeLang": "hi",
+      "source": "अगर मुझे पता होता तो मैं आता।",
+      "reference": "If I had known, I would have come.",
+      "hint": "An unreal past takes the third conditional."
+    },
+    {
+      "id": "tr_hi_hi20",
+      "nativeLang": "hi",
+      "source": "उसने कहा कि वह व्यस्त है।",
+      "reference": "He said he was busy.",
+      "hint": "Reported speech moves the tense one step back."
+    },
+    {
+      "id": "tr_hi_hi21",
+      "nativeLang": "hi",
+      "source": "यह काम कल तक पूरा हो जाना चाहिए।",
+      "reference": "This work should be finished by tomorrow.",
+      "hint": "By marks a deadline; until marks a duration."
+    },
+    {
+      "id": "tr_hi_hi22",
+      "nativeLang": "hi",
+      "source": "मुझे इसकी आदत नहीं है।",
+      "reference": "I am not used to this.",
+      "hint": "Be used to plus a noun or -ing."
+    },
+    {
+      "id": "tr_hi_hi23",
+      "nativeLang": "hi",
+      "source": "जितना मैंने सोचा था उससे कहीं ज़्यादा महंगा है।",
+      "reference": "It is far more expensive than I thought.",
+      "hint": "Far strengthens a comparative; very cannot."
+    },
+    {
+      "id": "tr_hi_hi24",
+      "nativeLang": "hi",
+      "source": "मुझे बताया गया कि दफ्तर बंद है।",
+      "reference": "I was told the office was closed.",
+      "hint": "The passive is natural when the speaker is unknown."
+    },
+    {
+      "id": "tr_hi_hi25",
+      "nativeLang": "hi",
+      "source": "काश मैंने पहले पूछा होता।",
+      "reference": "I wish I had asked earlier.",
+      "hint": "Wish plus past perfect expresses regret about the past."
+    },
+    {
+      "id": "tr_hi_hi26",
+      "nativeLang": "hi",
+      "source": "जैसे ही वह पहुँचा, बैठक शुरू हो गई।",
+      "reference": "The meeting started as soon as he arrived.",
+      "hint": "As soon as takes the past simple, not the future."
+    },
+    {
+      "id": "tr_gu_gu01",
+      "nativeLang": "gu",
+      "source": "મારે કાલે ઓફિસ જવું છે.",
+      "reference": "I have to go to the office tomorrow.",
+      "hint": "Do not forget to before the office."
+    },
+    {
+      "id": "tr_gu_gu02",
+      "nativeLang": "gu",
+      "source": "હું પાંચ વર્ષથી અહીં રહું છું.",
+      "reference": "I have been living here for five years.",
+      "hint": "Use for with a length of time."
+    },
+    {
+      "id": "tr_gu_gu03",
+      "nativeLang": "gu",
+      "source": "શું તમે મને મદદ કરી શકશો?",
+      "reference": "Could you help me, please?",
+      "hint": "Could is more polite than can."
+    },
+    {
+      "id": "tr_gu_gu04",
+      "nativeLang": "gu",
+      "source": "કાલે મેં એક ફિલ્મ જોઈ.",
+      "reference": "I watched a film yesterday.",
+      "hint": "Yesterday needs the past simple."
+    },
+    {
+      "id": "tr_gu_gu05",
+      "nativeLang": "gu",
+      "source": "તેને ચા ખૂબ ગમે છે.",
+      "reference": "She really likes tea.",
+      "hint": "Very cannot modify a verb."
+    },
+    {
+      "id": "tr_gu_gu06",
+      "nativeLang": "gu",
+      "source": "મને ખબર નથી તે ક્યાં છે.",
+      "reference": "I do not know where he is.",
+      "hint": "Reported questions use statement order."
+    },
+    {
+      "id": "tr_gu_gu07",
+      "nativeLang": "gu",
+      "source": "જો વરસાદ પડશે તો અમે નહીં જઈશું.",
+      "reference": "If it rains, we will not go.",
+      "hint": "After if use the present, not will."
+    },
+    {
+      "id": "tr_gu_gu08",
+      "nativeLang": "gu",
+      "source": "હું તમને મળવા આતુર છું.",
+      "reference": "I am looking forward to meeting you.",
+      "hint": "Looking forward to takes -ing."
+    },
+    {
+      "id": "tr_gu_gu09",
+      "nativeLang": "gu",
+      "source": "મારી પાસે સમય નથી.",
+      "reference": "I do not have time.",
+      "hint": "English uses have, not there is with me."
+    },
+    {
+      "id": "tr_gu_gu10",
+      "nativeLang": "gu",
+      "source": "તે બે કલાકથી રાહ જુએ છે.",
+      "reference": "He has been waiting for two hours.",
+      "hint": "An action still going on takes have been -ing."
+    },
+    {
+      "id": "tr_gu_gu11",
+      "nativeLang": "gu",
+      "source": "મને આ ફિલ્મ ગમી નહીં.",
+      "reference": "I did not like this film.",
+      "hint": "Like takes a direct object, no to."
+    },
+    {
+      "id": "tr_gu_gu12",
+      "nativeLang": "gu",
+      "source": "તમે જમી લીધું?",
+      "reference": "Have you eaten?",
+      "hint": "A finished action with present relevance takes the present perfect."
+    },
+    {
+      "id": "tr_gu_gu13",
+      "nativeLang": "gu",
+      "source": "તે મારા કરતાં મોટો છે.",
+      "reference": "He is older than me.",
+      "hint": "Comparatives take than, not from."
+    },
+    {
+      "id": "tr_gu_gu14",
+      "nativeLang": "gu",
+      "source": "હું ગઈકાલથી બીમાર છું.",
+      "reference": "I have been ill since yesterday.",
+      "hint": "Since marks a starting point; for marks a duration."
+    },
+    {
+      "id": "tr_gu_gu15",
+      "nativeLang": "gu",
+      "source": "મારે અંગ્રેજી શીખવું જોઈએ.",
+      "reference": "I should learn English.",
+      "hint": "Modals take the base verb with no to."
+    },
+    {
+      "id": "tr_gu_gu16",
+      "nativeLang": "gu",
+      "source": "તે ઓફિસ ગયો નહીં.",
+      "reference": "He did not go to the office.",
+      "hint": "After did not, the verb returns to its base form."
+    },
+    {
+      "id": "tr_gu_gu17",
+      "nativeLang": "gu",
+      "source": "અહીં ઘણા લોકો છે.",
+      "reference": "There are a lot of people here.",
+      "hint": "Use there are for plural countable nouns."
+    },
+    {
+      "id": "tr_gu_gu18",
+      "nativeLang": "gu",
+      "source": "હું વિચારતો હતો કે તમે મદદ કરી શકો.",
+      "reference": "I was wondering whether you could help.",
+      "hint": "I was wondering is the polite way to open a request."
+    },
+    {
+      "id": "tr_gu_gu19",
+      "nativeLang": "gu",
+      "source": "જો મને ખબર હોત તો હું આવ્યો હોત.",
+      "reference": "If I had known, I would have come.",
+      "hint": "An unreal past takes the third conditional."
+    },
+    {
+      "id": "tr_gu_gu20",
+      "nativeLang": "gu",
+      "source": "તેણે કહ્યું કે તે વ્યસ્ત છે.",
+      "reference": "He said he was busy.",
+      "hint": "Reported speech moves the tense one step back."
+    },
+    {
+      "id": "tr_gu_gu21",
+      "nativeLang": "gu",
+      "source": "આ કામ કાલ સુધીમાં પૂરું થવું જોઈએ.",
+      "reference": "This work should be finished by tomorrow.",
+      "hint": "By marks a deadline; until marks a duration."
+    },
+    {
+      "id": "tr_gu_gu22",
+      "nativeLang": "gu",
+      "source": "મને આની ટેવ નથી.",
+      "reference": "I am not used to this.",
+      "hint": "Be used to plus a noun or -ing."
+    },
+    {
+      "id": "tr_gu_gu23",
+      "nativeLang": "gu",
+      "source": "મેં ધાર્યું હતું તેના કરતાં ઘણું મોંઘું છે.",
+      "reference": "It is far more expensive than I thought.",
+      "hint": "Far strengthens a comparative; very cannot."
+    },
+    {
+      "id": "tr_gu_gu24",
+      "nativeLang": "gu",
+      "source": "મને કહેવામાં આવ્યું કે ઓફિસ બંધ છે.",
+      "reference": "I was told the office was closed.",
+      "hint": "The passive is natural when the speaker is unknown."
+    },
+    {
+      "id": "tr_gu_gu25",
+      "nativeLang": "gu",
+      "source": "કાશ મેં પહેલાં પૂછ્યું હોત.",
+      "reference": "I wish I had asked earlier.",
+      "hint": "Wish plus past perfect expresses regret about the past."
+    },
+    {
+      "id": "tr_gu_gu26",
+      "nativeLang": "gu",
+      "source": "તે પહોંચતાં જ બેઠક શરૂ થઈ.",
+      "reference": "The meeting started as soon as he arrived.",
+      "hint": "As soon as takes the past simple, not the future."
+    },
+    {
+      "id": "tr_es_es01",
+      "nativeLang": "es",
+      "source": "Tengo que ir a la oficina mañana.",
+      "reference": "I have to go to the office tomorrow.",
+      "hint": "Remember the before office."
+    },
+    {
+      "id": "tr_es_es02",
+      "nativeLang": "es",
+      "source": "Vivo aquí desde hace cinco años.",
+      "reference": "I have been living here for five years.",
+      "hint": "Use for with a length of time."
+    },
+    {
+      "id": "tr_es_es03",
+      "nativeLang": "es",
+      "source": "¿Podrías ayudarme, por favor?",
+      "reference": "Could you help me, please?",
+      "hint": "Could is the polite form."
+    },
+    {
+      "id": "tr_es_es04",
+      "nativeLang": "es",
+      "source": "Ayer vi una película.",
+      "reference": "I watched a film yesterday.",
+      "hint": "Yesterday needs the past simple."
+    },
+    {
+      "id": "tr_es_es05",
+      "nativeLang": "es",
+      "source": "A ella le gusta mucho el té.",
+      "reference": "She really likes tea.",
+      "hint": "Very cannot modify a verb."
+    },
+    {
+      "id": "tr_es_es06",
+      "nativeLang": "es",
+      "source": "No sé dónde está.",
+      "reference": "I do not know where he is.",
+      "hint": "Reported questions use statement order."
+    },
+    {
+      "id": "tr_es_es07",
+      "nativeLang": "es",
+      "source": "Si llueve, no iremos.",
+      "reference": "If it rains, we will not go.",
+      "hint": "After if use the present, not will."
+    },
+    {
+      "id": "tr_es_es08",
+      "nativeLang": "es",
+      "source": "Tengo ganas de conocerte.",
+      "reference": "I am looking forward to meeting you.",
+      "hint": "Looking forward to takes -ing."
+    },
+    {
+      "id": "tr_es_es09",
+      "nativeLang": "es",
+      "source": "Tengo veinte años.",
+      "reference": "I am twenty years old.",
+      "hint": "English uses be with age, not have."
+    },
+    {
+      "id": "tr_es_es10",
+      "nativeLang": "es",
+      "source": "Hace calor hoy.",
+      "reference": "It is hot today.",
+      "hint": "Weather sentences start with it."
+    },
+    {
+      "id": "tr_es_es11",
+      "nativeLang": "es",
+      "source": "Estoy de acuerdo contigo.",
+      "reference": "I agree with you.",
+      "hint": "Agree is a verb in English, so no am before it."
+    },
+    {
+      "id": "tr_es_es12",
+      "nativeLang": "es",
+      "source": "¿Has comido?",
+      "reference": "Have you eaten?",
+      "hint": "The present perfect works the same way here."
+    },
+    {
+      "id": "tr_es_es13",
+      "nativeLang": "es",
+      "source": "Él es mayor que yo.",
+      "reference": "He is older than me.",
+      "hint": "Comparatives take than, not that."
+    },
+    {
+      "id": "tr_es_es14",
+      "nativeLang": "es",
+      "source": "Estoy enfermo desde ayer.",
+      "reference": "I have been ill since yesterday.",
+      "hint": "Since marks a starting point; for marks a duration."
+    },
+    {
+      "id": "tr_es_es15",
+      "nativeLang": "es",
+      "source": "Debería aprender inglés.",
+      "reference": "I should learn English.",
+      "hint": "Modals take the base verb with no to."
+    },
+    {
+      "id": "tr_es_es16",
+      "nativeLang": "es",
+      "source": "No fue a la oficina.",
+      "reference": "He did not go to the office.",
+      "hint": "After did not, the verb returns to its base form."
+    },
+    {
+      "id": "tr_es_es17",
+      "nativeLang": "es",
+      "source": "Hay mucha gente aquí.",
+      "reference": "There are a lot of people here.",
+      "hint": "Hay becomes there is or there are depending on number."
+    },
+    {
+      "id": "tr_es_es18",
+      "nativeLang": "es",
+      "source": "Me preguntaba si podrías ayudarme.",
+      "reference": "I was wondering whether you could help.",
+      "hint": "I was wondering is the polite way to open a request."
+    },
+    {
+      "id": "tr_es_es19",
+      "nativeLang": "es",
+      "source": "Si lo hubiera sabido, habría venido.",
+      "reference": "If I had known, I would have come.",
+      "hint": "An unreal past takes the third conditional."
+    },
+    {
+      "id": "tr_es_es20",
+      "nativeLang": "es",
+      "source": "Dijo que estaba ocupado.",
+      "reference": "He said he was busy.",
+      "hint": "Reported speech moves the tense one step back."
+    },
+    {
+      "id": "tr_es_es21",
+      "nativeLang": "es",
+      "source": "Este trabajo debería estar terminado para mañana.",
+      "reference": "This work should be finished by tomorrow.",
+      "hint": "By marks a deadline; until marks a duration."
+    },
+    {
+      "id": "tr_es_es22",
+      "nativeLang": "es",
+      "source": "No estoy acostumbrado a esto.",
+      "reference": "I am not used to this.",
+      "hint": "Be used to plus a noun or -ing."
+    },
+    {
+      "id": "tr_es_es23",
+      "nativeLang": "es",
+      "source": "Es mucho más caro de lo que pensaba.",
+      "reference": "It is far more expensive than I thought.",
+      "hint": "Far strengthens a comparative; very cannot."
+    },
+    {
+      "id": "tr_es_es24",
+      "nativeLang": "es",
+      "source": "Me dijeron que la oficina estaba cerrada.",
+      "reference": "I was told the office was closed.",
+      "hint": "The impersonal they becomes a passive in English."
+    },
+    {
+      "id": "tr_es_es25",
+      "nativeLang": "es",
+      "source": "Ojalá hubiera preguntado antes.",
+      "reference": "I wish I had asked earlier.",
+      "hint": "Wish plus past perfect expresses regret about the past."
+    },
+    {
+      "id": "tr_es_es26",
+      "nativeLang": "es",
+      "source": "En cuanto llegó, empezó la reunión.",
+      "reference": "The meeting started as soon as he arrived.",
+      "hint": "As soon as takes the past simple, not the future."
+    },
+    {
+      "id": "tr_default_df01",
+      "nativeLang": "default",
+      "source": "Say in English: a plan to visit the office tomorrow, using have to.",
+      "reference": "I have to go to the office tomorrow.",
+      "hint": "Have to expresses obligation."
+    },
+    {
+      "id": "tr_default_df02",
+      "nativeLang": "default",
+      "source": "Say in English: you started living here five years ago and still do.",
+      "reference": "I have been living here for five years.",
+      "hint": "Use have been plus -ing."
+    },
+    {
+      "id": "tr_default_df03",
+      "nativeLang": "default",
+      "source": "Say in English: a polite request for help.",
+      "reference": "Could you help me, please?",
+      "hint": "Could is the polite form."
+    },
+    {
+      "id": "tr_default_df04",
+      "nativeLang": "default",
+      "source": "Say in English: you saw a film yesterday.",
+      "reference": "I watched a film yesterday.",
+      "hint": "Yesterday needs the past simple."
+    },
+    {
+      "id": "tr_default_df05",
+      "nativeLang": "default",
+      "source": "Say in English: she likes tea a lot.",
+      "reference": "She really likes tea.",
+      "hint": "Very cannot modify a verb."
+    },
+    {
+      "id": "tr_default_df06",
+      "nativeLang": "default",
+      "source": "Say in English: you do not know his location.",
+      "reference": "I do not know where he is.",
+      "hint": "Reported questions use statement order."
+    },
+    {
+      "id": "tr_default_df07",
+      "nativeLang": "default",
+      "source": "Say in English: a real possibility about rain stopping your plan.",
+      "reference": "If it rains, we will not go.",
+      "hint": "After if use the present, not will."
+    },
+    {
+      "id": "tr_default_df08",
+      "nativeLang": "default",
+      "source": "Say in English: you are pleased about an upcoming meeting with someone.",
+      "reference": "I am looking forward to meeting you.",
+      "hint": "Looking forward to takes -ing."
+    },
+    {
+      "id": "tr_default_df09",
+      "nativeLang": "default",
+      "source": "Say in English: you have no time available.",
+      "reference": "I do not have time.",
+      "hint": "Use have for possession."
+    },
+    {
+      "id": "tr_default_df10",
+      "nativeLang": "default",
+      "source": "Say in English: he started waiting two hours ago and is still waiting.",
+      "reference": "He has been waiting for two hours.",
+      "hint": "An ongoing action takes have been -ing."
+    },
+    {
+      "id": "tr_default_df11",
+      "nativeLang": "default",
+      "source": "Say in English: you did not enjoy a film you saw.",
+      "reference": "I did not like this film.",
+      "hint": "Like takes a direct object."
+    },
+    {
+      "id": "tr_default_df12",
+      "nativeLang": "default",
+      "source": "Ask in English whether someone has eaten, with present relevance.",
+      "reference": "Have you eaten?",
+      "hint": "The present perfect links past to now."
+    },
+    {
+      "id": "tr_default_df13",
+      "nativeLang": "default",
+      "source": "Say in English: he is older, comparing him to you.",
+      "reference": "He is older than me.",
+      "hint": "Comparatives take than."
+    },
+    {
+      "id": "tr_default_df14",
+      "nativeLang": "default",
+      "source": "Say in English: your illness began yesterday and continues.",
+      "reference": "I have been ill since yesterday.",
+      "hint": "Since marks a starting point."
+    },
+    {
+      "id": "tr_default_df15",
+      "nativeLang": "default",
+      "source": "Give yourself advice in English about learning English.",
+      "reference": "I should learn English.",
+      "hint": "Modals take the base verb."
+    },
+    {
+      "id": "tr_default_df16",
+      "nativeLang": "default",
+      "source": "Say in English: he did not go to the office.",
+      "reference": "He did not go to the office.",
+      "hint": "After did not, use the base verb."
+    },
+    {
+      "id": "tr_default_df17",
+      "nativeLang": "default",
+      "source": "Say in English: this place has many people in it.",
+      "reference": "There are a lot of people here.",
+      "hint": "Plural countable nouns take there are."
+    },
+    {
+      "id": "tr_default_df18",
+      "nativeLang": "default",
+      "source": "Make a very indirect request in English for someone's help.",
+      "reference": "I was wondering whether you could help.",
+      "hint": "I was wondering is maximally polite."
+    },
+    {
+      "id": "tr_default_df19",
+      "nativeLang": "default",
+      "source": "Say in English: you did not know, so you did not come.",
+      "reference": "If I had known, I would have come.",
+      "hint": "An unreal past takes the third conditional."
+    },
+    {
+      "id": "tr_default_df20",
+      "nativeLang": "default",
+      "source": "Report in English that he told you he was busy.",
+      "reference": "He said he was busy.",
+      "hint": "Reported speech shifts the tense back."
+    },
+    {
+      "id": "tr_default_df21",
+      "nativeLang": "default",
+      "source": "Say in English: tomorrow is the deadline for this work.",
+      "reference": "This work should be finished by tomorrow.",
+      "hint": "By marks a deadline."
+    },
+    {
+      "id": "tr_default_df22",
+      "nativeLang": "default",
+      "source": "Say in English: this is unfamiliar to you.",
+      "reference": "I am not used to this.",
+      "hint": "Be used to plus a noun or -ing."
+    },
+    {
+      "id": "tr_default_df23",
+      "nativeLang": "default",
+      "source": "Say in English: the price greatly exceeded your expectation.",
+      "reference": "It is far more expensive than I thought.",
+      "hint": "Far strengthens a comparative."
+    },
+    {
+      "id": "tr_default_df24",
+      "nativeLang": "default",
+      "source": "Say in English that someone informed you the office was closed.",
+      "reference": "I was told the office was closed.",
+      "hint": "The passive suits an unknown speaker."
+    },
+    {
+      "id": "tr_default_df25",
+      "nativeLang": "default",
+      "source": "Express regret in English about not asking sooner.",
+      "reference": "I wish I had asked earlier.",
+      "hint": "Wish plus past perfect expresses past regret."
+    },
+    {
+      "id": "tr_default_df26",
+      "nativeLang": "default",
+      "source": "Say in English: the meeting began immediately upon his arrival.",
+      "reference": "The meeting started as soon as he arrived.",
+      "hint": "As soon as takes the past simple."
+    }
+  ]
+}

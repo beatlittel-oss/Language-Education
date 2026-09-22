@@ -1,0 +1,861 @@
+{
+  "schema": "speakly.content.v1",
+  "doc": "reading_passages",
+  "collection": "reading",
+  "version": 1,
+  "updatedAt": "2026-09-22",
+  "locale": "en",
+  "count": 26,
+  "items": [
+    {
+      "id": "r_travel_late_train",
+      "topic": "travel",
+      "level": 0,
+      "title": "A Late Train",
+      "body": "Sarah arrived at the station at eight in the morning. Her train to Manchester was at 8:20, but the board said it was thirty minutes late. She bought a coffee and sat near the window. When the train finally came, she found a seat by the door and read her book for two hours. She reached Manchester just after eleven.",
+      "questions": [
+        {
+          "id": "r_travel_late_train_q1",
+          "prompt": "What time was Sarah's train supposed to leave?",
+          "options": ["8:00", "8:20", "8:50", "11:00"],
+          "answer": 1,
+          "explanation": "The text says her train was at 8:20.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_travel_late_train_q2",
+          "prompt": "Why did she wait?",
+          "options": ["She was early", "The train was late", "She lost her ticket", "She missed it"],
+          "answer": 1,
+          "explanation": "The board said the train was thirty minutes late.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_travel_late_train_q3",
+          "prompt": "What did she do on the train?",
+          "options": ["Slept", "Worked", "Read a book", "Called a friend"],
+          "answer": 2,
+          "explanation": "She read her book for two hours.",
+          "skill": "reading"
+        }
+      ]
+    },
+    {
+      "id": "r_food_breakfast_world",
+      "topic": "food",
+      "level": 0,
+      "title": "Breakfast Around the World",
+      "body": "In Japan, breakfast can be rice, fish and soup. In Turkey, it is bread, cheese, olives and tomatoes. In England, many people eat only toast on a normal day, and a big cooked breakfast on holiday. What people eat in the morning is mostly a habit, not a rule.",
+      "questions": [
+        {
+          "id": "r_food_breakfast_world_q1",
+          "prompt": "What is a typical Turkish breakfast?",
+          "options": ["Rice and fish", "Bread, cheese and olives", "Only toast", "Soup only"],
+          "answer": 1,
+          "explanation": "The text lists bread, cheese, olives and tomatoes.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_food_breakfast_world_q2",
+          "prompt": "According to the text, breakfast choices are mostly",
+          "options": ["a rule", "a habit", "a law", "a mistake"],
+          "answer": 1,
+          "explanation": "The last line says it is mostly a habit.",
+          "skill": "reading"
+        }
+      ]
+    },
+    {
+      "id": "r_daily_lost_keys",
+      "topic": "daily",
+      "level": 0,
+      "title": "Where Are the Keys?",
+      "body": "Every morning Leo looks for his keys. Usually they are in his coat, but sometimes they are in the kitchen or under a newspaper. Last week he was ten minutes late for work twice. So on Sunday he put a small bowl by the front door. Now the keys go in the bowl, and Leo leaves the house on time.",
+      "questions": [
+        {
+          "id": "r_daily_lost_keys_q1",
+          "prompt": "How many times was Leo late last week?",
+          "options": ["Once", "Twice", "Three times", "Every day"],
+          "answer": 1,
+          "explanation": "The text says twice.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_daily_lost_keys_q2",
+          "prompt": "What did Leo buy or use to solve the problem?",
+          "options": ["A new coat", "A bigger bag", "A small bowl", "An alarm clock"],
+          "answer": 2,
+          "explanation": "He put a small bowl by the front door.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_daily_lost_keys_q3",
+          "prompt": "Where does Leo usually find his keys?",
+          "options": ["In the kitchen", "In his coat", "Under a newspaper", "In the bowl"],
+          "answer": 1,
+          "explanation": "Usually they are in his coat.",
+          "skill": "reading"
+        }
+      ]
+    },
+    {
+      "id": "r_shopping_return",
+      "topic": "shopping",
+      "level": 0,
+      "title": "Taking It Back",
+      "body": "Nina bought a jacket online. It arrived on Friday, but the sleeves were too long. The website said she could return it within thirty days if she kept the label on. She printed the form, put the jacket back in the bag, and took it to the post office on Saturday. The money came back four days later.",
+      "questions": [
+        {
+          "id": "r_shopping_return_q1",
+          "prompt": "What was wrong with the jacket?",
+          "options": ["Wrong colour", "The sleeves were too long", "It was dirty", "Wrong size shoes"],
+          "answer": 1,
+          "explanation": "The sleeves were too long.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_shopping_return_q2",
+          "prompt": "What did Nina have to keep on the jacket?",
+          "options": ["The label", "The receipt", "The bag", "The buttons"],
+          "answer": 0,
+          "explanation": "The website said to keep the label on.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_shopping_return_q3",
+          "prompt": "When did she get her money back?",
+          "options": ["The same day", "After four days", "After thirty days", "She did not"],
+          "answer": 1,
+          "explanation": "The money came back four days later.",
+          "skill": "reading"
+        }
+      ]
+    },
+    {
+      "id": "r_health_walk",
+      "topic": "health",
+      "level": 0,
+      "title": "A Short Walk Every Day",
+      "body": "Doctor Amin tells his patients the same simple thing: walk for twenty minutes a day. It does not have to be fast, and it does not have to be all at once. Ten minutes in the morning and ten after dinner is fine. Many people think exercise means a gym, expensive shoes and a plan. It does not. It means moving, often.",
+      "questions": [
+        {
+          "id": "r_health_walk_q1",
+          "prompt": "How long does the doctor suggest walking each day?",
+          "options": ["Ten minutes", "Twenty minutes", "An hour", "Two hours"],
+          "answer": 1,
+          "explanation": "He says twenty minutes a day.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_health_walk_q2",
+          "prompt": "Does the walk have to be in one go?",
+          "options": ["Yes, always", "No, it can be split", "Only in the morning", "Only after dinner"],
+          "answer": 1,
+          "explanation": "Ten plus ten is fine.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_health_walk_q3",
+          "prompt": "What does the doctor think exercise really means?",
+          "options": ["Going to a gym", "Buying good shoes", "Moving often", "Following a plan"],
+          "answer": 2,
+          "explanation": "The last line says it means moving, often.",
+          "skill": "reading"
+        }
+      ]
+    },
+    {
+      "id": "r_home_neighbours",
+      "topic": "daily",
+      "level": 0,
+      "title": "The Flat Upstairs",
+      "body": "The family upstairs moved in three weeks ago. They have two small children, and on Saturday mornings there is a lot of noise. At first Priya was annoyed. Then she met the mother on the stairs, who apologised before Priya said anything. Now Priya minds the noise less. It is the same noise; she just knows where it comes from.",
+      "questions": [
+        {
+          "id": "r_home_neighbours_q1",
+          "prompt": "When is the noise worst?",
+          "options": ["Saturday mornings", "Every night", "Sunday evenings", "During the week"],
+          "answer": 0,
+          "explanation": "The text says Saturday mornings.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_home_neighbours_q2",
+          "prompt": "Who apologised first?",
+          "options": ["Priya", "The mother upstairs", "The children", "Nobody"],
+          "answer": 1,
+          "explanation": "The mother apologised before Priya said anything.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_home_neighbours_q3",
+          "prompt": "Why does Priya mind less now?",
+          "options": ["The noise stopped", "She moved out", "She knows the family", "She bought earplugs"],
+          "answer": 2,
+          "explanation": "The noise is the same; knowing the neighbours changed how she feels.",
+          "skill": "reading"
+        }
+      ]
+    },
+    {
+      "id": "r_work_first_day",
+      "topic": "work",
+      "level": 0,
+      "title": "The New Badge",
+      "body": "On his first day, Samir was given a badge, a laptop and a list of eleven people to meet. He remembered four of the names. At lunch he sat alone because he did not know where anyone else went. On his second day someone asked him to join them, and he learned that most of the team eats in the park when it is dry.",
+      "questions": [
+        {
+          "id": "r_work_first_day_q1",
+          "prompt": "How many names did Samir remember?",
+          "options": ["Four", "Eleven", "Two", "None"],
+          "answer": 0,
+          "explanation": "He remembered four of the eleven.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_work_first_day_q2",
+          "prompt": "Why did he eat alone on the first day?",
+          "options": ["He wanted to", "He did not know where people went", "He was late", "He had no money"],
+          "answer": 1,
+          "explanation": "He did not know where anyone else went.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_work_first_day_q3",
+          "prompt": "Where does the team usually eat?",
+          "options": ["At their desks", "In the canteen", "In the park when dry", "At home"],
+          "answer": 2,
+          "explanation": "Most of the team eats in the park when it is dry.",
+          "skill": "reading"
+        }
+      ]
+    },
+    {
+      "id": "r_travel_bus_ticket",
+      "topic": "travel",
+      "level": 0,
+      "title": "One Ticket, Two Buses",
+      "body": "In this city one ticket lasts ninety minutes. You can change buses as many times as you like inside that time without paying again. You buy the ticket from a machine at the stop or from the driver, but the driver charges more. Most people buy a book of ten tickets, which is cheaper still.",
+      "questions": [
+        {
+          "id": "r_travel_bus_ticket_q1",
+          "prompt": "How long does one ticket last?",
+          "options": ["Thirty minutes", "Sixty minutes", "Ninety minutes", "All day"],
+          "answer": 2,
+          "explanation": "The text says ninety minutes.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_travel_bus_ticket_q2",
+          "prompt": "Which way of buying is most expensive?",
+          "options": ["From the machine", "From the driver", "A book of ten", "They cost the same"],
+          "answer": 1,
+          "explanation": "The driver charges more.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_travel_bus_ticket_q3",
+          "prompt": "Can you change buses on one ticket?",
+          "options": ["No", "Once only", "As often as you like within the time", "Only with the driver"],
+          "answer": 2,
+          "explanation": "You can change as many times as you like inside the ninety minutes.",
+          "skill": "reading"
+        }
+      ]
+    },
+    {
+      "id": "r_work_first_week",
+      "topic": "work",
+      "level": 1,
+      "title": "The First Week",
+      "body": "Daniel started his new job on a Monday. Nobody told him where the kitchen was, so he drank water from a bottle all day. On Tuesday a colleague called Priya showed him around and introduced him to the team. By Friday he had joined two projects and understood roughly half of the words people used in meetings. He went home tired but satisfied.",
+      "questions": [
+        {
+          "id": "r_work_first_week_q1",
+          "prompt": "How did Daniel feel at the end of the week?",
+          "options": ["Angry", "Tired but satisfied", "Bored", "Confused and sad"],
+          "answer": 1,
+          "explanation": "The last sentence says tired but satisfied.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_work_first_week_q2",
+          "prompt": "Who helped him?",
+          "options": ["His manager", "Nobody", "A colleague called Priya", "A friend from school"],
+          "answer": 2,
+          "explanation": "Priya showed him around on Tuesday.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_work_first_week_q3",
+          "prompt": "What does roughly half mean here?",
+          "options": ["Exactly 50 percent", "About half", "Almost none", "Everything"],
+          "answer": 1,
+          "explanation": "Roughly means approximately.",
+          "skill": "reading"
+        }
+      ]
+    },
+    {
+      "id": "r_tech_phones_table",
+      "topic": "technology",
+      "level": 1,
+      "title": "Phones at the Table",
+      "body": "A small restaurant in Lisbon offers a ten percent discount to anyone who leaves their phone in a box during the meal. The owner started the idea after he noticed families eating in silence, each person looking down. Most customers accept the offer. A few refuse, saying they need to be reachable for work. The owner says the restaurant is louder now, and he likes it.",
+      "questions": [
+        {
+          "id": "r_tech_phones_table_q1",
+          "prompt": "What do customers get for leaving their phone?",
+          "options": ["A free dessert", "A ten percent discount", "A free drink", "Nothing"],
+          "answer": 1,
+          "explanation": "The discount is ten percent.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_tech_phones_table_q2",
+          "prompt": "Why did the owner start this?",
+          "options": ["To sell more food", "Because families ate in silence", "The law requires it", "To save electricity"],
+          "answer": 1,
+          "explanation": "He noticed families eating in silence.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_tech_phones_table_q3",
+          "prompt": "How does the owner feel about the change?",
+          "options": ["He regrets it", "He is neutral", "He likes it", "He will stop it"],
+          "answer": 2,
+          "explanation": "He says he likes that it is louder.",
+          "skill": "reading"
+        }
+      ]
+    },
+    {
+      "id": "r_education_night_class",
+      "topic": "education",
+      "level": 1,
+      "title": "Back to Class at Forty",
+      "body": "Ravi had not sat an exam for twenty-two years when he enrolled in an evening accounting course. The first month was humiliating: he was slower than the twenty-year-olds and had forgotten how to take notes. By the third month he was faster than most of them, because he had spent two decades doing the work the textbook described. What he had lacked was not the knowledge but the vocabulary.",
+      "questions": [
+        {
+          "id": "r_education_night_class_q1",
+          "prompt": "Why was the first month hard?",
+          "options": ["The course was too easy", "He was slower and had forgotten how to study", "He could not attend", "The teacher was unkind"],
+          "answer": 1,
+          "explanation": "He was slower than the younger students and had forgotten how to take notes.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_education_night_class_q2",
+          "prompt": "Why did he improve so quickly?",
+          "options": ["He studied all night", "He had real experience of the work", "The exam was cancelled", "He changed course"],
+          "answer": 1,
+          "explanation": "He had spent two decades doing the work the textbook described.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_education_night_class_q3",
+          "prompt": "What had Ravi actually been missing?",
+          "options": ["The knowledge", "The vocabulary", "The time", "The money"],
+          "answer": 1,
+          "explanation": "The last sentence says it was the vocabulary, not the knowledge.",
+          "skill": "reading"
+        }
+      ]
+    },
+    {
+      "id": "r_business_small_shop",
+      "topic": "business",
+      "level": 1,
+      "title": "Why the Bakery Closed",
+      "body": "The bakery on Mill Street had customers every day for nineteen years and still shut last spring. The rent had doubled, flour had gone up by a third, and the owner could not raise prices past what the street would pay. Being busy and being profitable turned out to be two different things, and only one of them keeps the lights on.",
+      "questions": [
+        {
+          "id": "r_business_small_shop_q1",
+          "prompt": "Did the bakery lack customers?",
+          "options": ["Yes, it was empty", "No, it was busy", "Only in winter", "The text does not say"],
+          "answer": 1,
+          "explanation": "It had customers every day for nineteen years.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_business_small_shop_q2",
+          "prompt": "Which of these is NOT given as a reason?",
+          "options": ["Rent doubled", "Flour got more expensive", "Customers stopped coming", "Prices could not rise"],
+          "answer": 2,
+          "explanation": "Customers kept coming; the costs were the problem.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_business_small_shop_q3",
+          "prompt": "What is the main point of the last sentence?",
+          "options": ["Busy shops always survive", "Being busy is not the same as making money", "Rent is always the problem", "Bakeries are a bad business"],
+          "answer": 1,
+          "explanation": "It contrasts being busy with being profitable.",
+          "skill": "reading"
+        }
+      ]
+    },
+    {
+      "id": "r_environment_bottle_return",
+      "topic": "environment",
+      "level": 1,
+      "title": "Ten Cents a Bottle",
+      "body": "When the deposit scheme started, shoppers paid ten cents extra on every bottle and got it back when they returned the empty. Critics said nobody would bother for ten cents. Within a year, nine out of ten bottles were coming back. The people returning them were often not the people who had bought them, which is a second result the designers had not planned for but do not regret.",
+      "questions": [
+        {
+          "id": "r_environment_bottle_return_q1",
+          "prompt": "What happens when you return the empty bottle?",
+          "options": ["You pay ten cents", "You get ten cents back", "You get a new bottle", "Nothing"],
+          "answer": 1,
+          "explanation": "The deposit is returned.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_environment_bottle_return_q2",
+          "prompt": "What did critics predict?",
+          "options": ["The scheme would be too expensive", "Nobody would bother for ten cents", "Shops would close", "Bottles would break"],
+          "answer": 1,
+          "explanation": "Critics said nobody would bother.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_environment_bottle_return_q3",
+          "prompt": "What was the unplanned result?",
+          "options": ["Fewer bottles were sold", "People other than the buyers returned them", "The deposit rose", "Shops refused to join"],
+          "answer": 1,
+          "explanation": "Returners were often not the original buyers.",
+          "skill": "reading"
+        }
+      ]
+    },
+    {
+      "id": "r_relationships_long_distance",
+      "topic": "relationships",
+      "level": 1,
+      "title": "Two Time Zones",
+      "body": "For eight months Lena and Kofi were five and a half hours apart. They stopped trying to talk every day, which had felt like an obligation, and picked two long calls a week instead. The calls got better. What surprised them was how much they had to explain: living apart meant no shared small events, so every story needed context before it could be told.",
+      "questions": [
+        {
+          "id": "r_relationships_long_distance_q1",
+          "prompt": "How far apart were their time zones?",
+          "options": ["Two hours", "Five and a half hours", "Eight hours", "Half an hour"],
+          "answer": 1,
+          "explanation": "Five and a half hours.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_relationships_long_distance_q2",
+          "prompt": "What did they change?",
+          "options": ["They called every day", "They stopped calling", "They switched to two long calls a week", "They only texted"],
+          "answer": 2,
+          "explanation": "They picked two long calls a week.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_relationships_long_distance_q3",
+          "prompt": "What surprised them?",
+          "options": ["The cost", "How much context every story needed", "How little they had to say", "The time difference"],
+          "answer": 1,
+          "explanation": "Living apart meant every story needed explaining first.",
+          "skill": "reading"
+        }
+      ]
+    },
+    {
+      "id": "r_travel_overbooked",
+      "topic": "travel",
+      "level": 1,
+      "title": "Volunteers Wanted",
+      "body": "The gate agent announced that the flight was overbooked and asked for volunteers to take the next one, six hours later, in exchange for a voucher. Nobody moved. She raised the offer twice. On the third offer four people stood up at once, and two of them looked annoyed that they had not waited longer. The airline had, in effect, run an auction without calling it one.",
+      "questions": [
+        {
+          "id": "r_travel_overbooked_q1",
+          "prompt": "What was the problem with the flight?",
+          "options": ["It was cancelled", "It was overbooked", "It was delayed six hours", "The crew were missing"],
+          "answer": 1,
+          "explanation": "The gate agent said it was overbooked.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_travel_overbooked_q2",
+          "prompt": "How many times did she raise the offer?",
+          "options": ["Once", "Twice", "Three times", "She did not"],
+          "answer": 1,
+          "explanation": "She raised it twice, and the third offer was accepted.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_travel_overbooked_q3",
+          "prompt": "Why were two volunteers annoyed?",
+          "options": ["They missed the flight", "They thought the offer might have gone higher", "They lost their voucher", "They were separated"],
+          "answer": 1,
+          "explanation": "They regretted not waiting for a better offer.",
+          "skill": "reading"
+        }
+      ]
+    },
+    {
+      "id": "r_tech_password",
+      "topic": "technology",
+      "level": 1,
+      "title": "The Password Rule",
+      "body": "For years, office systems demanded a capital, a number and a symbol, and a change every ninety days. The result was predictable: people picked Summer2019! and then Summer2020!, and wrote them on a sticky note. Security teams now advise a long phrase you can remember and almost never change it. The old rule protected the system from a computer guessing, and handed it to anyone with eyes.",
+      "questions": [
+        {
+          "id": "r_tech_password_q1",
+          "prompt": "What did the old rule require?",
+          "options": ["A long phrase", "A capital, number and symbol every ninety days", "A fingerprint", "No password at all"],
+          "answer": 1,
+          "explanation": "That was the old requirement.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_tech_password_q2",
+          "prompt": "What do security teams advise now?",
+          "options": ["Change monthly", "A long memorable phrase, rarely changed", "Use a symbol", "Use your birthday"],
+          "answer": 1,
+          "explanation": "A long phrase you can remember.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_tech_password_q3",
+          "prompt": "What is the criticism of the old rule?",
+          "options": ["It was too weak against computers", "It made passwords visible to people", "It was too expensive", "It was never used"],
+          "answer": 1,
+          "explanation": "It defended against guessing but encouraged sticky notes.",
+          "skill": "reading"
+        }
+      ]
+    },
+    {
+      "id": "r_culture_queue",
+      "topic": "culture",
+      "level": 1,
+      "title": "Standing in Line",
+      "body": "A queue is a small contract. Everyone gives up the chance to push forward in return for a guarantee that nobody else will either. It works because breaking it is visible, and because the cost of enforcing it is spread across everyone waiting. Systems that take a ticket and call a number remove the visibility, which is why they need a machine to hold the order that a line held for free.",
+      "questions": [
+        {
+          "id": "r_culture_queue_q1",
+          "prompt": "What does the writer compare a queue to?",
+          "options": ["A race", "A contract", "A game", "A law"],
+          "answer": 1,
+          "explanation": "A queue is called a small contract.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_culture_queue_q2",
+          "prompt": "Why does a queue work, according to the text?",
+          "options": ["Staff enforce it", "Breaking it is visible", "It is a law", "People are naturally patient"],
+          "answer": 1,
+          "explanation": "Breaking it is visible and enforcement is shared.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_culture_queue_q3",
+          "prompt": "What is the drawback of ticket systems?",
+          "options": ["They are slow", "They remove the visibility a line provided", "They cost customers money", "They confuse staff"],
+          "answer": 1,
+          "explanation": "Removing visibility means a machine must hold the order instead.",
+          "skill": "reading"
+        }
+      ]
+    },
+    {
+      "id": "r_money_subscription",
+      "topic": "money",
+      "level": 1,
+      "title": "The Quiet Leak",
+      "body": "Ines went through her bank statement line by line for the first time in two years. She found four subscriptions she had forgotten: a music service she had replaced, a cloud plan for photos she had moved, a magazine and a gym she stopped attending in March. Together they came to more than her electricity bill. Cancelling took eleven minutes.",
+      "questions": [
+        {
+          "id": "r_money_subscription_q1",
+          "prompt": "How many forgotten subscriptions did she find?",
+          "options": ["Two", "Three", "Four", "Eleven"],
+          "answer": 2,
+          "explanation": "She found four.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_money_subscription_q2",
+          "prompt": "What were they worth together?",
+          "options": ["Less than a coffee", "About the same as her rent", "More than her electricity bill", "Nothing"],
+          "answer": 2,
+          "explanation": "Together they came to more than her electricity bill.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_money_subscription_q3",
+          "prompt": "What point is the last sentence making?",
+          "options": ["Cancelling is hard", "The cost of not checking was far larger than the effort of fixing it", "She should keep them", "Banks are slow"],
+          "answer": 1,
+          "explanation": "Eleven minutes against years of payments.",
+          "skill": "reading"
+        }
+      ]
+    },
+    {
+      "id": "r_life_cost_convenience",
+      "topic": "life",
+      "level": 2,
+      "title": "The Cost of Convenience",
+      "body": "Delivery apps promised to give people back their evenings. In many cities they have, but the convenience is not evenly shared. Riders absorb the traffic, the weather and the pressure of a countdown timer, while restaurants hand over a share of a margin that was already thin. Customers, meanwhile, grow used to a price that does not include any of this. Economists call it an externality; riders call it Tuesday.",
+      "questions": [
+        {
+          "id": "r_life_cost_convenience_q1",
+          "prompt": "What is the main argument of the text?",
+          "options": ["Delivery apps are cheap", "The convenience has hidden costs carried by others", "Restaurants earn more than before", "Riders enjoy the work"],
+          "answer": 1,
+          "explanation": "The passage lists costs absorbed by riders and restaurants.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_life_cost_convenience_q2",
+          "prompt": "What does thin margin mean?",
+          "options": ["Small profit", "Large profit", "High price", "Low demand"],
+          "answer": 0,
+          "explanation": "A thin margin is a small profit.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_life_cost_convenience_q3",
+          "prompt": "The last sentence is an example of",
+          "options": ["a statistic", "irony", "a definition", "a question"],
+          "answer": 1,
+          "explanation": "Contrasting economists with riders creates irony.",
+          "skill": "reading"
+        }
+      ]
+    },
+    {
+      "id": "r_life_open_plan",
+      "topic": "work",
+      "level": 2,
+      "title": "The Office With No Walls",
+      "body": "Open-plan offices were sold on collaboration and bought on cost per square metre. The research since has been unkind: face-to-face conversation falls when walls come down, and written messages rise to replace it, because people who can be overheard say less. None of this means the walls are coming back. It means the stated reason and the actual reason were never the same reason, and only one of them was ever going to be tested.",
+      "questions": [
+        {
+          "id": "r_life_open_plan_q1",
+          "prompt": "What were open-plan offices publicly justified by?",
+          "options": ["Cost per square metre", "Collaboration", "Health and safety", "Employee demand"],
+          "answer": 1,
+          "explanation": "They were sold on collaboration.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_life_open_plan_q2",
+          "prompt": "What does the research suggest happens?",
+          "options": ["More face-to-face talk", "Less face-to-face talk, more written messages", "No change", "Fewer messages overall"],
+          "answer": 1,
+          "explanation": "Conversation falls and written messages rise.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_life_open_plan_q3",
+          "prompt": "What is the writer's final point?",
+          "options": ["Walls will return", "The real motive was cost, and it was never the claim under test", "Research is unreliable", "Employees prefer open plan"],
+          "answer": 1,
+          "explanation": "The stated reason and the actual reason differed.",
+          "skill": "reading"
+        }
+      ]
+    },
+    {
+      "id": "r_science_replication",
+      "topic": "education",
+      "level": 2,
+      "title": "The Result That Would Not Repeat",
+      "body": "A finding is not a fact until someone else can produce it. For a long stretch, journals rewarded novelty and nothing else, so nobody was paid to check. When large replication projects finally ran, a substantial share of celebrated results would not reappear. The uncomfortable part is not that scientists were dishonest - overwhelmingly they were not - but that a system optimising for surprise will reliably produce surprises, whether or not they are true.",
+      "questions": [
+        {
+          "id": "r_science_replication_q1",
+          "prompt": "Why did nobody check results for a long time?",
+          "options": ["It was forbidden", "Journals rewarded novelty, not checking", "It was impossible", "Results were always correct"],
+          "answer": 1,
+          "explanation": "Novelty was the only thing rewarded.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_science_replication_q2",
+          "prompt": "What does the writer say about scientists' honesty?",
+          "options": ["Most were dishonest", "Overwhelmingly they were not dishonest", "It was never investigated", "Only juniors were honest"],
+          "answer": 1,
+          "explanation": "The text explicitly says overwhelmingly they were not.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_science_replication_q3",
+          "prompt": "What is the writer's actual criticism?",
+          "options": ["Individual fraud", "The incentive system produces surprises regardless of truth", "Replication is too expensive", "Journals are too slow"],
+          "answer": 1,
+          "explanation": "A system optimising for surprise will produce surprises.",
+          "skill": "reading"
+        }
+      ]
+    },
+    {
+      "id": "r_business_negotiation",
+      "topic": "business",
+      "level": 2,
+      "title": "The Number You Say First",
+      "body": "Conventional advice warns against naming a figure first, on the grounds that you may undershoot. The evidence points the other way in most settings: the first credible number sets the range the rest of the conversation moves within, and the party who sets it usually does better. The caveat is credible. An anchor that the other side dismisses out of hand is not an anchor; it is an insult with a decimal point.",
+      "questions": [
+        {
+          "id": "r_business_negotiation_q1",
+          "prompt": "What is the conventional advice?",
+          "options": ["Always name a figure first", "Never name a figure first", "Split the difference", "Refuse to negotiate"],
+          "answer": 1,
+          "explanation": "Conventional advice warns against going first.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_business_negotiation_q2",
+          "prompt": "What does the evidence suggest?",
+          "options": ["Going first usually helps", "Going first usually hurts", "It makes no difference", "Only buyers should go first"],
+          "answer": 0,
+          "explanation": "The first credible number sets the range and its setter usually does better.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_business_negotiation_q3",
+          "prompt": "What does the final sentence add?",
+          "options": ["Anchors never work", "An unbelievable number backfires", "Decimals are important", "Insults are effective"],
+          "answer": 1,
+          "explanation": "An anchor the other side dismisses does not function as an anchor.",
+          "skill": "reading"
+        }
+      ]
+    },
+    {
+      "id": "r_culture_translation",
+      "topic": "culture",
+      "level": 2,
+      "title": "What Gets Lost",
+      "body": "Translators talk about untranslatable words as though the difficulty were in the vocabulary. Usually it is not. A word like the Portuguese saudade can be explained in a sentence; what cannot be carried across is the fact that speakers reach for it without effort, and that reaching for it is itself part of the meaning. You can translate the definition. You cannot translate the reflex.",
+      "questions": [
+        {
+          "id": "r_culture_translation_q1",
+          "prompt": "Where does the writer say the difficulty usually lies?",
+          "options": ["In the vocabulary", "In the reflex of reaching for the word", "In the grammar", "In the alphabet"],
+          "answer": 1,
+          "explanation": "The definition translates; the effortless reach does not.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_culture_translation_q2",
+          "prompt": "Can saudade be explained?",
+          "options": ["No, never", "Yes, in a sentence", "Only by a native speaker", "Only in writing"],
+          "answer": 1,
+          "explanation": "The text says it can be explained in a sentence.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_culture_translation_q3",
+          "prompt": "What is the writer's view of the term untranslatable?",
+          "options": ["Accurate", "Misleading about where the problem is", "Offensive", "Purely technical"],
+          "answer": 1,
+          "explanation": "The writer says the difficulty is usually not the vocabulary.",
+          "skill": "reading"
+        }
+      ]
+    },
+    {
+      "id": "r_environment_offset",
+      "topic": "environment",
+      "level": 2,
+      "title": "Paying Someone Else to Stop",
+      "body": "Carbon offsets let an emitter fund a reduction somewhere cheaper than their own operations. In principle the atmosphere does not care where a tonne is avoided. In practice the scheme rests on a counterfactual - what would have happened anyway - and counterfactuals cannot be audited, only argued. Investigations have repeatedly found forests sold as saved that were never under threat. The instrument is not inherently fraudulent; it is inherently unverifiable, which in a market is close enough to the same thing.",
+      "questions": [
+        {
+          "id": "r_environment_offset_q1",
+          "prompt": "What is the principle behind offsets?",
+          "options": ["Location of the reduction does not matter to the atmosphere", "Rich countries should pay more", "Forests absorb everything", "Emissions are harmless"],
+          "answer": 0,
+          "explanation": "A tonne avoided anywhere counts the same.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_environment_offset_q2",
+          "prompt": "What is the practical problem the writer identifies?",
+          "options": ["Offsets are too expensive", "The counterfactual cannot be audited", "Nobody buys them", "Forests do not store carbon"],
+          "answer": 1,
+          "explanation": "What would have happened anyway can only be argued.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_environment_offset_q3",
+          "prompt": "What is the writer's conclusion?",
+          "options": ["Offsets are deliberate fraud", "Offsets are unverifiable, which in a market amounts to much the same", "Offsets should be expanded", "Offsets work well"],
+          "answer": 1,
+          "explanation": "Not inherently fraudulent, but inherently unverifiable.",
+          "skill": "reading"
+        }
+      ]
+    },
+    {
+      "id": "r_life_attention",
+      "topic": "life",
+      "level": 2,
+      "title": "Interruption as a Business Model",
+      "body": "The products competing hardest for your attention are free, and this is not a coincidence. Where the user does not pay, the metric that survives is time spent, and the fastest route to time spent is not satisfaction but incompletion - the feed that never ends, the notification that resolves into another. A paid product that wasted your evening would lose a customer. A free one has just had a good quarter.",
+      "questions": [
+        {
+          "id": "r_life_attention_q1",
+          "prompt": "Why does the writer say free products fight hardest for attention?",
+          "options": ["They have more staff", "Time spent is the metric that survives when nobody pays", "They are better designed", "They are newer"],
+          "answer": 1,
+          "explanation": "Without payment, time spent becomes the measure.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_life_attention_q2",
+          "prompt": "What does the writer say drives time spent?",
+          "options": ["Satisfaction", "Incompletion", "Price", "Advertising quality"],
+          "answer": 1,
+          "explanation": "The fastest route is incompletion, not satisfaction.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_life_attention_q3",
+          "prompt": "What is the contrast in the final two sentences?",
+          "options": ["Old versus new products", "Paid products lose customers for wasting time; free ones profit from it", "Mobile versus desktop", "Users versus staff"],
+          "answer": 1,
+          "explanation": "The same outcome is a loss for one model and a win for the other.",
+          "skill": "reading"
+        }
+      ]
+    },
+    {
+      "id": "r_work_expertise",
+      "topic": "work",
+      "level": 2,
+      "title": "The Cost of Being the Only One Who Knows",
+      "body": "Every team has a person who is the only one who understands a particular system. It feels like security to be that person and it looks like efficiency to the manager, because the work gets done quickly and no time is spent explaining. The bill arrives later and lands on someone else: the holiday that cannot be taken, the decision that waits a week, the rewrite that follows the resignation. Irreplaceability is a debt the team pays and the individual holds.",
+      "questions": [
+        {
+          "id": "r_work_expertise_q1",
+          "prompt": "Why does the arrangement look efficient at first?",
+          "options": ["The work is cheap", "Work is fast and no time goes on explaining", "It requires fewer staff", "It is well documented"],
+          "answer": 1,
+          "explanation": "It is quick and nothing is spent on explanation.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_work_expertise_q2",
+          "prompt": "Which is NOT listed as a later cost?",
+          "options": ["Holidays that cannot be taken", "Decisions that wait", "A rewrite after a resignation", "Higher salaries"],
+          "answer": 3,
+          "explanation": "Salaries are not mentioned.",
+          "skill": "reading"
+        },
+        {
+          "id": "r_work_expertise_q3",
+          "prompt": "What does the final sentence claim?",
+          "options": ["The individual pays the cost", "The team pays a debt the individual holds", "Nobody pays", "Managers pay"],
+          "answer": 1,
+          "explanation": "It is a debt the team pays and the individual holds.",
+          "skill": "reading"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "schema": "speakly.content.v1",
+  "doc": "onboarding",
+  "collection": "onboarding",
+  "version": 1,
+  "updatedAt": "2026-09-22",
+  "locale": "en",
+  "goals": [
+    {
+      "id": "goal_speak",
+      "key": "speak",
+      "emoji": "🗣",
+      "title": "Speak confidently",
+      "subtitle": "Stop freezing mid-sentence"
+    },
+    {
+      "id": "goal_travel",
+      "key": "travel",
+      "emoji": "✈️",
+      "title": "Travel",
+      "subtitle": "Airports, hotels, directions"
+    },
+    {
+      "id": "goal_career",
+      "key": "career",
+      "emoji": "💼",
+      "title": "Career",
+      "subtitle": "Meetings, email, interviews"
+    },
+    {
+      "id": "goal_education",
+      "key": "education",
+      "emoji": "🎓",
+      "title": "Education",
+      "subtitle": "Exams and academic language"
+    },
+    {
+      "id": "goal_social",
+      "key": "social",
+      "emoji": "❤️",
+      "title": "Social conversations",
+      "subtitle": "Friends, dating, small talk"
+    },
+    {
+      "id": "goal_everyday",
+      "key": "everyday",
+      "emoji": "🏠",
+      "title": "Everyday communication",
+      "subtitle": "Shops, doctors, neighbours"
+    },
+    {
+      "id": "goal_vocab",
+      "key": "vocab",
+      "emoji": "🧠",
+      "title": "Improve vocabulary",
+      "subtitle": "Say exactly what you mean"
+    }
+  ],
+  "levels": [
+    {
+      "id": "level_beginner",
+      "key": "BEGINNER",
+      "emoji": "",
+      "title": "Beginner",
+      "subtitle": "A few words and phrases"
+    },
+    {
+      "id": "level_elementary",
+      "key": "ELEMENTARY",
+      "emoji": "",
+      "title": "Elementary",
+      "subtitle": "Simple sentences, slowly"
+    },
+    {
+      "id": "level_intermediate",
+      "key": "INTERMEDIATE",
+      "emoji": "",
+      "title": "Intermediate",
+      "subtitle": "Everyday conversation, some mistakes"
+    },
+    {
+      "id": "level_upper",
+      "key": "UPPER",
+      "emoji": "",
+      "title": "Upper Intermediate",
+      "subtitle": "Comfortable, but not precise"
+    },
+    {
+      "id": "level_advanced",
+      "key": "ADVANCED",
+      "emoji": "",
+      "title": "Advanced",
+      "subtitle": "Fluent, polishing the details"
+    },
+    {
+      "id": "level_unknown",
+      "key": "UNKNOWN",
+      "emoji": "🤖",
+      "title": "I don't know",
+      "subtitle": "Let the AI test decide"
+    }
+  ],
+  "dailyMinutes": [
+    {
+      "id": "minutes_5",
+      "key": "5",
+      "emoji": "",
+      "title": "5 minutes",
+      "subtitle": ""
+    },
+    {
+      "id": "minutes_10",
+      "key": "10",
+      "emoji": "",
+      "title": "10 minutes",
+      "subtitle": ""
+    },
+    {
+      "id": "minutes_15",
+      "key": "15",
+      "emoji": "",
+      "title": "15 minutes",
+      "subtitle": ""
+    },
+    {
+      "id": "minutes_20",
+      "key": "20",
+      "emoji": "",
+      "title": "20 minutes",
+      "subtitle": ""
+    },
+    {
+      "id": "minutes_30",
+      "key": "30",
+      "emoji": "",
+      "title": "30 minutes",
+      "subtitle": ""
+    },
+    {
+      "id": "minutes_45",
+      "key": "45",
+      "emoji": "",
+      "title": "45 minutes",
+      "subtitle": ""
+    }
+  ],
+  "topics": [
+    {
+      "id": "topic_travel",
+      "key": "travel",
+      "emoji": "✈️",
+      "title": "Travel",
+      "subtitle": ""
+    },
+    {
+      "id": "topic_work",
+      "key": "work",
+      "emoji": "💼",
+      "title": "Work",
+      "subtitle": ""
+    },
+    {
+      "id": "topic_food",
+      "key": "food",
+      "emoji": "🍜",
+      "title": "Food",
+      "subtitle": ""
+    },
+    {
+      "id": "topic_shopping",
+      "key": "shopping",
+      "emoji": "🛍",
+      "title": "Shopping",
+      "subtitle": ""
+    },
+    {
+      "id": "topic_relationships",
+      "key": "relationships",
+      "emoji": "❤️",
+      "title": "Relationships",
+      "subtitle": ""
+    },
+    {
+      "id": "topic_movies",
+      "key": "movies",
+      "emoji": "🎬",
+      "title": "Movies",
+      "subtitle": ""
+    },
+    {
+      "id": "topic_technology",
+      "key": "technology",
+      "emoji": "💻",
+      "title": "Technology",
+      "subtitle": ""
+    },
+    {
+      "id": "topic_business",
+      "key": "business",
+      "emoji": "📈",
+      "title": "Business",
+      "subtitle": ""
+    },
+    {
+      "id": "topic_daily",
+      "key": "daily",
+      "emoji": "🏡",
+      "title": "Daily life",
+      "subtitle": ""
+    },
+    {
+      "id": "topic_school",
+      "key": "school",
+      "emoji": "🏫",
+      "title": "School",
+      "subtitle": ""
+    },
+    {
+      "id": "topic_health",
+      "key": "health",
+      "emoji": "🏥",
+      "title": "Health",
+      "subtitle": ""
+    },
+    {
+      "id": "topic_sports",
+      "key": "sports",
+      "emoji": "⚽",
+      "title": "Sports",
+      "subtitle": ""
+    }
+  ],
+  "preferences": [
+    {
+      "id": "pref_speaking",
+      "key": "speaking",
+      "emoji": "🎤",
+      "title": "Speaking",
+      "subtitle": ""
+    },
+    {
+      "id": "pref_listening",
+      "key": "listening",
+      "emoji": "👂",
+      "title": "Listening",
+      "subtitle": ""
+    },
+    {
+      "id": "pref_vocabulary",
+      "key": "vocabulary",
+      "emoji": "📚",
+      "title": "Vocabulary",
+      "subtitle": ""
+    },
+    {
+      "id": "pref_grammar",
+      "key": "grammar",
+      "emoji": "🧠",
+      "title": "Grammar",
+      "subtitle": ""
+    },
+    {
+      "id": "pref_reading",
+      "key": "reading",
+      "emoji": "📖",
+      "title": "Reading",
+      "subtitle": ""
+    },
+    {
+      "id": "pref_writing",
+      "key": "writing",
+      "emoji": "✍️",
+      "title": "Writing",
+      "subtitle": ""
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "schema": "speakly.content.v1",
+  "doc": "reading_passages_extra",
+  "collection": "reading",
+  "version": 1,
+  "updatedAt": "2026-09-22",
+  "locale": "en",
+  "count": 12,
+  "items": [
+    {
+      "id": "rx_city_bus_lane",
+      "topic": "city",
+      "level": 0,
+      "title": "The New Bus Lane",
+      "body": "A new bus lane opened on Mill Road in April. Buses now take eleven minutes to cross the town instead of nineteen. Drivers complain that the other lane is slower, and the council says that is the point: it wants fewer cars. Shop owners were worried at first, but three of them told the local paper that more people walk past their windows now.",
+      "questions": [
+        { "id": "rx_city_bus_lane_q1", "prompt": "How long do buses take to cross town now?", "options": ["Eleven minutes", "Nineteen minutes", "Three minutes", "Half an hour"], "answer": 0, "explanation": "The text says eleven minutes instead of nineteen.", "skill": "reading" },
+        { "id": "rx_city_bus_lane_q2", "prompt": "What does the council want?", "options": ["More cars", "Fewer cars", "Fewer buses", "Wider shops"], "answer": 1, "explanation": "The council says fewer cars is the point.", "skill": "reading" },
+        { "id": "rx_city_bus_lane_q3", "prompt": "How do the shop owners feel now?", "options": ["Still worried", "Better than they expected", "Angry with the paper", "They have closed"], "answer": 1, "explanation": "They were worried at first, but report more people walking past.", "skill": "reading" }
+      ]
+    },
+    {
+      "id": "rx_daily_lost_keys",
+      "topic": "daily",
+      "level": 0,
+      "title": "Where Are the Keys?",
+      "body": "Dan looked for his keys for twenty minutes. He checked his coat, the kitchen table and the bathroom. He asked his flatmate, who had not seen them. In the end he found them in the fridge, next to the milk. He had put the shopping away with the keys still in his hand.",
+      "questions": [
+        { "id": "rx_daily_lost_keys_q1", "prompt": "Where were the keys?", "options": ["In his coat", "On the table", "In the fridge", "In the bathroom"], "answer": 2, "explanation": "He found them in the fridge next to the milk.", "skill": "reading" },
+        { "id": "rx_daily_lost_keys_q2", "prompt": "Why were they there?", "options": ["His flatmate hid them", "He was holding them while putting shopping away", "He dropped them", "He wanted them cold"], "answer": 1, "explanation": "The last sentence explains he had them in his hand.", "skill": "reading" }
+      ]
+    },
+    {
+      "id": "rx_weather_market_day",
+      "topic": "weather",
+      "level": 0,
+      "title": "Market Day, Rain or Shine",
+      "body": "The Saturday market runs whatever the weather. On wet days the stalls at the north end do badly, because that corner floods, but the covered row stays busy. Regular customers know to arrive early in summer, when the fruit sells out by ten, and late in winter, when traders cut prices to avoid carrying boxes home.",
+      "questions": [
+        { "id": "rx_weather_market_day_q1", "prompt": "What happens at the north end on wet days?", "options": ["It closes", "It floods", "It gets busier", "It moves indoors"], "answer": 1, "explanation": "The text says that corner floods.", "skill": "reading" },
+        { "id": "rx_weather_market_day_q2", "prompt": "Why arrive late in winter?", "options": ["The market opens late", "Traders cut prices", "It is warmer", "There is more fruit"], "answer": 1, "explanation": "Traders cut prices to avoid carrying boxes home.", "skill": "reading" },
+        { "id": "rx_weather_market_day_q3", "prompt": "What does the passage suggest about regular customers?", "options": ["They pay more", "They plan around the season", "They avoid the market", "They only come in summer"], "answer": 1, "explanation": "They arrive early in summer and late in winter - they plan.", "skill": "reading" }
+      ]
+    },
+    {
+      "id": "rx_work_four_day_trial",
+      "topic": "work",
+      "level": 1,
+      "title": "Four Days, Same Pay",
+      "body": "A software company in Leeds gave its forty staff a four-day week for six months, with no cut in pay. Output stayed level. Sick days fell by a third. The finance director was the loudest sceptic at the start and is now the loudest supporter, though she points out one real cost: client calls on Fridays now go to voicemail, and two clients said so directly. The company kept the shorter week and hired someone to cover Fridays.",
+      "questions": [
+        { "id": "rx_work_four_day_trial_q1", "prompt": "What happened to output?", "options": ["It rose sharply", "It stayed level", "It fell by a third", "The text does not say"], "answer": 1, "explanation": "Output stayed level.", "skill": "reading" },
+        { "id": "rx_work_four_day_trial_q2", "prompt": "What was the real cost the finance director names?", "options": ["Higher pay", "More sick days", "Friday client calls going unanswered", "Slower software"], "answer": 2, "explanation": "Client calls on Fridays went to voicemail.", "skill": "reading" },
+        { "id": "rx_work_four_day_trial_q3", "prompt": "What can you infer about the finance director?", "options": ["She never changes her mind", "She was persuaded by the results", "She left the company", "She opposed hiring"], "answer": 1, "explanation": "She went from loudest sceptic to loudest supporter.", "skill": "reading" }
+      ]
+    },
+    {
+      "id": "rx_science_slow_data",
+      "topic": "science",
+      "level": 1,
+      "title": "The Study Nobody Could Repeat",
+      "body": "In 2011 a small study reported that a common spice improved memory. It was covered everywhere. Six later teams ran the same test with more people and found nothing. The original result was not fraud; it came from a sample of nineteen students, which is small enough that chance alone can produce a striking number. The useful lesson is not that the spice is useless, but that one study is a starting point, never a conclusion.",
+      "questions": [
+        { "id": "rx_science_slow_data_q1", "prompt": "How many people were in the original study?", "options": ["Six", "Nineteen", "Ninety", "Two hundred"], "answer": 1, "explanation": "A sample of nineteen students.", "skill": "reading" },
+        { "id": "rx_science_slow_data_q2", "prompt": "What does the writer say the original result was not?", "options": ["Fraud", "Small", "Published", "Popular"], "answer": 0, "explanation": "The text says it was not fraud.", "skill": "reading" },
+        { "id": "rx_science_slow_data_q3", "prompt": "What is the writer's main point?", "options": ["Spices do not work", "One study proves nothing on its own", "Students make bad subjects", "Journalists lie"], "answer": 1, "explanation": "One study is a starting point, never a conclusion.", "skill": "reading" }
+      ]
+    },
+    {
+      "id": "rx_money_first_budget",
+      "topic": "money",
+      "level": 1,
+      "title": "Her First Budget",
+      "body": "When Priya started her first job she wrote down every expense for a month. The total surprised her: coffee and small deliveries came to more than her electricity bill. She did not ban either. Instead she moved a fixed amount into a second account on payday and left the rest to be spent freely. She saved more in four months that way than she had in two years of promising herself she would be careful.",
+      "questions": [
+        { "id": "rx_money_first_budget_q1", "prompt": "What surprised Priya?", "options": ["Her rent", "Coffee and deliveries cost more than electricity", "Her salary", "Her bank charges"], "answer": 1, "explanation": "They came to more than her electricity bill.", "skill": "reading" },
+        { "id": "rx_money_first_budget_q2", "prompt": "What did she actually change?", "options": ["She stopped buying coffee", "She moved money aside on payday", "She changed jobs", "She closed an account"], "answer": 1, "explanation": "She moved a fixed amount into a second account.", "skill": "reading" },
+        { "id": "rx_money_first_budget_q3", "prompt": "What does the last sentence imply?", "options": ["Willpower alone worked badly", "She earned more", "Saving is impossible", "She regretted it"], "answer": 0, "explanation": "Two years of promising achieved less than four months of the system.", "skill": "reading" }
+      ]
+    },
+    {
+      "id": "rx_art_gallery_free",
+      "topic": "art",
+      "level": 1,
+      "title": "Free on Sundays",
+      "body": "The city gallery dropped its entry fee on Sundays. Visitor numbers on that day rose by four hundred per cent, and most of the new visitors had never been inside before. The gallery lost some ticket income, but the cafe and the shop more than covered it. What the director did not expect was the effect on weekdays: people who came free on a Sunday returned later and paid.",
+      "questions": [
+        { "id": "rx_art_gallery_free_q1", "prompt": "What rose by four hundred per cent?", "options": ["Ticket prices", "Sunday visitor numbers", "Cafe prices", "Staff numbers"], "answer": 1, "explanation": "Visitor numbers on Sunday rose by that much.", "skill": "reading" },
+        { "id": "rx_art_gallery_free_q2", "prompt": "What covered the lost ticket income?", "options": ["The council", "The cafe and shop", "A donation", "Nothing did"], "answer": 1, "explanation": "The cafe and the shop more than covered it.", "skill": "reading" },
+        { "id": "rx_art_gallery_free_q3", "prompt": "What was the unexpected effect?", "options": ["Sundays got quieter", "Free visitors returned and paid later", "The shop closed", "Prices rose"], "answer": 1, "explanation": "The director did not expect the weekday return visits.", "skill": "reading" }
+      ]
+    },
+    {
+      "id": "rx_health_walking_study",
+      "topic": "health",
+      "level": 1,
+      "title": "The Number on the Watch",
+      "body": "Ten thousand steps a day is a marketing figure from a 1960s Japanese pedometer, not a medical one. Later work suggests most of the benefit arrives long before that, somewhere around four to seven thousand for older adults, with smaller gains after. That does not make the target harmful. It makes it arbitrary, and arbitrary targets are discouraging for anyone who cannot reach them.",
+      "questions": [
+        { "id": "rx_health_walking_study_q1", "prompt": "Where does the ten thousand figure come from?", "options": ["A medical trial", "A 1960s pedometer name", "A government rule", "A running club"], "answer": 1, "explanation": "It came from a 1960s Japanese pedometer.", "skill": "reading" },
+        { "id": "rx_health_walking_study_q2", "prompt": "Where does most benefit arrive, for older adults?", "options": ["Under one thousand", "Four to seven thousand", "Exactly ten thousand", "Above fifteen thousand"], "answer": 1, "explanation": "Around four to seven thousand steps.", "skill": "reading" },
+        { "id": "rx_health_walking_study_q3", "prompt": "What is the writer's objection to the target?", "options": ["It is dangerous", "It is arbitrary and discouraging", "It is too easy", "It is illegal"], "answer": 1, "explanation": "The last sentence says arbitrary and discouraging.", "skill": "reading" }
+      ]
+    },
+    {
+      "id": "rx_law_small_print",
+      "topic": "law",
+      "level": 2,
+      "title": "What the Clause Actually Said",
+      "body": "The gym contract ran to nine pages and the member signed it on a tablet in ninety seconds. Clause 14 allowed the gym to change its opening hours without notice; clause 22 said membership could only be cancelled in writing, by post. When the pool closed at eight instead of ten, the member wanted out and discovered that leaving took a stamp and a month. None of this was hidden, and all of it was unreadable in the time anyone actually spends reading.",
+      "questions": [
+        { "id": "rx_law_small_print_q1", "prompt": "What did clause 22 require?", "options": ["Payment by card", "Cancellation in writing by post", "A month of notice by email", "A doctor's note"], "answer": 1, "explanation": "Cancellation in writing, by post.", "skill": "reading" },
+        { "id": "rx_law_small_print_q2", "prompt": "What is the writer's main criticism?", "options": ["The terms were hidden", "The terms were unreadable in practice", "The gym was illegal", "The pool was too cold"], "answer": 1, "explanation": "Nothing was hidden, but it was unreadable in the time people spend.", "skill": "reading" },
+        { "id": "rx_law_small_print_q3", "prompt": "The phrase 'took a stamp and a month' means the process was", "options": ["cheap and quick", "slow and old-fashioned", "free", "impossible"], "answer": 1, "explanation": "Post and a month of waiting: slow and old-fashioned.", "skill": "reading" }
+      ]
+    },
+    {
+      "id": "rx_media_two_headlines",
+      "topic": "media",
+      "level": 2,
+      "title": "Two Headlines, One Number",
+      "body": "A new drug reduced the risk of a rare complication from two in a thousand to one in a thousand. One paper reported a fifty per cent reduction. Another reported that it helped one patient in every thousand. Both are arithmetically correct and they leave a reader with completely different impressions. Nothing here requires a dishonest journalist; it only requires a choice about which true sentence to print, and that choice is made on every health story you read.",
+      "questions": [
+        { "id": "rx_media_two_headlines_q1", "prompt": "What was the change in absolute terms?", "options": ["One patient per thousand", "Fifty patients per thousand", "Half of all patients", "Two per cent"], "answer": 0, "explanation": "From two in a thousand to one in a thousand.", "skill": "reading" },
+        { "id": "rx_media_two_headlines_q2", "prompt": "Were the two headlines accurate?", "options": ["Only the first", "Only the second", "Both were", "Neither was"], "answer": 2, "explanation": "The text says both are arithmetically correct.", "skill": "reading" },
+        { "id": "rx_media_two_headlines_q3", "prompt": "What does the writer argue is unavoidable?", "options": ["Dishonesty", "A choice of framing", "Bad science", "Reader error"], "answer": 1, "explanation": "A choice about which true sentence to print.", "skill": "reading" }
+      ]
+    },
+    {
+      "id": "rx_safety_near_miss",
+      "topic": "safety",
+      "level": 2,
+      "title": "The Report Nobody Filed",
+      "body": "A scaffolding pole fell onto an empty walkway at seven in the morning. Nobody was hurt, so nobody filed a report. Three weeks later a similar pole fell at eleven, when the walkway was full, and two people went to hospital. The inquiry found that the first event had been noticed by at least four people, none of whom thought a near miss was worth the paperwork. The recommendation was not more rules but a shorter form.",
+      "questions": [
+        { "id": "rx_safety_near_miss_q1", "prompt": "Why was the first incident not reported?", "options": ["Nobody saw it", "Nobody was hurt, so it seemed not worth reporting", "The form was lost", "It was a weekend"], "answer": 1, "explanation": "Nobody was hurt, so nobody filed a report.", "skill": "reading" },
+        { "id": "rx_safety_near_miss_q2", "prompt": "What did the inquiry recommend?", "options": ["More rules", "A shorter form", "Closing the site", "Dismissals"], "answer": 1, "explanation": "The recommendation was a shorter form.", "skill": "reading" },
+        { "id": "rx_safety_near_miss_q3", "prompt": "What does the passage imply about near misses?", "options": ["They are harmless", "They predict real accidents", "They are rare", "They are always reported"], "answer": 1, "explanation": "The same fault caused injuries three weeks later.", "skill": "reading" }
+      ]
+    },
+    {
+      "id": "rx_culture_queue_rules",
+      "topic": "culture",
+      "level": 2,
+      "title": "Rules Nobody Wrote Down",
+      "body": "Queueing looks like a simple rule until you watch it fail. In one country people form a line at a bus stop and consider a gap of half a metre polite; in another the same gap is read as an invitation to step in, and standing close is how you signal that you are waiting. Neither group is rude. Both are following a rule they were never taught explicitly and could not state if asked, which is precisely why the disagreement feels personal rather than cultural.",
+      "questions": [
+        { "id": "rx_culture_queue_rules_q1", "prompt": "How is a half-metre gap read in the second country?", "options": ["As politeness", "As an invitation to step in", "As aggression", "As a mistake"], "answer": 1, "explanation": "The same gap is read as an invitation to step in.", "skill": "reading" },
+        { "id": "rx_culture_queue_rules_q2", "prompt": "What does the writer say about both groups?", "options": ["One is rude", "Both follow unstated rules", "Both are wrong", "Both were taught the rule at school"], "answer": 1, "explanation": "A rule they were never taught explicitly.", "skill": "reading" },
+        { "id": "rx_culture_queue_rules_q3", "prompt": "Why does the disagreement feel personal?", "options": ["Because the rule is invisible to both sides", "Because people are impatient", "Because buses are late", "Because of language"], "answer": 0, "explanation": "Neither side can state the rule, so it feels like rudeness.", "skill": "reading" }
+      ]
+    }
+  ]
+}

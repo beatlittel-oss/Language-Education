@@ -1,0 +1,517 @@
+{
+  "schema": "speakly.content.v1",
+  "doc": "placement_test",
+  "collection": "placement",
+  "version": 1,
+  "updatedAt": "2026-09-22",
+  "locale": "en",
+  "vocabulary": [
+    {
+      "id": "place_v1",
+      "prompt": "Choose the word that means very tired.",
+      "options": ["excited", "exhausted", "exact", "expensive"],
+      "answer": 1,
+      "explanation": "",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "place_v2",
+      "prompt": "A person you work with is your ___.",
+      "options": ["customer", "colleague", "neighbour", "relative"],
+      "answer": 1,
+      "explanation": "",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "place_v3",
+      "prompt": "Which word means to get better?",
+      "options": ["improve", "prove", "approve", "remove"],
+      "answer": 0,
+      "explanation": "",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "place_v4",
+      "prompt": "The opposite of expensive is ___.",
+      "options": ["cheap", "rich", "costly", "valuable"],
+      "answer": 0,
+      "explanation": "",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "place_v5",
+      "prompt": "Which word means almost certainly?",
+      "options": ["rarely", "hardly", "probably", "barely"],
+      "answer": 2,
+      "explanation": "",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "place_v6",
+      "prompt": "A short trip to do something useful is an ___.",
+      "options": ["errand", "error", "era", "entry"],
+      "answer": 0,
+      "explanation": "",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "place_v7",
+      "prompt": "Someone who is easy to talk to is ___.",
+      "options": ["approachable", "appropriate", "apparent", "applied"],
+      "answer": 0,
+      "explanation": "",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "place_v8",
+      "prompt": "If a shop is packed, it is ___.",
+      "options": ["empty", "closed", "very full", "new"],
+      "answer": 2,
+      "explanation": "",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "place_v9",
+      "prompt": "Which word means to put off until later?",
+      "options": ["postpone", "propose", "possess", "prevent"],
+      "answer": 0,
+      "explanation": "",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "place_v10",
+      "prompt": "A meeting that happens every year is ___.",
+      "options": ["annual", "monthly", "weekly", "constant"],
+      "answer": 0,
+      "explanation": "",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "place_v11",
+      "prompt": "Which word means the money you earn each month?",
+      "options": ["salary", "celery", "sale", "settlement"],
+      "answer": 0,
+      "explanation": "",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "place_v12",
+      "prompt": "If an argument is convincing, it is ___.",
+      "options": ["persuasive", "pervasive", "passive", "permissive"],
+      "answer": 0,
+      "explanation": "",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "place_v13",
+      "prompt": "A decision made without thinking is ___.",
+      "options": ["impulsive", "impressive", "imperative", "implicit"],
+      "answer": 0,
+      "explanation": "",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "place_v14",
+      "prompt": "Which word means to make something less severe?",
+      "options": ["aggravate", "alleviate", "allocate", "allege"],
+      "answer": 1,
+      "explanation": "",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "place_v15",
+      "prompt": "Something that happens rarely is ___.",
+      "options": ["infrequent", "informal", "inefficient", "inevitable"],
+      "answer": 0,
+      "explanation": "",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "place_v16",
+      "prompt": "A claim with no evidence behind it is ___.",
+      "options": ["substantiated", "unfounded", "verified", "documented"],
+      "answer": 1,
+      "explanation": "",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "place_v17",
+      "prompt": "To reluctantly accept something is to ___.",
+      "options": ["acquiesce", "acquire", "accuse", "accumulate"],
+      "answer": 0,
+      "explanation": "",
+      "skill": "vocabulary"
+    },
+    {
+      "id": "place_v18",
+      "prompt": "Which word describes a very short-lived thing?",
+      "options": ["fleeting", "fleeing", "flattering", "flourishing"],
+      "answer": 0,
+      "explanation": "",
+      "skill": "vocabulary"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "place_g1",
+      "prompt": "She ___ to work by train every day.",
+      "options": ["go", "goes", "going", "is go"],
+      "answer": 1,
+      "explanation": "",
+      "skill": "grammar"
+    },
+    {
+      "id": "place_g2",
+      "prompt": "Yesterday we ___ a great film.",
+      "options": ["watch", "watches", "watched", "watching"],
+      "answer": 2,
+      "explanation": "",
+      "skill": "grammar"
+    },
+    {
+      "id": "place_g3",
+      "prompt": "I ___ here since 2019.",
+      "options": ["live", "am living", "have lived", "lived"],
+      "answer": 2,
+      "explanation": "",
+      "skill": "grammar"
+    },
+    {
+      "id": "place_g4",
+      "prompt": "If I ___ you, I would take the job.",
+      "options": ["am", "was", "were", "be"],
+      "answer": 2,
+      "explanation": "",
+      "skill": "grammar"
+    },
+    {
+      "id": "place_g5",
+      "prompt": "The email ___ yesterday afternoon.",
+      "options": ["was sent", "sent", "is sending", "sends"],
+      "answer": 0,
+      "explanation": "",
+      "skill": "grammar"
+    },
+    {
+      "id": "place_g6",
+      "prompt": "He asked me where I ___.",
+      "options": ["live", "lived", "am living", "will live"],
+      "answer": 1,
+      "explanation": "",
+      "skill": "grammar"
+    },
+    {
+      "id": "place_g7",
+      "prompt": "There ___ too many people in the room.",
+      "options": ["is", "are", "was", "has"],
+      "answer": 1,
+      "explanation": "",
+      "skill": "grammar"
+    },
+    {
+      "id": "place_g8",
+      "prompt": "I am not used ___ so early.",
+      "options": ["to get up", "to getting up", "get up", "getting up"],
+      "answer": 1,
+      "explanation": "",
+      "skill": "grammar"
+    },
+    {
+      "id": "place_g9",
+      "prompt": "This is the colleague ___ helped me last week.",
+      "options": ["which", "who", "what", "whose"],
+      "answer": 1,
+      "explanation": "",
+      "skill": "grammar"
+    },
+    {
+      "id": "place_g10",
+      "prompt": "By the time we arrived, the film ___.",
+      "options": ["started", "has started", "had started", "was starting"],
+      "answer": 2,
+      "explanation": "",
+      "skill": "grammar"
+    },
+    {
+      "id": "place_g11",
+      "prompt": "She speaks English ___ than her brother.",
+      "options": ["more fluent", "fluenter", "more fluently", "most fluently"],
+      "answer": 2,
+      "explanation": "",
+      "skill": "grammar"
+    },
+    {
+      "id": "place_g12",
+      "prompt": "You ___ have told me - I would have come.",
+      "options": ["should", "should have", "must", "will"],
+      "answer": 1,
+      "explanation": "",
+      "skill": "grammar"
+    },
+    {
+      "id": "place_g13",
+      "prompt": "Not only ___ late, but he also forgot the file.",
+      "options": ["he was", "was he", "he is", "is he"],
+      "answer": 1,
+      "explanation": "",
+      "skill": "grammar"
+    },
+    {
+      "id": "place_g14",
+      "prompt": "I would rather you ___ that to anyone.",
+      "options": ["do not mention", "did not mention", "will not mention", "not mention"],
+      "answer": 1,
+      "explanation": "",
+      "skill": "grammar"
+    },
+    {
+      "id": "place_g15",
+      "prompt": "Hardly ___ the door when the phone rang.",
+      "options": ["I had closed", "had I closed", "I closed", "did I close"],
+      "answer": 1,
+      "explanation": "",
+      "skill": "grammar"
+    },
+    {
+      "id": "place_g16",
+      "prompt": "It is high time we ___ this properly.",
+      "options": ["discuss", "discussed", "will discuss", "are discussing"],
+      "answer": 1,
+      "explanation": "",
+      "skill": "grammar"
+    },
+    {
+      "id": "place_g17",
+      "prompt": "The report, ___ was due Monday, is still unfinished.",
+      "options": ["that", "which", "what", "who"],
+      "answer": 1,
+      "explanation": "",
+      "skill": "grammar"
+    },
+    {
+      "id": "place_g18",
+      "prompt": "___ more notice, we could have rearranged the meeting.",
+      "options": ["Given", "Giving", "To give", "Gave"],
+      "answer": 0,
+      "explanation": "",
+      "skill": "grammar"
+    }
+  ],
+  "reading": [
+    {
+      "id": "place_r1",
+      "topic": "general",
+      "level": 1,
+      "title": "The Note on the Door",
+      "body": "When Maya got home, there was a note on her door. It was from her neighbour, asking her to move her car before seven in the morning because a delivery lorry needed the space. Maya had planned to sleep late, but she moved the car that night and left a friendly note back.",
+      "questions": [
+        {
+          "id": "place_r1_q1",
+          "prompt": "Why did the neighbour write?",
+          "options": ["To complain about noise", "To ask Maya to move her car", "To invite her for dinner", "To return a key"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "reading"
+        },
+        {
+          "id": "place_r1_q2",
+          "prompt": "What did Maya do?",
+          "options": ["Ignored the note", "Moved the car that night", "Moved it at seven", "Called the neighbour"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "reading"
+        },
+        {
+          "id": "place_r1_q3",
+          "prompt": "How would you describe Maya?",
+          "options": ["Rude", "Considerate", "Angry", "Confused"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "reading"
+        }
+      ]
+    },
+    {
+      "id": "place_r2",
+      "topic": "general",
+      "level": 1,
+      "title": "The Wrong Platform",
+      "body": "Omar had twelve minutes to change trains. The board listed his connection at platform nine, so he walked there and waited. At the last moment an announcement moved it to platform two, at the far end of the station. He ran, and made it with seconds to spare, but his suitcase did not: a wheel broke on the stairs.",
+      "questions": [
+        {
+          "id": "place_r2_q1",
+          "prompt": "How long did Omar have to change trains?",
+          "options": ["Two minutes", "Nine minutes", "Twelve minutes", "Twenty minutes"],
+          "answer": 2,
+          "explanation": "",
+          "skill": "reading"
+        },
+        {
+          "id": "place_r2_q2",
+          "prompt": "Why did he have to run?",
+          "options": ["He overslept", "The platform changed", "He bought food", "He lost his ticket"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "reading"
+        },
+        {
+          "id": "place_r2_q3",
+          "prompt": "What happened to the suitcase?",
+          "options": ["It was stolen", "He left it behind", "A wheel broke", "Nothing"],
+          "answer": 2,
+          "explanation": "",
+          "skill": "reading"
+        }
+      ]
+    },
+    {
+      "id": "place_r3",
+      "topic": "general",
+      "level": 2,
+      "title": "A Question of Wording",
+      "body": "Two surveys asked the same town about the same new road. One asked whether residents supported improving access to the hospital; the other asked whether they supported building through the woods. Support was seventy per cent in the first and thirty in the second. Both descriptions were accurate. The council quoted whichever number suited the meeting it was in.",
+      "questions": [
+        {
+          "id": "place_r3_q1",
+          "prompt": "What made the two results differ?",
+          "options": ["Different towns", "Different wording", "Different years", "Different roads"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "reading"
+        },
+        {
+          "id": "place_r3_q2",
+          "prompt": "Were the descriptions true?",
+          "options": ["Only the first", "Only the second", "Both were accurate", "Neither"],
+          "answer": 2,
+          "explanation": "",
+          "skill": "reading"
+        },
+        {
+          "id": "place_r3_q3",
+          "prompt": "What is implied about the council?",
+          "options": ["It was careless", "It used whichever figure suited it", "It rejected both surveys", "It ran the surveys itself"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "reading"
+        }
+      ]
+    }
+  ],
+  "listening": [
+    {
+      "id": "place_l1",
+      "topic": "general",
+      "level": 1,
+      "script": "Hi, it is Tom. I am running about fifteen minutes late because the meeting overran. Do not wait outside, go in and order me a coffee. See you soon.",
+      "questions": [
+        {
+          "id": "place_l1_q1",
+          "prompt": "Why is Tom late?",
+          "options": ["Traffic", "A meeting overran", "He slept", "He lost his keys"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "place_l1_q2",
+          "prompt": "What does he ask the listener to do?",
+          "options": ["Wait outside", "Go in and order a coffee", "Call him back", "Cancel the meeting"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        }
+      ]
+    },
+    {
+      "id": "place_l2",
+      "topic": "general",
+      "level": 1,
+      "script": "This is a message from the surgery. Doctor Reed is off sick, so your Thursday appointment has moved to Monday at ten past three. If that does not suit you, call us back before five today and we will find another time.",
+      "questions": [
+        {
+          "id": "place_l2_q1",
+          "prompt": "Why was the appointment changed?",
+          "options": ["The patient asked", "The doctor is off sick", "The surgery is closed", "It was double-booked"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "place_l2_q2",
+          "prompt": "What is the new time?",
+          "options": ["Thursday at three", "Monday at ten past three", "Monday at three", "Friday at ten"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "place_l2_q3",
+          "prompt": "What should the patient do if Monday is no good?",
+          "options": ["Come anyway", "Call back before five", "Send an email", "Wait for another call"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        }
+      ]
+    },
+    {
+      "id": "place_l3",
+      "topic": "general",
+      "level": 2,
+      "script": "Before we sign anything, I want to flag one thing. The quote covers the work itself but not the disposal, and on a job this size the disposal is not trivial. I am not saying the price is wrong. I am saying it is not the whole price, and I would rather we both knew that now than argue about it in March.",
+      "questions": [
+        {
+          "id": "place_l3_q1",
+          "prompt": "What is the speaker's concern?",
+          "options": ["The work is too slow", "Disposal is not in the quote", "The price is too high", "The contract is missing"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "place_l3_q2",
+          "prompt": "Is the speaker saying the quote is wrong?",
+          "options": ["Yes, deliberately wrong", "No, just incomplete", "Yes, too low overall", "They do not say"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "place_l3_q3",
+          "prompt": "Why raise it now?",
+          "options": ["To cancel the job", "To avoid an argument later", "To ask for a discount", "To delay signing"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        }
+      ]
+    }
+  ],
+  "speaking": [
+    {
+      "id": "place_s1",
+      "prompt": "Tell me about yourself and what you do. Speak for about thirty seconds."
+    },
+    {
+      "id": "place_s2",
+      "prompt": "Describe where you live and what you like about it. Speak for about thirty seconds."
+    },
+    {
+      "id": "place_s3",
+      "prompt": "Talk about how you usually spend your weekends. Speak for about thirty seconds."
+    },
+    {
+      "id": "place_s4",
+      "prompt": "Tell me why you are learning English and what you want to use it for."
+    },
+    {
+      "id": "place_s5",
+      "prompt": "Describe a person you spend a lot of time with and what they are like."
+    },
+    {
+      "id": "place_s6",
+      "prompt": "Talk about something you have done recently that you are pleased with."
+    }
+  ]
+}

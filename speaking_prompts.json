@@ -1,0 +1,241 @@
+{
+  "schema": "speakly.content.v1",
+  "doc": "speaking_prompts",
+  "collection": "speaking_prompts",
+  "version": 1,
+  "updatedAt": "2026-09-22",
+  "locale": "en",
+  "count": 46,
+  "items": [
+    {
+      "id": "sp_001",
+      "text": "Describe your daily routine.",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_002",
+      "text": "Talk about your favourite place and why you like it.",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_003",
+      "text": "Describe your ideal weekend from morning to night.",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_004",
+      "text": "Describe the room you are sitting in, in detail.",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_005",
+      "text": "Describe a person who changed the way you think.",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_006",
+      "text": "Describe the best meal you have ever eaten.",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_007",
+      "text": "Describe your journey to work or school.",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_008",
+      "text": "Describe a photograph that means something to you.",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_009",
+      "text": "Describe the street you grew up on.",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_010",
+      "text": "Describe someone you find difficult, fairly.",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_011",
+      "text": "Tell me about the last time you were really happy.",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_012",
+      "text": "Talk about a mistake that taught you something.",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_013",
+      "text": "Tell me about a film that stayed with you.",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_014",
+      "text": "Tell me about a time you got lost.",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_015",
+      "text": "Tell me about the first day of a job or a course.",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_016",
+      "text": "Talk about a time you changed your mind about something.",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_017",
+      "text": "Tell me about a journey that did not go to plan.",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_018",
+      "text": "Talk about something you tried and gave up.",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_019",
+      "text": "Tell me about a small kindness you remember.",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_020",
+      "text": "Talk about a time you had to apologise.",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_021",
+      "text": "Explain your job to someone who knows nothing about it.",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_022",
+      "text": "What is one thing your city needs?",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_023",
+      "text": "What is your relationship with your phone?",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_024",
+      "text": "Is it better to be early or relaxed? Argue for one.",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_025",
+      "text": "Should everyone learn a second language? Why?",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_026",
+      "text": "What is overrated, and why do you think people like it?",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_027",
+      "text": "What advice do you disagree with?",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_028",
+      "text": "Is it worth paying more for something that lasts longer?",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_029",
+      "text": "What is one rule you would change where you live?",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_030",
+      "text": "Does where you grew up still shape how you think?",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_031",
+      "text": "What would you do with one free month?",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_032",
+      "text": "If you could learn any skill instantly, which and why?",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_033",
+      "text": "Where do you want to be in five years?",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_034",
+      "text": "If you had to move abroad tomorrow, where would you go?",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_035",
+      "text": "What would you do differently if you started your career again?",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_036",
+      "text": "If you could ask your future self one question, what would it be?",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_037",
+      "text": "What would change if you had no phone for a week?",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_038",
+      "text": "If money were not a factor, how would you spend Monday?",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_039",
+      "text": "Explain how to cook something you make often.",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_040",
+      "text": "Explain a rule of a game or sport you know.",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_041",
+      "text": "Explain how to get from your home to the nearest station.",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_042",
+      "text": "Teach me one word from your language and when to use it.",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_043",
+      "text": "Explain something from your work to a ten-year-old.",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_044",
+      "text": "Explain why you chose to learn English.",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_045",
+      "text": "Talk me through how you decide what to buy.",
+      "kind": "speaking"
+    },
+    {
+      "id": "sp_046",
+      "text": "Explain a tradition from your culture to a visitor.",
+      "kind": "speaking"
+    }
+  ]
+}

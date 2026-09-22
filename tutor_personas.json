@@ -1,0 +1,1791 @@
+{
+  "schema": "speakly.content.v1",
+  "doc": "tutor_personas",
+  "collection": "personas",
+  "version": 1,
+  "updatedAt": "2026-09-22",
+  "locale": "en",
+  "modes": [
+    {
+      "id": "mode_free",
+      "key": "free",
+      "emoji": "🎤",
+      "label": "Talk with AI",
+      "description": "Open conversation about anything you like"
+    },
+    {
+      "id": "mode_roleplay",
+      "key": "roleplay",
+      "emoji": "🎭",
+      "label": "Roleplay",
+      "description": "Real situations: restaurant, airport, hotel"
+    },
+    {
+      "id": "mode_interview",
+      "key": "interview",
+      "emoji": "💼",
+      "label": "Interview",
+      "description": "Job, visa and university interviews"
+    },
+    {
+      "id": "mode_debate",
+      "key": "debate",
+      "emoji": "⚖️",
+      "label": "Debate",
+      "description": "Argue a position and defend it"
+    },
+    {
+      "id": "mode_ielts",
+      "key": "ielts",
+      "emoji": "📋",
+      "label": "IELTS speaking",
+      "description": "Parts 1, 2 and 3, plus a full mock test"
+    },
+    {
+      "id": "mode_business",
+      "key": "business",
+      "emoji": "📊",
+      "label": "Business English",
+      "description": "Meetings, client calls, negotiating, pitching"
+    },
+    {
+      "id": "mode_job",
+      "key": "job",
+      "emoji": "🏢",
+      "label": "Workplace English",
+      "description": "Standups, asking for leave, reviews, bad news"
+    }
+  ],
+  "count": 44,
+  "personas": [
+    {
+      "id": "persona_restaurant",
+      "mode": "roleplay",
+      "scenario": "restaurant",
+      "title": "Restaurant",
+      "emoji": "🍽",
+      "role": "a waiter at a busy restaurant",
+      "opener": "Good evening, welcome to Bella Vista. Do you have a reservation?",
+      "level": 0
+    },
+    {
+      "id": "persona_airport",
+      "mode": "roleplay",
+      "scenario": "airport",
+      "title": "Airport",
+      "emoji": "✈️",
+      "role": "an airline check-in agent",
+      "opener": "Good morning. May I see your passport, please?",
+      "level": 0
+    },
+    {
+      "id": "persona_hotel",
+      "mode": "roleplay",
+      "scenario": "hotel",
+      "title": "Hotel",
+      "emoji": "🏨",
+      "role": "a hotel receptionist",
+      "opener": "Welcome to the Grand Park Hotel. Are you checking in?",
+      "level": 0
+    },
+    {
+      "id": "persona_shopping",
+      "mode": "roleplay",
+      "scenario": "shopping",
+      "title": "Shopping",
+      "emoji": "🛍",
+      "role": "a shop assistant in a clothes store",
+      "opener": "Hi there. Are you looking for anything in particular today?",
+      "level": 0
+    },
+    {
+      "id": "persona_doctor",
+      "mode": "roleplay",
+      "scenario": "doctor",
+      "title": "Doctor",
+      "emoji": "🏥",
+      "role": "a friendly family doctor",
+      "opener": "Come in, take a seat. What brings you in today?",
+      "level": 1
+    },
+    {
+      "id": "persona_taxi",
+      "mode": "roleplay",
+      "scenario": "taxi",
+      "title": "Taxi",
+      "emoji": "🚖",
+      "role": "a taxi driver",
+      "opener": "Evening. Where are we heading?",
+      "level": 0
+    },
+    {
+      "id": "persona_phone",
+      "mode": "roleplay",
+      "scenario": "phone",
+      "title": "Phone call",
+      "emoji": "📞",
+      "role": "a customer service agent on the phone",
+      "opener": "Thank you for calling City Internet, my name is Alex. How can I help?",
+      "level": 1
+    },
+    {
+      "id": "persona_classroom",
+      "mode": "roleplay",
+      "scenario": "classroom",
+      "title": "Classroom",
+      "emoji": "🎓",
+      "role": "a teacher in a language class",
+      "opener": "Good morning everyone. Before we start, can you tell me what you did at the weekend?",
+      "level": 0
+    },
+    {
+      "id": "persona_dating",
+      "mode": "roleplay",
+      "scenario": "dating",
+      "title": "First date",
+      "emoji": "❤️",
+      "role": "someone on a friendly first date",
+      "opener": "Hi. I am glad this worked out. Have you been to this place before?",
+      "level": 1
+    },
+    {
+      "id": "persona_bank",
+      "mode": "roleplay",
+      "scenario": "bank",
+      "title": "Bank",
+      "emoji": "🏦",
+      "role": "a bank clerk",
+      "opener": "Good afternoon. How can I help you today?",
+      "level": 1
+    },
+    {
+      "id": "persona_colleague",
+      "mode": "roleplay",
+      "scenario": "colleague",
+      "title": "New colleague",
+      "emoji": "👥",
+      "role": "a friendly new colleague at the coffee machine",
+      "opener": "Hey, you must be the new person on the team. How is your first week going?",
+      "level": 1
+    },
+    {
+      "id": "persona_landlord",
+      "mode": "roleplay",
+      "scenario": "landlord",
+      "title": "Renting a flat",
+      "emoji": "🔑",
+      "role": "a landlord showing a flat",
+      "opener": "So this is the living room. What do you think?",
+      "level": 1
+    },
+    {
+      "id": "persona_daily",
+      "mode": "free",
+      "scenario": "daily",
+      "title": "Daily life",
+      "emoji": "🏡",
+      "role": "a curious friend",
+      "opener": "So, tell me about a normal day for you. What do you do first in the morning?",
+      "level": 0
+    },
+    {
+      "id": "persona_travel",
+      "mode": "free",
+      "scenario": "travel",
+      "title": "Travel",
+      "emoji": "✈️",
+      "role": "a friend who loves travelling",
+      "opener": "I want to hear about a trip. Where is the best place you have been?",
+      "level": 0
+    },
+    {
+      "id": "persona_work",
+      "mode": "free",
+      "scenario": "work",
+      "title": "Work",
+      "emoji": "💼",
+      "role": "a friend who is curious about your job",
+      "opener": "What do you do for work, and what does a normal day look like?",
+      "level": 0
+    },
+    {
+      "id": "persona_food",
+      "mode": "free",
+      "scenario": "food",
+      "title": "Food",
+      "emoji": "🍜",
+      "role": "a friend who cooks a lot",
+      "opener": "What is the one dish you could eat every single day?",
+      "level": 0
+    },
+    {
+      "id": "persona_movies",
+      "mode": "free",
+      "scenario": "movies",
+      "title": "Movies",
+      "emoji": "🎬",
+      "role": "a friend who watches everything",
+      "opener": "What was the last film or series you really enjoyed?",
+      "level": 0
+    },
+    {
+      "id": "persona_technology",
+      "mode": "free",
+      "scenario": "technology",
+      "title": "Technology",
+      "emoji": "💻",
+      "role": "a friend who works in tech",
+      "opener": "How much has your phone changed the way you spend your day?",
+      "level": 1
+    },
+    {
+      "id": "persona_sports",
+      "mode": "free",
+      "scenario": "sports",
+      "title": "Sports",
+      "emoji": "⚽",
+      "role": "a friend who follows sport",
+      "opener": "Do you play or watch any sport? Tell me about it.",
+      "level": 0
+    },
+    {
+      "id": "persona_life",
+      "mode": "free",
+      "scenario": "life",
+      "title": "Life and plans",
+      "emoji": "🌱",
+      "role": "a thoughtful friend",
+      "opener": "What is something you want to be better at one year from now?",
+      "level": 1
+    },
+    {
+      "id": "persona_interview_general",
+      "mode": "interview",
+      "scenario": "interview_general",
+      "title": "General interview",
+      "emoji": "💼",
+      "role": "a hiring manager in a job interview",
+      "opener": "Thanks for coming in. To start, could you tell me a little about yourself?",
+      "level": 1
+    },
+    {
+      "id": "persona_interview_tech",
+      "mode": "interview",
+      "scenario": "interview_tech",
+      "title": "Tech interview",
+      "emoji": "💻",
+      "role": "an engineering manager interviewing for a developer role",
+      "opener": "Nice to meet you. Walk me through a project you are proud of.",
+      "level": 2
+    },
+    {
+      "id": "persona_interview_visa",
+      "mode": "interview",
+      "scenario": "interview_visa",
+      "title": "Visa interview",
+      "emoji": "🛂",
+      "role": "a consular officer at a visa interview",
+      "opener": "Good morning. What is the purpose of your visit?",
+      "level": 1
+    },
+    {
+      "id": "persona_interview_admission",
+      "mode": "interview",
+      "scenario": "interview_admission",
+      "title": "University admission",
+      "emoji": "🎓",
+      "role": "an admissions interviewer at a university",
+      "opener": "Hello. Why did you choose this course?",
+      "level": 1
+    },
+    {
+      "id": "persona_debate_remote",
+      "mode": "debate",
+      "scenario": "debate_remote",
+      "title": "Remote vs office work",
+      "emoji": "🏠",
+      "role": "a debate partner who argues the opposite side",
+      "opener": "Here is my position: remote work makes teams weaker. Convince me otherwise.",
+      "level": 2
+    },
+    {
+      "id": "persona_debate_social",
+      "mode": "debate",
+      "scenario": "debate_social",
+      "title": "Social media",
+      "emoji": "📱",
+      "role": "a debate partner who argues the opposite side",
+      "opener": "I think social media has done more harm than good. What do you say?",
+      "level": 2
+    },
+    {
+      "id": "persona_debate_english",
+      "mode": "debate",
+      "scenario": "debate_english",
+      "title": "Is English still necessary",
+      "emoji": "🌐",
+      "role": "a debate partner who argues the opposite side",
+      "opener": "With live translation everywhere, learning English is a waste of time. Your turn.",
+      "level": 2
+    },
+    {
+      "id": "persona_debate_ai",
+      "mode": "debate",
+      "scenario": "debate_ai",
+      "title": "AI in classrooms",
+      "emoji": "🤖",
+      "role": "a debate partner who argues the opposite side",
+      "opener": "Schools should ban AI tools completely. Why am I wrong?",
+      "level": 2
+    },
+    {
+      "id": "persona_debate_city",
+      "mode": "debate",
+      "scenario": "debate_city",
+      "title": "City or village life",
+      "emoji": "🏙",
+      "role": "a debate partner who argues the opposite side",
+      "opener": "City life is simply better than village life. Change my mind.",
+      "level": 2
+    },
+    {
+      "id": "persona_debate_work_hours",
+      "mode": "debate",
+      "scenario": "debate_work_hours",
+      "title": "The four-day week",
+      "emoji": "🗓",
+      "role": "a debate partner who argues the opposite side",
+      "opener": "A four-day week is a nice slogan that falls apart in practice. Persuade me.",
+      "level": 2
+    },
+    {
+      "id": "persona_debate_exams",
+      "mode": "debate",
+      "scenario": "debate_exams",
+      "title": "Should exams exist",
+      "emoji": "📝",
+      "role": "a debate partner who argues the opposite side",
+      "opener": "Exams are the fairest tool we have. I think scrapping them helps nobody.",
+      "level": 2
+    },
+    {
+      "id": "persona_debate_tourism",
+      "mode": "debate",
+      "scenario": "debate_tourism",
+      "title": "Too many tourists",
+      "emoji": "🧳",
+      "role": "a debate partner who argues the opposite side",
+      "opener": "Cities that limit tourists are punishing the people who need that income. Go on.",
+      "level": 2
+    },
+    {
+      "id": "persona_ielts_part1",
+      "mode": "ielts",
+      "scenario": "ielts_part1",
+      "title": "Part 1 - Introduction",
+      "emoji": "🗣",
+      "role": "an IELTS examiner running Part 1 of the speaking test",
+      "opener": "Good morning. My name is the examiner. Can you tell me your full name, please?",
+      "level": 1
+    },
+    {
+      "id": "persona_ielts_part2",
+      "mode": "ielts",
+      "scenario": "ielts_part2",
+      "title": "Part 2 - Long turn",
+      "emoji": "⏱",
+      "role": "an IELTS examiner running the Part 2 long turn",
+      "opener": "In Part 2 I will give you a topic and you speak for two minutes. Your topic: describe a person who has influenced you. Take a moment to think.",
+      "level": 2
+    },
+    {
+      "id": "persona_ielts_part3",
+      "mode": "ielts",
+      "scenario": "ielts_part3",
+      "title": "Part 3 - Discussion",
+      "emoji": "💭",
+      "role": "an IELTS examiner running the Part 3 discussion",
+      "opener": "Now let us discuss the topic more generally. Do you think young people today have enough role models?",
+      "level": 3
+    },
+    {
+      "id": "persona_ielts_mock",
+      "mode": "ielts",
+      "scenario": "ielts_mock",
+      "title": "Full mock test",
+      "emoji": "📋",
+      "role": "an IELTS examiner running a complete speaking test",
+      "opener": "This is a full speaking test. It will take about fourteen minutes. Let us begin: where are you from?",
+      "level": 3
+    },
+    {
+      "id": "persona_business_meeting",
+      "mode": "business",
+      "scenario": "business_meeting",
+      "title": "Team meeting",
+      "emoji": "📊",
+      "role": "a project lead chairing a team meeting",
+      "opener": "Thanks for joining. Let us start with your update - where are we on the project?",
+      "level": 2
+    },
+    {
+      "id": "persona_business_client",
+      "mode": "business",
+      "scenario": "business_client",
+      "title": "Client call",
+      "emoji": "📞",
+      "role": "a client on a status call",
+      "opener": "Good afternoon. Before we go further, can you summarise where things stand?",
+      "level": 2
+    },
+    {
+      "id": "persona_business_negotiate",
+      "mode": "business",
+      "scenario": "business_negotiate",
+      "title": "Negotiating",
+      "emoji": "🤝",
+      "role": "a supplier negotiating a contract",
+      "opener": "We have looked at your proposal. Frankly, the price is higher than we expected.",
+      "level": 3
+    },
+    {
+      "id": "persona_business_pitch",
+      "mode": "business",
+      "scenario": "business_pitch",
+      "title": "Presenting",
+      "emoji": "🎤",
+      "role": "a senior colleague listening to your pitch",
+      "opener": "The floor is yours. In one minute, what are you proposing and why?",
+      "level": 3
+    },
+    {
+      "id": "persona_job_standup",
+      "mode": "job",
+      "scenario": "job_standup",
+      "title": "Daily standup",
+      "emoji": "☀️",
+      "role": "a team lead running a short daily standup",
+      "opener": "Morning, everyone. Let us go round. What did you finish yesterday?",
+      "level": 1
+    },
+    {
+      "id": "persona_job_leave",
+      "mode": "job",
+      "scenario": "job_leave",
+      "title": "Asking for leave",
+      "emoji": "🗓",
+      "role": "your manager, in a one-to-one",
+      "opener": "You said you wanted a quick word. What is on your mind?",
+      "level": 1
+    },
+    {
+      "id": "persona_job_problem",
+      "mode": "job",
+      "scenario": "job_problem",
+      "title": "Reporting a problem",
+      "emoji": "⚠️",
+      "role": "your manager hearing about a problem for the first time",
+      "opener": "You look worried. What has happened?",
+      "level": 2
+    },
+    {
+      "id": "persona_job_review",
+      "mode": "job",
+      "scenario": "job_review",
+      "title": "Performance review",
+      "emoji": "📈",
+      "role": "your manager in your yearly performance review",
+      "opener": "Let us start with you. How do you think this year has gone?",
+      "level": 2
+    }
+  ],
+  "scripts": {
+    "restaurant": [
+      {
+        "id": "restaurant_b1",
+        "line": "A table for how many people?",
+        "expects": ["two", "three", "one", "four", "people", "person"],
+        "nudge": ""
+      },
+      {
+        "id": "restaurant_b2",
+        "line": "Perfect, follow me. Here is the menu. Can I get you something to drink first?",
+        "expects": [
+          "water",
+          "coke",
+          "juice",
+          "wine",
+          "beer",
+          "tea",
+          "coffee",
+          "drink"
+        ],
+        "nudge": "No problem, take your time with the drinks. Water to start?"
+      },
+      {
+        "id": "restaurant_b3",
+        "line": "And are you ready to order your food?",
+        "expects": [
+          "pizza",
+          "pasta",
+          "chicken",
+          "salad",
+          "soup",
+          "order",
+          "like"
+        ],
+        "nudge": "Our pasta and the grilled chicken are very popular tonight."
+      },
+      {
+        "id": "restaurant_b4",
+        "line": "Excellent choice. Any allergies I should tell the kitchen about?",
+        "expects": ["no", "nuts", "milk", "gluten", "allergy", "allergic"],
+        "nudge": ""
+      },
+      {
+        "id": "restaurant_b5",
+        "line": "Great. Your food will be about fifteen minutes. Is this your first time here?",
+        "expects": ["yes", "no", "first", "time", "before"],
+        "nudge": ""
+      },
+      {
+        "id": "restaurant_b6",
+        "line": "Hope you enjoy it. Would you like dessert or just the bill?",
+        "expects": ["dessert", "bill", "cake", "ice", "coffee", "check"],
+        "nudge": ""
+      },
+      {
+        "id": "restaurant_b7",
+        "line": "Of course, I will bring it right over. Thank you for coming in tonight.",
+        "expects": [],
+        "nudge": ""
+      }
+    ],
+    "airport": [
+      {
+        "id": "airport_b1",
+        "line": "Thank you. And where are you flying to today?",
+        "expects": ["to", "london", "delhi", "dubai", "flying", "going"],
+        "nudge": ""
+      },
+      {
+        "id": "airport_b2",
+        "line": "Are you checking any bags, or is that carry-on only?",
+        "expects": [
+          "bag",
+          "bags",
+          "one",
+          "two",
+          "carry",
+          "luggage",
+          "suitcase"
+        ],
+        "nudge": "Just so I can print the tags: any bags to check in?"
+      },
+      {
+        "id": "airport_b3",
+        "line": "Did you pack your bags yourself?",
+        "expects": ["yes", "no", "myself", "i did"],
+        "nudge": ""
+      },
+      {
+        "id": "airport_b4",
+        "line": "Would you prefer a window or an aisle seat?",
+        "expects": ["window", "aisle", "middle", "front", "back"],
+        "nudge": ""
+      },
+      {
+        "id": "airport_b5",
+        "line": "Done. Your gate is B12 and boarding starts at 10:40. Do you need anything else?",
+        "expects": ["no", "thanks", "where", "gate", "help", "yes"],
+        "nudge": ""
+      },
+      {
+        "id": "airport_b6",
+        "line": "Here is your boarding pass. Have a good flight.",
+        "expects": [],
+        "nudge": ""
+      }
+    ],
+    "hotel": [
+      {
+        "id": "hotel_b1",
+        "line": "May I have your name and how many nights you are staying?",
+        "expects": ["name", "my name", "night", "nights", "two", "three"],
+        "nudge": ""
+      },
+      {
+        "id": "hotel_b2",
+        "line": "Thank you. I have you in a double room on the fourth floor. Breakfast is included - would you like it early or late?",
+        "expects": ["early", "late", "breakfast", "seven", "eight", "nine"],
+        "nudge": ""
+      },
+      {
+        "id": "hotel_b3",
+        "line": "Noted. Do you need help with your luggage?",
+        "expects": ["yes", "no", "thanks", "help"],
+        "nudge": ""
+      },
+      {
+        "id": "hotel_b4",
+        "line": "Your room number is 412. Is there anything you would like to know about the area?",
+        "expects": [
+          "restaurant",
+          "metro",
+          "station",
+          "wifi",
+          "gym",
+          "pool",
+          "where",
+          "how"
+        ],
+        "nudge": ""
+      },
+      {
+        "id": "hotel_b5",
+        "line": "Happy to help. Here is your key card. Enjoy your stay with us.",
+        "expects": [],
+        "nudge": ""
+      }
+    ],
+    "shopping": [
+      {
+        "id": "shopping_b1",
+        "line": "Sure. What size do you normally wear?",
+        "expects": ["medium", "large", "small", "size", "m", "l"],
+        "nudge": ""
+      },
+      {
+        "id": "shopping_b2",
+        "line": "Let me check. We have it in blue and black - which do you prefer?",
+        "expects": ["blue", "black", "colour", "color", "prefer"],
+        "nudge": ""
+      },
+      {
+        "id": "shopping_b3",
+        "line": "Would you like to try it on? The fitting rooms are on your left.",
+        "expects": ["yes", "no", "try", "sure"],
+        "nudge": ""
+      },
+      {
+        "id": "shopping_b4",
+        "line": "How did it fit?",
+        "expects": [
+          "good",
+          "big",
+          "small",
+          "tight",
+          "fine",
+          "perfect",
+          "fits"
+        ],
+        "nudge": ""
+      },
+      {
+        "id": "shopping_b5",
+        "line": "Great. Will you pay by card or cash?",
+        "expects": ["card", "cash", "pay"],
+        "nudge": ""
+      },
+      {
+        "id": "shopping_b6",
+        "line": "All done. Here is your receipt - you can return it within thirty days.",
+        "expects": [],
+        "nudge": ""
+      }
+    ],
+    "doctor": [
+      {
+        "id": "doctor_b1",
+        "line": "I see. How long have you been feeling like this?",
+        "expects": [
+          "day",
+          "days",
+          "week",
+          "weeks",
+          "yesterday",
+          "since",
+          "month"
+        ],
+        "nudge": ""
+      },
+      {
+        "id": "doctor_b2",
+        "line": "Does anything make it worse - moving, eating, the evening?",
+        "expects": [
+          "worse",
+          "night",
+          "morning",
+          "eat",
+          "move",
+          "no",
+          "yes"
+        ],
+        "nudge": ""
+      },
+      {
+        "id": "doctor_b3",
+        "line": "Any fever, or are you taking any medicine at the moment?",
+        "expects": ["fever", "medicine", "tablet", "no", "yes", "paracetamol"],
+        "nudge": ""
+      },
+      {
+        "id": "doctor_b4",
+        "line": "Let me listen to your chest. Take a deep breath for me. And do you sleep well?",
+        "expects": ["yes", "no", "sleep", "badly", "well"],
+        "nudge": ""
+      },
+      {
+        "id": "doctor_b5",
+        "line": "Nothing serious. Rest, plenty of water, and come back if it is not better in three days. Any questions?",
+        "expects": ["no", "yes", "thank", "how", "can", "should"],
+        "nudge": ""
+      },
+      {
+        "id": "doctor_b6",
+        "line": "Take care of yourself. Reception will give you a note for work if you need one.",
+        "expects": [],
+        "nudge": ""
+      }
+    ],
+    "taxi": [
+      {
+        "id": "taxi_b1",
+        "line": "Sure. Do you want me to take the highway or the city road? The highway costs a bit more.",
+        "expects": ["highway", "city", "fast", "cheap", "quick", "road"],
+        "nudge": ""
+      },
+      {
+        "id": "taxi_b2",
+        "line": "No problem. In a hurry?",
+        "expects": ["yes", "no", "flight", "meeting", "time", "late"],
+        "nudge": ""
+      },
+      {
+        "id": "taxi_b3",
+        "line": "We will make it. First time in this city?",
+        "expects": ["yes", "no", "first", "live", "visiting"],
+        "nudge": ""
+      },
+      {
+        "id": "taxi_b4",
+        "line": "Nice. Here we are. That is fourteen fifty. Card or cash?",
+        "expects": ["card", "cash"],
+        "nudge": ""
+      },
+      {
+        "id": "taxi_b5",
+        "line": "Thanks a lot, have a good day.",
+        "expects": [],
+        "nudge": ""
+      }
+    ],
+    "phone": [
+      {
+        "id": "phone_b1",
+        "line": "I am sorry to hear that. Can you tell me when the problem started?",
+        "expects": ["yesterday", "today", "week", "morning", "since", "days"],
+        "nudge": ""
+      },
+      {
+        "id": "phone_b2",
+        "line": "Thank you. Have you tried restarting the router?",
+        "expects": ["yes", "no", "restart", "tried", "already"],
+        "nudge": ""
+      },
+      {
+        "id": "phone_b3",
+        "line": "Understood. Can I confirm the address on the account?",
+        "expects": ["street", "road", "number", "address", "flat", "yes"],
+        "nudge": ""
+      },
+      {
+        "id": "phone_b4",
+        "line": "I can send a technician on Thursday morning. Does that work for you?",
+        "expects": [
+          "yes",
+          "no",
+          "thursday",
+          "morning",
+          "afternoon",
+          "work",
+          "fine"
+        ],
+        "nudge": ""
+      },
+      {
+        "id": "phone_b5",
+        "line": "Booked. You will get an SMS with the time slot. Anything else I can help with?",
+        "expects": ["no", "yes", "thanks", "also"],
+        "nudge": ""
+      },
+      {
+        "id": "phone_b6",
+        "line": "Thank you for your patience. Have a good day.",
+        "expects": [],
+        "nudge": ""
+      }
+    ],
+    "classroom": [
+      {
+        "id": "classroom_b1",
+        "line": "That sounds nice. Did you speak any English at the weekend?",
+        "expects": ["yes", "no", "little", "friend", "movie", "speak"],
+        "nudge": ""
+      },
+      {
+        "id": "classroom_b2",
+        "line": "Good. Today we are practising the past simple. Tell me one thing you did yesterday.",
+        "expects": [
+          "went",
+          "ate",
+          "watched",
+          "studied",
+          "worked",
+          "played",
+          "did"
+        ],
+        "nudge": ""
+      },
+      {
+        "id": "classroom_b3",
+        "line": "Nice sentence. Now make it a question - ask me the same thing.",
+        "expects": ["did", "what", "you", "?"],
+        "nudge": "Start with Did you, or What did you."
+      },
+      {
+        "id": "classroom_b4",
+        "line": "Exactly right. Last one: what are you going to do tomorrow?",
+        "expects": ["going", "will", "tomorrow", "plan"],
+        "nudge": ""
+      },
+      {
+        "id": "classroom_b5",
+        "line": "Great work today. Your homework is five sentences about your weekend.",
+        "expects": [],
+        "nudge": ""
+      }
+    ],
+    "dating": [
+      {
+        "id": "dating_b1",
+        "line": "Good choice. So what do you do when you are not working?",
+        "expects": [
+          "read",
+          "play",
+          "watch",
+          "gym",
+          "music",
+          "cook",
+          "travel",
+          "friends"
+        ],
+        "nudge": ""
+      },
+      {
+        "id": "dating_b2",
+        "line": "That is interesting. How did you get into that?",
+        "expects": ["started", "since", "friend", "school", "always", "because"],
+        "nudge": ""
+      },
+      {
+        "id": "dating_b3",
+        "line": "I like that. What about travelling - are you more beach or mountains?",
+        "expects": ["beach", "mountain", "city", "both", "travel"],
+        "nudge": ""
+      },
+      {
+        "id": "dating_b4",
+        "line": "Same here, actually. Tell me something most people do not know about you.",
+        "expects": ["i", "can", "used", "once", "actually"],
+        "nudge": ""
+      },
+      {
+        "id": "dating_b5",
+        "line": "That is a great answer. This has been fun - would you like to do this again?",
+        "expects": ["yes", "sure", "maybe", "no"],
+        "nudge": ""
+      }
+    ],
+    "bank": [
+      {
+        "id": "bank_b1",
+        "line": "Of course. Do you have an account with us already?",
+        "expects": ["yes", "no", "account", "new"],
+        "nudge": ""
+      },
+      {
+        "id": "bank_b2",
+        "line": "I can help with that. May I see an ID and proof of address?",
+        "expects": [
+          "passport",
+          "id",
+          "licence",
+          "license",
+          "bill",
+          "yes",
+          "here"
+        ],
+        "nudge": ""
+      },
+      {
+        "id": "bank_b3",
+        "line": "Thank you. Would you like a debit card with the account?",
+        "expects": ["yes", "no", "card", "debit"],
+        "nudge": ""
+      },
+      {
+        "id": "bank_b4",
+        "line": "Done. The card arrives in five working days. Do you want to set up online banking now?",
+        "expects": ["yes", "no", "online", "app"],
+        "nudge": ""
+      },
+      {
+        "id": "bank_b5",
+        "line": "All set. Thank you for banking with us.",
+        "expects": [],
+        "nudge": ""
+      }
+    ],
+    "colleague": [
+      {
+        "id": "colleague_b1",
+        "line": "It gets easier, trust me. Where were you working before this?",
+        "expects": ["company", "before", "worked", "years", "at"],
+        "nudge": ""
+      },
+      {
+        "id": "colleague_b2",
+        "line": "Nice. What are you working on first here?",
+        "expects": ["project", "team", "working", "learning", "training"],
+        "nudge": ""
+      },
+      {
+        "id": "colleague_b3",
+        "line": "If you get stuck, just ask - nobody minds. Do you want to join us for lunch at one?",
+        "expects": ["yes", "sure", "no", "lunch", "thanks"],
+        "nudge": ""
+      },
+      {
+        "id": "colleague_b4",
+        "line": "Great, we go to the place across the street. See you at one.",
+        "expects": [],
+        "nudge": ""
+      }
+    ],
+    "landlord": [
+      {
+        "id": "landlord_b1",
+        "line": "The heating is new this year. Do you have any questions about the bills?",
+        "expects": [
+          "bill",
+          "bills",
+          "heating",
+          "water",
+          "electricity",
+          "how much",
+          "cost"
+        ],
+        "nudge": ""
+      },
+      {
+        "id": "landlord_b2",
+        "line": "Bills are about ninety a month. The deposit is one month rent - is that all right?",
+        "expects": ["yes", "no", "deposit", "ok", "fine", "expensive"],
+        "nudge": ""
+      },
+      {
+        "id": "landlord_b3",
+        "line": "Good. When would you like to move in?",
+        "expects": ["month", "week", "first", "next", "soon", "immediately"],
+        "nudge": ""
+      },
+      {
+        "id": "landlord_b4",
+        "line": "That works. I will send the contract by email tonight.",
+        "expects": [],
+        "nudge": ""
+      }
+    ],
+    "interview_general": [
+      {
+        "id": "interview_general_b1",
+        "line": "Thank you. What made you apply for this particular role?",
+        "expects": ["because", "role", "company", "interested", "skills", "grow"],
+        "nudge": ""
+      },
+      {
+        "id": "interview_general_b2",
+        "line": "What would you say is your biggest strength at work?",
+        "expects": ["strength", "good at", "i am", "organised", "team", "learn"],
+        "nudge": ""
+      },
+      {
+        "id": "interview_general_b3",
+        "line": "And a weakness you are actively working on?",
+        "expects": ["weakness", "sometimes", "working on", "improve", "too"],
+        "nudge": ""
+      },
+      {
+        "id": "interview_general_b4",
+        "line": "Tell me about a time something went wrong and what you did.",
+        "expects": ["once", "project", "problem", "we", "i decided", "fixed"],
+        "nudge": ""
+      },
+      {
+        "id": "interview_general_b5",
+        "line": "Where do you see yourself in three years?",
+        "expects": ["years", "grow", "lead", "learn", "senior", "manager"],
+        "nudge": ""
+      },
+      {
+        "id": "interview_general_b6",
+        "line": "Last question: do you have any questions for me?",
+        "expects": ["yes", "no", "what", "how", "team", "next steps"],
+        "nudge": ""
+      },
+      {
+        "id": "interview_general_b7",
+        "line": "Great. We will get back to you within a week. Thanks for your time.",
+        "expects": [],
+        "nudge": ""
+      }
+    ],
+    "interview_tech": [
+      {
+        "id": "interview_tech_b1",
+        "line": "Interesting. What was the hardest technical decision in that project?",
+        "expects": ["decision", "chose", "because", "database", "design", "we"],
+        "nudge": ""
+      },
+      {
+        "id": "interview_tech_b2",
+        "line": "How do you usually test your work before shipping it?",
+        "expects": ["test", "tests", "unit", "review", "manual", "qa"],
+        "nudge": ""
+      },
+      {
+        "id": "interview_tech_b3",
+        "line": "Tell me about a bug that took you a long time to find.",
+        "expects": ["bug", "hours", "days", "logs", "finally", "found"],
+        "nudge": ""
+      },
+      {
+        "id": "interview_tech_b4",
+        "line": "How do you handle disagreement with a teammate about an approach?",
+        "expects": ["talk", "data", "discuss", "team", "compromise", "listen"],
+        "nudge": ""
+      },
+      {
+        "id": "interview_tech_b5",
+        "line": "What do you want to learn next?",
+        "expects": ["learn", "want", "next", "study"],
+        "nudge": ""
+      },
+      {
+        "id": "interview_tech_b6",
+        "line": "Good conversation. Our team will follow up with the next step.",
+        "expects": [],
+        "nudge": ""
+      }
+    ],
+    "interview_visa": [
+      {
+        "id": "interview_visa_b1",
+        "line": "How long do you plan to stay?",
+        "expects": ["days", "weeks", "months", "year", "two"],
+        "nudge": ""
+      },
+      {
+        "id": "interview_visa_b2",
+        "line": "Who is paying for the trip?",
+        "expects": ["i", "myself", "company", "family", "sponsor"],
+        "nudge": ""
+      },
+      {
+        "id": "interview_visa_b3",
+        "line": "What do you do in your home country?",
+        "expects": ["work", "study", "job", "student", "company"],
+        "nudge": ""
+      },
+      {
+        "id": "interview_visa_b4",
+        "line": "Do you have family in the country you are visiting?",
+        "expects": ["yes", "no", "brother", "sister", "cousin", "friend"],
+        "nudge": ""
+      },
+      {
+        "id": "interview_visa_b5",
+        "line": "Thank you. You will receive the decision by email.",
+        "expects": [],
+        "nudge": ""
+      }
+    ],
+    "interview_admission": [
+      {
+        "id": "interview_admission_b1",
+        "line": "What part of the subject interests you most?",
+        "expects": ["because", "interested", "like", "want", "research"],
+        "nudge": ""
+      },
+      {
+        "id": "interview_admission_b2",
+        "line": "How have you prepared for studying in English?",
+        "expects": ["english", "practice", "course", "exam", "read", "watch"],
+        "nudge": ""
+      },
+      {
+        "id": "interview_admission_b3",
+        "line": "What do you hope to do after you graduate?",
+        "expects": ["work", "research", "job", "company", "master", "phd"],
+        "nudge": ""
+      },
+      {
+        "id": "interview_admission_b4",
+        "line": "Thank you. The department will contact you soon.",
+        "expects": [],
+        "nudge": ""
+      }
+    ],
+    "ielts_part1": [
+      {
+        "id": "ielts_part1_b1",
+        "line": "Thank you. Now, do you work or are you a student?",
+        "expects": ["work", "student", "study", "job"],
+        "nudge": ""
+      },
+      {
+        "id": "ielts_part1_b2",
+        "line": "Let us talk about your home town. Where is it and what is it like?",
+        "expects": ["town", "city", "village", "live", "from"],
+        "nudge": "Just describe the place you grew up in - is it big or small?"
+      },
+      {
+        "id": "ielts_part1_b3",
+        "line": "Do you prefer to spend your free time indoors or outdoors? Why?",
+        "expects": ["indoor", "outdoor", "prefer", "because", "free"],
+        "nudge": ""
+      },
+      {
+        "id": "ielts_part1_b4",
+        "line": "How often do you read, and what do you like to read?",
+        "expects": ["read", "book", "news", "often", "never"],
+        "nudge": ""
+      },
+      {
+        "id": "ielts_part1_b5",
+        "line": "That is the end of Part 1. Your answers were a good length - aim for two or three sentences each, and always give a reason.",
+        "expects": [],
+        "nudge": ""
+      }
+    ],
+    "ielts_part2": [
+      {
+        "id": "ielts_part2_b1",
+        "line": "All right, your two minutes start now. Remember to say who the person is, how you know them, and why they influenced you.",
+        "expects": [
+          "person",
+          "my",
+          "friend",
+          "teacher",
+          "father",
+          "mother",
+          "influence"
+        ],
+        "nudge": ""
+      },
+      {
+        "id": "ielts_part2_b2",
+        "line": "Thank you. Can you tell me a bit more about how you met?",
+        "expects": ["met", "school", "work", "family", "first"],
+        "nudge": ""
+      },
+      {
+        "id": "ielts_part2_b3",
+        "line": "And do you still see this person often?",
+        "expects": ["yes", "no", "sometimes", "often", "still"],
+        "nudge": ""
+      },
+      {
+        "id": "ielts_part2_b4",
+        "line": "Thank you, that is the end of Part 2. The strongest long turns keep talking for the full two minutes - if you run out of ideas, add an example.",
+        "expects": [],
+        "nudge": ""
+      }
+    ],
+    "ielts_part3": [
+      {
+        "id": "ielts_part3_b1",
+        "line": "Interesting. Why do you think role models matter to young people?",
+        "expects": ["because", "think", "believe", "important", "help"],
+        "nudge": ""
+      },
+      {
+        "id": "ielts_part3_b2",
+        "line": "Some people say celebrities are poor role models. Would you agree?",
+        "expects": ["agree", "disagree", "celebrit", "think", "no", "yes"],
+        "nudge": "Take a position either way - the examiner wants an opinion, not a fact."
+      },
+      {
+        "id": "ielts_part3_b3",
+        "line": "How has the idea of a role model changed compared with your parents' time?",
+        "expects": ["parent", "before", "past", "change", "now", "generation"],
+        "nudge": ""
+      },
+      {
+        "id": "ielts_part3_b4",
+        "line": "Do you think schools should teach children about role models?",
+        "expects": ["school", "teach", "child", "should", "curriculum"],
+        "nudge": ""
+      },
+      {
+        "id": "ielts_part3_b5",
+        "line": "That is the end of the test. In Part 3, longer and more abstract answers score better - explain, compare, then give an example.",
+        "expects": [],
+        "nudge": ""
+      }
+    ],
+    "ielts_mock": [
+      {
+        "id": "ielts_mock_b1",
+        "line": "Thank you. And do you work or are you a student?",
+        "expects": ["work", "student", "study", "job"],
+        "nudge": ""
+      },
+      {
+        "id": "ielts_mock_b2",
+        "line": "Let us move to Part 2. Describe a skill you would like to learn. You have two minutes. Begin when you are ready.",
+        "expects": ["skill", "learn", "would", "want", "like"],
+        "nudge": ""
+      },
+      {
+        "id": "ielts_mock_b3",
+        "line": "Thank you. Why is that skill useful to you?",
+        "expects": ["because", "useful", "help", "work", "life"],
+        "nudge": ""
+      },
+      {
+        "id": "ielts_mock_b4",
+        "line": "Now Part 3. Should adults keep learning new skills throughout life?",
+        "expects": ["should", "adult", "learn", "yes", "no", "think"],
+        "nudge": ""
+      },
+      {
+        "id": "ielts_mock_b5",
+        "line": "And who should pay for adult learning - the person, or the employer?",
+        "expects": ["employer", "company", "person", "government", "pay"],
+        "nudge": ""
+      },
+      {
+        "id": "ielts_mock_b6",
+        "line": "That is the end of the test. Thank you for your time today.",
+        "expects": [],
+        "nudge": ""
+      }
+    ],
+    "business_meeting": [
+      {
+        "id": "business_meeting_b1",
+        "line": "Thanks. Are we still on track for the deadline?",
+        "expects": ["yes", "no", "track", "deadline", "delay", "late"],
+        "nudge": "A short answer is fine - on track, or slipping?"
+      },
+      {
+        "id": "business_meeting_b2",
+        "line": "What is blocking you right now?",
+        "expects": ["block", "waiting", "need", "issue", "problem", "nothing"],
+        "nudge": ""
+      },
+      {
+        "id": "business_meeting_b3",
+        "line": "Understood. What do you need from me to unblock it?",
+        "expects": ["need", "help", "approve", "time", "resource", "nothing"],
+        "nudge": ""
+      },
+      {
+        "id": "business_meeting_b4",
+        "line": "Good. Can you summarise your next steps for the group?",
+        "expects": ["will", "next", "going", "plan", "finish"],
+        "nudge": ""
+      },
+      {
+        "id": "business_meeting_b5",
+        "line": "Thank you, that was a clear update. Let us move on.",
+        "expects": [],
+        "nudge": ""
+      }
+    ],
+    "business_client": [
+      {
+        "id": "business_client_b1",
+        "line": "Thanks for the summary. What is the biggest risk you see?",
+        "expects": ["risk", "problem", "concern", "delay", "issue"],
+        "nudge": ""
+      },
+      {
+        "id": "business_client_b2",
+        "line": "And how are you planning to manage that?",
+        "expects": ["plan", "will", "mitigate", "manage", "team"],
+        "nudge": ""
+      },
+      {
+        "id": "business_client_b3",
+        "line": "I have to be honest, my board is asking about the timeline. Can you commit to a date?",
+        "expects": ["date", "week", "month", "by", "commit", "cannot"],
+        "nudge": "They will want something specific - can you give a date or a range?"
+      },
+      {
+        "id": "business_client_b4",
+        "line": "That is helpful. Anything you need from our side?",
+        "expects": ["need", "access", "approval", "data", "nothing"],
+        "nudge": ""
+      },
+      {
+        "id": "business_client_b5",
+        "line": "Good call. Send me the notes and we will speak next week.",
+        "expects": [],
+        "nudge": ""
+      }
+    ],
+    "business_negotiate": [
+      {
+        "id": "business_negotiate_b1",
+        "line": "I hear you, but the number still does not work for us. What flexibility do you have?",
+        "expects": ["discount", "flexible", "reduce", "can", "cannot", "price"],
+        "nudge": "Do not just repeat the price - tell me what you can move on."
+      },
+      {
+        "id": "business_negotiate_b2",
+        "line": "If we committed to a longer contract, could you improve the rate?",
+        "expects": ["yes", "no", "longer", "year", "rate", "depend"],
+        "nudge": ""
+      },
+      {
+        "id": "business_negotiate_b3",
+        "line": "And what exactly is included at that price?",
+        "expects": ["include", "support", "training", "cover", "extra"],
+        "nudge": ""
+      },
+      {
+        "id": "business_negotiate_b4",
+        "line": "Let me put a counter-offer on the table. Would you accept it in principle?",
+        "expects": ["yes", "no", "accept", "consider", "discuss"],
+        "nudge": ""
+      },
+      {
+        "id": "business_negotiate_b5",
+        "line": "Then let us write that up. Good negotiating - you held your position.",
+        "expects": [],
+        "nudge": ""
+      }
+    ],
+    "business_pitch": [
+      {
+        "id": "business_pitch_b1",
+        "line": "All right. Who is this actually for?",
+        "expects": ["customer", "user", "people", "team", "for"],
+        "nudge": ""
+      },
+      {
+        "id": "business_pitch_b2",
+        "line": "And what problem does it solve that nothing else does?",
+        "expects": ["problem", "solve", "because", "unlike", "different"],
+        "nudge": "Be concrete - what goes wrong today without it?"
+      },
+      {
+        "id": "business_pitch_b3",
+        "line": "What would it cost us, and what do we get back?",
+        "expects": ["cost", "budget", "return", "save", "revenue"],
+        "nudge": ""
+      },
+      {
+        "id": "business_pitch_b4",
+        "line": "What is the single biggest reason this could fail?",
+        "expects": ["risk", "fail", "if", "might", "problem"],
+        "nudge": ""
+      },
+      {
+        "id": "business_pitch_b5",
+        "line": "That was a tight pitch. The strongest part was that you led with the problem.",
+        "expects": [],
+        "nudge": ""
+      }
+    ],
+    "job_standup": [
+      {
+        "id": "job_standup_b1",
+        "line": "Good. And what are you working on today?",
+        "expects": ["today", "will", "working", "start", "finish"],
+        "nudge": ""
+      },
+      {
+        "id": "job_standup_b2",
+        "line": "Anything blocking you?",
+        "expects": ["no", "yes", "block", "waiting", "need", "nothing"],
+        "nudge": ""
+      },
+      {
+        "id": "job_standup_b3",
+        "line": "Thanks. Does anyone need to sync with you after this?",
+        "expects": ["yes", "no", "need", "sync", "talk", "later"],
+        "nudge": ""
+      },
+      {
+        "id": "job_standup_b4",
+        "line": "Great, that is standup done. Short and clear - exactly right.",
+        "expects": [],
+        "nudge": ""
+      }
+    ],
+    "job_leave": [
+      {
+        "id": "job_leave_b1",
+        "line": "I see. Which dates were you thinking of?",
+        "expects": [
+          "day",
+          "week",
+          "month",
+          "monday",
+          "friday",
+          "next",
+          "from"
+        ],
+        "nudge": ""
+      },
+      {
+        "id": "job_leave_b2",
+        "line": "And is the team covered while you are away?",
+        "expects": ["cover", "team", "hand", "colleague", "yes", "no"],
+        "nudge": "I mainly need to know who picks up your work."
+      },
+      {
+        "id": "job_leave_b3",
+        "line": "Have you put it in the system yet?",
+        "expects": ["yes", "no", "will", "system", "form", "today"],
+        "nudge": ""
+      },
+      {
+        "id": "job_leave_b4",
+        "line": "That is fine by me. Enjoy the break - you asked for that very clearly.",
+        "expects": [],
+        "nudge": ""
+      }
+    ],
+    "job_problem": [
+      {
+        "id": "job_problem_b1",
+        "line": "All right. When did you first notice it?",
+        "expects": ["yesterday", "today", "morning", "week", "ago", "noticed"],
+        "nudge": ""
+      },
+      {
+        "id": "job_problem_b2",
+        "line": "Who is affected by this?",
+        "expects": ["customer", "team", "user", "everyone", "client", "no one"],
+        "nudge": ""
+      },
+      {
+        "id": "job_problem_b3",
+        "line": "What have you already tried?",
+        "expects": ["tried", "checked", "restart", "looked", "nothing"],
+        "nudge": "Tell me what you have done so far, even if it did not work."
+      },
+      {
+        "id": "job_problem_b4",
+        "line": "Good. What do you recommend we do next?",
+        "expects": ["should", "recommend", "suggest", "think", "need"],
+        "nudge": ""
+      },
+      {
+        "id": "job_problem_b5",
+        "line": "Thank you for raising it early. That is exactly how I want to hear bad news.",
+        "expects": [],
+        "nudge": ""
+      }
+    ],
+    "job_review": [
+      {
+        "id": "job_review_b1",
+        "line": "Thanks for being honest. What are you most proud of this year?",
+        "expects": ["proud", "achieved", "finished", "delivered", "built"],
+        "nudge": ""
+      },
+      {
+        "id": "job_review_b2",
+        "line": "And where do you think you fell short?",
+        "expects": ["could", "should", "struggled", "difficult", "less", "not"],
+        "nudge": "A good review needs one honest weakness - what would you do differently?"
+      },
+      {
+        "id": "job_review_b3",
+        "line": "What would you like to be doing a year from now?",
+        "expects": ["want", "like", "hope", "next", "grow", "lead"],
+        "nudge": ""
+      },
+      {
+        "id": "job_review_b4",
+        "line": "What support do you need from me to get there?",
+        "expects": ["need", "training", "time", "mentor", "support", "nothing"],
+        "nudge": ""
+      },
+      {
+        "id": "job_review_b5",
+        "line": "That was a strong review. You gave examples, not adjectives - keep doing that.",
+        "expects": [],
+        "nudge": ""
+      }
+    ]
+  },
+  "starters": {
+    "free": ["Could you repeat that?", "Yes, of course.", "I am not sure yet.", "Let me think for a second.", "That is a good question.", "It depends, really."],
+    "roleplay": ["Sorry, could you say that again?", "Yes, please.", "No, thank you.", "How much would that be?", "Could I ask you something?"],
+    "debate": ["I disagree because...", "That is true, but...", "Let me give you an example.", "I take your point, however...", "What is your evidence for that?"],
+    "interview": ["Thank you for having me.", "I have five years of experience.", "In my last role I...", "Could I give you an example?", "That is a fair question."],
+    "ielts": ["Well, I would say...", "That is an interesting question.", "For example,", "On the whole, I think...", "It rather depends on..."],
+    "business": ["To summarise,", "We are on track.", "Can I come back to you on that?", "My concern would be...", "What is the deadline you have in mind?"],
+    "job": ["Yesterday I finished...", "I am blocked on...", "Could I have a quick word?", "I need a bit more time on this.", "That is done, and here is what is next."]
+  },
+  "repairs": [
+    {
+      "id": "repair_1",
+      "text": "Sorry, I did not quite follow. Can you say that another way?"
+    },
+    {
+      "id": "repair_2",
+      "text": "Say a bit more about that - I want to be sure I understood."
+    },
+    {
+      "id": "repair_3",
+      "text": "Hmm, try that again in a full sentence for me."
+    },
+    {
+      "id": "repair_4",
+      "text": "I lost you there. Start again from the beginning?"
+    },
+    {
+      "id": "repair_5",
+      "text": "Could you rephrase that? I want to get it right."
+    },
+    {
+      "id": "repair_6",
+      "text": "Not quite with you. What is the main thing you are telling me?"
+    },
+    {
+      "id": "repair_7",
+      "text": "Try that once more, a little slower."
+    },
+    {
+      "id": "repair_8",
+      "text": "I am not sure I caught that. What happened first?"
+    }
+  ],
+  "debatePushbacks": {
+    "debate_remote": ["That is one view, but what about new joiners who learn by overhearing the team?", "Fair. Still, how do you build trust with someone you have never met in person?", "Say your internet fails on the day of a big client call. Then what?", "Does your argument hold for a team spread across six time zones?", "You are describing your own experience. Would it work for someone in a shared flat?", "You have moved me a little. What is the strongest argument against your own position?"],
+    "debate_social": ["Maybe, but the same platforms spread misinformation in minutes. How is that a net good?", "What about teenagers comparing themselves to edited photos all day?", "Could the benefit you describe exist without the addictive design?", "You mention connection. Is a comment section really connection?", "Who should decide what gets removed, if anyone?", "Good point. If you had to regulate one thing about it, what would you pick?"],
+    "debate_english": ["Translation still fails with humour, tone and slang. Does that not matter?", "In a job interview, would you trust an app to speak for you?", "What about reading research or contracts, where nuance decides the meaning?", "If everyone relied on translation, what happens to the language itself?", "You are speaking English to me right now. Does that not undercut your case?", "You argue well. Where is the limit of your own argument?"],
+    "debate_ai": ["If students never struggle, how do they learn to think?", "Teachers cannot tell who wrote what any more. Is that fair to honest students?", "Calculators were allowed eventually. Is this the same thing or not?", "How would you design a rule that helps without banning it?", "What about a student with no support at home - does the tool help them most?", "Strong answer. What would change your mind?"],
+    "debate_city": ["Cities are also loud, expensive and lonely. How do you weigh that?", "What about clean air and knowing your neighbours?", "If you had children, would you still choose the same?", "Is your preference about the place, or about the stage of life you are in?", "Village life has fewer options but more certainty. Is that a bad trade?", "You defended it well. Give me the best case for the other side."],
+    "debate_work_hours": ["A four-day week sounds good until the work does not shrink with the hours.", "Who covers the fifth day for a hospital, a shop or a school?", "If output stays the same in four days, were people idle on the fifth, or are they now rushed?", "What happens to people paid by the hour rather than by the year?", "Would you accept eighty per cent of your salary for it?", "Make the case against yourself: what is the strongest objection?"],
+    "debate_exams": ["Without exams, how do you compare two students from different schools?", "Coursework rewards whoever has the quietest house and the most help. Is that fairer?", "You say exams test memory. Is remembering nothing a better outcome?", "How would you stop grade inflation in your system?", "Does your answer change for medicine or aviation, where the stakes are lives?", "You have thought about this. What part of your own proposal worries you most?"],
+    "debate_tourism": ["Tourism pays the wages in a lot of those towns. Would you take that away?", "Who decides which visitors are acceptable and which are too many?", "Residents priced out of their own city is a real cost. How would you fix it?", "Is the problem the number of visitors or the way the money is distributed?", "You have travelled yourself. Where does your own trip fit in this argument?", "Argue the other side for me, properly."]
+  },
+  "followUps": {
+    "work": [
+      "What is the best part of that job?",
+      "What would you change about your work if you could?",
+      "How did you get into that field?",
+      "Do you work with people from other countries?",
+      "What does a bad day at work look like for you?",
+      "Who taught you the most in that job?",
+      "Is it what you expected when you started?",
+      "What would you be doing if you had picked differently?"
+    ],
+    "family": ["Do you live near your family?", "Who are you closest to in your family?", "What do you usually do together?", "Is there a family habit you have kept?", "Who is the loudest person at a family meal?", "What is something your family taught you that stuck?"],
+    "food": ["Can you cook that yourself?", "What is a dish from your region that I should try?", "Do you eat out often, or mostly at home?", "Is there something you refuse to eat?", "Who taught you to cook?", "What is your go-to meal when you have no time?"],
+    "travel": ["What surprised you most about that place?", "Do you prefer planning everything or just arriving?", "Where do you want to go next?", "What is the worst journey you have had?", "Do you travel light or take everything?", "Is there a place you would go back to again and again?"],
+    "study": ["What are you studying at the moment?", "Which subject was hardest for you?", "How do you usually prepare for exams?", "Did you enjoy school, honestly?", "Is there something you wish you had studied?", "What is the most useful thing you learned outside a classroom?"],
+    "hobby": ["How often do you get to do that?", "How did you start?", "Would you recommend it to a beginner?", "Has it ever cost you more than you expected?", "Do you do it alone or with other people?", "What would you tell someone who says they have no time for it?"],
+    "time": ["How do you usually spend your evenings?", "Are you a morning person or a night person?", "What does a perfect weekend look like for you?", "What takes up more of your day than it should?", "When do you feel you get the most done?"],
+    "money": ["Do you plan your spending, or track it afterwards?", "What is something you happily pay more for?", "Has your attitude to money changed as you got older?", "What was the best thing you ever bought?"],
+    "health": ["How do you usually sleep?", "Do you have a way of dealing with stress that actually works?", "Has your routine changed in the last year?", "What is one healthy habit you have managed to keep?"],
+    "home": ["What do you like most about where you live?", "Would you move if you could?", "What is the first thing you notice in someone's home?", "Do you know your neighbours?"],
+    "general": [
+      "Tell me more about that.",
+      "Why do you think that is?",
+      "How did that make you feel?",
+      "Can you give me an example?",
+      "What happened after that?",
+      "And what would you do differently next time?",
+      "What did you expect to happen instead?",
+      "Who else was involved in that?",
+      "Has it always been that way?",
+      "What is the hardest part of explaining that in English?",
+      "If a friend asked you about it, what would you say first?",
+      "What would have to change for that to be different?"
+    ]
+  },
+  "keywordTopics": {
+    "work": [
+      "work",
+      "job",
+      "office",
+      "boss",
+      "company",
+      "salary",
+      "client",
+      "team",
+      "project",
+      "manager",
+      "colleague",
+      "career",
+      "shift"
+    ],
+    "family": [
+      "family",
+      "mother",
+      "father",
+      "brother",
+      "sister",
+      "wife",
+      "husband",
+      "son",
+      "daughter",
+      "parents",
+      "cousin",
+      "grandmother",
+      "grandfather"
+    ],
+    "food": [
+      "food",
+      "eat",
+      "cook",
+      "dinner",
+      "lunch",
+      "breakfast",
+      "restaurant",
+      "rice",
+      "pizza",
+      "coffee",
+      "recipe",
+      "kitchen",
+      "snack"
+    ],
+    "travel": [
+      "travel",
+      "trip",
+      "flight",
+      "hotel",
+      "visit",
+      "city",
+      "country",
+      "holiday",
+      "vacation",
+      "beach",
+      "airport",
+      "train",
+      "abroad"
+    ],
+    "study": [
+      "study",
+      "school",
+      "college",
+      "university",
+      "exam",
+      "class",
+      "teacher",
+      "student",
+      "course",
+      "degree",
+      "homework",
+      "revise"
+    ],
+    "hobby": [
+      "play",
+      "game",
+      "music",
+      "movie",
+      "film",
+      "book",
+      "read",
+      "gym",
+      "run",
+      "football",
+      "cricket",
+      "paint",
+      "garden",
+      "photography"
+    ],
+    "time": [
+      "morning",
+      "evening",
+      "weekend",
+      "night",
+      "daily",
+      "usually",
+      "always",
+      "sometimes",
+      "routine",
+      "schedule"
+    ],
+    "money": [
+      "money",
+      "salary",
+      "save",
+      "spend",
+      "cost",
+      "price",
+      "budget",
+      "rent",
+      "bank",
+      "expensive",
+      "cheap"
+    ],
+    "health": [
+      "health",
+      "sleep",
+      "tired",
+      "doctor",
+      "stress",
+      "exercise",
+      "diet",
+      "ill",
+      "sick",
+      "fitness"
+    ],
+    "home": [
+      "home",
+      "house",
+      "flat",
+      "apartment",
+      "room",
+      "neighbour",
+      "moved",
+      "living",
+      "furniture"
+    ]
+  },
+  "acknowledgements": [
+    "Nice.",
+    "Got it.",
+    "That makes sense.",
+    "Interesting.",
+    "I see.",
+    "Good.",
+    "Right.",
+    "Fair enough.",
+    "Okay.",
+    "Understood.",
+    "That is clear.",
+    "Good to know.",
+    "I follow you.",
+    "Makes sense to me.",
+    "Noted.",
+    "Fair point.",
+    "Sure.",
+    "That is a good way to put it.",
+    "Well said.",
+    "I like that.",
+    "Alright.",
+    "That tracks."
+  ]
+}
