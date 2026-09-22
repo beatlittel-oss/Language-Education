@@ -93,7 +93,5 @@
       "description": "Address the support row composes a mail to.",
       "valueType": "STRING"
     }
-  },
-  "parameterGroups": {},
-  "conditions": []
+  }
 }
