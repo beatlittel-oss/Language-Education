@@ -1,0 +1,204 @@
+{
+  "schema": "speakly.manifest.v1",
+  "version": 1,
+  "updatedAt": "2026-09-22",
+  "minAppVersionCode": 1,
+  "documents": [
+    {
+      "key": "courses_beginner",
+      "collection": "courses",
+      "url": "https://REPLACE-WITH-YOUR-HOST/speakly/courses_beginner.json",
+      "version": 1,
+      "required": true
+    },
+    {
+      "key": "courses_intermediate",
+      "collection": "courses",
+      "url": "https://REPLACE-WITH-YOUR-HOST/speakly/courses_intermediate.json",
+      "version": 1,
+      "required": true
+    },
+    {
+      "key": "courses_advanced",
+      "collection": "courses",
+      "url": "https://REPLACE-WITH-YOUR-HOST/speakly/courses_advanced.json",
+      "version": 1,
+      "required": true
+    },
+    {
+      "key": "vocabulary_topics",
+      "collection": "vocabulary",
+      "url": "https://REPLACE-WITH-YOUR-HOST/speakly/vocabulary_topics.json",
+      "version": 1,
+      "required": true
+    },
+    {
+      "key": "vocabulary_topics_extra",
+      "collection": "vocabulary",
+      "url": "https://REPLACE-WITH-YOUR-HOST/speakly/vocabulary_topics_extra.json",
+      "version": 1,
+      "required": false
+    },
+    {
+      "key": "reading_passages",
+      "collection": "reading",
+      "url": "https://REPLACE-WITH-YOUR-HOST/speakly/reading_passages.json",
+      "version": 1,
+      "required": true
+    },
+    {
+      "key": "reading_passages_extra",
+      "collection": "reading",
+      "url": "https://REPLACE-WITH-YOUR-HOST/speakly/reading_passages_extra.json",
+      "version": 1,
+      "required": false
+    },
+    {
+      "key": "listening_scripts",
+      "collection": "listening",
+      "url": "https://REPLACE-WITH-YOUR-HOST/speakly/listening_scripts.json",
+      "version": 1,
+      "required": true
+    },
+    {
+      "key": "listening_scripts_extra",
+      "collection": "listening",
+      "url": "https://REPLACE-WITH-YOUR-HOST/speakly/listening_scripts_extra.json",
+      "version": 1,
+      "required": false
+    },
+    {
+      "key": "grammar_topics",
+      "collection": "grammar",
+      "url": "https://REPLACE-WITH-YOUR-HOST/speakly/grammar_topics.json",
+      "version": 1,
+      "required": true
+    },
+    {
+      "key": "grammar_topics_extra",
+      "collection": "grammar",
+      "url": "https://REPLACE-WITH-YOUR-HOST/speakly/grammar_topics_extra.json",
+      "version": 1,
+      "required": false
+    },
+    {
+      "key": "grammar_engine",
+      "collection": "grammar_engine",
+      "url": "https://REPLACE-WITH-YOUR-HOST/speakly/grammar_engine.json",
+      "version": 1,
+      "required": true
+    },
+    {
+      "key": "translation_pairs",
+      "collection": "translation",
+      "url": "https://REPLACE-WITH-YOUR-HOST/speakly/translation_pairs.json",
+      "version": 1,
+      "required": false
+    },
+    {
+      "key": "placement_test",
+      "collection": "placement",
+      "url": "https://REPLACE-WITH-YOUR-HOST/speakly/placement_test.json",
+      "version": 1,
+      "required": true
+    },
+    {
+      "key": "tutor_personas",
+      "collection": "personas",
+      "url": "https://REPLACE-WITH-YOUR-HOST/speakly/tutor_personas.json",
+      "version": 1,
+      "required": true
+    },
+    {
+      "key": "tutor_personas_extra",
+      "collection": "personas",
+      "url": "https://REPLACE-WITH-YOUR-HOST/speakly/tutor_personas_extra.json",
+      "version": 1,
+      "required": false
+    },
+    {
+      "key": "speaking_prompts",
+      "collection": "speaking_prompts",
+      "url": "https://REPLACE-WITH-YOUR-HOST/speakly/speaking_prompts.json",
+      "version": 1,
+      "required": true
+    },
+    {
+      "key": "speaking_prompts_extra",
+      "collection": "speaking_prompts",
+      "url": "https://REPLACE-WITH-YOUR-HOST/speakly/speaking_prompts_extra.json",
+      "version": 1,
+      "required": false
+    },
+    {
+      "key": "writing_prompts",
+      "collection": "writing_prompts",
+      "url": "https://REPLACE-WITH-YOUR-HOST/speakly/writing_prompts.json",
+      "version": 1,
+      "required": true
+    },
+    {
+      "key": "writing_prompts_extra",
+      "collection": "writing_prompts",
+      "url": "https://REPLACE-WITH-YOUR-HOST/speakly/writing_prompts_extra.json",
+      "version": 1,
+      "required": false
+    },
+    {
+      "key": "achievements",
+      "collection": "achievements",
+      "url": "https://REPLACE-WITH-YOUR-HOST/speakly/achievements.json",
+      "version": 1,
+      "required": true
+    },
+    {
+      "key": "languages",
+      "collection": "languages",
+      "url": "https://REPLACE-WITH-YOUR-HOST/speakly/languages.json",
+      "version": 1,
+      "required": true
+    },
+    {
+      "key": "onboarding",
+      "collection": "onboarding",
+      "url": "https://REPLACE-WITH-YOUR-HOST/speakly/onboarding.json",
+      "version": 1,
+      "required": true
+    },
+    {
+      "key": "practice_catalog",
+      "collection": "practice",
+      "url": "https://REPLACE-WITH-YOUR-HOST/speakly/practice_catalog.json",
+      "version": 1,
+      "required": true
+    },
+    {
+      "key": "plan_templates",
+      "collection": "plan",
+      "url": "https://REPLACE-WITH-YOUR-HOST/speakly/plan_templates.json",
+      "version": 1,
+      "required": true
+    },
+    {
+      "key": "notifications",
+      "collection": "notifications",
+      "url": "https://REPLACE-WITH-YOUR-HOST/speakly/notifications.json",
+      "version": 1,
+      "required": true
+    },
+    {
+      "key": "ai_prompts",
+      "collection": "ai_prompts",
+      "url": "https://REPLACE-WITH-YOUR-HOST/speakly/ai_prompts.json",
+      "version": 1,
+      "required": true
+    },
+    {
+      "key": "app_strings_en",
+      "collection": "strings",
+      "url": "https://REPLACE-WITH-YOUR-HOST/speakly/app_strings_en.json",
+      "version": 1,
+      "required": true
+    }
+  ]
+}
