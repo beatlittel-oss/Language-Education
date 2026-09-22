@@ -1,0 +1,147 @@
+{
+  "schema": "speakly.content.v1",
+  "doc": "achievements",
+  "collection": "achievements",
+  "version": 1,
+  "updatedAt": "2026-09-22",
+  "locale": "en",
+  "count": 17,
+  "items": [
+    {
+      "id": "first_lesson",
+      "emoji": "🌱",
+      "title": "First Steps",
+      "description": "Finish your first lesson",
+      "target": 1,
+      "metric": "lessonsCompleted"
+    },
+    {
+      "id": "ten_lessons",
+      "emoji": "📚",
+      "title": "Ten Lessons",
+      "description": "Finish 10 lessons",
+      "target": 10,
+      "metric": "lessonsCompleted"
+    },
+    {
+      "id": "fifty_lessons",
+      "emoji": "🏅",
+      "title": "Course Regular",
+      "description": "Finish 50 lessons",
+      "target": 50,
+      "metric": "lessonsCompleted"
+    },
+    {
+      "id": "first_conversation",
+      "emoji": "🤖",
+      "title": "First Conversation",
+      "description": "Talk with the AI tutor once",
+      "target": 1,
+      "metric": "conversations"
+    },
+    {
+      "id": "ten_conversations",
+      "emoji": "🗣",
+      "title": "Comfortable Talker",
+      "description": "Have 10 AI conversations",
+      "target": 10,
+      "metric": "conversations"
+    },
+    {
+      "id": "hundred_words",
+      "emoji": "🔤",
+      "title": "100 Words",
+      "description": "Learn 100 vocabulary words",
+      "target": 100,
+      "metric": "wordsLearned"
+    },
+    {
+      "id": "five_hundred_words",
+      "emoji": "🧠",
+      "title": "500 Words",
+      "description": "Learn 500 vocabulary words",
+      "target": 500,
+      "metric": "wordsLearned"
+    },
+    {
+      "id": "streak_3",
+      "emoji": "🔥",
+      "title": "Three in a Row",
+      "description": "Practise 3 days in a row",
+      "target": 3,
+      "metric": "bestStreak"
+    },
+    {
+      "id": "streak_7",
+      "emoji": "🔥",
+      "title": "7 Day Streak",
+      "description": "Practise 7 days in a row",
+      "target": 7,
+      "metric": "bestStreak"
+    },
+    {
+      "id": "streak_30",
+      "emoji": "🌟",
+      "title": "30 Day Streak",
+      "description": "Practise 30 days in a row",
+      "target": 30,
+      "metric": "bestStreak"
+    },
+    {
+      "id": "speaking_10",
+      "emoji": "🎤",
+      "title": "Speaking Master",
+      "description": "Record 10 speaking answers",
+      "target": 10,
+      "metric": "speakingSessions"
+    },
+    {
+      "id": "writing_5",
+      "emoji": "✍️",
+      "title": "Writer",
+      "description": "Submit 5 writing tasks",
+      "target": 5,
+      "metric": "writingSubmissions"
+    },
+    {
+      "id": "quiz_25",
+      "emoji": "🎯",
+      "title": "Quiz Machine",
+      "description": "Complete 25 quizzes",
+      "target": 25,
+      "metric": "quizzes"
+    },
+    {
+      "id": "time_60",
+      "emoji": "⏱",
+      "title": "One Hour In",
+      "description": "Practise for 60 minutes in total",
+      "target": 60,
+      "metric": "totalMinutes"
+    },
+    {
+      "id": "time_600",
+      "emoji": "📈",
+      "title": "Ten Hours In",
+      "description": "Practise for 600 minutes in total",
+      "target": 600,
+      "metric": "totalMinutes"
+    },
+    {
+      "id": "xp_1000",
+      "emoji": "⚡",
+      "title": "1000 XP",
+      "description": "Earn 1000 XP",
+      "target": 1000,
+      "metric": "xp"
+    },
+    {
+      "id": "active_30",
+      "emoji": "📅",
+      "title": "Month of Practice",
+      "description": "Practise on 30 different days",
+      "target": 30,
+      "metric": "activeDays"
+    }
+  ]
+}

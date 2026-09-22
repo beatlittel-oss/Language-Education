@@ -1,0 +1,635 @@
+{
+  "schema": "speakly.content.v1",
+  "doc": "listening_scripts",
+  "collection": "listening",
+  "version": 1,
+  "updatedAt": "2026-09-22",
+  "locale": "en",
+  "count": 20,
+  "items": [
+    {
+      "id": "l_travel_airport_taxi",
+      "topic": "travel",
+      "level": 0,
+      "script": "John is going to the airport. His flight leaves at four o clock, so he is taking a taxi at one. He has one small bag and his passport is in his jacket.",
+      "questions": [
+        {
+          "id": "l_travel_airport_taxi_q1",
+          "prompt": "Where is John going?",
+          "options": ["The hotel", "The airport", "The office", "The station"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_travel_airport_taxi_q2",
+          "prompt": "What time does his flight leave?",
+          "options": ["One o clock", "Three o clock", "Four o clock", "Five o clock"],
+          "answer": 2,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_travel_airport_taxi_q3",
+          "prompt": "How many bags does he have?",
+          "options": ["None", "One", "Two", "Three"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        }
+      ]
+    },
+    {
+      "id": "l_food_specials",
+      "topic": "food",
+      "level": 0,
+      "script": "Good evening. Tonight we have two specials: grilled fish with rice, and a vegetable pasta. The soup of the day is tomato. Dessert is included with the specials.",
+      "questions": [
+        {
+          "id": "l_food_specials_q1",
+          "prompt": "How many specials are there tonight?",
+          "options": ["One", "Two", "Three", "Four"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_food_specials_q2",
+          "prompt": "What is the soup of the day?",
+          "options": ["Chicken", "Mushroom", "Tomato", "Onion"],
+          "answer": 2,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_food_specials_q3",
+          "prompt": "What comes with the specials?",
+          "options": ["A drink", "Bread", "Dessert", "Nothing"],
+          "answer": 2,
+          "explanation": "",
+          "skill": "listening"
+        }
+      ]
+    },
+    {
+      "id": "l_shopping_closing",
+      "topic": "shopping",
+      "level": 0,
+      "script": "Attention shoppers. The store will close in fifteen minutes. Please bring your items to the tills now. The pharmacy counter is already closed and will open again tomorrow at nine.",
+      "questions": [
+        {
+          "id": "l_shopping_closing_q1",
+          "prompt": "When does the store close?",
+          "options": ["Now", "In fifteen minutes", "In an hour", "At nine"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_shopping_closing_q2",
+          "prompt": "Which counter is already closed?",
+          "options": ["The bakery", "The pharmacy", "The tills", "The fish counter"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_shopping_closing_q3",
+          "prompt": "When does that counter open again?",
+          "options": ["Tonight", "Tomorrow at nine", "In fifteen minutes", "On Monday"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        }
+      ]
+    },
+    {
+      "id": "l_daily_message_friend",
+      "topic": "daily",
+      "level": 0,
+      "script": "Hey, it is Mia. I cannot come on Saturday because my sister is visiting. Can we do Sunday instead? Any time after two is fine for me. Let me know.",
+      "questions": [
+        {
+          "id": "l_daily_message_friend_q1",
+          "prompt": "Why can Mia not come on Saturday?",
+          "options": ["She is working", "Her sister is visiting", "She is ill", "She is travelling"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_daily_message_friend_q2",
+          "prompt": "What day does she suggest?",
+          "options": ["Friday", "Saturday", "Sunday", "Monday"],
+          "answer": 2,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_daily_message_friend_q3",
+          "prompt": "What time suits her?",
+          "options": ["Before two", "After two", "Only at noon", "Any time"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        }
+      ]
+    },
+    {
+      "id": "l_health_appointment",
+      "topic": "health",
+      "level": 0,
+      "script": "Hello, this is the dentist. Your appointment is on Thursday at half past ten. Please come ten minutes early to fill in a form. If you need to cancel, call us the day before.",
+      "questions": [
+        {
+          "id": "l_health_appointment_q1",
+          "prompt": "What day is the appointment?",
+          "options": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+          "answer": 2,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_health_appointment_q2",
+          "prompt": "Why should the patient come early?",
+          "options": ["To pay", "To fill in a form", "To see the doctor", "To park"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_health_appointment_q3",
+          "prompt": "When should they call to cancel?",
+          "options": ["On the day", "The day before", "A week before", "Any time"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        }
+      ]
+    },
+    {
+      "id": "l_travel_platform_change",
+      "topic": "travel",
+      "level": 0,
+      "script": "The ten fifteen service to Leeds will now leave from platform six, not platform two. Passengers already on platform two should use the bridge. The train is running about five minutes late.",
+      "questions": [
+        {
+          "id": "l_travel_platform_change_q1",
+          "prompt": "Which platform should passengers go to?",
+          "options": ["Platform two", "Platform five", "Platform six", "Platform ten"],
+          "answer": 2,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_travel_platform_change_q2",
+          "prompt": "How should they get there?",
+          "options": ["By taxi", "Over the bridge", "Through the shop", "They should wait"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_travel_platform_change_q3",
+          "prompt": "How late is the train?",
+          "options": ["Not late", "Five minutes", "Fifteen minutes", "An hour"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        }
+      ]
+    },
+    {
+      "id": "l_work_deadline_moved",
+      "topic": "work",
+      "level": 1,
+      "script": "Hi team, quick update. The client moved the deadline from Friday to Wednesday, so we will skip the design review and go straight to testing. Priya will send the new schedule this afternoon. If you cannot make Wednesday, tell me today.",
+      "questions": [
+        {
+          "id": "l_work_deadline_moved_q1",
+          "prompt": "What is the new deadline?",
+          "options": ["Monday", "Wednesday", "Friday", "Next week"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_work_deadline_moved_q2",
+          "prompt": "What will the team skip?",
+          "options": ["Testing", "The design review", "The client call", "Lunch"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_work_deadline_moved_q3",
+          "prompt": "Who sends the schedule?",
+          "options": ["The client", "The speaker", "Priya", "Nobody"],
+          "answer": 2,
+          "explanation": "",
+          "skill": "listening"
+        }
+      ]
+    },
+    {
+      "id": "l_daily_routine",
+      "topic": "daily",
+      "level": 1,
+      "script": "On weekdays I wake up at six, but I do not get out of bed until half past. I walk to the gym, come back, and work from home until lunch. The afternoon is for meetings, and I try to stop by seven.",
+      "questions": [
+        {
+          "id": "l_daily_routine_q1",
+          "prompt": "When does the speaker get out of bed?",
+          "options": ["At six", "At six thirty", "At seven", "At half past seven"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_daily_routine_q2",
+          "prompt": "What is the afternoon for?",
+          "options": ["The gym", "Meetings", "Sleeping", "Walking"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        }
+      ]
+    },
+    {
+      "id": "l_business_supplier_call",
+      "topic": "business",
+      "level": 1,
+      "script": "Thanks for calling back. Two things. First, the delivery slipped again, so we are now eight days behind, not three. Second, and this matters more, nobody told us. I can work around a late shipment. I cannot work around finding out about it from my own warehouse.",
+      "questions": [
+        {
+          "id": "l_business_supplier_call_q1",
+          "prompt": "How far behind is the delivery now?",
+          "options": ["Three days", "Five days", "Eight days", "Two weeks"],
+          "answer": 2,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_business_supplier_call_q2",
+          "prompt": "What does the speaker say matters more?",
+          "options": ["The delay itself", "Not being told", "The price", "The quality"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_business_supplier_call_q3",
+          "prompt": "How did the speaker find out?",
+          "options": ["From the supplier", "From an email", "From their own warehouse", "From a customer"],
+          "answer": 2,
+          "explanation": "",
+          "skill": "listening"
+        }
+      ]
+    },
+    {
+      "id": "l_education_course_intro",
+      "topic": "education",
+      "level": 1,
+      "script": "Welcome to the course. Three things before we start. Attendance is not marked, but the group work is, and you cannot do the group work from home. There is no final exam. Instead there are four short pieces spread across the term, and the lowest of the four is dropped.",
+      "questions": [
+        {
+          "id": "l_education_course_intro_q1",
+          "prompt": "Is attendance marked?",
+          "options": ["Yes", "No, but group work is", "Only in week one", "Only for the exam"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_education_course_intro_q2",
+          "prompt": "How many assessed pieces are there?",
+          "options": ["One", "Two", "Three", "Four"],
+          "answer": 3,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_education_course_intro_q3",
+          "prompt": "What happens to the weakest piece?",
+          "options": ["It is doubled", "It is dropped", "It must be repeated", "It counts most"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        }
+      ]
+    },
+    {
+      "id": "l_tech_support_router",
+      "topic": "technology",
+      "level": 1,
+      "script": "Before we send an engineer, let us check something. Unplug the router, count to thirty, and plug it back in. While you wait, have a look at the cable behind the socket. If it is the flat white one, that is the old type and it is almost certainly your problem.",
+      "questions": [
+        {
+          "id": "l_tech_support_router_q1",
+          "prompt": "What should the caller do first?",
+          "options": ["Book an engineer", "Unplug the router for thirty seconds", "Buy a new cable", "Restart the computer"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_tech_support_router_q2",
+          "prompt": "What should they look at while waiting?",
+          "options": ["The screen", "The cable behind the socket", "The lights", "The bill"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_tech_support_router_q3",
+          "prompt": "What does a flat white cable suggest?",
+          "options": ["Everything is fine", "It is the old type and likely the problem", "It needs replacing yearly", "The line is faster"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        }
+      ]
+    },
+    {
+      "id": "l_relationships_apology",
+      "topic": "relationships",
+      "level": 1,
+      "script": "Look, I have thought about it, and you were right. I said I would handle the booking and then I did not, and when you asked I made it sound like you were nagging. That was the bit that was unfair. The booking is sorted now, but that is not really what I am apologising for.",
+      "questions": [
+        {
+          "id": "l_relationships_apology_q1",
+          "prompt": "What did the speaker fail to do?",
+          "options": ["Make a phone call", "Handle the booking", "Arrive on time", "Pay a bill"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_relationships_apology_q2",
+          "prompt": "What does the speaker say was unfair?",
+          "options": ["The booking", "Making the other person sound like they were nagging", "The price", "Being late"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_relationships_apology_q3",
+          "prompt": "What is the apology mainly for?",
+          "options": ["The forgotten booking", "How they responded when asked", "Being late", "The cost"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        }
+      ]
+    },
+    {
+      "id": "l_money_bank_call",
+      "topic": "money",
+      "level": 1,
+      "script": "We have blocked two payments on your card this morning. One was for a subscription you have paid before, so that is probably fine and we will let it through. The other was a large amount in a country you have never used the card in. We have held that one. You do not need to do anything unless it was you.",
+      "questions": [
+        {
+          "id": "l_money_bank_call_q1",
+          "prompt": "How many payments were blocked?",
+          "options": ["One", "Two", "Three", "None"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_money_bank_call_q2",
+          "prompt": "Why is one payment probably fine?",
+          "options": ["It was small", "It is a subscription paid before", "It was local", "The caller approved it"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_money_bank_call_q3",
+          "prompt": "What must the customer do if the second payment was theirs?",
+          "options": ["Nothing", "Contact the bank", "Cancel the card", "Visit a branch"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        }
+      ]
+    },
+    {
+      "id": "l_travel_hotel_checkin",
+      "topic": "travel",
+      "level": 1,
+      "script": "You are in room four-one-two, on the fourth floor. Breakfast runs from seven to half past ten, and it is included in your rate. One thing to mention: the lift is out until Thursday, so if the stairs are difficult for you, I can move you down to the first floor instead.",
+      "questions": [
+        {
+          "id": "l_travel_hotel_checkin_q1",
+          "prompt": "Which floor is the room on?",
+          "options": ["First", "Second", "Fourth", "Twelfth"],
+          "answer": 2,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_travel_hotel_checkin_q2",
+          "prompt": "Is breakfast included?",
+          "options": ["Yes", "No", "Only at weekends", "Only for two people"],
+          "answer": 0,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_travel_hotel_checkin_q3",
+          "prompt": "Why might the guest want to change rooms?",
+          "options": ["The room is noisy", "The lift is out of order", "It is too small", "It has no window"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        }
+      ]
+    },
+    {
+      "id": "l_tech_support_escalation",
+      "topic": "technology",
+      "level": 2,
+      "script": "Thanks for calling support. Before we replace the device, I want to rule out the simple causes. Unplug the router for thirty seconds, plug it back in, and watch the second light. If it turns green, the line is fine and the problem is the cable in your flat.",
+      "questions": [
+        {
+          "id": "l_tech_support_escalation_q1",
+          "prompt": "What does the agent want to do first?",
+          "options": ["Replace the device", "Rule out simple causes", "Send a technician", "Cancel the account"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_tech_support_escalation_q2",
+          "prompt": "What does a green light mean?",
+          "options": ["The line is fine", "The router is broken", "The account is closed", "The call ended"],
+          "answer": 0,
+          "explanation": "",
+          "skill": "listening"
+        }
+      ]
+    },
+    {
+      "id": "l_work_performance_review",
+      "topic": "work",
+      "level": 2,
+      "script": "I want to be straight with you, because I do not think vague feedback helps anyone. The delivery work has been excellent and nobody disputes that. Where it has gone wrong is the handovers. Twice this year a piece landed on someone else at short notice with no context, and both times it was recoverable, and both times it cost a week. That is the thing I want to see change, not the output.",
+      "questions": [
+        {
+          "id": "l_work_performance_review_q1",
+          "prompt": "What does the speaker praise?",
+          "options": ["The handovers", "The delivery work", "The timekeeping", "The documentation"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_work_performance_review_q2",
+          "prompt": "How often did the handover problem occur?",
+          "options": ["Once", "Twice", "Every month", "Constantly"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_work_performance_review_q3",
+          "prompt": "What does the speaker want changed?",
+          "options": ["The amount of output", "The handovers", "The working hours", "The team structure"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        }
+      ]
+    },
+    {
+      "id": "l_business_pitch_pushback",
+      "topic": "business",
+      "level": 2,
+      "script": "I like the idea and I am not going to fund it as described. The market sizing assumes you convert the whole segment, and you will not. Come back with a number that assumes you win one buyer in twenty, and if the case still works at that rate, we have something to talk about. If it only works at one in three, you have not got a business, you have got a hope.",
+      "questions": [
+        {
+          "id": "l_business_pitch_pushback_q1",
+          "prompt": "What is the speaker's decision today?",
+          "options": ["Fund it", "Not fund it as described", "Reject it permanently", "Buy the company"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_business_pitch_pushback_q2",
+          "prompt": "What assumption do they object to?",
+          "options": ["The team size", "Converting the whole segment", "The timeline", "The pricing"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_business_pitch_pushback_q3",
+          "prompt": "What conversion rate do they want tested?",
+          "options": ["One in three", "One in twenty", "All of them", "One in two"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        }
+      ]
+    },
+    {
+      "id": "l_culture_radio_debate",
+      "topic": "culture",
+      "level": 2,
+      "script": "My problem with the phrase is not that it is rude, it is that it has stopped meaning anything. Ten years ago it described a specific thing. Now it gets attached to whatever the speaker dislikes, which means when something genuinely fits the description, nobody hears it. We have spent the word. That is the loss, and you do not get it back by using it more carefully from now on.",
+      "questions": [
+        {
+          "id": "l_culture_radio_debate_q1",
+          "prompt": "What is the speaker's objection to the phrase?",
+          "options": ["It is offensive", "It has lost its meaning", "It is old-fashioned", "It is too long"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_culture_radio_debate_q2",
+          "prompt": "What happens when something genuinely fits the description?",
+          "options": ["Everyone agrees", "Nobody hears it", "It is banned", "It is repeated"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_culture_radio_debate_q3",
+          "prompt": "What is the speaker's view on fixing it?",
+          "options": ["Careful use from now on will restore it", "The damage cannot be undone that way", "The phrase should be banned", "A new law is needed"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        }
+      ]
+    },
+    {
+      "id": "l_environment_council_meeting",
+      "topic": "environment",
+      "level": 2,
+      "script": "The consultation had four hundred responses and I have read all of them. The headline is that support splits almost exactly by whether the respondent drives to the high street. That is not a reason to dismiss either side. It is a reason to stop pretending this is a disagreement about air quality, when it is plainly a disagreement about parking.",
+      "questions": [
+        {
+          "id": "l_environment_council_meeting_q1",
+          "prompt": "How many consultation responses were there?",
+          "options": ["Forty", "Four hundred", "Four thousand", "Fourteen"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_environment_council_meeting_q2",
+          "prompt": "What predicts a respondent's position?",
+          "options": ["Their age", "Whether they drive to the high street", "Where they were born", "Their income"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_environment_council_meeting_q3",
+          "prompt": "What is the speaker's conclusion?",
+          "options": ["One side should be ignored", "The real disagreement is about parking, not air quality", "The consultation was invalid", "More responses are needed"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        }
+      ]
+    },
+    {
+      "id": "l_life_podcast_habits",
+      "topic": "life",
+      "level": 2,
+      "script": "The advice I keep hearing is to start small, and I think it is half right. Starting small works for the doing. It does not work for the deciding, and the deciding is where most people actually fail. If you have to choose each morning whether today is a running day, you have already spent the willpower before you reach the door. Make the decision once, in advance, and let the small version be what you do on the bad days.",
+      "questions": [
+        {
+          "id": "l_life_podcast_habits_q1",
+          "prompt": "What does the speaker think starting small is good for?",
+          "options": ["The deciding", "The doing", "Both equally", "Neither"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_life_podcast_habits_q2",
+          "prompt": "Where does the speaker say people actually fail?",
+          "options": ["In the effort", "In the deciding", "In the planning", "In the measuring"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        },
+        {
+          "id": "l_life_podcast_habits_q3",
+          "prompt": "What is their recommendation?",
+          "options": ["Decide each morning", "Decide once in advance", "Never plan", "Run every day"],
+          "answer": 1,
+          "explanation": "",
+          "skill": "listening"
+        }
+      ]
+    }
+  ]
+}

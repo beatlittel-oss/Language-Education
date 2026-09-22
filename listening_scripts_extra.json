@@ -1,0 +1,120 @@
+{
+  "schema": "speakly.content.v1",
+  "doc": "listening_scripts_extra",
+  "collection": "listening",
+  "version": 1,
+  "updatedAt": "2026-09-22",
+  "locale": "en",
+  "count": 10,
+  "items": [
+    {
+      "id": "lx_daily_parcel",
+      "topic": "daily",
+      "level": 0,
+      "script": "Hello, this is a message about your parcel. We tried to deliver it this morning but nobody was home. It is now at the post office on Green Street. You can collect it until six in the evening, and you will need some photo identification.",
+      "questions": [
+        { "id": "lx_daily_parcel_q1", "prompt": "Where is the parcel now?", "options": ["At the door", "At the post office", "Back at the shop", "With a neighbour"], "answer": 1, "explanation": "", "skill": "listening" },
+        { "id": "lx_daily_parcel_q2", "prompt": "Until what time can it be collected?", "options": ["Four", "Five", "Six", "Eight"], "answer": 2, "explanation": "", "skill": "listening" },
+        { "id": "lx_daily_parcel_q3", "prompt": "What must you bring?", "options": ["Money", "Photo identification", "The box", "A friend"], "answer": 1, "explanation": "", "skill": "listening" }
+      ]
+    },
+    {
+      "id": "lx_city_platform_change",
+      "topic": "city",
+      "level": 0,
+      "script": "Attention please. The service to Riverside, due to depart at twenty past four, will now leave from platform six instead of platform two. Passengers already on platform two should use the lift at the far end. We are sorry for the short notice.",
+      "questions": [
+        { "id": "lx_city_platform_change_q1", "prompt": "Which platform is it now?", "options": ["Two", "Four", "Six", "Twenty"], "answer": 2, "explanation": "", "skill": "listening" },
+        { "id": "lx_city_platform_change_q2", "prompt": "What should passengers on platform two do?", "options": ["Wait there", "Use the lift at the far end", "Leave the station", "Buy a new ticket"], "answer": 1, "explanation": "", "skill": "listening" }
+      ]
+    },
+    {
+      "id": "lx_food_order_wrong",
+      "topic": "food",
+      "level": 0,
+      "script": "I am really sorry, I think there has been a mix-up. You ordered the soup and the salad, and this is the pasta. Let me take it back. The soup will be about five minutes, and I will not charge you for the drinks.",
+      "questions": [
+        { "id": "lx_food_order_wrong_q1", "prompt": "What did the customer order?", "options": ["Pasta", "Soup and salad", "Only a drink", "Pizza"], "answer": 1, "explanation": "", "skill": "listening" },
+        { "id": "lx_food_order_wrong_q2", "prompt": "How long will the soup take?", "options": ["One minute", "Five minutes", "Fifteen minutes", "It is ready"], "answer": 1, "explanation": "", "skill": "listening" },
+        { "id": "lx_food_order_wrong_q3", "prompt": "What will be free?", "options": ["The pasta", "The salad", "The drinks", "Dessert"], "answer": 2, "explanation": "", "skill": "listening" }
+      ]
+    },
+    {
+      "id": "lx_work_handover_note",
+      "topic": "work",
+      "level": 1,
+      "script": "Before I go on leave, three things. The report for the client is written but not sent, and it should go out on Tuesday. The supplier still owes us the updated prices, so chase them if nothing arrives by Wednesday. And please do not agree to a new deadline while I am away. Everything else can wait for me.",
+      "questions": [
+        { "id": "lx_work_handover_note_q1", "prompt": "What state is the report in?", "options": ["Not started", "Written but not sent", "Sent already", "Cancelled"], "answer": 1, "explanation": "", "skill": "listening" },
+        { "id": "lx_work_handover_note_q2", "prompt": "When should the supplier be chased?", "options": ["Monday", "If nothing arrives by Wednesday", "Immediately", "Never"], "answer": 1, "explanation": "", "skill": "listening" },
+        { "id": "lx_work_handover_note_q3", "prompt": "What must the colleague not do?", "options": ["Send the report", "Agree to a new deadline", "Answer the phone", "Contact the supplier"], "answer": 1, "explanation": "", "skill": "listening" }
+      ]
+    },
+    {
+      "id": "lx_health_appointment_prep",
+      "topic": "health",
+      "level": 1,
+      "script": "For the blood test on Thursday, please do not eat anything after ten at night on Wednesday. Water is fine, and you should keep taking your usual tablets unless your doctor has said otherwise. Arrive about ten minutes early because the form takes a while. The results go to your doctor, not to you directly.",
+      "questions": [
+        { "id": "lx_health_appointment_prep_q1", "prompt": "When should the patient stop eating?", "options": ["Midday Wednesday", "Ten at night on Wednesday", "Thursday morning", "There is no rule"], "answer": 1, "explanation": "", "skill": "listening" },
+        { "id": "lx_health_appointment_prep_q2", "prompt": "What about their usual tablets?", "options": ["Stop them", "Keep taking them", "Double them", "Bring them only"], "answer": 1, "explanation": "", "skill": "listening" },
+        { "id": "lx_health_appointment_prep_q3", "prompt": "Who gets the results?", "options": ["The patient", "The doctor", "Nobody", "The hospital only"], "answer": 1, "explanation": "", "skill": "listening" }
+      ]
+    },
+    {
+      "id": "lx_safety_fire_drill",
+      "topic": "safety",
+      "level": 1,
+      "script": "This is a drill. Please leave by the nearest staircase, not the lift, and go to the car park behind the building. Do not stop to collect your things. Your floor marshal will count everyone at the meeting point, so stay there until you are told the building is clear.",
+      "questions": [
+        { "id": "lx_safety_fire_drill_q1", "prompt": "How should people leave?", "options": ["By lift", "By the nearest staircase", "Through the car park door only", "By the fire escape ladder"], "answer": 1, "explanation": "", "skill": "listening" },
+        { "id": "lx_safety_fire_drill_q2", "prompt": "Where is the meeting point?", "options": ["The reception", "The car park behind the building", "The street", "The cafe"], "answer": 1, "explanation": "", "skill": "listening" },
+        { "id": "lx_safety_fire_drill_q3", "prompt": "When can people leave the meeting point?", "options": ["Straight away", "When told the building is clear", "After ten minutes", "When the alarm stops"], "answer": 1, "explanation": "", "skill": "listening" }
+      ]
+    },
+    {
+      "id": "lx_money_bank_call",
+      "topic": "money",
+      "level": 1,
+      "script": "We are calling about two payments on your card yesterday, both to an online shop, one for four pounds and one for three hundred. We have stopped the card as a precaution. We will never ask you for your full password, so please do not give it to anyone who does, even if they say they are from the bank.",
+      "questions": [
+        { "id": "lx_money_bank_call_q1", "prompt": "How many payments are they asking about?", "options": ["One", "Two", "Three", "Four"], "answer": 1, "explanation": "", "skill": "listening" },
+        { "id": "lx_money_bank_call_q2", "prompt": "What has the bank done?", "options": ["Refunded the money", "Stopped the card", "Closed the account", "Nothing yet"], "answer": 1, "explanation": "", "skill": "listening" },
+        { "id": "lx_money_bank_call_q3", "prompt": "What will the bank never ask for?", "options": ["Your name", "Your full password", "Your address", "The amount"], "answer": 1, "explanation": "", "skill": "listening" }
+      ]
+    },
+    {
+      "id": "lx_business_price_rise",
+      "topic": "business",
+      "level": 2,
+      "script": "I want to be straight with you about the price. Our costs went up about eleven per cent this year and we are passing on six. I am not going to pretend that is good news. What I can offer is a fixed rate for two years, so you stop guessing, and I would rather have that conversation now than surprise you in March.",
+      "questions": [
+        { "id": "lx_business_price_rise_q1", "prompt": "How much of the cost increase is being passed on?", "options": ["All of it", "Eleven per cent", "Six per cent", "None"], "answer": 2, "explanation": "", "skill": "listening" },
+        { "id": "lx_business_price_rise_q2", "prompt": "What is the speaker offering?", "options": ["A discount", "A fixed rate for two years", "A refund", "A new supplier"], "answer": 1, "explanation": "", "skill": "listening" },
+        { "id": "lx_business_price_rise_q3", "prompt": "What is the speaker's tone?", "options": ["Apologetic and evasive", "Direct and pre-emptive", "Angry", "Uninterested"], "answer": 1, "explanation": "", "skill": "listening" }
+      ]
+    },
+    {
+      "id": "lx_education_tutorial_feedback",
+      "topic": "education",
+      "level": 2,
+      "script": "Your essay argues its case well and the reading behind it is obvious. The problem is structure. You spend two pages on background before the reader learns what you think, and your strongest point is on the last page, where nobody is looking for it. Move it forward, cut the first page, and the mark goes up without a word of new research.",
+      "questions": [
+        { "id": "lx_education_tutorial_feedback_q1", "prompt": "What does the tutor praise?", "options": ["The structure", "The argument and reading", "The length", "The conclusion"], "answer": 1, "explanation": "", "skill": "listening" },
+        { "id": "lx_education_tutorial_feedback_q2", "prompt": "Where is the strongest point?", "options": ["First page", "Middle", "Last page", "In a footnote"], "answer": 2, "explanation": "", "skill": "listening" },
+        { "id": "lx_education_tutorial_feedback_q3", "prompt": "What does the tutor say about new research?", "options": ["It is needed", "It is not needed to improve the mark", "It must be cited", "It is too late"], "answer": 1, "explanation": "", "skill": "listening" }
+      ]
+    },
+    {
+      "id": "lx_culture_invitation_nuance",
+      "topic": "culture",
+      "level": 2,
+      "script": "When someone here says we should get lunch some time, they may mean it, or they may be closing the conversation warmly. The way to tell is whether a day is named. If nobody names a day, treat it as a friendly goodbye and do not feel rejected. If you want it to happen, name the day yourself. That is not pushy here, it is how plans get made.",
+      "questions": [
+        { "id": "lx_culture_invitation_nuance_q1", "prompt": "How can you tell the invitation is real?", "options": ["It is repeated", "A day is named", "It is written down", "You cannot tell"], "answer": 1, "explanation": "", "skill": "listening" },
+        { "id": "lx_culture_invitation_nuance_q2", "prompt": "What does the speaker advise?", "options": ["Wait to be invited again", "Name a day yourself", "Avoid the phrase", "Say no politely"], "answer": 1, "explanation": "", "skill": "listening" },
+        { "id": "lx_culture_invitation_nuance_q3", "prompt": "Naming the day is described as", "options": ["pushy", "normal and expected", "rude", "formal"], "answer": 1, "explanation": "", "skill": "listening" }
+      ]
+    }
+  ]
+}

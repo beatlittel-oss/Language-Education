@@ -1,0 +1,605 @@
+{
+  "schema": "speakly.content.v1",
+  "doc": "grammar_engine",
+  "collection": "grammar_engine",
+  "version": 1,
+  "updatedAt": "2026-09-22",
+  "locale": "en",
+  "pastForms": {
+    "go": "went",
+    "eat": "ate",
+    "see": "saw",
+    "take": "took",
+    "come": "came",
+    "make": "made",
+    "get": "got",
+    "have": "had",
+    "say": "said",
+    "do": "did",
+    "give": "gave",
+    "know": "knew",
+    "think": "thought",
+    "write": "wrote",
+    "read": "read",
+    "run": "ran",
+    "feel": "felt",
+    "find": "found",
+    "tell": "told",
+    "buy": "bought",
+    "pay": "paid",
+    "leave": "left",
+    "keep": "kept",
+    "meet": "met",
+    "sit": "sat",
+    "stand": "stood",
+    "speak": "spoke",
+    "drink": "drank",
+    "drive": "drove",
+    "begin": "began",
+    "bring": "brought",
+    "catch": "caught",
+    "choose": "chose",
+    "fall": "fell",
+    "forget": "forgot",
+    "hear": "heard",
+    "lose": "lost",
+    "send": "sent",
+    "sleep": "slept",
+    "teach": "taught",
+    "understand": "understood",
+    "wear": "wore",
+    "win": "won",
+    "build": "built",
+    "sell": "sold",
+    "spend": "spent",
+    "sing": "sang",
+    "swim": "swam",
+    "work": "worked",
+    "want": "wanted",
+    "like": "liked",
+    "need": "needed",
+    "watch": "watched",
+    "play": "played",
+    "study": "studied",
+    "talk": "talked",
+    "walk": "walked",
+    "live": "lived",
+    "learn": "learned",
+    "help": "helped",
+    "call": "called",
+    "ask": "asked",
+    "try": "tried",
+    "use": "used",
+    "start": "started",
+    "finish": "finished",
+    "arrive": "arrived",
+    "visit": "visited",
+    "stay": "stayed",
+    "book": "booked",
+    "order": "ordered",
+    "travel": "travelled"
+  },
+  "uncountable": {
+    "informations": "information",
+    "advices": "advice",
+    "furnitures": "furniture",
+    "knowledges": "knowledge",
+    "equipments": "equipment",
+    "luggages": "luggage",
+    "homeworks": "homework",
+    "softwares": "software",
+    "researches": "research",
+    "staffs": "staff",
+    "peoples": "people",
+    "childrens": "children",
+    "mens": "men",
+    "womens": "women",
+    "moneys": "money",
+    "feedbacks": "feedback",
+    "trainings": "training",
+    "vocabularies": "vocabulary",
+    "slangs": "slang"
+  },
+  "participles": {
+    "eat": "eaten",
+    "see": "seen",
+    "take": "taken",
+    "come": "come",
+    "make": "made",
+    "get": "got",
+    "give": "given",
+    "know": "known",
+    "write": "written",
+    "speak": "spoken",
+    "do": "done",
+    "drink": "drunk",
+    "begin": "begun",
+    "choose": "chosen",
+    "forget": "forgotten",
+    "break": "broken"
+  },
+  "pastMarkers": [
+    "yesterday",
+    "last night",
+    "last week",
+    "last month",
+    "last year",
+    "last sunday",
+    " ago",
+    "in 2019",
+    "in 2020",
+    "in 2021",
+    "in 2022",
+    "in 2023",
+    "this morning",
+    "when i was",
+    "at that time"
+  ],
+  "anExceptions": [
+    "university",
+    "universities",
+    "universal",
+    "user",
+    "users",
+    "european",
+    "one",
+    "once",
+    "uniform",
+    "unique",
+    "union",
+    "unit",
+    "useful",
+    "usual"
+  ],
+  "patterns": {
+    "thirdPersonSubject": "(he|she|it|my (?:friend|brother|sister|father|mother|teacher|boss|husband|wife|son|daughter))",
+    "thirdPersonVerbs": "go|do|have|be|like|want|need|make|take|come|say|get|know|think|work|live|play|speak|watch|study|eat|drink|write|read|run|give|feel|look|find|use|try|ask|call|tell|help|start|talk|walk|move|turn|learn|teach|buy|pay|open|close|keep|stay|leave|love|hate|prefer|drive|cook|clean|travel|arrive|finish|listen",
+    "places": "office|market|station|airport|hospital|bank|cinema|beach|park|shop|restaurant|hotel|library|gym|museum|doctor|dentist|supermarket|mall|theatre|theater",
+    "continuous": "\\b(i|we|you|they|he|she|it)\\s+(am|is|are)\\s+([a-z]+ing)\\b",
+    "pastMarkerSubject": "i|we|you|they|he|she|it",
+    "anBeforeVowel": "\\ba\\s+([aeiou][a-z]+)\\b"
+  },
+  "count": 55,
+  "rules": [
+    {
+      "id": "gr_001",
+      "pattern": "\\b(he|she|it)\\s+don't\\b",
+      "flags": "i",
+      "replacement": "$1 doesn't",
+      "rule": "Subject-verb agreement",
+      "explanation": "With he, she and it the negative is doesn't, not don't."
+    },
+    {
+      "id": "gr_002",
+      "pattern": "\\b(he|she|it)\\s+do\\s+not\\b",
+      "flags": "i",
+      "replacement": "$1 does not",
+      "rule": "Subject-verb agreement",
+      "explanation": "He, she and it take does, not do."
+    },
+    {
+      "id": "gr_003",
+      "pattern": "\\b(he|she|it)\\s+have\\b",
+      "flags": "i",
+      "replacement": "$1 has",
+      "rule": "Subject-verb agreement",
+      "explanation": "He, she and it take has."
+    },
+    {
+      "id": "gr_004",
+      "pattern": "\\b(he|she|it)\\s+was\\s+went\\b",
+      "flags": "i",
+      "replacement": "$1 went",
+      "rule": "Past simple",
+      "explanation": "Past simple is one word: went, not was went."
+    },
+    {
+      "id": "gr_005",
+      "pattern": "\\bi\\s+are\\b",
+      "flags": "i",
+      "replacement": "I am",
+      "rule": "Verb to be",
+      "explanation": "I goes with am."
+    },
+    {
+      "id": "gr_006",
+      "pattern": "\\b(we|they|you)\\s+is\\b",
+      "flags": "i",
+      "replacement": "$1 are",
+      "rule": "Verb to be",
+      "explanation": "We, they and you take are."
+    },
+    {
+      "id": "gr_007",
+      "pattern": "\\b(he|she|it)\\s+are\\b",
+      "flags": "i",
+      "replacement": "$1 is",
+      "rule": "Verb to be",
+      "explanation": "He, she and it take is."
+    },
+    {
+      "id": "gr_008",
+      "pattern": "\\b(i|we|they|you)\\s+has\\b",
+      "flags": "i",
+      "replacement": "$1 have",
+      "rule": "Subject-verb agreement",
+      "explanation": "Only he, she and it use has."
+    },
+    {
+      "id": "gr_009",
+      "pattern": "\\bam\\s+(agree|disagree)\\b",
+      "flags": "i",
+      "replacement": "$1",
+      "rule": "Stative verbs",
+      "explanation": "Agree is already a verb: say I agree, not I am agree."
+    },
+    {
+      "id": "gr_010",
+      "pattern": "\\b(i|we|they|you|he|she)\\s+am\\s+(go|going)\\s+to\\s+(go|be)\\b",
+      "flags": "i",
+      "replacement": "$1 am going to $3",
+      "rule": "Future with going to",
+      "explanation": "Use am or is or are going to plus the base verb."
+    },
+    {
+      "id": "gr_011",
+      "pattern": "\\b(go|goes|going|went|gone)\\s+(market|office|station|airport|bank|gym|park|shop|cinema|restaurant|temple|mosque|church|hospital|beach|library|mall)\\b",
+      "flags": "i",
+      "replacement": "$1 to the $2",
+      "rule": "Preposition with go",
+      "explanation": "Go needs to before a place: go to the market, not go market."
+    },
+    {
+      "id": "gr_012",
+      "pattern": "\\b(go|goes|going|went|gone)\\s+(school|college|university|work|bed|class)\\b",
+      "flags": "i",
+      "replacement": "$1 to $2",
+      "rule": "Preposition with go",
+      "explanation": "Say go to school or go to work - with to, but no the."
+    },
+    {
+      "id": "gr_013",
+      "pattern": "\\bdidn't\\s+(went|ate|saw|took|came|made|got|had|said|gave|knew|thought|wrote|ran|felt|found|told|bought|paid|left|kept|spoke|drank)\\b",
+      "flags": "i",
+      "replacement": "didn't @BASE1",
+      "rule": "Past with did",
+      "explanation": "After did or didn't the verb goes back to its base form."
+    },
+    {
+      "id": "gr_014",
+      "pattern": "\\bdid\\s+not\\s+(went|ate|saw|took|came|made|got|had|said|gave|knew|thought|wrote|ran|felt|found|told|bought|paid|left|kept|spoke|drank)\\b",
+      "flags": "i",
+      "replacement": "did not @BASE1",
+      "rule": "Past with did",
+      "explanation": "After did the verb goes back to its base form."
+    },
+    {
+      "id": "gr_015",
+      "pattern": "\\bdid\\s+(went|ate|saw|took|came|made|got|had|said|gave|knew|thought|wrote|ran|felt|found|told|bought|paid|left|kept|spoke|drank)\\b",
+      "flags": "i",
+      "replacement": "did @BASE1",
+      "rule": "Past with did",
+      "explanation": "After did the verb goes back to its base form."
+    },
+    {
+      "id": "gr_016",
+      "pattern": "\\b(can|will|should|must|could|would|may)\\s+to\\s+([a-z]+)\\b",
+      "flags": "i",
+      "replacement": "$1 $2",
+      "rule": "Modal verbs",
+      "explanation": "After a modal verb there is no to: I can swim, not I can to swim."
+    },
+    {
+      "id": "gr_017",
+      "pattern": "\\b(want|need|try|hope|plan|decide|forget|learn|like|would\\s+like)\\s+(go|be|eat|see|buy|come|take|make|do|study|work|speak|learn|visit|meet|book|order)\\b",
+      "flags": "i",
+      "replacement": "$1 to $2",
+      "rule": "Infinitive with to",
+      "explanation": "Want, need, hope and plan are followed by to plus the verb."
+    },
+    {
+      "id": "gr_018",
+      "pattern": "\\bhave\\s+went\\b",
+      "flags": "i",
+      "replacement": "have gone",
+      "rule": "Present perfect",
+      "explanation": "The past participle of go is gone."
+    },
+    {
+      "id": "gr_019",
+      "pattern": "\\b(has|have)\\s+(eat|see|take|come|make|get|give|know|write|speak|do|drink|begin|choose|forget|break)\\b",
+      "flags": "i",
+      "replacement": "$1 @PP2",
+      "rule": "Present perfect",
+      "explanation": "After has or have you need the past participle."
+    },
+    {
+      "id": "gr_020",
+      "pattern": "\\bhow\\s+i\\s+can\\b",
+      "flags": "i",
+      "replacement": "how can I",
+      "rule": "Question word order",
+      "explanation": "In questions the helping verb comes before the subject."
+    },
+    {
+      "id": "gr_021",
+      "pattern": "\\bwhat\\s+(means|mean)\\s+([a-z]+)\\b",
+      "flags": "i",
+      "replacement": "what does $2 mean",
+      "rule": "Question word order",
+      "explanation": "Ask What does X mean, not What means X."
+    },
+    {
+      "id": "gr_022",
+      "pattern": "\\bwhere\\s+(you|he|she|they|we)\\s+(live|work|go|study)\\b",
+      "flags": "i",
+      "replacement": "where do $1 $2",
+      "rule": "Question word order",
+      "explanation": "Questions in present simple need do or does."
+    },
+    {
+      "id": "gr_023",
+      "pattern": "\\bwhy\\s+you\\s+(are|do)\\b",
+      "flags": "i",
+      "replacement": "why $1 you",
+      "rule": "Question word order",
+      "explanation": "Put the helping verb before the subject in a question."
+    },
+    {
+      "id": "gr_024",
+      "pattern": "\\bdiscuss\\s+about\\b",
+      "flags": "i",
+      "replacement": "discuss",
+      "rule": "Prepositions",
+      "explanation": "Discuss takes no about: discuss the plan."
+    },
+    {
+      "id": "gr_025",
+      "pattern": "\\bexplain\\s+me\\b",
+      "flags": "i",
+      "replacement": "explain to me",
+      "rule": "Prepositions",
+      "explanation": "Explain something to someone."
+    },
+    {
+      "id": "gr_026",
+      "pattern": "\\bmarried\\s+with\\b",
+      "flags": "i",
+      "replacement": "married to",
+      "rule": "Prepositions",
+      "explanation": "You are married to a person."
+    },
+    {
+      "id": "gr_027",
+      "pattern": "\\bdepend(s?)\\s+of\\b",
+      "flags": "i",
+      "replacement": "depend$1 on",
+      "rule": "Prepositions",
+      "explanation": "Something depends on something else."
+    },
+    {
+      "id": "gr_028",
+      "pattern": "\\bgood\\s+in\\s+(english|maths|math|sports|cooking|music|writing|speaking)\\b",
+      "flags": "i",
+      "replacement": "good at $1",
+      "rule": "Prepositions",
+      "explanation": "You are good at a skill."
+    },
+    {
+      "id": "gr_029",
+      "pattern": "\\blisten\\s+(music|the\\s+radio|podcast|podcasts|songs)\\b",
+      "flags": "i",
+      "replacement": "listen to $1",
+      "rule": "Prepositions",
+      "explanation": "You listen to something."
+    },
+    {
+      "id": "gr_030",
+      "pattern": "\\breach\\s+to\\b",
+      "flags": "i",
+      "replacement": "reach",
+      "rule": "Prepositions",
+      "explanation": "Reach takes no to: I reached the office."
+    },
+    {
+      "id": "gr_031",
+      "pattern": "\\bsince\\s+(\\d+|two|three|four|five|six|seven|ten)\\s+(years|months|days|weeks|hours)\\b",
+      "flags": "i",
+      "replacement": "for $1 $2",
+      "rule": "For and since",
+      "explanation": "Use for with a length of time and since with a starting point."
+    },
+    {
+      "id": "gr_032",
+      "pattern": "\\bin\\s+the\\s+morning\\s+time\\b",
+      "flags": "i",
+      "replacement": "in the morning",
+      "rule": "Time expressions",
+      "explanation": "Morning already means the time of day."
+    },
+    {
+      "id": "gr_033",
+      "pattern": "\\b(go|going|went|come|coming)\\s+to\\s+(the\\s+)?home\\b",
+      "flags": "i",
+      "replacement": "$1 home",
+      "rule": "Articles",
+      "explanation": "Home takes no preposition or article after go."
+    },
+    {
+      "id": "gr_034",
+      "pattern": "\\b(to|at|in|from|near)\\s+(office|market|station|airport|hospital|bank|cinema|beach|park|shop|restaurant|hotel|library|gym|museum|doctor|dentist|supermarket|mall|theatre|theater)\\b",
+      "flags": "i",
+      "replacement": "$1 the $2",
+      "rule": "Articles",
+      "explanation": "Specific places usually need the: to the office."
+    },
+    {
+      "id": "gr_035",
+      "pattern": "\\ba\\s+(hour|honest|honour|honor)\\b",
+      "flags": "i",
+      "replacement": "an $1",
+      "rule": "A and an",
+      "explanation": "Use an before a vowel sound, and hour starts with one."
+    },
+    {
+      "id": "gr_036",
+      "pattern": "\\bi\\s+have\\s+(\\d+|twenty|thirty|eighteen|nineteen|twenty-five)\\s+years\\b",
+      "flags": "i",
+      "replacement": "I am $1 years old",
+      "rule": "Age",
+      "explanation": "In English you are a number of years old."
+    },
+    {
+      "id": "gr_037",
+      "pattern": "\\bmuch\\s+(people|friends|books|words|things|days|years|students|cars|shops)\\b",
+      "flags": "i",
+      "replacement": "many $1",
+      "rule": "Much and many",
+      "explanation": "Many goes with things you can count."
+    },
+    {
+      "id": "gr_038",
+      "pattern": "\\bmany\\s+(money|time|water|information|advice|work|homework|traffic|news)\\b",
+      "flags": "i",
+      "replacement": "much $1",
+      "rule": "Much and many",
+      "explanation": "Much goes with things you cannot count."
+    },
+    {
+      "id": "gr_039",
+      "pattern": "\\bnumber\\s+of\\s+(money|time|water)\\b",
+      "flags": "i",
+      "replacement": "amount of $1",
+      "rule": "Quantifiers",
+      "explanation": "Amount goes with uncountable nouns."
+    },
+    {
+      "id": "gr_040",
+      "pattern": "\\bmore\\s+(better|worse|bigger|easier|faster|cheaper|higher|older|younger)\\b",
+      "flags": "i",
+      "replacement": "$1",
+      "rule": "Comparatives",
+      "explanation": "Better is already a comparative, so more is not needed."
+    },
+    {
+      "id": "gr_041",
+      "pattern": "\\bmost\\s+(best|worst|biggest|easiest)\\b",
+      "flags": "i",
+      "replacement": "the $1",
+      "rule": "Superlatives",
+      "explanation": "Use the with a superlative."
+    },
+    {
+      "id": "gr_042",
+      "pattern": "\\b(i|we|they|you)\\s+very\\s+(like|love|want|need|enjoy)\\b",
+      "flags": "i",
+      "replacement": "$1 really $2",
+      "rule": "Adverbs",
+      "explanation": "Very cannot modify a verb: use really."
+    },
+    {
+      "id": "gr_043",
+      "pattern": "\\bvery\\s+much\\s+(good|nice|happy|tired|difficult)\\b",
+      "flags": "i",
+      "replacement": "very $1",
+      "rule": "Adverbs",
+      "explanation": "Very much does not go before an adjective."
+    },
+    {
+      "id": "gr_044",
+      "pattern": "\\b(i|we|they)\\s+am\\s+boring\\b",
+      "flags": "i",
+      "replacement": "$1 am bored",
+      "rule": "-ed and -ing adjectives",
+      "explanation": "Boring describes the thing, bored describes you."
+    },
+    {
+      "id": "gr_045",
+      "pattern": "\\bi\\s+am\\s+(interesting|exciting|confusing)\\s+in\\b",
+      "flags": "i",
+      "replacement": "I am interested in",
+      "rule": "-ed and -ing adjectives",
+      "explanation": "You are interested in something that is interesting."
+    },
+    {
+      "id": "gr_046",
+      "pattern": "\\bi\\s+am\\s+agree\\b",
+      "flags": "i",
+      "replacement": "I agree",
+      "rule": "Stative verbs",
+      "explanation": "Agree is a verb, so it needs no am."
+    },
+    {
+      "id": "gr_047",
+      "pattern": "\\bnowadays\\s+days\\b",
+      "flags": "i",
+      "replacement": "nowadays",
+      "rule": "Word choice",
+      "explanation": "Nowadays already means these days."
+    },
+    {
+      "id": "gr_048",
+      "pattern": "\\bevery\\s?day\\s+i\\s+am\\s+(going|doing|studying|working)\\b",
+      "flags": "i",
+      "replacement": "every day I @STEM1",
+      "rule": "Present simple",
+      "explanation": "Use present simple for habits: every day I go."
+    },
+    {
+      "id": "gr_049",
+      "pattern": "\\bgive\\s+me\\s+one\\s+information\\b",
+      "flags": "i",
+      "replacement": "give me some information",
+      "rule": "Uncountable nouns",
+      "explanation": "Information has no plural and takes no one."
+    },
+    {
+      "id": "gr_050",
+      "pattern": "\\bdoubt\\s+in\\b",
+      "flags": "i",
+      "replacement": "question about",
+      "rule": "Word choice",
+      "explanation": "In English you have a question about something."
+    },
+    {
+      "id": "gr_051",
+      "pattern": "\\bmy\\s+self\\b",
+      "flags": "i",
+      "replacement": "myself",
+      "rule": "Spelling",
+      "explanation": "Myself is one word."
+    },
+    {
+      "id": "gr_052",
+      "pattern": "\\bi\\s+am\\s+living\\s+here\\s+since\\b",
+      "flags": "i",
+      "replacement": "I have been living here since",
+      "rule": "Present perfect continuous",
+      "explanation": "Use have been plus -ing for something that started in the past and continues."
+    },
+    {
+      "id": "gr_053",
+      "pattern": "\\bdon't\\s+have\\s+no\\b",
+      "flags": "i",
+      "replacement": "don't have any",
+      "rule": "Double negative",
+      "explanation": "One negative per clause is enough."
+    },
+    {
+      "id": "gr_054",
+      "pattern": "\\bnot\\s+never\\b",
+      "flags": "i",
+      "replacement": "never",
+      "rule": "Double negative",
+      "explanation": "Never is already negative."
+    },
+    {
+      "id": "gr_055",
+      "pattern": "\\bmore\\s+worst\\b",
+      "flags": "i",
+      "replacement": "worse",
+      "rule": "Comparatives",
+      "explanation": "The comparative of bad is worse."
+    }
+  ]
+}

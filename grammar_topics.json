@@ -1,0 +1,1029 @@
+{
+  "schema": "speakly.content.v1",
+  "doc": "grammar_topics",
+  "collection": "grammar",
+  "version": 1,
+  "updatedAt": "2026-09-22",
+  "locale": "en",
+  "count": 29,
+  "items": [
+    {
+      "id": "present_simple",
+      "band": 0,
+      "title": "Present Simple",
+      "rule": "Use it for habits, routines and facts. Add -s for he, she and it.",
+      "examples": ["I work in a bank.", "She works in a bank.", "They do not work on Sunday.", "Does he work here?"],
+      "explanation": "Present simple describes what is generally true, not what is happening right now. The only tricky part is the -s ending with he, she and it.",
+      "quiz": [
+        {
+          "id": "present_simple_q1",
+          "prompt": "Choose the correct sentence.",
+          "options": ["He work in Delhi.", "He works in Delhi.", "He working in Delhi.", "He is work in Delhi."],
+          "answer": 1,
+          "explanation": "He takes the -s ending.",
+          "skill": "grammar"
+        },
+        {
+          "id": "present_simple_q2",
+          "prompt": "Complete: My sister ___ tea every morning.",
+          "options": ["drink", "drinks", "drinking", "is drink"],
+          "answer": 1,
+          "explanation": "My sister is he/she, so the verb takes -s.",
+          "skill": "grammar"
+        },
+        {
+          "id": "present_simple_q3",
+          "prompt": "Make it a question: They live here.",
+          "options": ["Live they here?", "Do they live here?", "Does they live here?", "They live here?"],
+          "answer": 1,
+          "explanation": "Questions in present simple use do or does.",
+          "skill": "grammar"
+        },
+        {
+          "id": "present_simple_q4",
+          "prompt": "Complete: My brother ___ not eat meat.",
+          "options": ["do", "does", "is", "has"],
+          "answer": 1,
+          "explanation": "He/she/it takes does in the negative.",
+          "skill": "grammar"
+        }
+      ]
+    },
+    {
+      "id": "present_continuous",
+      "band": 0,
+      "title": "Present Continuous",
+      "rule": "Use am, is or are plus verb-ing for something happening now or around now.",
+      "examples": ["I am waiting for the bus.", "She is studying for an exam.", "We are not working today."],
+      "explanation": "Present continuous is for actions in progress. Compare: I work here (always) and I am working late (this week only).",
+      "quiz": [
+        {
+          "id": "present_continuous_q1",
+          "prompt": "Which sentence is about right now?",
+          "options": ["I read a book every night.", "I am reading a great book.", "I read yesterday.", "I will read later."],
+          "answer": 1,
+          "explanation": "Am reading describes now.",
+          "skill": "grammar"
+        },
+        {
+          "id": "present_continuous_q2",
+          "prompt": "Complete: Be quiet, the baby ___.",
+          "options": ["sleeps", "is sleeping", "slept", "sleep"],
+          "answer": 1,
+          "explanation": "The action is in progress.",
+          "skill": "grammar"
+        },
+        {
+          "id": "present_continuous_q3",
+          "prompt": "Which verb is NOT normally used in the continuous?",
+          "options": ["work", "know", "walk", "write"],
+          "answer": 1,
+          "explanation": "Know is a state verb: say I know, not I am knowing.",
+          "skill": "grammar"
+        }
+      ]
+    },
+    {
+      "id": "past_simple",
+      "band": 0,
+      "title": "Past Simple",
+      "rule": "Use it for finished actions at a finished time. Regular verbs take -ed.",
+      "examples": ["I watched a film last night.", "She went to Goa in May.", "Did you eat?", "We did not go."],
+      "explanation": "With a past time marker such as yesterday or last week, the verb must be past. After did and did not the verb returns to its base form.",
+      "quiz": [
+        {
+          "id": "past_simple_q1",
+          "prompt": "Choose the correct sentence.",
+          "options": ["Yesterday I go to the market.", "Yesterday I went to the market.", "Yesterday I am go to market.", "Yesterday I going market."],
+          "answer": 1,
+          "explanation": "Yesterday needs the past form went.",
+          "skill": "grammar"
+        },
+        {
+          "id": "past_simple_q2",
+          "prompt": "Complete: I ___ not see him last week.",
+          "options": ["did", "do", "does", "was"],
+          "answer": 0,
+          "explanation": "Did not plus base verb makes the past negative.",
+          "skill": "grammar"
+        },
+        {
+          "id": "past_simple_q3",
+          "prompt": "What is the past of buy?",
+          "options": ["buyed", "bought", "buied", "buy"],
+          "answer": 1,
+          "explanation": "Buy is irregular: bought.",
+          "skill": "grammar"
+        },
+        {
+          "id": "past_simple_q4",
+          "prompt": "Complete: Where ___ you go on holiday?",
+          "options": ["did", "do", "was", "were"],
+          "answer": 0,
+          "explanation": "Past questions use did plus the base verb.",
+          "skill": "grammar"
+        }
+      ]
+    },
+    {
+      "id": "future",
+      "band": 0,
+      "title": "Talking About the Future",
+      "rule": "Use will for decisions made now and going to for plans already made.",
+      "examples": ["I will call you back.", "I am going to start a course.", "The train leaves at six."],
+      "explanation": "Will is a decision at the moment of speaking. Going to is a plan you already had. Timetables use present simple.",
+      "quiz": [
+        {
+          "id": "future_q1",
+          "prompt": "You decide right now to help. You say:",
+          "options": ["I am going to help.", "I will help.", "I help.", "I helped."],
+          "answer": 1,
+          "explanation": "Will fits a decision made at that moment.",
+          "skill": "grammar"
+        },
+        {
+          "id": "future_q2",
+          "prompt": "You booked tickets last week. You say:",
+          "options": ["I will travel on Friday.", "I am going to travel on Friday.", "I travel Friday.", "I travelled Friday."],
+          "answer": 1,
+          "explanation": "A plan already made uses going to.",
+          "skill": "grammar"
+        },
+        {
+          "id": "future_q3",
+          "prompt": "Complete: The film ___ at eight, according to the listings.",
+          "options": ["will start", "is going to start", "starts", "is starting soon"],
+          "answer": 2,
+          "explanation": "A fixed timetable uses present simple.",
+          "skill": "grammar"
+        }
+      ]
+    },
+    {
+      "id": "articles",
+      "band": 0,
+      "title": "A, An and The",
+      "rule": "Use a or an for one of many, and the when both speakers know which one.",
+      "examples": ["I need a pen.", "She is an engineer.", "Close the door.", "I go to the office by bus."],
+      "explanation": "A and an introduce something new. The points at something specific. Many learners drop the before places such as the office and the station.",
+      "quiz": [
+        {
+          "id": "articles_q1",
+          "prompt": "Complete: She is ___ honest person.",
+          "options": ["a", "an", "the", "no word"],
+          "answer": 1,
+          "explanation": "Honest starts with a vowel sound.",
+          "skill": "grammar"
+        },
+        {
+          "id": "articles_q2",
+          "prompt": "Choose the correct sentence.",
+          "options": ["I am going to office.", "I am going to the office.", "I am going to an office now.", "I go office."],
+          "answer": 1,
+          "explanation": "A known workplace takes the.",
+          "skill": "grammar"
+        },
+        {
+          "id": "articles_q3",
+          "prompt": "Complete: I bought ___ umbrella, but ___ umbrella broke.",
+          "options": ["an / an", "a / the", "an / the", "the / an"],
+          "answer": 2,
+          "explanation": "New information takes an; the second mention takes the.",
+          "skill": "grammar"
+        }
+      ]
+    },
+    {
+      "id": "there_is_are",
+      "band": 0,
+      "title": "There Is and There Are",
+      "rule": "Use there is for one thing and there are for more than one.",
+      "examples": ["There is a problem.", "There are two chairs.", "Is there a lift?", "There are not any seats."],
+      "explanation": "The verb agrees with what comes after it, not with there. Uncountable nouns such as water, furniture and advice always take there is.",
+      "quiz": [
+        {
+          "id": "there_is_are_q1",
+          "prompt": "Complete: ___ three rooms in my flat.",
+          "options": ["There is", "There are", "It is", "They is"],
+          "answer": 1,
+          "explanation": "Three rooms is plural.",
+          "skill": "grammar"
+        },
+        {
+          "id": "there_is_are_q2",
+          "prompt": "Complete: ___ any milk in the fridge?",
+          "options": ["Are there", "Is there", "Have there", "Is it"],
+          "answer": 1,
+          "explanation": "Milk is uncountable.",
+          "skill": "grammar"
+        },
+        {
+          "id": "there_is_are_q3",
+          "prompt": "Complete: ___ a lot of furniture in this room.",
+          "options": ["There are", "There is", "They are", "It have"],
+          "answer": 1,
+          "explanation": "Furniture is uncountable.",
+          "skill": "grammar"
+        }
+      ]
+    },
+    {
+      "id": "countable",
+      "band": 0,
+      "title": "Much, Many and Some",
+      "rule": "Many and few go with things you can count; much and little go with things you cannot.",
+      "examples": ["How many bags?", "How much time?", "There are a few seats.", "There is little water."],
+      "explanation": "Some is for offers and positives; any is for questions and negatives. The common mistake is much with a countable noun: say how many people, not how much people.",
+      "quiz": [
+        {
+          "id": "countable_q1",
+          "prompt": "Complete: ___ apples do you want?",
+          "options": ["How much", "How many", "How long", "How far"],
+          "answer": 1,
+          "explanation": "Apples can be counted.",
+          "skill": "grammar"
+        },
+        {
+          "id": "countable_q2",
+          "prompt": "Complete: We do not have ___ time.",
+          "options": ["many", "much", "few", "a lot"],
+          "answer": 1,
+          "explanation": "Time is uncountable.",
+          "skill": "grammar"
+        },
+        {
+          "id": "countable_q3",
+          "prompt": "Complete: Would you like ___ help?",
+          "options": ["any", "some", "many", "few"],
+          "answer": 1,
+          "explanation": "Offers use some.",
+          "skill": "grammar"
+        }
+      ]
+    },
+    {
+      "id": "prepositions_time",
+      "band": 0,
+      "title": "At, On and In for Time",
+      "rule": "At for clock times, on for days and dates, in for months, seasons and years.",
+      "examples": ["at six o'clock", "on Monday", "on 3 May", "in July", "in 1998", "in the morning"],
+      "explanation": "The pattern gets wider as the period gets longer: at a point, on a day, in a block. The exceptions worth memorising are at night, at the weekend and on Monday morning.",
+      "quiz": [
+        {
+          "id": "prepositions_time_q1",
+          "prompt": "Complete: The film starts ___ eight.",
+          "options": ["in", "on", "at", "to"],
+          "answer": 2,
+          "explanation": "Use at with clock times.",
+          "skill": "grammar"
+        },
+        {
+          "id": "prepositions_time_q2",
+          "prompt": "Complete: I have a meeting ___ Friday.",
+          "options": ["at", "on", "in", "to"],
+          "answer": 1,
+          "explanation": "Use on with days.",
+          "skill": "grammar"
+        },
+        {
+          "id": "prepositions_time_q3",
+          "prompt": "Complete: My birthday is ___ May.",
+          "options": ["at", "on", "in", "of"],
+          "answer": 2,
+          "explanation": "Use in with months.",
+          "skill": "grammar"
+        },
+        {
+          "id": "prepositions_time_q4",
+          "prompt": "Complete: I do not work ___ night.",
+          "options": ["in", "on", "at", "by"],
+          "answer": 2,
+          "explanation": "At night is a fixed exception.",
+          "skill": "grammar"
+        }
+      ]
+    },
+    {
+      "id": "comparatives",
+      "band": 0,
+      "title": "Comparatives and Superlatives",
+      "rule": "Short words add -er and -est; longer words take more and most.",
+      "examples": ["cheaper than", "more expensive than", "the cheapest", "the most expensive", "as good as"],
+      "explanation": "Never combine the two: more cheaper is wrong. Good and bad are irregular - better, best, worse, worst - and than is the word that follows a comparative, not then.",
+      "quiz": [
+        {
+          "id": "comparatives_q1",
+          "prompt": "Choose the correct sentence.",
+          "options": ["This one is more cheap.", "This one is cheaper.", "This one is more cheaper.", "This one is cheapest than."],
+          "answer": 1,
+          "explanation": "Short adjectives take -er alone.",
+          "skill": "grammar"
+        },
+        {
+          "id": "comparatives_q2",
+          "prompt": "Complete: She is ___ than her sister.",
+          "options": ["more tall", "taller", "tallest", "the taller"],
+          "answer": 1,
+          "explanation": "Tall is short, so taller.",
+          "skill": "grammar"
+        },
+        {
+          "id": "comparatives_q3",
+          "prompt": "Complete: It was ___ film I have ever seen.",
+          "options": ["the worse", "the worst", "worse", "most bad"],
+          "answer": 1,
+          "explanation": "Bad becomes worst in the superlative.",
+          "skill": "grammar"
+        }
+      ]
+    },
+    {
+      "id": "modals_basic",
+      "band": 0,
+      "title": "Can, Could and Should",
+      "rule": "Can for ability and permission, could for polite requests, should for advice.",
+      "examples": ["I can swim.", "Could you help me?", "You should see a doctor.", "You must not park here."],
+      "explanation": "Modals are always followed by the base verb, with no to and no -s: she can go, never she can goes or she can to go.",
+      "quiz": [
+        {
+          "id": "modals_basic_q1",
+          "prompt": "Complete: She can ___ three languages.",
+          "options": ["speaks", "to speak", "speak", "speaking"],
+          "answer": 2,
+          "explanation": "Modals take the base verb.",
+          "skill": "grammar"
+        },
+        {
+          "id": "modals_basic_q2",
+          "prompt": "Which is the most polite request?",
+          "options": ["Give me the salt.", "I want the salt.", "Could you pass the salt?", "You must pass the salt."],
+          "answer": 2,
+          "explanation": "Could is the polite form.",
+          "skill": "grammar"
+        },
+        {
+          "id": "modals_basic_q3",
+          "prompt": "Complete: You look ill. You ___ go home.",
+          "options": ["should", "can", "will", "would"],
+          "answer": 0,
+          "explanation": "Should gives advice.",
+          "skill": "grammar"
+        }
+      ]
+    },
+    {
+      "id": "present_perfect",
+      "band": 1,
+      "title": "Present Perfect",
+      "rule": "Use have or has plus the past participle for experience, or for something unfinished.",
+      "examples": ["I have visited Japan twice.", "She has just left.", "Have you ever eaten sushi?"],
+      "explanation": "Present perfect connects past and present. Do not use it with a finished time: say I saw him yesterday, not I have seen him yesterday.",
+      "quiz": [
+        {
+          "id": "present_perfect_q1",
+          "prompt": "Choose the correct sentence.",
+          "options": ["I have seen him yesterday.", "I saw him yesterday.", "I have saw him yesterday.", "I seen him yesterday."],
+          "answer": 1,
+          "explanation": "Yesterday is finished time, so past simple is right.",
+          "skill": "grammar"
+        },
+        {
+          "id": "present_perfect_q2",
+          "prompt": "Complete: She ___ in this company for five years.",
+          "options": ["works", "has worked", "worked", "is working"],
+          "answer": 1,
+          "explanation": "The period continues to now.",
+          "skill": "grammar"
+        },
+        {
+          "id": "present_perfect_q3",
+          "prompt": "Complete: I ___ finished, so you can have the room.",
+          "options": ["have just", "just have", "am just", "just"],
+          "answer": 0,
+          "explanation": "Just sits between have and the participle.",
+          "skill": "grammar"
+        }
+      ]
+    },
+    {
+      "id": "present_perfect_continuous",
+      "band": 1,
+      "title": "Present Perfect Continuous",
+      "rule": "Have been plus verb-ing, for an activity that started earlier and is still going.",
+      "examples": ["I have been waiting for an hour.", "She has been studying since June.", "It has been raining."],
+      "explanation": "Use the simple form for a finished result and the continuous for the ongoing activity: I have read three chapters (result) versus I have been reading all morning (activity).",
+      "quiz": [
+        {
+          "id": "present_perfect_continuous_q1",
+          "prompt": "Complete: I ___ for two hours and I am still waiting.",
+          "options": ["waited", "have waited", "have been waiting", "am waiting"],
+          "answer": 2,
+          "explanation": "The activity is ongoing.",
+          "skill": "grammar"
+        },
+        {
+          "id": "present_perfect_continuous_q2",
+          "prompt": "Which emphasises the finished result?",
+          "options": ["I have been painting the door.", "I have painted the door.", "I am painting the door.", "I paint the door."],
+          "answer": 1,
+          "explanation": "The simple form reports the completed result.",
+          "skill": "grammar"
+        },
+        {
+          "id": "present_perfect_continuous_q3",
+          "prompt": "Complete: She ___ here since 2020.",
+          "options": ["is living", "lives", "has been living", "lived"],
+          "answer": 2,
+          "explanation": "Since 2020 up to now takes the perfect continuous.",
+          "skill": "grammar"
+        }
+      ]
+    },
+    {
+      "id": "past_continuous",
+      "band": 1,
+      "title": "Past Continuous",
+      "rule": "Was or were plus verb-ing, for the longer action that another action interrupts.",
+      "examples": ["I was cooking when he called.", "They were sleeping at midnight.", "What were you doing?"],
+      "explanation": "The long background action takes the continuous; the short interrupting one takes the past simple. While marks the long action, when marks the short one.",
+      "quiz": [
+        {
+          "id": "past_continuous_q1",
+          "prompt": "Complete: I ___ a shower when the doorbell rang.",
+          "options": ["had", "was having", "have", "am having"],
+          "answer": 1,
+          "explanation": "The shower is the longer, interrupted action.",
+          "skill": "grammar"
+        },
+        {
+          "id": "past_continuous_q2",
+          "prompt": "Complete: While she ___, the power went out.",
+          "options": ["worked", "was working", "works", "has worked"],
+          "answer": 1,
+          "explanation": "While introduces the background action.",
+          "skill": "grammar"
+        },
+        {
+          "id": "past_continuous_q3",
+          "prompt": "Choose the correct sentence.",
+          "options": ["I was seeing him yesterday at the shop.", "I saw him yesterday at the shop.", "I was see him yesterday.", "I seeing him yesterday."],
+          "answer": 1,
+          "explanation": "A single completed event takes the past simple.",
+          "skill": "grammar"
+        }
+      ]
+    },
+    {
+      "id": "past_perfect",
+      "band": 1,
+      "title": "Past Perfect",
+      "rule": "Had plus the past participle, for the earlier of two past events.",
+      "examples": ["The film had started when we arrived.", "She had never flown before.", "I had not eaten all day."],
+      "explanation": "Only reach for it when the order matters and is not already obvious. If you tell the events in the order they happened, past simple is usually enough.",
+      "quiz": [
+        {
+          "id": "past_perfect_q1",
+          "prompt": "Complete: By the time we arrived, the train ___.",
+          "options": ["left", "has left", "had left", "was leaving"],
+          "answer": 2,
+          "explanation": "Leaving happened before arriving.",
+          "skill": "grammar"
+        },
+        {
+          "id": "past_perfect_q2",
+          "prompt": "Choose the correct sentence.",
+          "options": ["I never had seen snow before that trip.", "I had never seen snow before that trip.", "I have never saw snow before that trip.", "I never saw snow before that trip had happened."],
+          "answer": 1,
+          "explanation": "Never sits between had and the participle.",
+          "skill": "grammar"
+        },
+        {
+          "id": "past_perfect_q3",
+          "prompt": "Complete: She was hungry because she ___ breakfast.",
+          "options": ["did not have", "has not had", "had not had", "was not having"],
+          "answer": 2,
+          "explanation": "Missing breakfast came before being hungry.",
+          "skill": "grammar"
+        }
+      ]
+    },
+    {
+      "id": "conditionals",
+      "band": 1,
+      "title": "Conditionals",
+      "rule": "If plus present, will plus base for real possibilities; if plus past, would for unreal ones.",
+      "examples": ["If it rains, I will stay home.", "If I had more time, I would learn guitar.", "If I were you, I would apply."],
+      "explanation": "First conditional talks about a real future. Second conditional imagines something unlikely or untrue right now.",
+      "quiz": [
+        {
+          "id": "conditionals_q1",
+          "prompt": "Complete: If I ___ the lottery, I would travel the world.",
+          "options": ["win", "won", "will win", "have won"],
+          "answer": 1,
+          "explanation": "An imagined situation uses the past form.",
+          "skill": "grammar"
+        },
+        {
+          "id": "conditionals_q2",
+          "prompt": "Complete: If you heat water to 100 degrees, it ___.",
+          "options": ["would boil", "boils", "boiled", "will boiled"],
+          "answer": 1,
+          "explanation": "A general fact uses present simple in both halves.",
+          "skill": "grammar"
+        },
+        {
+          "id": "conditionals_q3",
+          "prompt": "Complete: If it ___ tomorrow, we will cancel.",
+          "options": ["will rain", "rains", "rained", "would rain"],
+          "answer": 1,
+          "explanation": "After if, use the present, not will.",
+          "skill": "grammar"
+        }
+      ]
+    },
+    {
+      "id": "third_conditional",
+      "band": 1,
+      "title": "Third Conditional and Regret",
+      "rule": "If plus had plus participle, would have plus participle, for a past that did not happen.",
+      "examples": ["If I had left earlier, I would have caught it.", "She would have helped if you had asked."],
+      "explanation": "This is the grammar of regret and blame, so it comes up constantly in real speech. Both halves refer to a past that is now fixed and cannot be changed.",
+      "quiz": [
+        {
+          "id": "third_conditional_q1",
+          "prompt": "Complete: If I ___ known, I would have come.",
+          "options": ["have", "had", "would have", "did"],
+          "answer": 1,
+          "explanation": "The if-clause takes had plus participle.",
+          "skill": "grammar"
+        },
+        {
+          "id": "third_conditional_q2",
+          "prompt": "Complete: She would have passed if she ___ harder.",
+          "options": ["studied", "had studied", "would study", "has studied"],
+          "answer": 1,
+          "explanation": "Both halves are unreal past.",
+          "skill": "grammar"
+        },
+        {
+          "id": "third_conditional_q3",
+          "prompt": "What does this mean: If I had seen you, I would have said hello.",
+          "options": ["I saw you and said hello", "I did not see you and did not say hello", "I will say hello", "I always say hello"],
+          "answer": 1,
+          "explanation": "The third conditional describes what did not happen.",
+          "skill": "grammar"
+        }
+      ]
+    },
+    {
+      "id": "passive",
+      "band": 1,
+      "title": "Passive Voice",
+      "rule": "Use be plus past participle when the action matters more than who did it.",
+      "examples": ["The report was sent yesterday.", "English is spoken here.", "My bike has been stolen."],
+      "explanation": "The passive moves the important thing to the front. Use it when the doer is unknown, obvious or unimportant.",
+      "quiz": [
+        {
+          "id": "passive_q1",
+          "prompt": "Make it passive: Someone stole my phone.",
+          "options": ["My phone stole.", "My phone was stolen.", "My phone is stealing.", "My phone has stole."],
+          "answer": 1,
+          "explanation": "Was plus stolen is the passive past.",
+          "skill": "grammar"
+        },
+        {
+          "id": "passive_q2",
+          "prompt": "Choose the correct sentence.",
+          "options": ["The email sent this morning.", "The email was sent this morning.", "The email is send this morning.", "The email sending."],
+          "answer": 1,
+          "explanation": "The email did not send itself.",
+          "skill": "grammar"
+        },
+        {
+          "id": "passive_q3",
+          "prompt": "Complete: The bridge ___ built in 1890.",
+          "options": ["is", "was", "has", "were"],
+          "answer": 1,
+          "explanation": "One bridge, past time: was built.",
+          "skill": "grammar"
+        }
+      ]
+    },
+    {
+      "id": "reported",
+      "band": 1,
+      "title": "Reported Speech",
+      "rule": "Move the tense one step back when you report what someone said.",
+      "examples": ["He said he was tired.", "She told me she had finished.", "They asked where I lived."],
+      "explanation": "Direct: I am tired. Reported: he said he was tired. Questions lose the question word order.",
+      "quiz": [
+        {
+          "id": "reported_q1",
+          "prompt": "He said: I will call you. Report it.",
+          "options": ["He said he will call me.", "He said he would call me.", "He said he calls me.", "He says he called me."],
+          "answer": 1,
+          "explanation": "Will becomes would in reported speech.",
+          "skill": "grammar"
+        },
+        {
+          "id": "reported_q2",
+          "prompt": "She asked: Where do you work? Report it.",
+          "options": ["She asked where do I work.", "She asked where I worked.", "She asked where I work?", "She asked where worked I."],
+          "answer": 1,
+          "explanation": "Reported questions use statement word order.",
+          "skill": "grammar"
+        },
+        {
+          "id": "reported_q3",
+          "prompt": "Choose the correct verb: He ___ me he was leaving.",
+          "options": ["said", "told", "says", "spoke"],
+          "answer": 1,
+          "explanation": "Tell takes a person object; say does not.",
+          "skill": "grammar"
+        }
+      ]
+    },
+    {
+      "id": "gerund_infinitive",
+      "band": 1,
+      "title": "-ing or to + verb",
+      "rule": "Some verbs take -ing, some take to, and a few change meaning depending which.",
+      "examples": ["I enjoy cooking.", "I want to cook.", "I stopped smoking.", "I stopped to smoke."],
+      "explanation": "Enjoy, avoid, finish, mind and suggest take -ing. Want, decide, hope, promise and agree take to. After a preposition it is always -ing: good at drawing, interested in learning.",
+      "quiz": [
+        {
+          "id": "gerund_infinitive_q1",
+          "prompt": "Complete: I am looking forward to ___ you.",
+          "options": ["meet", "meeting", "met", "have met"],
+          "answer": 1,
+          "explanation": "To is a preposition here, so -ing.",
+          "skill": "grammar"
+        },
+        {
+          "id": "gerund_infinitive_q2",
+          "prompt": "Complete: She suggested ___ a taxi.",
+          "options": ["to take", "taking", "take", "took"],
+          "answer": 1,
+          "explanation": "Suggest takes -ing.",
+          "skill": "grammar"
+        },
+        {
+          "id": "gerund_infinitive_q3",
+          "prompt": "Complete: We decided ___ early.",
+          "options": ["leaving", "to leave", "leave", "left"],
+          "answer": 1,
+          "explanation": "Decide takes to plus base verb.",
+          "skill": "grammar"
+        }
+      ]
+    },
+    {
+      "id": "used_to",
+      "band": 1,
+      "title": "Used To and Would",
+      "rule": "Used to for past habits and states that have stopped; be used to for what feels normal.",
+      "examples": ["I used to smoke.", "I am used to the noise.", "I am getting used to waking early."],
+      "explanation": "Two different structures that look alike. Used to plus base verb is a finished past habit. Be used to plus -ing means it is familiar to you now.",
+      "quiz": [
+        {
+          "id": "used_to_q1",
+          "prompt": "Complete: I ___ live in Paris, but I moved in 2019.",
+          "options": ["am used to", "used to", "use to", "would used to"],
+          "answer": 1,
+          "explanation": "A finished past habit.",
+          "skill": "grammar"
+        },
+        {
+          "id": "used_to_q2",
+          "prompt": "Complete: I am not used to ___ so early.",
+          "options": ["get up", "getting up", "got up", "get"],
+          "answer": 1,
+          "explanation": "Be used to takes -ing.",
+          "skill": "grammar"
+        },
+        {
+          "id": "used_to_q3",
+          "prompt": "Which sentence is about something that still happens?",
+          "options": ["I used to cycle to work.", "I am used to cycling to work.", "I used to cycle every day.", "I would cycle to work."],
+          "answer": 1,
+          "explanation": "Be used to describes a present familiarity.",
+          "skill": "grammar"
+        }
+      ]
+    },
+    {
+      "id": "quantifier_agreement",
+      "band": 1,
+      "title": "Agreement Traps",
+      "rule": "Everyone, each and neither take a singular verb; the police and people take plural.",
+      "examples": ["Everyone is here.", "Each of them has a copy.", "The police are outside.", "The news is good."],
+      "explanation": "The trap is a long subject: the list of names on the form is correct - the verb agrees with list, not names. Information, advice and news are always singular.",
+      "quiz": [
+        {
+          "id": "quantifier_agreement_q1",
+          "prompt": "Complete: Everyone ___ arrived.",
+          "options": ["have", "has", "are", "were"],
+          "answer": 1,
+          "explanation": "Everyone is grammatically singular.",
+          "skill": "grammar"
+        },
+        {
+          "id": "quantifier_agreement_q2",
+          "prompt": "Complete: The police ___ investigating.",
+          "options": ["is", "are", "was", "has"],
+          "answer": 1,
+          "explanation": "Police takes a plural verb.",
+          "skill": "grammar"
+        },
+        {
+          "id": "quantifier_agreement_q3",
+          "prompt": "Complete: The list of items ___ on your desk.",
+          "options": ["are", "is", "have", "were"],
+          "answer": 1,
+          "explanation": "The verb agrees with list, not items.",
+          "skill": "grammar"
+        }
+      ]
+    },
+    {
+      "id": "phrasal_verbs",
+      "band": 2,
+      "title": "Phrasal Verbs",
+      "rule": "A verb plus a particle whose meaning is not the sum of the parts.",
+      "examples": ["I gave up sugar.", "Let us catch up on Friday.", "She turned down the offer."],
+      "explanation": "Phrasal verbs are how English actually sounds. Learn them as whole phrases, and notice which ones can be split: turn the offer down works, but not with all verbs.",
+      "quiz": [
+        {
+          "id": "phrasal_verbs_q1",
+          "prompt": "She refused the job. She ___ the job.",
+          "options": ["turned down", "turned up", "took off", "gave in"],
+          "answer": 0,
+          "explanation": "Turn down means refuse.",
+          "skill": "grammar"
+        },
+        {
+          "id": "phrasal_verbs_q2",
+          "prompt": "I met an old friend by chance. I ___ an old friend.",
+          "options": ["ran into", "ran over", "ran out", "ran away"],
+          "answer": 0,
+          "explanation": "Run into means meet by chance.",
+          "skill": "grammar"
+        },
+        {
+          "id": "phrasal_verbs_q3",
+          "prompt": "The meeting was cancelled. It was ___.",
+          "options": ["called off", "called up", "called in", "called out"],
+          "answer": 0,
+          "explanation": "Call off means cancel.",
+          "skill": "grammar"
+        },
+        {
+          "id": "phrasal_verbs_q4",
+          "prompt": "Which sentence is correct?",
+          "options": ["I looked the word in up.", "I looked up the word.", "I up looked the word.", "I looked up it."],
+          "answer": 1,
+          "explanation": "A noun object can go either side; a pronoun must go in the middle.",
+          "skill": "grammar"
+        }
+      ]
+    },
+    {
+      "id": "relative_clauses",
+      "band": 2,
+      "title": "Relative Clauses",
+      "rule": "Use who for people, which for things and that for both, to add information.",
+      "examples": ["The man who called is my uncle.", "The report which you sent is clear.", "The flat that we saw was small."],
+      "explanation": "Relative clauses let you join two short sentences into one adult-sounding one, which is one of the fastest ways to sound more advanced.",
+      "quiz": [
+        {
+          "id": "relative_clauses_q1",
+          "prompt": "Choose the correct sentence.",
+          "options": ["The woman which helped me was kind.", "The woman who helped me was kind.", "The woman what helped me was kind.", "The woman she helped me was kind."],
+          "answer": 1,
+          "explanation": "Who is for people.",
+          "skill": "grammar"
+        },
+        {
+          "id": "relative_clauses_q2",
+          "prompt": "Join: This is the book. I told you about it.",
+          "options": ["This is the book that I told you about.", "This is the book what I told you.", "This is the book I told you about it.", "This is the book which told you."],
+          "answer": 0,
+          "explanation": "That replaces the object of the second sentence.",
+          "skill": "grammar"
+        },
+        {
+          "id": "relative_clauses_q3",
+          "prompt": "Which needs commas?",
+          "options": ["The man who lives next door is a doctor.", "My father, who lives next door, is a doctor.", "The book that I read was long.", "The place where we met was busy."],
+          "answer": 1,
+          "explanation": "Extra, non-defining information takes commas.",
+          "skill": "grammar"
+        }
+      ]
+    },
+    {
+      "id": "inversion",
+      "band": 2,
+      "title": "Inversion for Emphasis",
+      "rule": "Put a negative or limiting adverb first and the subject and auxiliary swap places.",
+      "examples": ["Never have I seen such a mess.", "Not only was he late, he forgot the file.", "Rarely does she complain."],
+      "explanation": "This is formal and deliberate: it signals that what follows is notable. Overusing it sounds theatrical, but recognising it matters for reading anything written.",
+      "quiz": [
+        {
+          "id": "inversion_q1",
+          "prompt": "Complete: Not only ___ late, but he also lost the keys.",
+          "options": ["he was", "was he", "he is", "is he"],
+          "answer": 1,
+          "explanation": "Inversion follows not only.",
+          "skill": "grammar"
+        },
+        {
+          "id": "inversion_q2",
+          "prompt": "Complete: Rarely ___ such a clear explanation.",
+          "options": ["I have heard", "have I heard", "I heard", "did I heard"],
+          "answer": 1,
+          "explanation": "Rarely at the front triggers inversion.",
+          "skill": "grammar"
+        },
+        {
+          "id": "inversion_q3",
+          "prompt": "Which sentence is correctly inverted?",
+          "options": ["Never I have been there.", "Never have I been there.", "Never I was there.", "Have never I been there."],
+          "answer": 1,
+          "explanation": "The auxiliary moves in front of the subject.",
+          "skill": "grammar"
+        }
+      ]
+    },
+    {
+      "id": "hedging",
+      "band": 2,
+      "title": "Hedging and Softening",
+      "rule": "Tentative language that makes a claim or a request easier to accept.",
+      "examples": ["It would appear that...", "I was wondering whether...", "That may not be entirely accurate.", "There is a case for..."],
+      "explanation": "Direct disagreement can end a conversation. Hedging buys room to be wrong and makes the other person's retreat cheap, which is why it dominates professional English.",
+      "quiz": [
+        {
+          "id": "hedging_q1",
+          "prompt": "Which is the softest disagreement?",
+          "options": ["That is wrong.", "I disagree.", "I am not sure that is quite right.", "No."],
+          "answer": 2,
+          "explanation": "Not sure ... quite is the most hedged.",
+          "skill": "grammar"
+        },
+        {
+          "id": "hedging_q2",
+          "prompt": "Which is the most tentative request?",
+          "options": ["Send me the file.", "Can you send me the file?", "I was wondering whether you could send me the file.", "Please send the file."],
+          "answer": 2,
+          "explanation": "I was wondering whether is maximally indirect.",
+          "skill": "grammar"
+        },
+        {
+          "id": "hedging_q3",
+          "prompt": "Complete: The results ___ suggest a link, though more work is needed.",
+          "options": ["prove", "definitely", "would seem to", "certainly"],
+          "answer": 2,
+          "explanation": "Would seem to matches the cautious second half.",
+          "skill": "grammar"
+        }
+      ]
+    },
+    {
+      "id": "cleft_sentences",
+      "band": 2,
+      "title": "Cleft Sentences",
+      "rule": "Split a sentence to spotlight one part: it is X that..., what I need is...",
+      "examples": ["It was Maria who called.", "What surprised me was the price.", "All I want is an answer."],
+      "explanation": "The cleft moves the important element out of the middle of the sentence, where it gets lost, and into a position where the listener cannot miss it.",
+      "quiz": [
+        {
+          "id": "cleft_sentences_q1",
+          "prompt": "Emphasise Maria: Maria called yesterday.",
+          "options": ["It was Maria who called yesterday.", "Maria it was called yesterday.", "What Maria called yesterday.", "It was called Maria yesterday."],
+          "answer": 0,
+          "explanation": "It was X who is the standard cleft.",
+          "skill": "grammar"
+        },
+        {
+          "id": "cleft_sentences_q2",
+          "prompt": "Complete: ___ I need is more time.",
+          "options": ["That", "What", "Which", "It"],
+          "answer": 1,
+          "explanation": "What introduces the noun clause.",
+          "skill": "grammar"
+        },
+        {
+          "id": "cleft_sentences_q3",
+          "prompt": "Which sentence emphasises the price?",
+          "options": ["The price surprised me.", "What surprised me was the price.", "I was surprised.", "The price was high."],
+          "answer": 1,
+          "explanation": "The cleft puts the price in the spotlight.",
+          "skill": "grammar"
+        }
+      ]
+    },
+    {
+      "id": "nuance_modals",
+      "band": 2,
+      "title": "Modals of Deduction",
+      "rule": "Must, might, could and cannot express how certain you are, not what is permitted.",
+      "examples": ["She must be at home - her car is there.", "He might have missed the train.", "That cannot be right."],
+      "explanation": "For the past, add have plus the participle: must have left, might have forgotten. Cannot is the negative of must here - not must not, which means prohibition.",
+      "quiz": [
+        {
+          "id": "nuance_modals_q1",
+          "prompt": "Her coat is gone, so she ___ left.",
+          "options": ["must have", "must", "might be", "cannot have"],
+          "answer": 0,
+          "explanation": "Strong deduction about the past: must have left.",
+          "skill": "grammar"
+        },
+        {
+          "id": "nuance_modals_q2",
+          "prompt": "That ___ be her - she is abroad this week.",
+          "options": ["must not", "cannot", "might not", "should not"],
+          "answer": 1,
+          "explanation": "Cannot expresses a confident negative deduction.",
+          "skill": "grammar"
+        },
+        {
+          "id": "nuance_modals_q3",
+          "prompt": "I am not sure, but he ___ forgotten.",
+          "options": ["must have", "cannot have", "might have", "will have"],
+          "answer": 2,
+          "explanation": "Might have signals uncertainty.",
+          "skill": "grammar"
+        }
+      ]
+    },
+    {
+      "id": "discourse_markers",
+      "band": 2,
+      "title": "Linking an Argument",
+      "rule": "Markers that show the reader how one idea relates to the last.",
+      "examples": ["Admittedly, the cost is high.", "That said, the alternative is worse.", "In practice, few people do.", "Hence the delay."],
+      "explanation": "Concession markers - admittedly, granted, that said - are what make writing sound considered rather than one-sided, because they show you have met the counterargument.",
+      "quiz": [
+        {
+          "id": "discourse_markers_q1",
+          "prompt": "Which marker concedes a point before disagreeing?",
+          "options": ["Therefore", "Admittedly", "Moreover", "Similarly"],
+          "answer": 1,
+          "explanation": "Admittedly grants the other side something.",
+          "skill": "grammar"
+        },
+        {
+          "id": "discourse_markers_q2",
+          "prompt": "Complete: The plan is cheap. ___, it is slow.",
+          "options": ["Therefore", "Likewise", "That said", "Hence"],
+          "answer": 2,
+          "explanation": "That said introduces a contrast.",
+          "skill": "grammar"
+        },
+        {
+          "id": "discourse_markers_q3",
+          "prompt": "Which marker introduces a consequence?",
+          "options": ["Nevertheless", "Consequently", "Conversely", "Incidentally"],
+          "answer": 1,
+          "explanation": "Consequently signals a result.",
+          "skill": "grammar"
+        }
+      ]
+    },
+    {
+      "id": "subjunctive",
+      "band": 2,
+      "title": "Subjunctive and Unreal Present",
+      "rule": "After suggest, insist, demand and it is essential, use the bare base verb.",
+      "examples": ["I suggest he leave now.", "It is essential that she be informed.", "I would rather you did not."],
+      "explanation": "This survives in formal English and in fixed phrases. Note the lack of -s: he leave, not he leaves. Would rather and it is time take a past form for a present meaning.",
+      "quiz": [
+        {
+          "id": "subjunctive_q1",
+          "prompt": "Complete: The board insisted that he ___ immediately.",
+          "options": ["resigns", "resign", "resigned", "will resign"],
+          "answer": 1,
+          "explanation": "After insist that, use the base form.",
+          "skill": "grammar"
+        },
+        {
+          "id": "subjunctive_q2",
+          "prompt": "Complete: I would rather you ___ that to anyone.",
+          "options": ["do not mention", "did not mention", "will not mention", "not mentioning"],
+          "answer": 1,
+          "explanation": "Would rather takes a past form for present meaning.",
+          "skill": "grammar"
+        },
+        {
+          "id": "subjunctive_q3",
+          "prompt": "Complete: It is high time we ___ this properly.",
+          "options": ["discuss", "discussed", "will discuss", "are discussing"],
+          "answer": 1,
+          "explanation": "It is time takes the past form.",
+          "skill": "grammar"
+        }
+      ]
+    }
+  ]
+}

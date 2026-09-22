@@ -1,0 +1,156 @@
+{
+  "schema": "speakly.content.v1",
+  "doc": "grammar_topics_extra",
+  "collection": "grammar",
+  "version": 1,
+  "updatedAt": "2026-09-22",
+  "locale": "en",
+  "count": 8,
+  "items": [
+    {
+      "id": "gx_some_any",
+      "band": 0,
+      "title": "Some and Any",
+      "rule": "Some in positive sentences and offers, any in negatives and most questions.",
+      "examples": [
+        "I bought some bread.",
+        "We do not have any milk.",
+        "Is there any coffee left?",
+        "Would you like some water?"
+      ],
+      "explanation": "The exception people forget is the offer: Would you like some tea? uses some, not any, because you expect a yes. Any in a question sounds genuinely open.",
+      "quiz": [
+        { "id": "gx_some_any_q1", "prompt": "Complete: I did not buy ___ fruit.", "options": ["some", "any", "a", "much of"], "answer": 1, "explanation": "Negative sentences take any.", "skill": "grammar" },
+        { "id": "gx_some_any_q2", "prompt": "Complete: Would you like ___ help?", "options": ["any", "some", "a", "many"], "answer": 1, "explanation": "An offer takes some.", "skill": "grammar" },
+        { "id": "gx_some_any_q3", "prompt": "Complete: Do we have ___ questions left?", "options": ["some", "any", "much", "a"], "answer": 1, "explanation": "An open question takes any.", "skill": "grammar" }
+      ]
+    },
+    {
+      "id": "gx_too_enough",
+      "band": 0,
+      "title": "Too, Enough and Very",
+      "rule": "Too means more than you want; very is just strong; enough means the right amount.",
+      "examples": [
+        "This coffee is too hot to drink.",
+        "This coffee is very hot, but I like it.",
+        "The room is not big enough.",
+        "He is old enough to decide."
+      ],
+      "explanation": "Very is neutral, too is always a complaint. Enough goes after an adjective but before a noun: big enough, enough space.",
+      "quiz": [
+        { "id": "gx_too_enough_q1", "prompt": "Complete: The bag is ___ heavy for me to lift.", "options": ["very", "too", "enough", "so much"], "answer": 1, "explanation": "It stops you doing something, so too.", "skill": "grammar" },
+        { "id": "gx_too_enough_q2", "prompt": "Which is correct?", "options": ["We have enough time.", "We have time enough left over.", "We have too time.", "We have very time."], "answer": 0, "explanation": "Enough goes before a noun.", "skill": "grammar" },
+        { "id": "gx_too_enough_q3", "prompt": "Complete: She is ___ tired, but she will still come.", "options": ["too", "very", "enough", "so that"], "answer": 1, "explanation": "She still comes, so it is not a problem: very.", "skill": "grammar" }
+      ]
+    },
+    {
+      "id": "gx_say_tell",
+      "band": 0,
+      "title": "Say, Tell, Speak and Talk",
+      "rule": "You tell someone something; you say something to someone; you speak or talk to someone.",
+      "examples": [
+        "She told me the news.",
+        "She said the news was good.",
+        "I need to talk to you.",
+        "Do you speak Spanish?"
+      ],
+      "explanation": "Tell needs a person straight after it; say does not take one without to. Speak is slightly more formal than talk, and is the verb used about languages.",
+      "quiz": [
+        { "id": "gx_say_tell_q1", "prompt": "Complete: He ___ me he was late.", "options": ["said", "told", "spoke", "talked"], "answer": 1, "explanation": "A person follows, so tell.", "skill": "grammar" },
+        { "id": "gx_say_tell_q2", "prompt": "Complete: She ___ that the shop was closed.", "options": ["told", "said", "spoke", "talked"], "answer": 1, "explanation": "No person follows, so say.", "skill": "grammar" },
+        { "id": "gx_say_tell_q3", "prompt": "Complete: Can I ___ to you for a minute?", "options": ["say", "tell", "talk", "told"], "answer": 2, "explanation": "Talk to someone.", "skill": "grammar" },
+        { "id": "gx_say_tell_q4", "prompt": "Complete: How many languages do you ___?", "options": ["talk", "speak", "say", "tell"], "answer": 1, "explanation": "Languages take speak.", "skill": "grammar" }
+      ]
+    },
+    {
+      "id": "gx_adjective_order",
+      "band": 1,
+      "title": "Adjective Order",
+      "rule": "Opinion, then size, age, shape, colour, origin, material, purpose - then the noun.",
+      "examples": [
+        "A lovely little old house.",
+        "A big round wooden table.",
+        "An expensive black leather jacket.",
+        "A small Italian coffee cup."
+      ],
+      "explanation": "Native speakers never learn this list, they just hear when it is wrong. Two adjectives are common, three is already unusual in speech, so the safe move is to use fewer and put the opinion first.",
+      "quiz": [
+        { "id": "gx_adjective_order_q1", "prompt": "Which sounds natural?", "options": ["A black big dog.", "A big black dog.", "A dog big black.", "A black dog big."], "answer": 1, "explanation": "Size comes before colour.", "skill": "grammar" },
+        { "id": "gx_adjective_order_q2", "prompt": "Complete: She bought a ___ table.", "options": ["wooden round nice", "nice round wooden", "round nice wooden", "wooden nice round"], "answer": 1, "explanation": "Opinion, shape, material.", "skill": "grammar" },
+        { "id": "gx_adjective_order_q3", "prompt": "Which is correct?", "options": ["An old lovely story", "A lovely old story", "A story lovely old", "An old story lovely"], "answer": 1, "explanation": "Opinion before age.", "skill": "grammar" }
+      ]
+    },
+    {
+      "id": "gx_question_tags",
+      "band": 1,
+      "title": "Question Tags",
+      "rule": "Positive sentence takes a negative tag, negative sentence takes a positive tag.",
+      "examples": [
+        "You are coming, are you not?",
+        "She does not drive, does she?",
+        "They finished it, did they not?",
+        "Let us start, shall we?"
+      ],
+      "explanation": "The tag repeats the auxiliary verb, not the main verb. If there is no auxiliary, use do, does or did. Falling intonation asks for agreement; rising intonation is a real question.",
+      "quiz": [
+        { "id": "gx_question_tags_q1", "prompt": "Complete: You work here, ___?", "options": ["do not you", "don't you", "are you", "is it"], "answer": 1, "explanation": "Positive sentence, negative tag with do.", "skill": "grammar" },
+        { "id": "gx_question_tags_q2", "prompt": "Complete: She has not replied, ___?", "options": ["has she", "has not she", "does she", "did she"], "answer": 0, "explanation": "Negative sentence, positive tag repeating has.", "skill": "grammar" },
+        { "id": "gx_question_tags_q3", "prompt": "Complete: Let us go, ___?", "options": ["will we", "shall we", "do we", "are we"], "answer": 1, "explanation": "Let us takes shall we.", "skill": "grammar" }
+      ]
+    },
+    {
+      "id": "gx_so_such",
+      "band": 1,
+      "title": "So and Such",
+      "rule": "So goes with an adjective or adverb alone; such goes with a noun phrase.",
+      "examples": [
+        "The film was so long.",
+        "It was such a long film.",
+        "She speaks so clearly.",
+        "They are such kind people."
+      ],
+      "explanation": "The test is whether a noun follows. So + adjective, such + (a/an) + adjective + noun. With plural or uncountable nouns, such takes no article: such kind people, such bad weather.",
+      "quiz": [
+        { "id": "gx_so_such_q1", "prompt": "Complete: It was ___ a good idea.", "options": ["so", "such", "very", "too"], "answer": 1, "explanation": "A noun follows, so such.", "skill": "grammar" },
+        { "id": "gx_so_such_q2", "prompt": "Complete: The room was ___ cold.", "options": ["such", "so", "such a", "much"], "answer": 1, "explanation": "Adjective alone takes so.", "skill": "grammar" },
+        { "id": "gx_so_such_q3", "prompt": "Complete: We had ___ bad weather that we stayed in.", "options": ["so", "such", "such a", "so a"], "answer": 1, "explanation": "Uncountable noun, such with no article.", "skill": "grammar" }
+      ]
+    },
+    {
+      "id": "gx_indirect_questions",
+      "band": 2,
+      "title": "Indirect Questions",
+      "rule": "After Could you tell me or Do you know, the word order goes back to a statement.",
+      "examples": [
+        "Could you tell me where the station is?",
+        "Do you know when the shop opens?",
+        "I was wondering whether you could help.",
+        "Would you mind telling me how much it costs?"
+      ],
+      "explanation": "This is the single most useful politeness move in English, and the mistake is almost always the same one: keeping the question word order. Where is the station? becomes where the station is inside a longer question.",
+      "quiz": [
+        { "id": "gx_indirect_questions_q1", "prompt": "Complete: Could you tell me where ___?", "options": ["is the bank", "the bank is", "does the bank is", "the bank does be"], "answer": 1, "explanation": "Statement order after Could you tell me.", "skill": "grammar" },
+        { "id": "gx_indirect_questions_q2", "prompt": "Complete: Do you know what time ___?", "options": ["does it start", "it starts", "is it start", "start it"], "answer": 1, "explanation": "No auxiliary, statement order.", "skill": "grammar" },
+        { "id": "gx_indirect_questions_q3", "prompt": "Which is the most polite?", "options": ["Where is the toilet?", "Toilet where?", "Could you tell me where the toilet is?", "Tell me the toilet."], "answer": 2, "explanation": "The indirect form is the polite one.", "skill": "grammar" }
+      ]
+    },
+    {
+      "id": "gx_wish_regret",
+      "band": 2,
+      "title": "Wish and If Only",
+      "rule": "Wish + past for now, wish + past perfect for the past, wish + would for someone else's annoying habit.",
+      "examples": [
+        "I wish I had more time.",
+        "I wish I had said something.",
+        "I wish he would stop interrupting.",
+        "If only we had left earlier."
+      ],
+      "explanation": "Wish + would is never used about yourself: I wish I would stop is wrong, because you control it. Use I wish I could stop instead.",
+      "quiz": [
+        { "id": "gx_wish_regret_q1", "prompt": "Complete: I wish I ___ the answer.", "options": ["know", "knew", "have known", "will know"], "answer": 1, "explanation": "A present regret takes the past form.", "skill": "grammar" },
+        { "id": "gx_wish_regret_q2", "prompt": "Complete: I wish I ___ that email yesterday.", "options": ["did not send", "had not sent", "have not sent", "would not send"], "answer": 1, "explanation": "A past regret takes the past perfect.", "skill": "grammar" },
+        { "id": "gx_wish_regret_q3", "prompt": "Which is wrong?", "options": ["I wish she would listen.", "I wish I would listen.", "I wish I could listen.", "I wish they would decide."], "answer": 1, "explanation": "Wish + would is not used about yourself.", "skill": "grammar" }
+      ]
+    }
+  ]
+}

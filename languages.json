@@ -1,0 +1,128 @@
+{
+  "schema": "speakly.content.v1",
+  "doc": "languages",
+  "collection": "languages",
+  "version": 1,
+  "updatedAt": "2026-09-22",
+  "locale": "en",
+  "count": 13,
+  "items": [
+    {
+      "id": "lang_en",
+      "code": "en",
+      "englishName": "English",
+      "nativeName": "English",
+      "flag": "🇺🇸",
+      "locale": "en-US",
+      "courseReady": true
+    },
+    {
+      "id": "lang_hi",
+      "code": "hi",
+      "englishName": "Hindi",
+      "nativeName": "हिन्दी",
+      "flag": "🇮🇳",
+      "locale": "hi-IN",
+      "courseReady": false
+    },
+    {
+      "id": "lang_gu",
+      "code": "gu",
+      "englishName": "Gujarati",
+      "nativeName": "ગુજરાતી",
+      "flag": "🇮🇳",
+      "locale": "gu-IN",
+      "courseReady": false
+    },
+    {
+      "id": "lang_es",
+      "code": "es",
+      "englishName": "Spanish",
+      "nativeName": "Español",
+      "flag": "🇪🇸",
+      "locale": "es-ES",
+      "courseReady": false
+    },
+    {
+      "id": "lang_fr",
+      "code": "fr",
+      "englishName": "French",
+      "nativeName": "Français",
+      "flag": "🇫🇷",
+      "locale": "fr-FR",
+      "courseReady": false
+    },
+    {
+      "id": "lang_de",
+      "code": "de",
+      "englishName": "German",
+      "nativeName": "Deutsch",
+      "flag": "🇩🇪",
+      "locale": "de-DE",
+      "courseReady": false
+    },
+    {
+      "id": "lang_pt",
+      "code": "pt",
+      "englishName": "Portuguese",
+      "nativeName": "Português",
+      "flag": "🇧🇷",
+      "locale": "pt-BR",
+      "courseReady": false
+    },
+    {
+      "id": "lang_it",
+      "code": "it",
+      "englishName": "Italian",
+      "nativeName": "Italiano",
+      "flag": "🇮🇹",
+      "locale": "it-IT",
+      "courseReady": false
+    },
+    {
+      "id": "lang_ar",
+      "code": "ar",
+      "englishName": "Arabic",
+      "nativeName": "العربية",
+      "flag": "🇸🇦",
+      "locale": "ar-SA",
+      "courseReady": false
+    },
+    {
+      "id": "lang_ja",
+      "code": "ja",
+      "englishName": "Japanese",
+      "nativeName": "日本語",
+      "flag": "🇯🇵",
+      "locale": "ja-JP",
+      "courseReady": false
+    },
+    {
+      "id": "lang_ko",
+      "code": "ko",
+      "englishName": "Korean",
+      "nativeName": "한국어",
+      "flag": "🇰🇷",
+      "locale": "ko-KR",
+      "courseReady": false
+    },
+    {
+      "id": "lang_zh",
+      "code": "zh",
+      "englishName": "Chinese",
+      "nativeName": "中文",
+      "flag": "🇨🇳",
+      "locale": "zh-CN",
+      "courseReady": false
+    },
+    {
+      "id": "lang_ru",
+      "code": "ru",
+      "englishName": "Russian",
+      "nativeName": "Русский",
+      "flag": "🇷🇺",
+      "locale": "ru-RU",
+      "courseReady": false
+    }
+  ]
+}
