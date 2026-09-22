@@ -1,0 +1,2094 @@
+{
+  "schema": "speakly.content.v1",
+  "doc": "courses_beginner",
+  "collection": "courses",
+  "version": 1,
+  "updatedAt": "2026-09-22",
+  "locale": "en",
+  "count": 1,
+  "items": [
+    {
+      "id": "en_beginner",
+      "band": 0,
+      "title": "Beginner",
+      "subtitle": "First words, first conversations",
+      "units": [
+        {
+          "id": "en_b_u1",
+          "title": "Unit 1 - Basics",
+          "subtitle": "Greetings, introductions, numbers, family",
+          "lessons": [
+            {
+              "id": "en_b_u1_l1",
+              "title": "Greetings",
+              "topic": "daily",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_b_u1_l1_hello",
+                  "word": "hello",
+                  "phonetic": "/həˈləʊ/",
+                  "meaning": "A friendly way to greet someone.",
+                  "example": "Hello, nice to meet you.",
+                  "translations": {
+                    "hi": "नमस्ते",
+                    "gu": "નમસ્તે",
+                    "es": "hola"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u1_l1_goodbye",
+                  "word": "goodbye",
+                  "phonetic": "/ɡʊdˈbaɪ/",
+                  "meaning": "What you say when you leave.",
+                  "example": "Goodbye, see you tomorrow.",
+                  "translations": {
+                    "hi": "अलविदा",
+                    "gu": "આવજો",
+                    "es": "adiós"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u1_l1_please",
+                  "word": "please",
+                  "phonetic": "/pliːz/",
+                  "meaning": "A polite word when you ask for something.",
+                  "example": "Two coffees, please.",
+                  "translations": {
+                    "hi": "कृपया",
+                    "gu": "કૃપા કરીને",
+                    "es": "por favor"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u1_l1_thank_you",
+                  "word": "thank you",
+                  "phonetic": "/ˈθæŋk juː/",
+                  "meaning": "What you say when someone helps you.",
+                  "example": "Thank you for your help.",
+                  "translations": {
+                    "hi": "धन्यवाद",
+                    "gu": "આભાર",
+                    "es": "gracias"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u1_l1_sorry",
+                  "word": "sorry",
+                  "phonetic": "/ˈsɒri/",
+                  "meaning": "What you say when you make a mistake.",
+                  "example": "Sorry, I am late.",
+                  "translations": {
+                    "hi": "माफ़ कीजिए",
+                    "gu": "માફ કરશો",
+                    "es": "perdón"
+                  }
+                }
+              ],
+              "listen": ["Hello, my name is Anna. Nice to meet you.", "Good morning. How are you today?"],
+              "speak": ["Hello, nice to meet you.", "Thank you very much."],
+              "grammar": {
+                "title": "Verb to be: am, is, are",
+                "rule": "I am, you are, he is. The verb to be links you to a word that describes you.",
+                "explanation": "",
+                "examples": ["I am a student.", "She is my friend.", "They are from Spain."]
+              },
+              "quiz": [
+                {
+                  "id": "en_b_u1_l1_q1",
+                  "prompt": "Complete: I ___ happy to meet you.",
+                  "options": ["is", "am", "are", "be"],
+                  "answer": 1,
+                  "explanation": "I always takes am.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u1_l1_q2",
+                  "prompt": "Which is polite when you ask for something?",
+                  "options": ["Give", "Please", "Now", "Fast"],
+                  "answer": 1,
+                  "explanation": "Please makes a request polite.",
+                  "skill": "vocabulary"
+                },
+                {
+                  "id": "en_b_u1_l1_q3",
+                  "prompt": "Complete: She ___ my teacher.",
+                  "options": ["am", "are", "is", "be"],
+                  "answer": 2,
+                  "explanation": "She takes is.",
+                  "skill": "grammar"
+                }
+              ]
+            },
+            {
+              "id": "en_b_u1_l2",
+              "title": "Introductions",
+              "topic": "daily",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_b_u1_l2_name",
+                  "word": "name",
+                  "phonetic": "/neɪm/",
+                  "meaning": "The word people call you.",
+                  "example": "My name is Ravi.",
+                  "translations": {
+                    "hi": "नाम",
+                    "gu": "નામ",
+                    "es": "nombre"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u1_l2_from",
+                  "word": "from",
+                  "phonetic": "/frɒm/",
+                  "meaning": "Used to say where you started.",
+                  "example": "I am from India.",
+                  "translations": {
+                    "hi": "से",
+                    "gu": "થી",
+                    "es": "de"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u1_l2_live",
+                  "word": "live",
+                  "phonetic": "/lɪv/",
+                  "meaning": "To have your home somewhere.",
+                  "example": "I live in Mumbai.",
+                  "translations": {
+                    "hi": "रहना",
+                    "gu": "રહેવું",
+                    "es": "vivir"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u1_l2_job",
+                  "word": "job",
+                  "phonetic": "/dʒɒb/",
+                  "meaning": "The work you do for money.",
+                  "example": "My job is interesting.",
+                  "translations": {
+                    "hi": "नौकरी",
+                    "gu": "નોકરી",
+                    "es": "trabajo"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u1_l2_meet",
+                  "word": "meet",
+                  "phonetic": "/miːt/",
+                  "meaning": "To see someone for the first time.",
+                  "example": "Nice to meet you.",
+                  "translations": {
+                    "hi": "मिलना",
+                    "gu": "મળવું",
+                    "es": "conocer"
+                  }
+                }
+              ],
+              "listen": ["Hi, I am Marco. I am from Italy and I live in London.", "What do you do? I am a nurse."],
+              "speak": ["My name is Sam and I am from Delhi.", "I live in a small city."],
+              "grammar": {
+                "title": "Present simple for facts",
+                "rule": "Use present simple for things that are always true. Add -s for he, she and it.",
+                "explanation": "",
+                "examples": ["I live in Pune.", "He lives in Pune.", "They work at a bank."]
+              },
+              "quiz": [
+                {
+                  "id": "en_b_u1_l2_q1",
+                  "prompt": "Complete: He ___ in Chennai.",
+                  "options": ["live", "lives", "living", "is live"],
+                  "answer": 1,
+                  "explanation": "He takes the -s ending.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u1_l2_q2",
+                  "prompt": "Choose the correct question.",
+                  "options": ["Where you live?", "Where do you live?", "Where lives you?", "Where you living?"],
+                  "answer": 1,
+                  "explanation": "Questions need do.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u1_l2_q3",
+                  "prompt": "Complete: I am ___ Gujarat.",
+                  "options": ["in", "from", "of", "at"],
+                  "answer": 1,
+                  "explanation": "From shows origin.",
+                  "skill": "grammar"
+                }
+              ]
+            },
+            {
+              "id": "en_b_u1_l3",
+              "title": "Numbers and time",
+              "topic": "daily",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_b_u1_l3_o_clock",
+                  "word": "o'clock",
+                  "phonetic": "/əˈklɒk/",
+                  "meaning": "Used to say the exact hour.",
+                  "example": "The class starts at nine o'clock.",
+                  "translations": {
+                    "hi": "बजे",
+                    "gu": "વાગ્યે",
+                    "es": "en punto"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u1_l3_half_past",
+                  "word": "half past",
+                  "phonetic": "/hɑːf pɑːst/",
+                  "meaning": "Thirty minutes after the hour.",
+                  "example": "I wake up at half past six.",
+                  "translations": {
+                    "hi": "साढ़े",
+                    "gu": "સાડા",
+                    "es": "y media"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u1_l3_early",
+                  "word": "early",
+                  "phonetic": "/ˈɜːli/",
+                  "meaning": "Before the usual time.",
+                  "example": "I arrived early.",
+                  "translations": {
+                    "hi": "जल्दी",
+                    "gu": "વહેલું",
+                    "es": "temprano"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u1_l3_late",
+                  "word": "late",
+                  "phonetic": "/leɪt/",
+                  "meaning": "After the usual time.",
+                  "example": "Sorry I am late.",
+                  "translations": {
+                    "hi": "देर से",
+                    "gu": "મોડું",
+                    "es": "tarde"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u1_l3_minute",
+                  "word": "minute",
+                  "phonetic": "/ˈmɪnɪt/",
+                  "meaning": "Sixty seconds.",
+                  "example": "Wait one minute, please.",
+                  "translations": {
+                    "hi": "मिनट",
+                    "gu": "મિનિટ",
+                    "es": "minuto"
+                  }
+                }
+              ],
+              "listen": ["The train leaves at half past seven, so be at the station at seven.", "The shop opens at nine and closes at eight."],
+              "speak": ["I start work at nine o'clock.", "The meeting is at half past two."],
+              "grammar": {
+                "title": "Prepositions of time: at, on, in",
+                "rule": "At for clock time, on for days, in for months and years.",
+                "explanation": "",
+                "examples": ["The class is at six.", "I work on Monday.", "I was born in 1998."]
+              },
+              "quiz": [
+                {
+                  "id": "en_b_u1_l3_q1",
+                  "prompt": "Complete: The film starts ___ eight.",
+                  "options": ["in", "on", "at", "to"],
+                  "answer": 2,
+                  "explanation": "Use at with clock times.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u1_l3_q2",
+                  "prompt": "Complete: I have a meeting ___ Friday.",
+                  "options": ["at", "on", "in", "to"],
+                  "answer": 1,
+                  "explanation": "Use on with days.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u1_l3_q3",
+                  "prompt": "Complete: My birthday is ___ May.",
+                  "options": ["at", "on", "in", "of"],
+                  "answer": 2,
+                  "explanation": "Use in with months.",
+                  "skill": "grammar"
+                }
+              ]
+            },
+            {
+              "id": "en_b_u1_l4",
+              "title": "Family",
+              "topic": "daily",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_b_u1_l4_parents",
+                  "word": "parents",
+                  "phonetic": "/ˈpeərənts/",
+                  "meaning": "Your mother and father.",
+                  "example": "My parents live nearby.",
+                  "translations": {
+                    "hi": "माता-पिता",
+                    "gu": "માતા-પિતા",
+                    "es": "padres"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u1_l4_brother",
+                  "word": "brother",
+                  "phonetic": "/ˈbrʌðə/",
+                  "meaning": "A male child of your parents.",
+                  "example": "My brother is a teacher.",
+                  "translations": {
+                    "hi": "भाई",
+                    "gu": "ભાઈ",
+                    "es": "hermano"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u1_l4_sister",
+                  "word": "sister",
+                  "phonetic": "/ˈsɪstə/",
+                  "meaning": "A female child of your parents.",
+                  "example": "My sister studies medicine.",
+                  "translations": {
+                    "hi": "बहन",
+                    "gu": "બહેન",
+                    "es": "hermana"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u1_l4_married",
+                  "word": "married",
+                  "phonetic": "/ˈmærid/",
+                  "meaning": "Having a husband or wife.",
+                  "example": "She is married to a doctor.",
+                  "translations": {
+                    "hi": "विवाहित",
+                    "gu": "પરિણીત",
+                    "es": "casado"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u1_l4_relative",
+                  "word": "relative",
+                  "phonetic": "/ˈrelətɪv/",
+                  "meaning": "Anyone in your wider family.",
+                  "example": "We visit our relatives in summer.",
+                  "translations": {
+                    "hi": "रिश्तेदार",
+                    "gu": "સગાં",
+                    "es": "pariente"
+                  }
+                }
+              ],
+              "listen": ["There are four people in my family: my parents, my sister and me.", "My brother has two children, so I am an uncle."],
+              "speak": ["I have one brother and two sisters.", "My parents live in another city."],
+              "grammar": {
+                "title": "Have and has",
+                "rule": "Use have with I, you, we and they. Use has with he, she and it.",
+                "explanation": "",
+                "examples": ["I have two sisters.", "She has a big family.", "They have no children."]
+              },
+              "quiz": [
+                {
+                  "id": "en_b_u1_l4_q1",
+                  "prompt": "Complete: She ___ three brothers.",
+                  "options": ["have", "has", "having", "is have"],
+                  "answer": 1,
+                  "explanation": "She takes has.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u1_l4_q2",
+                  "prompt": "Choose the correct sentence.",
+                  "options": ["I am married with Anu.", "I am married to Anu.", "I married with Anu.", "I am marry to Anu."],
+                  "answer": 1,
+                  "explanation": "You are married to someone.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u1_l4_q3",
+                  "prompt": "Complete: We ___ a small family.",
+                  "options": ["has", "have", "haves", "having"],
+                  "answer": 1,
+                  "explanation": "We takes have.",
+                  "skill": "grammar"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en_b_u2",
+          "title": "Unit 2 - Everyday Life",
+          "subtitle": "Food, shopping, travel, home",
+          "lessons": [
+            {
+              "id": "en_b_u2_l1",
+              "title": "At the restaurant",
+              "topic": "food",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_b_u2_l1_menu",
+                  "word": "menu",
+                  "phonetic": "/ˈmenjuː/",
+                  "meaning": "The list of food a restaurant has.",
+                  "example": "Can I see the menu, please?",
+                  "translations": {
+                    "hi": "मेन्यू",
+                    "gu": "મેનુ",
+                    "es": "menú"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u2_l1_order",
+                  "word": "order",
+                  "phonetic": "/ˈɔːdə/",
+                  "meaning": "To ask for the food you want.",
+                  "example": "I would like to order now.",
+                  "translations": {
+                    "hi": "ऑर्डर करना",
+                    "gu": "ઓર્ડર કરવો",
+                    "es": "pedir"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u2_l1_bill",
+                  "word": "bill",
+                  "phonetic": "/bɪl/",
+                  "meaning": "The paper that shows what you must pay.",
+                  "example": "Could we have the bill?",
+                  "translations": {
+                    "hi": "बिल",
+                    "gu": "બિલ",
+                    "es": "cuenta"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u2_l1_waiter",
+                  "word": "waiter",
+                  "phonetic": "/ˈweɪtə/",
+                  "meaning": "The person who serves your food.",
+                  "example": "The waiter was very friendly.",
+                  "translations": {
+                    "hi": "वेटर",
+                    "gu": "વેઇટર",
+                    "es": "camarero"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u2_l1_reservation",
+                  "word": "reservation",
+                  "phonetic": "/ˌrezəˈveɪʃn/",
+                  "meaning": "A table booked in advance.",
+                  "example": "I have a reservation for two.",
+                  "translations": {
+                    "hi": "आरक्षण",
+                    "gu": "આરક્ષણ",
+                    "es": "reserva"
+                  }
+                }
+              ],
+              "listen": ["Good evening. Do you have a reservation?", "I would like to order a pizza and a glass of water, please."],
+              "speak": ["I would like to order a pizza.", "Could we have the bill, please?"],
+              "grammar": {
+                "title": "I would like",
+                "rule": "I would like is a polite way to say I want. Use it with a noun or with to plus a verb.",
+                "explanation": "",
+                "examples": ["I would like a coffee.", "I would like to order now.", "Would you like dessert?"]
+              },
+              "quiz": [
+                {
+                  "id": "en_b_u2_l1_q1",
+                  "prompt": "Choose the correct sentence.",
+                  "options": ["I like to order pizza now.", "I would like to order pizza.", "I am liking order pizza.", "I would like order pizza."],
+                  "answer": 1,
+                  "explanation": "Would like takes to plus the verb.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u2_l1_q2",
+                  "prompt": "What do you ask for when you want to pay?",
+                  "options": ["The menu", "The bill", "The waiter", "The order"],
+                  "answer": 1,
+                  "explanation": "The bill shows what you owe.",
+                  "skill": "vocabulary"
+                },
+                {
+                  "id": "en_b_u2_l1_q3",
+                  "prompt": "Complete: Would you ___ some water?",
+                  "options": ["like", "likes", "liked", "liking"],
+                  "answer": 0,
+                  "explanation": "Would is always followed by the base verb.",
+                  "skill": "grammar"
+                }
+              ]
+            },
+            {
+              "id": "en_b_u2_l2",
+              "title": "Shopping",
+              "topic": "shopping",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_b_u2_l2_price",
+                  "word": "price",
+                  "phonetic": "/praɪs/",
+                  "meaning": "How much something costs.",
+                  "example": "The price is too high.",
+                  "translations": {
+                    "hi": "कीमत",
+                    "gu": "કિંમત",
+                    "es": "precio"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u2_l2_size",
+                  "word": "size",
+                  "phonetic": "/saɪz/",
+                  "meaning": "How big or small something is.",
+                  "example": "Do you have a bigger size?",
+                  "translations": {
+                    "hi": "आकार",
+                    "gu": "સાઇઝ",
+                    "es": "talla"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u2_l2_cash",
+                  "word": "cash",
+                  "phonetic": "/kæʃ/",
+                  "meaning": "Paper money and coins.",
+                  "example": "I will pay in cash.",
+                  "translations": {
+                    "hi": "नकद",
+                    "gu": "રોકડ",
+                    "es": "efectivo"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u2_l2_receipt",
+                  "word": "receipt",
+                  "phonetic": "/rɪˈsiːt/",
+                  "meaning": "The paper that proves you paid.",
+                  "example": "Keep the receipt.",
+                  "translations": {
+                    "hi": "रसीद",
+                    "gu": "રસીદ",
+                    "es": "recibo"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u2_l2_cheap",
+                  "word": "cheap",
+                  "phonetic": "/tʃiːp/",
+                  "meaning": "Not expensive.",
+                  "example": "This shop is cheap.",
+                  "translations": {
+                    "hi": "सस्ता",
+                    "gu": "સસ્તું",
+                    "es": "barato"
+                  }
+                }
+              ],
+              "listen": ["That is twenty-five euros. Will you pay by card or cash?", "Sorry, we do not have that size in blue."],
+              "speak": ["How much does this cost?", "Do you have this in a smaller size?"],
+              "grammar": {
+                "title": "How much and how many",
+                "rule": "How much for things you cannot count, how many for things you can.",
+                "explanation": "",
+                "examples": ["How much does it cost?", "How many bags do you need?", "How much time do we have?"]
+              },
+              "quiz": [
+                {
+                  "id": "en_b_u2_l2_q1",
+                  "prompt": "Complete: ___ apples do you want?",
+                  "options": ["How much", "How many", "How long", "How far"],
+                  "answer": 1,
+                  "explanation": "Apples can be counted.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u2_l2_q2",
+                  "prompt": "Complete: ___ is this shirt?",
+                  "options": ["How many", "How much", "How old", "How far"],
+                  "answer": 1,
+                  "explanation": "Price uses how much.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u2_l2_q3",
+                  "prompt": "Which word means not expensive?",
+                  "options": ["cheap", "costly", "rich", "free"],
+                  "answer": 0,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            },
+            {
+              "id": "en_b_u2_l3",
+              "title": "Getting around",
+              "topic": "travel",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_b_u2_l3_ticket",
+                  "word": "ticket",
+                  "phonetic": "/ˈtɪkɪt/",
+                  "meaning": "The paper that lets you travel.",
+                  "example": "I bought a return ticket.",
+                  "translations": {
+                    "hi": "टिकट",
+                    "gu": "ટિકિટ",
+                    "es": "billete"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u2_l3_platform",
+                  "word": "platform",
+                  "phonetic": "/ˈplætfɔːm/",
+                  "meaning": "Where you wait for a train.",
+                  "example": "The train leaves from platform three.",
+                  "translations": {
+                    "hi": "प्लेटफार्म",
+                    "gu": "પ્લેટફોર્મ",
+                    "es": "andén"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u2_l3_straight",
+                  "word": "straight",
+                  "phonetic": "/streɪt/",
+                  "meaning": "Without turning.",
+                  "example": "Go straight for two hundred metres.",
+                  "translations": {
+                    "hi": "सीधा",
+                    "gu": "સીધું",
+                    "es": "recto"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u2_l3_turn",
+                  "word": "turn",
+                  "phonetic": "/tɜːn/",
+                  "meaning": "To change direction.",
+                  "example": "Turn left at the bank.",
+                  "translations": {
+                    "hi": "मुड़ना",
+                    "gu": "વળવું",
+                    "es": "girar"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u2_l3_nearby",
+                  "word": "nearby",
+                  "phonetic": "/ˌnɪəˈbaɪ/",
+                  "meaning": "Close to here.",
+                  "example": "Is there a pharmacy nearby?",
+                  "translations": {
+                    "hi": "पास में",
+                    "gu": "નજીકમાં",
+                    "es": "cerca"
+                  }
+                }
+              ],
+              "listen": ["Go straight, then turn right at the traffic lights. The station is on your left.", "The next train to the airport leaves from platform two in ten minutes."],
+              "speak": ["Excuse me, where is the station?", "Is there a bank nearby?"],
+              "grammar": {
+                "title": "Imperatives for directions",
+                "rule": "Use the base verb with no subject to give instructions.",
+                "explanation": "",
+                "examples": ["Turn left.", "Go straight on.", "Do not cross here."]
+              },
+              "quiz": [
+                {
+                  "id": "en_b_u2_l3_q1",
+                  "prompt": "Choose the correct instruction.",
+                  "options": ["You turn left.", "Turn left.", "To turn left.", "Turning left."],
+                  "answer": 1,
+                  "explanation": "Instructions use the base verb alone.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u2_l3_q2",
+                  "prompt": "Complete: The train leaves ___ platform four.",
+                  "options": ["in", "from", "at", "on"],
+                  "answer": 1,
+                  "explanation": "Trains leave from a platform.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u2_l3_q3",
+                  "prompt": "Which word means close to here?",
+                  "options": ["far", "nearby", "straight", "late"],
+                  "answer": 1,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            },
+            {
+              "id": "en_b_u2_l4",
+              "title": "At home",
+              "topic": "daily",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_b_u2_l4_kitchen",
+                  "word": "kitchen",
+                  "phonetic": "/ˈkɪtʃɪn/",
+                  "meaning": "The room where you cook.",
+                  "example": "The kitchen is small but bright.",
+                  "translations": {
+                    "hi": "रसोई",
+                    "gu": "રસોડું",
+                    "es": "cocina"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u2_l4_rent",
+                  "word": "rent",
+                  "phonetic": "/rent/",
+                  "meaning": "Money you pay to live somewhere.",
+                  "example": "The rent is due on the first.",
+                  "translations": {
+                    "hi": "किराया",
+                    "gu": "ભાડું",
+                    "es": "alquiler"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u2_l4_furniture",
+                  "word": "furniture",
+                  "phonetic": "/ˈfɜːnɪtʃə/",
+                  "meaning": "Tables, chairs and beds.",
+                  "example": "We bought new furniture.",
+                  "translations": {
+                    "hi": "फर्नीचर",
+                    "gu": "ફર્નિચર",
+                    "es": "muebles"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u2_l4_tidy",
+                  "word": "tidy",
+                  "phonetic": "/ˈtaɪdi/",
+                  "meaning": "Neat, or to make neat.",
+                  "example": "I tidy my room on Sunday.",
+                  "translations": {
+                    "hi": "साफ़",
+                    "gu": "વ્યવસ્થિત",
+                    "es": "ordenado"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u2_l4_neighbour",
+                  "word": "neighbour",
+                  "phonetic": "/ˈneɪbə/",
+                  "meaning": "A person who lives next to you.",
+                  "example": "My neighbour is very helpful.",
+                  "translations": {
+                    "hi": "पड़ोसी",
+                    "gu": "પડોશી",
+                    "es": "vecino"
+                  }
+                }
+              ],
+              "listen": ["The flat has two bedrooms, a small kitchen and a balcony.", "I clean the house on Saturday morning and rest in the afternoon."],
+              "speak": ["I live in a small flat with two rooms.", "My neighbour helps me a lot."],
+              "grammar": {
+                "title": "There is and there are",
+                "rule": "There is for one thing, there are for more than one.",
+                "explanation": "",
+                "examples": ["There is a table in the kitchen.", "There are two chairs.", "Is there a lift?"]
+              },
+              "quiz": [
+                {
+                  "id": "en_b_u2_l4_q1",
+                  "prompt": "Complete: ___ three rooms in my flat.",
+                  "options": ["There is", "There are", "It is", "They is"],
+                  "answer": 1,
+                  "explanation": "Three rooms is plural.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u2_l4_q2",
+                  "prompt": "Complete: ___ a problem with the water.",
+                  "options": ["There is", "There are", "They are", "It have"],
+                  "answer": 0,
+                  "explanation": "One problem is singular.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u2_l4_q3",
+                  "prompt": "Which word has no plural form?",
+                  "options": ["chair", "room", "furniture", "table"],
+                  "answer": 2,
+                  "explanation": "Furniture is uncountable.",
+                  "skill": "vocabulary"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en_b_u3",
+          "title": "Unit 3 - Talking About Time",
+          "subtitle": "Past, future, routines, weather",
+          "lessons": [
+            {
+              "id": "en_b_u3_l1",
+              "title": "My daily routine",
+              "topic": "daily",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_b_u3_l1_usually",
+                  "word": "usually",
+                  "phonetic": "/ˈjuːʒuəli/",
+                  "meaning": "Most of the time.",
+                  "example": "I usually wake up at six.",
+                  "translations": {
+                    "hi": "आमतौर पर",
+                    "gu": "સામાન્ય રીતે",
+                    "es": "normalmente"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u3_l1_breakfast",
+                  "word": "breakfast",
+                  "phonetic": "/ˈbrekfəst/",
+                  "meaning": "The first meal of the day.",
+                  "example": "I skip breakfast on busy days.",
+                  "translations": {
+                    "hi": "नाश्ता",
+                    "gu": "નાસ્તો",
+                    "es": "desayuno"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u3_l1_commute",
+                  "word": "commute",
+                  "phonetic": "/kəˈmjuːt/",
+                  "meaning": "The journey to work.",
+                  "example": "My commute takes forty minutes.",
+                  "translations": {
+                    "hi": "आना-जाना",
+                    "gu": "અવરજવર",
+                    "es": "trayecto"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u3_l1_rarely",
+                  "word": "rarely",
+                  "phonetic": "/ˈreəli/",
+                  "meaning": "Almost never.",
+                  "example": "I rarely watch television.",
+                  "translations": {
+                    "hi": "शायद ही",
+                    "gu": "ભાગ્યે જ",
+                    "es": "raramente"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u3_l1_routine",
+                  "word": "routine",
+                  "phonetic": "/ruːˈtiːn/",
+                  "meaning": "The things you do every day.",
+                  "example": "My morning routine is simple.",
+                  "translations": {
+                    "hi": "दिनचर्या",
+                    "gu": "દિનચર્યા",
+                    "es": "rutina"
+                  }
+                }
+              ],
+              "listen": ["I usually get up at six thirty, have breakfast, and leave home before eight.", "On Sundays I rarely set an alarm."],
+              "speak": ["I usually wake up at seven o'clock.", "I rarely go out during the week."],
+              "grammar": {
+                "title": "Adverbs of frequency",
+                "rule": "Always, usually, often, sometimes, rarely, never go before the main verb but after to be.",
+                "explanation": "",
+                "examples": ["I always drink tea.", "She is never late.", "We sometimes work on Saturday."]
+              },
+              "quiz": [
+                {
+                  "id": "en_b_u3_l1_q1",
+                  "prompt": "Choose the correct sentence.",
+                  "options": ["I go always by bus.", "I always go by bus.", "Always I go by bus.", "I go by bus always go."],
+                  "answer": 1,
+                  "explanation": "Frequency adverbs go before the main verb.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u3_l1_q2",
+                  "prompt": "Complete: He ___ late for work.",
+                  "options": ["is never", "never is", "never be", "is not never"],
+                  "answer": 0,
+                  "explanation": "After to be the adverb comes second.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u3_l1_q3",
+                  "prompt": "Which word means almost never?",
+                  "options": ["usually", "often", "rarely", "always"],
+                  "answer": 2,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            },
+            {
+              "id": "en_b_u3_l2",
+              "title": "Last weekend",
+              "topic": "daily",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_b_u3_l2_yesterday",
+                  "word": "yesterday",
+                  "phonetic": "/ˈjestədeɪ/",
+                  "meaning": "The day before today.",
+                  "example": "I called her yesterday.",
+                  "translations": {
+                    "hi": "कल",
+                    "gu": "ગઈકાલે",
+                    "es": "ayer"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u3_l2_visited",
+                  "word": "visited",
+                  "phonetic": "/ˈvɪzɪtɪd/",
+                  "meaning": "Went to see a person or place.",
+                  "example": "We visited my aunt.",
+                  "translations": {
+                    "hi": "गया",
+                    "gu": "મુલાકાત લીધી",
+                    "es": "visitamos"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u3_l2_stayed",
+                  "word": "stayed",
+                  "phonetic": "/steɪd/",
+                  "meaning": "Remained in one place.",
+                  "example": "I stayed at home all day.",
+                  "translations": {
+                    "hi": "रुका",
+                    "gu": "રોકાયો",
+                    "es": "me quedé"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u3_l2_enjoyed",
+                  "word": "enjoyed",
+                  "phonetic": "/ɪnˈdʒɔɪd/",
+                  "meaning": "Liked doing something.",
+                  "example": "We enjoyed the film.",
+                  "translations": {
+                    "hi": "आनंद लिया",
+                    "gu": "આનંદ માણ્યો",
+                    "es": "disfrutamos"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u3_l2_tired",
+                  "word": "tired",
+                  "phonetic": "/ˈtaɪəd/",
+                  "meaning": "Needing rest.",
+                  "example": "I was tired after the trip.",
+                  "translations": {
+                    "hi": "थका हुआ",
+                    "gu": "થાકેલો",
+                    "es": "cansado"
+                  }
+                }
+              ],
+              "listen": ["Last weekend I visited my cousins. We ate too much and watched an old film.", "On Sunday I stayed home because I was tired."],
+              "speak": ["Last weekend I visited my family.", "Yesterday I watched a good film."],
+              "grammar": {
+                "title": "Past simple",
+                "rule": "Regular verbs add -ed. Common verbs are irregular: go becomes went, eat becomes ate.",
+                "explanation": "",
+                "examples": ["I watched a film.", "We went to the beach.", "She did not come."]
+              },
+              "quiz": [
+                {
+                  "id": "en_b_u3_l2_q1",
+                  "prompt": "Choose the correct sentence.",
+                  "options": ["Yesterday I go to the market.", "Yesterday I went to the market.", "Yesterday I am going market.", "Yesterday I goes to market."],
+                  "answer": 1,
+                  "explanation": "Yesterday needs the past form.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u3_l2_q2",
+                  "prompt": "Complete: We ___ not see the film.",
+                  "options": ["do", "did", "does", "were"],
+                  "answer": 1,
+                  "explanation": "Did not plus the base verb.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u3_l2_q3",
+                  "prompt": "What is the past of eat?",
+                  "options": ["eated", "ate", "eaten", "eat"],
+                  "answer": 1,
+                  "explanation": "Eat is irregular.",
+                  "skill": "grammar"
+                }
+              ]
+            },
+            {
+              "id": "en_b_u3_l3",
+              "title": "Making plans",
+              "topic": "daily",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_b_u3_l3_tomorrow",
+                  "word": "tomorrow",
+                  "phonetic": "/təˈmɒrəʊ/",
+                  "meaning": "The day after today.",
+                  "example": "I will call you tomorrow.",
+                  "translations": {
+                    "hi": "कल",
+                    "gu": "આવતીકાલે",
+                    "es": "mañana"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u3_l3_free",
+                  "word": "free",
+                  "phonetic": "/friː/",
+                  "meaning": "Not busy.",
+                  "example": "Are you free on Friday?",
+                  "translations": {
+                    "hi": "खाली",
+                    "gu": "ફ્રી",
+                    "es": "libre"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u3_l3_meet_up",
+                  "word": "meet up",
+                  "phonetic": "/miːt ʌp/",
+                  "meaning": "To arrange to see someone.",
+                  "example": "Let us meet up at six.",
+                  "translations": {
+                    "hi": "मिलना",
+                    "gu": "મળવું",
+                    "es": "quedar"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u3_l3_maybe",
+                  "word": "maybe",
+                  "phonetic": "/ˈmeɪbi/",
+                  "meaning": "Possibly.",
+                  "example": "Maybe we can go on Sunday.",
+                  "translations": {
+                    "hi": "शायद",
+                    "gu": "કદાચ",
+                    "es": "quizás"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u3_l3_invite",
+                  "word": "invite",
+                  "phonetic": "/ɪnˈvaɪt/",
+                  "meaning": "To ask someone to come.",
+                  "example": "I will invite my friends.",
+                  "translations": {
+                    "hi": "आमंत्रित करना",
+                    "gu": "આમંત્રણ આપવું",
+                    "es": "invitar"
+                  }
+                }
+              ],
+              "listen": ["Are you free tomorrow evening? We are going to try the new cafe.", "I will let you know by tonight."],
+              "speak": ["I am going to visit my friend tomorrow.", "Are you free on Saturday evening?"],
+              "grammar": {
+                "title": "Will and going to",
+                "rule": "Will for a decision now, going to for a plan you already made.",
+                "explanation": "",
+                "examples": ["I will help you.", "I am going to start a course.", "We are going to move in June."]
+              },
+              "quiz": [
+                {
+                  "id": "en_b_u3_l3_q1",
+                  "prompt": "You already booked tickets. You say:",
+                  "options": ["I will travel on Friday.", "I am going to travel on Friday.", "I travel Friday.", "I travelled Friday."],
+                  "answer": 1,
+                  "explanation": "A made plan uses going to.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u3_l3_q2",
+                  "prompt": "The phone rings and you decide to answer. You say:",
+                  "options": ["I am going to get it.", "I will get it.", "I get it.", "I got it."],
+                  "answer": 1,
+                  "explanation": "A decision now uses will.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u3_l3_q3",
+                  "prompt": "Complete: Are you ___ on Friday?",
+                  "options": ["free", "cheap", "early", "tired"],
+                  "answer": 0,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            },
+            {
+              "id": "en_b_u3_l4",
+              "title": "Weather and small talk",
+              "topic": "daily",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_b_u3_l4_cloudy",
+                  "word": "cloudy",
+                  "phonetic": "/ˈklaʊdi/",
+                  "meaning": "With many clouds.",
+                  "example": "It is cloudy but dry.",
+                  "translations": {
+                    "hi": "बादल भरा",
+                    "gu": "વાદળછાયું",
+                    "es": "nublado"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u3_l4_humid",
+                  "word": "humid",
+                  "phonetic": "/ˈhjuːmɪd/",
+                  "meaning": "Hot and wet in the air.",
+                  "example": "August is very humid here.",
+                  "translations": {
+                    "hi": "आर्द्र",
+                    "gu": "ભેજવાળું",
+                    "es": "húmedo"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u3_l4_freezing",
+                  "word": "freezing",
+                  "phonetic": "/ˈfriːzɪŋ/",
+                  "meaning": "Extremely cold.",
+                  "example": "It was freezing this morning.",
+                  "translations": {
+                    "hi": "बहुत ठंडा",
+                    "gu": "ખૂબ ઠંડું",
+                    "es": "helado"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u3_l4_forecast",
+                  "word": "forecast",
+                  "phonetic": "/ˈfɔːkɑːst/",
+                  "meaning": "What the weather will be.",
+                  "example": "The forecast says rain.",
+                  "translations": {
+                    "hi": "पूर्वानुमान",
+                    "gu": "આગાહી",
+                    "es": "pronóstico"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u3_l4_umbrella",
+                  "word": "umbrella",
+                  "phonetic": "/ʌmˈbrelə/",
+                  "meaning": "What keeps rain off you.",
+                  "example": "Take an umbrella.",
+                  "translations": {
+                    "hi": "छाता",
+                    "gu": "છત્રી",
+                    "es": "paraguas"
+                  }
+                }
+              ],
+              "listen": ["It looks cloudy today, and the forecast says rain after lunch.", "Yesterday was freezing, but tomorrow will be warmer."],
+              "speak": ["It is very humid today.", "The forecast says it will rain tomorrow."],
+              "grammar": {
+                "title": "It is for weather",
+                "rule": "Weather sentences start with it, even though nothing is doing the action.",
+                "explanation": "",
+                "examples": ["It is raining.", "It was cold last night.", "It will be sunny tomorrow."]
+              },
+              "quiz": [
+                {
+                  "id": "en_b_u3_l4_q1",
+                  "prompt": "Choose the correct sentence.",
+                  "options": ["Is raining now.", "It is raining now.", "There is raining now.", "It raining now."],
+                  "answer": 1,
+                  "explanation": "Weather sentences need it.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u3_l4_q2",
+                  "prompt": "Which word means extremely cold?",
+                  "options": ["humid", "cloudy", "freezing", "warm"],
+                  "answer": 2,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                },
+                {
+                  "id": "en_b_u3_l4_q3",
+                  "prompt": "Complete: The forecast ___ rain tomorrow.",
+                  "options": ["say", "says", "saying", "said"],
+                  "answer": 1,
+                  "explanation": "The forecast is it, so the verb takes -s.",
+                  "skill": "grammar"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en_b_u4",
+          "title": "Unit 4 - Getting Things Done",
+          "subtitle": "Asking, arranging, explaining, apologising",
+          "lessons": [
+            {
+              "id": "en_b_u4_l1",
+              "title": "Asking for help",
+              "topic": "daily",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_b_u4_l1_help",
+                  "word": "help",
+                  "phonetic": "/help/",
+                  "meaning": "To make something easier for someone.",
+                  "example": "Could you help me with this bag?",
+                  "translations": {
+                    "hi": "मदद करना",
+                    "gu": "મદદ કરવી",
+                    "es": "ayudar"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u4_l1_carry",
+                  "word": "carry",
+                  "phonetic": "/ˈkæri/",
+                  "meaning": "To hold something and move it.",
+                  "example": "I cannot carry all of these.",
+                  "translations": {
+                    "hi": "ले जाना",
+                    "gu": "લઈ જવું",
+                    "es": "llevar"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u4_l1_explain",
+                  "word": "explain",
+                  "phonetic": "/ɪkˈspleɪn/",
+                  "meaning": "To make something clear to someone.",
+                  "example": "Can you explain that again?",
+                  "translations": {
+                    "hi": "समझाना",
+                    "gu": "સમજાવવું",
+                    "es": "explicar"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u4_l1_slowly",
+                  "word": "slowly",
+                  "phonetic": "/ˈsləʊli/",
+                  "meaning": "Not fast.",
+                  "example": "Please speak more slowly.",
+                  "translations": {
+                    "hi": "धीरे",
+                    "gu": "ધીમેથી",
+                    "es": "despacio"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u4_l1_repeat",
+                  "word": "repeat",
+                  "phonetic": "/rɪˈpiːt/",
+                  "meaning": "To say something again.",
+                  "example": "Could you repeat the last word?",
+                  "translations": {
+                    "hi": "दोहराना",
+                    "gu": "ફરી કહેવું",
+                    "es": "repetir"
+                  }
+                }
+              ],
+              "listen": ["Excuse me, could you help me? I am looking for platform four.", "Sorry, could you say that again more slowly? I did not catch it."],
+              "speak": ["Could you help me, please?", "Sorry, could you repeat that?"],
+              "grammar": {
+                "title": "Polite requests with could and can",
+                "rule": "Can you is fine with friends. Could you is safer with strangers. Both take the base verb.",
+                "explanation": "",
+                "examples": ["Can you open the window?", "Could you help me, please?", "Could you say that again?"]
+              },
+              "quiz": [
+                {
+                  "id": "en_b_u4_l1_q1",
+                  "prompt": "Which is more polite to a stranger?",
+                  "options": ["Help me.", "Could you help me?", "You help me.", "I want help."],
+                  "answer": 1,
+                  "explanation": "Could you is the polite form.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u4_l1_q2",
+                  "prompt": "Complete: Could you ___ that again?",
+                  "options": ["saying", "to say", "say", "said"],
+                  "answer": 2,
+                  "explanation": "Modals take the base verb.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u4_l1_q3",
+                  "prompt": "Which word means not fast?",
+                  "options": ["quickly", "slowly", "loudly", "early"],
+                  "answer": 1,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            },
+            {
+              "id": "en_b_u4_l2",
+              "title": "Making an appointment",
+              "topic": "daily",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_b_u4_l2_date",
+                  "word": "date",
+                  "phonetic": "/deɪt/",
+                  "meaning": "A particular day of a month.",
+                  "example": "What date suits you best?",
+                  "translations": {
+                    "hi": "तारीख",
+                    "gu": "તારીખ",
+                    "es": "fecha"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u4_l2_book",
+                  "word": "book",
+                  "phonetic": "/bʊk/",
+                  "meaning": "To arrange something in advance.",
+                  "example": "I booked a table for eight.",
+                  "translations": {
+                    "hi": "बुक करना",
+                    "gu": "બુક કરવું",
+                    "es": "reservar"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u4_l2_arrange",
+                  "word": "arrange",
+                  "phonetic": "/əˈreɪndʒ/",
+                  "meaning": "To organise a time or a plan.",
+                  "example": "Let us arrange a time to talk.",
+                  "translations": {
+                    "hi": "व्यवस्था करना",
+                    "gu": "ગોઠવવું",
+                    "es": "organizar"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u4_l2_put_off",
+                  "word": "put off",
+                  "phonetic": "/pʊt ɒf/",
+                  "meaning": "To move something to a later date.",
+                  "example": "We put off the meeting until Monday.",
+                  "translations": {
+                    "hi": "टालना",
+                    "gu": "મુલતવી રાખવું",
+                    "es": "aplazar"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u4_l2_suit",
+                  "word": "suit",
+                  "phonetic": "/suːt/",
+                  "meaning": "To be convenient for someone.",
+                  "example": "Does Friday suit you?",
+                  "translations": {
+                    "hi": "सुविधाजनक होना",
+                    "gu": "અનુકૂળ હોવું",
+                    "es": "convenir"
+                  }
+                }
+              ],
+              "listen": ["Good morning. I would like to book an appointment for next week if possible.", "Thursday at four is open. Shall I put you down for that?"],
+              "speak": ["I would like to book an appointment.", "Does Thursday afternoon suit you?"],
+              "grammar": {
+                "title": "Yes or no questions with be and do",
+                "rule": "Put am, is or are first with be. Put do or does first with other verbs.",
+                "explanation": "",
+                "examples": ["Are you free on Monday?", "Is she available?", "Do you have an opening?"]
+              },
+              "quiz": [
+                {
+                  "id": "en_b_u4_l2_q1",
+                  "prompt": "Choose the correct question.",
+                  "options": ["You are free Monday?", "Are you free on Monday?", "Do you are free Monday?", "Free you are Monday?"],
+                  "answer": 1,
+                  "explanation": "Be moves to the front.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u4_l2_q2",
+                  "prompt": "Complete: ___ he have time on Friday?",
+                  "options": ["Do", "Does", "Is", "Has"],
+                  "answer": 1,
+                  "explanation": "He takes does.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u4_l2_q3",
+                  "prompt": "Which phrase means to move something to a later date?",
+                  "options": ["book", "put off", "suit", "arrange"],
+                  "answer": 1,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            },
+            {
+              "id": "en_b_u4_l3",
+              "title": "Saying sorry",
+              "topic": "daily",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_b_u4_l3_mistake",
+                  "word": "mistake",
+                  "phonetic": "/mɪˈsteɪk/",
+                  "meaning": "Something you did wrongly.",
+                  "example": "It was my mistake, not yours.",
+                  "translations": {
+                    "hi": "गलती",
+                    "gu": "ભૂલ",
+                    "es": "error"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u4_l3_forget",
+                  "word": "forget",
+                  "phonetic": "/fəˈɡet/",
+                  "meaning": "To fail to remember.",
+                  "example": "I forgot to send the message.",
+                  "translations": {
+                    "hi": "भूलना",
+                    "gu": "ભૂલી જવું",
+                    "es": "olvidar"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u4_l3_promise",
+                  "word": "promise",
+                  "phonetic": "/ˈprɒmɪs/",
+                  "meaning": "To say you will certainly do something.",
+                  "example": "I promise it will not happen again.",
+                  "translations": {
+                    "hi": "वादा करना",
+                    "gu": "વચન આપવું",
+                    "es": "prometer"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u4_l3_fault",
+                  "word": "fault",
+                  "phonetic": "/fɔːlt/",
+                  "meaning": "Responsibility for something bad.",
+                  "example": "It was nobody's fault.",
+                  "translations": {
+                    "hi": "दोष",
+                    "gu": "દોષ",
+                    "es": "culpa"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u4_l3_understand",
+                  "word": "understand",
+                  "phonetic": "/ˌʌndəˈstænd/",
+                  "meaning": "To know what something means.",
+                  "example": "I understand why you are upset.",
+                  "translations": {
+                    "hi": "समझना",
+                    "gu": "સમજવું",
+                    "es": "entender"
+                  }
+                }
+              ],
+              "listen": ["I am really sorry. I forgot to call you back yesterday and I should have.", "That is alright. It happens. Let us find another time."],
+              "speak": ["I am sorry, it was my mistake.", "I forgot to tell you, and I apologise."],
+              "grammar": {
+                "title": "Past simple of irregular verbs",
+                "rule": "Many common verbs do not add -ed. Forget becomes forgot, tell becomes told, say becomes said.",
+                "explanation": "",
+                "examples": ["I forgot the keys.", "She told me yesterday.", "He said nothing."]
+              },
+              "quiz": [
+                {
+                  "id": "en_b_u4_l3_q1",
+                  "prompt": "What is the past of forget?",
+                  "options": ["forgetted", "forgot", "forgeted", "forget"],
+                  "answer": 1,
+                  "explanation": "Forget is irregular.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u4_l3_q2",
+                  "prompt": "Choose the correct sentence.",
+                  "options": ["I telled him already.", "I told him already.", "I tell him already.", "I did told him."],
+                  "answer": 1,
+                  "explanation": "Tell becomes told.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u4_l3_q3",
+                  "prompt": "Which word means responsibility for something bad?",
+                  "options": ["promise", "fault", "help", "size"],
+                  "answer": 1,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            },
+            {
+              "id": "en_b_u4_l4",
+              "title": "On the phone",
+              "topic": "daily",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_b_u4_l4_call_back",
+                  "word": "call back",
+                  "phonetic": "/kɔːl bæk/",
+                  "meaning": "To telephone someone again later.",
+                  "example": "I will call back after lunch.",
+                  "translations": {
+                    "hi": "वापस फोन करना",
+                    "gu": "પાછો ફોન કરવો",
+                    "es": "devolver la llamada"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u4_l4_message",
+                  "word": "message",
+                  "phonetic": "/ˈmesɪdʒ/",
+                  "meaning": "Written or spoken information you leave.",
+                  "example": "She left a message for you.",
+                  "translations": {
+                    "hi": "संदेश",
+                    "gu": "સંદેશ",
+                    "es": "mensaje"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u4_l4_hold_on",
+                  "word": "hold on",
+                  "phonetic": "/həʊld ɒn/",
+                  "meaning": "To wait for a moment.",
+                  "example": "Hold on, I will check.",
+                  "translations": {
+                    "hi": "रुकिए",
+                    "gu": "થોભો",
+                    "es": "espere"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u4_l4_line",
+                  "word": "line",
+                  "phonetic": "/laɪn/",
+                  "meaning": "The telephone connection.",
+                  "example": "The line is very bad.",
+                  "translations": {
+                    "hi": "लाइन",
+                    "gu": "લાઇન",
+                    "es": "línea"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u4_l4_speaking",
+                  "word": "speaking",
+                  "phonetic": "/ˈspiːkɪŋ/",
+                  "meaning": "Used to say who you are on the phone.",
+                  "example": "Hello, Priya speaking.",
+                  "translations": {
+                    "hi": "बोल रहा हूँ",
+                    "gu": "બોલું છું",
+                    "es": "al habla"
+                  }
+                }
+              ],
+              "listen": ["Good afternoon, City Dental. How can I help you?", "I am sorry, she is not at her desk. Can I take a message?"],
+              "speak": ["Hello, could I speak to Mr Shah, please?", "Could you ask him to call me back?"],
+              "grammar": {
+                "title": "Object pronouns: me, him, her, us, them",
+                "rule": "Subject pronouns do the action; object pronouns receive it.",
+                "explanation": "",
+                "examples": ["She called me.", "I will tell him.", "Give it to them."]
+              },
+              "quiz": [
+                {
+                  "id": "en_b_u4_l4_q1",
+                  "prompt": "Complete: Can you ask her to call ___ back?",
+                  "options": ["I", "me", "my", "mine"],
+                  "answer": 1,
+                  "explanation": "After a verb, use the object pronoun.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u4_l4_q2",
+                  "prompt": "Choose the correct sentence.",
+                  "options": ["I gave the file to he.", "I gave the file to him.", "I gave the file to his.", "I gave he the file to."],
+                  "answer": 1,
+                  "explanation": "After to, use him.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u4_l4_q3",
+                  "prompt": "What does hold on mean?",
+                  "options": ["Hang up", "Wait a moment", "Speak louder", "Call later"],
+                  "answer": 1,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en_b_u5",
+          "title": "Unit 5 - People and Places",
+          "subtitle": "Describing, comparing, directions, opinions",
+          "lessons": [
+            {
+              "id": "en_b_u5_l1",
+              "title": "Describing people",
+              "topic": "daily",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_b_u5_l1_tall",
+                  "word": "tall",
+                  "phonetic": "/tɔːl/",
+                  "meaning": "Having greater than average height.",
+                  "example": "My brother is very tall.",
+                  "translations": {
+                    "hi": "लंबा",
+                    "gu": "ઊંચું",
+                    "es": "alto"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u5_l1_friendly",
+                  "word": "friendly",
+                  "phonetic": "/ˈfrendli/",
+                  "meaning": "Behaving in a kind, open way.",
+                  "example": "The staff were really friendly.",
+                  "translations": {
+                    "hi": "मिलनसार",
+                    "gu": "મિલનસાર",
+                    "es": "amable"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u5_l1_quiet",
+                  "word": "quiet",
+                  "phonetic": "/ˈkwaɪət/",
+                  "meaning": "Not speaking much, or making little noise.",
+                  "example": "He is quiet until you know him.",
+                  "translations": {
+                    "hi": "शांत",
+                    "gu": "શાંત",
+                    "es": "callado"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u5_l1_funny",
+                  "word": "funny",
+                  "phonetic": "/ˈfʌni/",
+                  "meaning": "Making people laugh.",
+                  "example": "She is the funny one in the family.",
+                  "translations": {
+                    "hi": "मज़ाकिया",
+                    "gu": "રમૂજી",
+                    "es": "gracioso"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u5_l1_hair",
+                  "word": "hair",
+                  "phonetic": "/heə/",
+                  "meaning": "What grows on your head.",
+                  "example": "She has short dark hair.",
+                  "translations": {
+                    "hi": "बाल",
+                    "gu": "વાળ",
+                    "es": "pelo"
+                  }
+                }
+              ],
+              "listen": ["My sister is taller than me, with short dark hair and glasses.", "He seems quiet at first, but he is very funny once he relaxes."],
+              "speak": ["My best friend is tall and very friendly.", "He is quieter than his brother."],
+              "grammar": {
+                "title": "Adjective order and position",
+                "rule": "Adjectives go before the noun, or after be. Never add -s to an adjective.",
+                "explanation": "",
+                "examples": ["a tall man", "She is friendly.", "two quiet rooms"]
+              },
+              "quiz": [
+                {
+                  "id": "en_b_u5_l1_q1",
+                  "prompt": "Choose the correct sentence.",
+                  "options": ["They are friendlies.", "They are friendly.", "They friendly are.", "They are a friendly."],
+                  "answer": 1,
+                  "explanation": "Adjectives never take -s.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u5_l1_q2",
+                  "prompt": "Choose the correct order.",
+                  "options": ["a man tall", "a tall man", "tall a man", "man a tall"],
+                  "answer": 1,
+                  "explanation": "Adjectives come before the noun.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u5_l1_q3",
+                  "prompt": "Which word describes someone who makes you laugh?",
+                  "options": ["quiet", "tall", "funny", "friendly"],
+                  "answer": 2,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            },
+            {
+              "id": "en_b_u5_l2",
+              "title": "Comparing things",
+              "topic": "daily",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_b_u5_l2_better",
+                  "word": "better",
+                  "phonetic": "/ˈbetə/",
+                  "meaning": "Of higher quality than something else.",
+                  "example": "This one is better than that one.",
+                  "translations": {
+                    "hi": "बेहतर",
+                    "gu": "વધુ સારું",
+                    "es": "mejor"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u5_l2_worse",
+                  "word": "worse",
+                  "phonetic": "/wɜːs/",
+                  "meaning": "Of lower quality than something else.",
+                  "example": "The weather is worse today.",
+                  "translations": {
+                    "hi": "बदतर",
+                    "gu": "ખરાબ",
+                    "es": "peor"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u5_l2_similar",
+                  "word": "similar",
+                  "phonetic": "/ˈsɪmələ/",
+                  "meaning": "Almost the same.",
+                  "example": "The two flats are very similar.",
+                  "translations": {
+                    "hi": "समान",
+                    "gu": "સમાન",
+                    "es": "similar"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u5_l2_difference",
+                  "word": "difference",
+                  "phonetic": "/ˈdɪfrəns/",
+                  "meaning": "The way two things are not the same.",
+                  "example": "The only difference is the price.",
+                  "translations": {
+                    "hi": "अंतर",
+                    "gu": "તફાવત",
+                    "es": "diferencia"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u5_l2_enough",
+                  "word": "enough",
+                  "phonetic": "/ɪˈnʌf/",
+                  "meaning": "As much as is needed.",
+                  "example": "That is enough for two people.",
+                  "translations": {
+                    "hi": "पर्याप्त",
+                    "gu": "પૂરતું",
+                    "es": "suficiente"
+                  }
+                }
+              ],
+              "listen": ["The blue one is cheaper, but the grey one is better quality.", "They are very similar. The only real difference is the size."],
+              "speak": ["This one is better than the other.", "The two are quite similar."],
+              "grammar": {
+                "title": "Comparatives with than",
+                "rule": "Short adjectives add -er. Longer ones take more. Good and bad are irregular.",
+                "explanation": "",
+                "examples": ["cheaper than", "more expensive than", "better than", "worse than"]
+              },
+              "quiz": [
+                {
+                  "id": "en_b_u5_l2_q1",
+                  "prompt": "Complete: This phone is ___ than mine.",
+                  "options": ["more good", "gooder", "better", "best"],
+                  "answer": 2,
+                  "explanation": "Good becomes better.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u5_l2_q2",
+                  "prompt": "Choose the correct sentence.",
+                  "options": ["It is more cheaper.", "It is cheaper.", "It is most cheap.", "It is cheap than."],
+                  "answer": 1,
+                  "explanation": "Never combine more with -er.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u5_l2_q3",
+                  "prompt": "Which word means almost the same?",
+                  "options": ["different", "similar", "worse", "enough"],
+                  "answer": 1,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            },
+            {
+              "id": "en_b_u5_l3",
+              "title": "In the neighbourhood",
+              "topic": "daily",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_b_u5_l3_corner",
+                  "word": "corner",
+                  "phonetic": "/ˈkɔːnə/",
+                  "meaning": "Where two streets meet.",
+                  "example": "The bakery is on the corner.",
+                  "translations": {
+                    "hi": "कोना",
+                    "gu": "ખૂણો",
+                    "es": "esquina"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u5_l3_opposite",
+                  "word": "opposite",
+                  "phonetic": "/ˈɒpəzɪt/",
+                  "meaning": "Directly across from.",
+                  "example": "The bank is opposite the park.",
+                  "translations": {
+                    "hi": "सामने",
+                    "gu": "સામે",
+                    "es": "enfrente de"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u5_l3_between",
+                  "word": "between",
+                  "phonetic": "/bɪˈtwiːn/",
+                  "meaning": "In the space separating two things.",
+                  "example": "It is between the shop and the school.",
+                  "translations": {
+                    "hi": "बीच में",
+                    "gu": "વચ્ચે",
+                    "es": "entre"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u5_l3_crossing",
+                  "word": "crossing",
+                  "phonetic": "/ˈkrɒsɪŋ/",
+                  "meaning": "A place to walk across a road safely.",
+                  "example": "Use the crossing by the lights.",
+                  "translations": {
+                    "hi": "क्रॉसिंग",
+                    "gu": "ક્રોસિંગ",
+                    "es": "paso de peatones"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u5_l3_floor",
+                  "word": "floor",
+                  "phonetic": "/flɔː/",
+                  "meaning": "One level of a building.",
+                  "example": "The office is on the third floor.",
+                  "translations": {
+                    "hi": "मंजिल",
+                    "gu": "માળ",
+                    "es": "planta"
+                  }
+                }
+              ],
+              "listen": ["It is opposite the post office, between the pharmacy and the small cafe.", "Take the second left, and it is the blue door on the corner."],
+              "speak": ["The shop is opposite the station.", "It is between the bank and the cafe."],
+              "grammar": {
+                "title": "Prepositions of place",
+                "rule": "Use in for enclosed spaces, on for surfaces and floors, at for points.",
+                "explanation": "",
+                "examples": ["in the kitchen", "on the third floor", "at the corner", "between the two shops"]
+              },
+              "quiz": [
+                {
+                  "id": "en_b_u5_l3_q1",
+                  "prompt": "Complete: The office is ___ the second floor.",
+                  "options": ["in", "at", "on", "to"],
+                  "answer": 2,
+                  "explanation": "Floors take on.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u5_l3_q2",
+                  "prompt": "Complete: Wait ___ the bus stop.",
+                  "options": ["in", "at", "on", "to"],
+                  "answer": 1,
+                  "explanation": "A point takes at.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u5_l3_q3",
+                  "prompt": "Which word means directly across from?",
+                  "options": ["between", "opposite", "corner", "near"],
+                  "answer": 1,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            },
+            {
+              "id": "en_b_u5_l4",
+              "title": "Likes and opinions",
+              "topic": "daily",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_b_u5_l4_boring",
+                  "word": "boring",
+                  "phonetic": "/ˈbɔːrɪŋ/",
+                  "meaning": "Not interesting.",
+                  "example": "The film was long and boring.",
+                  "translations": {
+                    "hi": "उबाऊ",
+                    "gu": "કંટાળાજનક",
+                    "es": "aburrido"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u5_l4_amazing",
+                  "word": "amazing",
+                  "phonetic": "/əˈmeɪzɪŋ/",
+                  "meaning": "Extremely good or surprising.",
+                  "example": "The view was amazing.",
+                  "translations": {
+                    "hi": "अद्भुत",
+                    "gu": "અદ્ભુત",
+                    "es": "increíble"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u5_l4_agree",
+                  "word": "agree",
+                  "phonetic": "/əˈɡriː/",
+                  "meaning": "To have the same opinion.",
+                  "example": "I agree with you completely.",
+                  "translations": {
+                    "hi": "सहमत होना",
+                    "gu": "સંમત થવું",
+                    "es": "estar de acuerdo"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u5_l4_mind",
+                  "word": "mind",
+                  "phonetic": "/maɪnd/",
+                  "meaning": "To be annoyed by something.",
+                  "example": "I do not mind waiting.",
+                  "translations": {
+                    "hi": "आपत्ति होना",
+                    "gu": "વાંધો હોવો",
+                    "es": "importar"
+                  }
+                },
+                {
+                  "id": "lw_en_b_u5_l4_favourite",
+                  "word": "favourite",
+                  "phonetic": "/ˈfeɪvərɪt/",
+                  "meaning": "Liked more than all the others.",
+                  "example": "This is my favourite song.",
+                  "translations": {
+                    "hi": "पसंदीदा",
+                    "gu": "પ્રિય",
+                    "es": "favorito"
+                  }
+                }
+              ],
+              "listen": ["I thought it was amazing, honestly. My brother found it boring, so we disagree.", "Do you mind if I open the window? Not at all, go ahead."],
+              "speak": ["I agree with you.", "It is my favourite place in the city."],
+              "grammar": {
+                "title": "Verbs of liking plus -ing",
+                "rule": "After like, love, hate, enjoy and do not mind, use the -ing form.",
+                "explanation": "",
+                "examples": ["I like cooking.", "She hates waiting.", "I do not mind working late."]
+              },
+              "quiz": [
+                {
+                  "id": "en_b_u5_l4_q1",
+                  "prompt": "Complete: I do not mind ___ early.",
+                  "options": ["start", "to start", "starting", "started"],
+                  "answer": 2,
+                  "explanation": "Mind takes -ing.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u5_l4_q2",
+                  "prompt": "Choose the correct sentence.",
+                  "options": ["I enjoy to read.", "I enjoy reading.", "I enjoy read.", "I enjoy readed."],
+                  "answer": 1,
+                  "explanation": "Enjoy takes -ing.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_b_u5_l4_q3",
+                  "prompt": "Which word means not interesting?",
+                  "options": ["amazing", "boring", "favourite", "quiet"],
+                  "answer": 1,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
