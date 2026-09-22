@@ -1,0 +1,1897 @@
+{
+  "schema": "speakly.content.v1",
+  "doc": "courses_intermediate",
+  "collection": "courses",
+  "version": 1,
+  "updatedAt": "2026-09-22",
+  "locale": "en",
+  "count": 1,
+  "items": [
+    {
+      "id": "en_intermediate",
+      "band": 1,
+      "title": "Intermediate",
+      "subtitle": "Say what you actually mean",
+      "units": [
+        {
+          "id": "en_i_u1",
+          "title": "Unit 1 - Travel and Situations",
+          "subtitle": "Airports, hotels, problems, complaints",
+          "lessons": [
+            {
+              "id": "en_i_u1_l1",
+              "title": "At the airport",
+              "topic": "travel",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_i_u1_l1_boarding_pass",
+                  "word": "boarding pass",
+                  "phonetic": "/ˈbɔːdɪŋ pɑːs/",
+                  "meaning": "The document that lets you board.",
+                  "example": "Have your boarding pass ready.",
+                  "translations": {
+                    "hi": "बोर्डिंग पास",
+                    "gu": "બોર્ડિંગ પાસ",
+                    "es": "tarjeta de embarque"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u1_l1_delayed",
+                  "word": "delayed",
+                  "phonetic": "/dɪˈleɪd/",
+                  "meaning": "Happening later than planned.",
+                  "example": "Our flight is delayed by an hour.",
+                  "translations": {
+                    "hi": "विलंबित",
+                    "gu": "વિલંબિત",
+                    "es": "retrasado"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u1_l1_connecting_flight",
+                  "word": "connecting flight",
+                  "phonetic": "/kəˈnektɪŋ flaɪt/",
+                  "meaning": "The second flight of a journey.",
+                  "example": "I have a connecting flight in Doha.",
+                  "translations": {
+                    "hi": "कनेक्टिंग फ्लाइट",
+                    "gu": "કનેક્ટિંગ ફ્લાઇટ",
+                    "es": "vuelo de conexión"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u1_l1_customs",
+                  "word": "customs",
+                  "phonetic": "/ˈkʌstəmz/",
+                  "meaning": "Officials who check what you bring in.",
+                  "example": "We were held at customs.",
+                  "translations": {
+                    "hi": "सीमा शुल्क",
+                    "gu": "કસ્ટમ્સ",
+                    "es": "aduana"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u1_l1_aisle",
+                  "word": "aisle",
+                  "phonetic": "/aɪl/",
+                  "meaning": "The walkway between seats.",
+                  "example": "I prefer an aisle seat.",
+                  "translations": {
+                    "hi": "गलियारा",
+                    "gu": "પેસેજ",
+                    "es": "pasillo"
+                  }
+                }
+              ],
+              "listen": ["Attention passengers: flight BA204 to London is delayed by forty minutes.", "Please have your passport and boarding pass ready at the gate."],
+              "speak": ["I have a connecting flight, so I need to hurry.", "Could I have an aisle seat, please?"],
+              "grammar": {
+                "title": "Present continuous for arrangements",
+                "rule": "Use am, is or are plus -ing for fixed future arrangements.",
+                "explanation": "",
+                "examples": ["I am flying to Rome on Tuesday.", "We are meeting the client at nine.", "She is not coming this week."]
+              },
+              "quiz": [
+                {
+                  "id": "en_i_u1_l1_q1",
+                  "prompt": "Choose the arrangement.",
+                  "options": ["I fly to Rome on Tuesday.", "I am flying to Rome on Tuesday.", "I will flying to Rome.", "I flew to Rome Tuesday."],
+                  "answer": 1,
+                  "explanation": "A fixed plan uses the present continuous.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u1_l1_q2",
+                  "prompt": "Complete: The flight ___ delayed by an hour.",
+                  "options": ["has", "is", "does", "are"],
+                  "answer": 1,
+                  "explanation": "Delayed is an adjective here.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u1_l1_q3",
+                  "prompt": "Which word means the second flight of a journey?",
+                  "options": ["customs", "aisle", "connecting flight", "boarding pass"],
+                  "answer": 2,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            },
+            {
+              "id": "en_i_u1_l2",
+              "title": "Hotel problems",
+              "topic": "travel",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_i_u1_l2_complain",
+                  "word": "complain",
+                  "phonetic": "/kəmˈpleɪn/",
+                  "meaning": "To say you are not satisfied.",
+                  "example": "I had to complain about the noise.",
+                  "translations": {
+                    "hi": "शिकायत करना",
+                    "gu": "ફરિયાદ કરવી",
+                    "es": "quejarse"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u1_l2_refund",
+                  "word": "refund",
+                  "phonetic": "/ˈriːfʌnd/",
+                  "meaning": "Money given back.",
+                  "example": "They offered a partial refund.",
+                  "translations": {
+                    "hi": "धन वापसी",
+                    "gu": "રિફંડ",
+                    "es": "reembolso"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u1_l2_faulty",
+                  "word": "faulty",
+                  "phonetic": "/ˈfɔːlti/",
+                  "meaning": "Not working properly.",
+                  "example": "The air conditioning is faulty.",
+                  "translations": {
+                    "hi": "खराब",
+                    "gu": "ખામીયુક્ત",
+                    "es": "defectuoso"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u1_l2_upgrade",
+                  "word": "upgrade",
+                  "phonetic": "/ˈʌpɡreɪd/",
+                  "meaning": "A better room or seat.",
+                  "example": "They gave us a free upgrade.",
+                  "translations": {
+                    "hi": "अपग्रेड",
+                    "gu": "અપગ્રેડ",
+                    "es": "mejora"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u1_l2_apologise",
+                  "word": "apologise",
+                  "phonetic": "/əˈpɒlədʒaɪz/",
+                  "meaning": "To say sorry formally.",
+                  "example": "The manager apologised.",
+                  "translations": {
+                    "hi": "माफी मांगना",
+                    "gu": "માફી માંગવી",
+                    "es": "disculparse"
+                  }
+                }
+              ],
+              "listen": ["I am sorry about the noise. I can move you to a quieter room on the fifth floor.", "The heating in room 212 is faulty and nobody has come to fix it."],
+              "speak": ["I would like to complain about the noise.", "Could you move me to another room, please?"],
+              "grammar": {
+                "title": "Polite requests and complaints",
+                "rule": "Could, would and I am afraid make a complaint firm but polite.",
+                "explanation": "",
+                "examples": ["Could you send someone up?", "I am afraid there is a problem.", "Would it be possible to change rooms?"]
+              },
+              "quiz": [
+                {
+                  "id": "en_i_u1_l2_q1",
+                  "prompt": "Which is the most polite?",
+                  "options": ["Change my room.", "I want another room.", "Could I change rooms, please?", "Give me another room."],
+                  "answer": 2,
+                  "explanation": "Could plus please is the polite form.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u1_l2_q2",
+                  "prompt": "Complete: I am ___ there has been a mistake.",
+                  "options": ["afraid", "scared", "sorry of", "fear"],
+                  "answer": 0,
+                  "explanation": "I am afraid softens bad news.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u1_l2_q3",
+                  "prompt": "Which word means not working properly?",
+                  "options": ["faulty", "free", "polite", "quiet"],
+                  "answer": 0,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            },
+            {
+              "id": "en_i_u1_l3",
+              "title": "Telling a story",
+              "topic": "daily",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_i_u1_l3_suddenly",
+                  "word": "suddenly",
+                  "phonetic": "/ˈsʌdənli/",
+                  "meaning": "Quickly and without warning.",
+                  "example": "Suddenly the lights went out.",
+                  "translations": {
+                    "hi": "अचानक",
+                    "gu": "અચાનક",
+                    "es": "de repente"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u1_l3_eventually",
+                  "word": "eventually",
+                  "phonetic": "/ɪˈventʃuəli/",
+                  "meaning": "In the end, after a long time.",
+                  "example": "Eventually the taxi arrived.",
+                  "translations": {
+                    "hi": "आख़िरकार",
+                    "gu": "આખરે",
+                    "es": "finalmente"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u1_l3_realise",
+                  "word": "realise",
+                  "phonetic": "/ˈrɪəlaɪz/",
+                  "meaning": "To understand something for the first time.",
+                  "example": "I realised I had left my bag.",
+                  "translations": {
+                    "hi": "एहसास होना",
+                    "gu": "સમજાવું",
+                    "es": "darse cuenta"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u1_l3_meanwhile",
+                  "word": "meanwhile",
+                  "phonetic": "/ˈmiːnwaɪl/",
+                  "meaning": "At the same time.",
+                  "example": "Meanwhile, my friend was waiting outside.",
+                  "translations": {
+                    "hi": "इस बीच",
+                    "gu": "દરમિયાન",
+                    "es": "mientras tanto"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u1_l3_turn_out",
+                  "word": "turn out",
+                  "phonetic": "/tɜːn aʊt/",
+                  "meaning": "To end in a certain way.",
+                  "example": "It turned out fine.",
+                  "translations": {
+                    "hi": "निकलना",
+                    "gu": "પરિણમવું",
+                    "es": "resultar"
+                  }
+                }
+              ],
+              "listen": ["I was waiting at the bus stop when it suddenly started to rain.", "While I was looking for my keys, my phone was ringing in my pocket."],
+              "speak": ["I was walking home when I met an old friend.", "Eventually we found the right street."],
+              "grammar": {
+                "title": "Past continuous with past simple",
+                "rule": "The long action uses was or were plus -ing, the short interrupting one uses past simple.",
+                "explanation": "",
+                "examples": ["I was cooking when the phone rang.", "They were sleeping when we arrived.", "While she was driving, it started to snow."]
+              },
+              "quiz": [
+                {
+                  "id": "en_i_u1_l3_q1",
+                  "prompt": "Complete: I ___ dinner when he called.",
+                  "options": ["cook", "cooked", "was cooking", "am cooking"],
+                  "answer": 2,
+                  "explanation": "The long action takes the past continuous.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u1_l3_q2",
+                  "prompt": "Complete: While we were walking, it ___ to rain.",
+                  "options": ["starts", "started", "was starting", "start"],
+                  "answer": 1,
+                  "explanation": "The short action takes the past simple.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u1_l3_q3",
+                  "prompt": "Which word means at the same time?",
+                  "options": ["eventually", "suddenly", "meanwhile", "finally"],
+                  "answer": 2,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en_i_u2",
+          "title": "Unit 2 - Work and Study",
+          "subtitle": "Meetings, email, opinions, interviews",
+          "lessons": [
+            {
+              "id": "en_i_u2_l1",
+              "title": "In a meeting",
+              "topic": "work",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_i_u2_l1_agenda",
+                  "word": "agenda",
+                  "phonetic": "/əˈdʒendə/",
+                  "meaning": "The list of things to discuss.",
+                  "example": "The agenda has four items.",
+                  "translations": {
+                    "hi": "कार्यसूची",
+                    "gu": "કાર્યસૂચિ",
+                    "es": "orden del día"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u2_l1_deadline",
+                  "word": "deadline",
+                  "phonetic": "/ˈdedlaɪn/",
+                  "meaning": "The last moment to finish.",
+                  "example": "We moved the deadline to Friday.",
+                  "translations": {
+                    "hi": "समय सीमा",
+                    "gu": "સમયમર્યાદા",
+                    "es": "plazo"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u2_l1_follow_up",
+                  "word": "follow up",
+                  "phonetic": "/ˈfɒləʊ ʌp/",
+                  "meaning": "To check again later.",
+                  "example": "I will follow up by email.",
+                  "translations": {
+                    "hi": "फॉलो अप करना",
+                    "gu": "ફોલોઅપ કરવું",
+                    "es": "dar seguimiento"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u2_l1_priority",
+                  "word": "priority",
+                  "phonetic": "/praɪˈɒrəti/",
+                  "meaning": "The most important thing.",
+                  "example": "Security is our priority.",
+                  "translations": {
+                    "hi": "प्राथमिकता",
+                    "gu": "પ્રાથમિકતા",
+                    "es": "prioridad"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u2_l1_clarify",
+                  "word": "clarify",
+                  "phonetic": "/ˈklærɪfaɪ/",
+                  "meaning": "To make something clear.",
+                  "example": "Let me clarify that point.",
+                  "translations": {
+                    "hi": "स्पष्ट करना",
+                    "gu": "સ્પષ્ટ કરવું",
+                    "es": "aclarar"
+                  }
+                }
+              ],
+              "listen": ["Quick update: the client moved the deadline, so testing starts on Monday.", "Before we finish, can someone follow up with the design team?"],
+              "speak": ["Could you clarify that point, please?", "I think our priority should be the deadline."],
+              "grammar": {
+                "title": "Giving opinions",
+                "rule": "Soften an opinion with I think, in my view, or it seems to me.",
+                "explanation": "",
+                "examples": ["I think we should wait.", "In my view the deadline is too tight.", "It seems to me that we need more data."]
+              },
+              "quiz": [
+                {
+                  "id": "en_i_u2_l1_q1",
+                  "prompt": "Which sounds most professional?",
+                  "options": ["You are wrong.", "That is nonsense.", "I see it a little differently.", "No."],
+                  "answer": 2,
+                  "explanation": "Softening keeps the discussion open.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u2_l1_q2",
+                  "prompt": "Complete: Let me ___ that point.",
+                  "options": ["clarify", "clear", "clean", "clarity"],
+                  "answer": 0,
+                  "explanation": "Clarify is the verb.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u2_l1_q3",
+                  "prompt": "Complete: I ___ we should wait for the data.",
+                  "options": ["am thinking", "think", "thinks", "thought"],
+                  "answer": 1,
+                  "explanation": "Opinions use present simple.",
+                  "skill": "grammar"
+                }
+              ]
+            },
+            {
+              "id": "en_i_u2_l2",
+              "title": "Writing an email",
+              "topic": "work",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_i_u2_l2_regarding",
+                  "word": "regarding",
+                  "phonetic": "/rɪˈɡɑːdɪŋ/",
+                  "meaning": "About a subject.",
+                  "example": "I am writing regarding your invoice.",
+                  "translations": {
+                    "hi": "के संबंध में",
+                    "gu": "સંબંધિત",
+                    "es": "respecto a"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u2_l2_attach",
+                  "word": "attach",
+                  "phonetic": "/əˈtætʃ/",
+                  "meaning": "To send a file with a message.",
+                  "example": "I have attached the report.",
+                  "translations": {
+                    "hi": "संलग्न करना",
+                    "gu": "જોડવું",
+                    "es": "adjuntar"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u2_l2_confirm",
+                  "word": "confirm",
+                  "phonetic": "/kənˈfɜːm/",
+                  "meaning": "To say something is definite.",
+                  "example": "Please confirm the time.",
+                  "translations": {
+                    "hi": "पुष्टि करना",
+                    "gu": "પુષ્ટિ કરવી",
+                    "es": "confirmar"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u2_l2_request",
+                  "word": "request",
+                  "phonetic": "/rɪˈkwest/",
+                  "meaning": "To ask for something formally.",
+                  "example": "I would like to request two days off.",
+                  "translations": {
+                    "hi": "अनुरोध",
+                    "gu": "વિનંતી",
+                    "es": "solicitar"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u2_l2_sincerely",
+                  "word": "sincerely",
+                  "phonetic": "/sɪnˈsɪəli/",
+                  "meaning": "A formal way to end a letter.",
+                  "example": "Yours sincerely, Ana.",
+                  "translations": {
+                    "hi": "भवदीय",
+                    "gu": "આપનો વિશ્વાસુ",
+                    "es": "atentamente"
+                  }
+                }
+              ],
+              "listen": ["Dear Mr Shah, I am writing regarding the invoice sent last week.", "Please confirm whether Thursday at ten works for you."],
+              "speak": ["I am writing to request one day off.", "Please find the report attached."],
+              "grammar": {
+                "title": "Formal and informal register",
+                "rule": "Formal writing avoids contractions and uses fuller phrases.",
+                "explanation": "",
+                "examples": ["Informal: Can you send it? Formal: Could you please send it?", "Informal: Thanks! Formal: Thank you for your time.", "Informal: I'm sorry. Formal: I apologise for the delay."]
+              },
+              "quiz": [
+                {
+                  "id": "en_i_u2_l2_q1",
+                  "prompt": "Which opening is formal?",
+                  "options": ["Hey!", "Dear Ms Patel,", "Yo,", "Hi there!!"],
+                  "answer": 1,
+                  "explanation": "Dear plus surname is standard formal.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u2_l2_q2",
+                  "prompt": "Choose the formal version.",
+                  "options": ["Can you send it?", "Send it.", "Could you please send it?", "Send it fast."],
+                  "answer": 2,
+                  "explanation": "Could you please is the polite formal request.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u2_l2_q3",
+                  "prompt": "Complete: I have ___ the document.",
+                  "options": ["attach", "attached", "attaching", "attachment"],
+                  "answer": 1,
+                  "explanation": "Have plus past participle.",
+                  "skill": "grammar"
+                }
+              ]
+            },
+            {
+              "id": "en_i_u2_l3",
+              "title": "Job interview",
+              "topic": "work",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_i_u2_l3_strength",
+                  "word": "strength",
+                  "phonetic": "/streŋθ/",
+                  "meaning": "Something you are good at.",
+                  "example": "My main strength is planning.",
+                  "translations": {
+                    "hi": "ताकत",
+                    "gu": "શક્તિ",
+                    "es": "fortaleza"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u2_l3_achievement",
+                  "word": "achievement",
+                  "phonetic": "/əˈtʃiːvmənt/",
+                  "meaning": "Something you succeeded in doing.",
+                  "example": "My biggest achievement was the launch.",
+                  "translations": {
+                    "hi": "उपलब्धि",
+                    "gu": "સિદ્ધિ",
+                    "es": "logro"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u2_l3_responsible_for",
+                  "word": "responsible for",
+                  "phonetic": "/rɪˈspɒnsəbl fɔː/",
+                  "meaning": "In charge of something.",
+                  "example": "I was responsible for the budget.",
+                  "translations": {
+                    "hi": "जिम्मेदार",
+                    "gu": "જવાબદાર",
+                    "es": "responsable de"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u2_l3_challenge",
+                  "word": "challenge",
+                  "phonetic": "/ˈtʃælɪndʒ/",
+                  "meaning": "Something difficult that tests you.",
+                  "example": "The biggest challenge was the timeline.",
+                  "translations": {
+                    "hi": "चुनौती",
+                    "gu": "પડકાર",
+                    "es": "desafío"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u2_l3_motivated",
+                  "word": "motivated",
+                  "phonetic": "/ˈməʊtɪveɪtɪd/",
+                  "meaning": "Wanting to work hard.",
+                  "example": "I am motivated by solving problems.",
+                  "translations": {
+                    "hi": "प्रेरित",
+                    "gu": "પ્રેરિત",
+                    "es": "motivado"
+                  }
+                }
+              ],
+              "listen": ["Tell me about a time when a project did not go to plan.", "I was responsible for a team of four and we delivered two weeks early."],
+              "speak": ["My biggest strength is that I stay calm under pressure.", "I was responsible for the whole reporting process."],
+              "grammar": {
+                "title": "Present perfect for experience",
+                "rule": "Use have or has plus the past participle when the time is not stated.",
+                "explanation": "",
+                "examples": ["I have managed a team of five.", "She has worked in three countries.", "Have you ever led a project?"]
+              },
+              "quiz": [
+                {
+                  "id": "en_i_u2_l3_q1",
+                  "prompt": "Choose the correct sentence.",
+                  "options": ["I have worked there in 2019.", "I worked there in 2019.", "I have work there in 2019.", "I am working there in 2019."],
+                  "answer": 1,
+                  "explanation": "A stated past time takes the past simple.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u2_l3_q2",
+                  "prompt": "Complete: I ___ managed a team before.",
+                  "options": ["have", "has", "am", "did"],
+                  "answer": 0,
+                  "explanation": "I takes have.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u2_l3_q3",
+                  "prompt": "Which word means something difficult that tests you?",
+                  "options": ["strength", "challenge", "achievement", "priority"],
+                  "answer": 1,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en_i_u3",
+          "title": "Unit 3 - Ideas and Opinions",
+          "subtitle": "Agreeing, explaining, hypothesising",
+          "lessons": [
+            {
+              "id": "en_i_u3_l1",
+              "title": "Agreeing and disagreeing",
+              "topic": "daily",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_i_u3_l1_point",
+                  "word": "point",
+                  "phonetic": "/pɔɪnt/",
+                  "meaning": "An idea in an argument.",
+                  "example": "That is a fair point.",
+                  "translations": {
+                    "hi": "बात",
+                    "gu": "મુદ્દો",
+                    "es": "punto"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u3_l1_however",
+                  "word": "however",
+                  "phonetic": "/haʊˈevə/",
+                  "meaning": "Used to introduce a contrast.",
+                  "example": "However, the cost is high.",
+                  "translations": {
+                    "hi": "हालांकि",
+                    "gu": "જોકે",
+                    "es": "sin embargo"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u3_l1_exactly",
+                  "word": "exactly",
+                  "phonetic": "/ɪɡˈzæktli/",
+                  "meaning": "Used to agree strongly.",
+                  "example": "Exactly, that is what I meant.",
+                  "translations": {
+                    "hi": "बिल्कुल",
+                    "gu": "બરાબર",
+                    "es": "exactamente"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u3_l1_partly",
+                  "word": "partly",
+                  "phonetic": "/ˈpɑːtli/",
+                  "meaning": "Not completely.",
+                  "example": "I partly agree with you.",
+                  "translations": {
+                    "hi": "आंशिक रूप से",
+                    "gu": "અંશતઃ",
+                    "es": "en parte"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u3_l1_convince",
+                  "word": "convince",
+                  "phonetic": "/kənˈvɪns/",
+                  "meaning": "To make someone believe you.",
+                  "example": "You have convinced me.",
+                  "translations": {
+                    "hi": "विश्वास दिलाना",
+                    "gu": "સમજાવવું",
+                    "es": "convencer"
+                  }
+                }
+              ],
+              "listen": ["I take your point, however I am not sure the numbers support it.", "That is exactly what I was going to say."],
+              "speak": ["I partly agree, but I would add one thing.", "That is a fair point, however I see it differently."],
+              "grammar": {
+                "title": "Linking words",
+                "rule": "However, although and despite join contrasting ideas in different ways.",
+                "explanation": "",
+                "examples": ["It was expensive. However, it was worth it.", "Although it was expensive, it was worth it.", "Despite the price, it was worth it."]
+              },
+              "quiz": [
+                {
+                  "id": "en_i_u3_l1_q1",
+                  "prompt": "Complete: ___ it rained, we enjoyed the day.",
+                  "options": ["However", "Although", "Despite", "But although"],
+                  "answer": 1,
+                  "explanation": "Although starts a clause with a subject and verb.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u3_l1_q2",
+                  "prompt": "Complete: ___ the rain, we enjoyed the day.",
+                  "options": ["Although", "However", "Despite", "Even"],
+                  "answer": 2,
+                  "explanation": "Despite is followed by a noun.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u3_l1_q3",
+                  "prompt": "Which word shows partial agreement?",
+                  "options": ["exactly", "partly", "never", "totally"],
+                  "answer": 1,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            },
+            {
+              "id": "en_i_u3_l2",
+              "title": "If this, then that",
+              "topic": "daily",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_i_u3_l2_unless",
+                  "word": "unless",
+                  "phonetic": "/ənˈles/",
+                  "meaning": "If not.",
+                  "example": "We will go unless it rains.",
+                  "translations": {
+                    "hi": "जब तक नहीं",
+                    "gu": "સિવાય કે",
+                    "es": "a menos que"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u3_l2_depend_on",
+                  "word": "depend on",
+                  "phonetic": "/dɪˈpend ɒn/",
+                  "meaning": "To be decided by something else.",
+                  "example": "It depends on the price.",
+                  "translations": {
+                    "hi": "निर्भर होना",
+                    "gu": "આધાર રાખવો",
+                    "es": "depender de"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u3_l2_consequence",
+                  "word": "consequence",
+                  "phonetic": "/ˈkɒnsɪkwəns/",
+                  "meaning": "A result of an action.",
+                  "example": "The consequence was a delay.",
+                  "translations": {
+                    "hi": "परिणाम",
+                    "gu": "પરિણામ",
+                    "es": "consecuencia"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u3_l2_assume",
+                  "word": "assume",
+                  "phonetic": "/əˈsjuːm/",
+                  "meaning": "To think something is true without proof.",
+                  "example": "Do not assume they know.",
+                  "translations": {
+                    "hi": "मान लेना",
+                    "gu": "માની લેવું",
+                    "es": "suponer"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u3_l2_worth_it",
+                  "word": "worth it",
+                  "phonetic": "/wɜːθ ɪt/",
+                  "meaning": "Good enough for the cost or effort.",
+                  "example": "The extra hour was worth it.",
+                  "translations": {
+                    "hi": "सार्थक",
+                    "gu": "યોગ્ય",
+                    "es": "vale la pena"
+                  }
+                }
+              ],
+              "listen": ["If the client approves today, we can start on Monday.", "If I had more time, I would rewrite the whole section."],
+              "speak": ["If I have time tomorrow, I will call you.", "If I were you, I would take the job."],
+              "grammar": {
+                "title": "First and second conditional",
+                "rule": "Real future: if plus present, will plus base. Imagined: if plus past, would plus base.",
+                "explanation": "",
+                "examples": ["If it rains, I will stay home.", "If I had more money, I would travel.", "If I were you, I would apply."]
+              },
+              "quiz": [
+                {
+                  "id": "en_i_u3_l2_q1",
+                  "prompt": "Complete: If it ___ tomorrow, we will cancel.",
+                  "options": ["will rain", "rains", "rained", "would rain"],
+                  "answer": 1,
+                  "explanation": "After if use the present, not will.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u3_l2_q2",
+                  "prompt": "Complete: If I ___ rich, I would buy a house.",
+                  "options": ["am", "was being", "were", "will be"],
+                  "answer": 2,
+                  "explanation": "Were is standard in the second conditional.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u3_l2_q3",
+                  "prompt": "Complete: We will go ___ it rains.",
+                  "options": ["unless", "if", "despite", "although"],
+                  "answer": 0,
+                  "explanation": "Unless means if not.",
+                  "skill": "grammar"
+                }
+              ]
+            },
+            {
+              "id": "en_i_u3_l3",
+              "title": "Describing change",
+              "topic": "technology",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_i_u3_l3_gradually",
+                  "word": "gradually",
+                  "phonetic": "/ˈɡrædʒuəli/",
+                  "meaning": "Slowly over time.",
+                  "example": "Prices rose gradually.",
+                  "translations": {
+                    "hi": "धीरे-धीरे",
+                    "gu": "ધીમે ધીમે",
+                    "es": "gradualmente"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u3_l3_significant",
+                  "word": "significant",
+                  "phonetic": "/sɪɡˈnɪfɪkənt/",
+                  "meaning": "Large enough to matter.",
+                  "example": "There was a significant drop.",
+                  "translations": {
+                    "hi": "महत्वपूर्ण",
+                    "gu": "નોંધપાત્ર",
+                    "es": "significativo"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u3_l3_trend",
+                  "word": "trend",
+                  "phonetic": "/trend/",
+                  "meaning": "The general direction of change.",
+                  "example": "The trend is clear.",
+                  "translations": {
+                    "hi": "प्रवृत्ति",
+                    "gu": "વલણ",
+                    "es": "tendencia"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u3_l3_double",
+                  "word": "double",
+                  "phonetic": "/ˈdʌbl/",
+                  "meaning": "To become twice as much.",
+                  "example": "Traffic doubled in two years.",
+                  "translations": {
+                    "hi": "दोगुना",
+                    "gu": "બમણું",
+                    "es": "duplicar"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u3_l3_decline",
+                  "word": "decline",
+                  "phonetic": "/dɪˈklaɪn/",
+                  "meaning": "To go down.",
+                  "example": "Sales declined last quarter.",
+                  "translations": {
+                    "hi": "गिरावट",
+                    "gu": "ઘટાડો",
+                    "es": "declive"
+                  }
+                }
+              ],
+              "listen": ["Between 2019 and 2023 the number of remote workers more than doubled.", "After the change, complaints declined significantly."],
+              "speak": ["The number of users increased gradually last year.", "There was a significant decline in the second half."],
+              "grammar": {
+                "title": "The passive voice",
+                "rule": "Be plus past participle, used when the action matters more than who did it.",
+                "explanation": "",
+                "examples": ["The report was sent yesterday.", "English is spoken in many countries.", "The rule has been changed."]
+              },
+              "quiz": [
+                {
+                  "id": "en_i_u3_l3_q1",
+                  "prompt": "Make it passive: Someone changed the rule.",
+                  "options": ["The rule changed.", "The rule was changed.", "The rule is change.", "The rule has change."],
+                  "answer": 1,
+                  "explanation": "Was plus changed.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u3_l3_q2",
+                  "prompt": "Complete: The email ___ this morning.",
+                  "options": ["sent", "was sent", "is sending", "send"],
+                  "answer": 1,
+                  "explanation": "The email did not send itself.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u3_l3_q3",
+                  "prompt": "Which word means to become twice as much?",
+                  "options": ["decline", "double", "trend", "gradually"],
+                  "answer": 1,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en_i_u4",
+          "title": "Unit 4 - Money and Admin",
+          "subtitle": "Banking, bills, forms, disputes",
+          "lessons": [
+            {
+              "id": "en_i_u4_l1",
+              "title": "At the bank",
+              "topic": "money",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_i_u4_l1_account",
+                  "word": "account",
+                  "phonetic": "/əˈkaʊnt/",
+                  "meaning": "An arrangement to keep money at a bank.",
+                  "example": "I opened an account last week.",
+                  "translations": {
+                    "hi": "खाता",
+                    "gu": "ખાતું",
+                    "es": "cuenta"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u4_l1_transfer",
+                  "word": "transfer",
+                  "phonetic": "/trænsˈfɜː/",
+                  "meaning": "To move money from one account to another.",
+                  "example": "The transfer takes two days.",
+                  "translations": {
+                    "hi": "स्थानांतरण",
+                    "gu": "ટ્રાન્સફર",
+                    "es": "transferencia"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u4_l1_withdraw",
+                  "word": "withdraw",
+                  "phonetic": "/wɪðˈdrɔː/",
+                  "meaning": "To take money out.",
+                  "example": "I withdrew cash at the airport.",
+                  "translations": {
+                    "hi": "निकालना",
+                    "gu": "ઉપાડવું",
+                    "es": "retirar"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u4_l1_statement",
+                  "word": "statement",
+                  "phonetic": "/ˈsteɪtmənt/",
+                  "meaning": "A list of what went in and out of an account.",
+                  "example": "Check last month's statement.",
+                  "translations": {
+                    "hi": "विवरण",
+                    "gu": "સ્ટેટમેન્ટ",
+                    "es": "extracto"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u4_l1_overdraft",
+                  "word": "overdraft",
+                  "phonetic": "/ˈəʊvədrɑːft/",
+                  "meaning": "Permission to spend more than you have.",
+                  "example": "The overdraft has a high fee.",
+                  "translations": {
+                    "hi": "ओवरड्राफ्ट",
+                    "gu": "ઓવરડ્રાફ્ટ",
+                    "es": "descubierto"
+                  }
+                }
+              ],
+              "listen": ["The transfer went out on Monday, but it will not show on their statement until Wednesday.", "There is no fee to withdraw at our machines, but other banks may charge you."],
+              "speak": ["I would like to open an account.", "Could you check my last statement, please?"],
+              "grammar": {
+                "title": "Present perfect with already, yet and just",
+                "rule": "Already goes before the participle, yet at the end of questions and negatives.",
+                "explanation": "",
+                "examples": ["I have already paid.", "Have you paid yet?", "It has just arrived."]
+              },
+              "quiz": [
+                {
+                  "id": "en_i_u4_l1_q1",
+                  "prompt": "Complete: I have ___ transferred the money.",
+                  "options": ["yet", "already", "still", "since"],
+                  "answer": 1,
+                  "explanation": "Already goes before the participle.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u4_l1_q2",
+                  "prompt": "Choose the correct sentence.",
+                  "options": ["Have you paid already yet?", "Have you paid yet?", "Have yet you paid?", "You have paid yet?"],
+                  "answer": 1,
+                  "explanation": "Yet goes at the end of a question.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u4_l1_q3",
+                  "prompt": "Which word means to take money out?",
+                  "options": ["transfer", "withdraw", "deposit", "borrow"],
+                  "answer": 1,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            },
+            {
+              "id": "en_i_u4_l2",
+              "title": "Bills and contracts",
+              "topic": "money",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_i_u4_l2_charge",
+                  "word": "charge",
+                  "phonetic": "/tʃɑːdʒ/",
+                  "meaning": "An amount you are asked to pay.",
+                  "example": "There is a charge for late payment.",
+                  "translations": {
+                    "hi": "शुल्क",
+                    "gu": "શુલ્ક",
+                    "es": "cargo"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u4_l2_due",
+                  "word": "due",
+                  "phonetic": "/djuː/",
+                  "meaning": "Expected or required by a certain time.",
+                  "example": "The payment is due on the fifth.",
+                  "translations": {
+                    "hi": "देय",
+                    "gu": "બાકી",
+                    "es": "vencido"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u4_l2_renew",
+                  "word": "renew",
+                  "phonetic": "/rɪˈnjuː/",
+                  "meaning": "To extend something for another period.",
+                  "example": "The contract renews automatically.",
+                  "translations": {
+                    "hi": "नवीनीकरण करना",
+                    "gu": "નવીકરણ કરવું",
+                    "es": "renovar"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u4_l2_terms",
+                  "word": "terms",
+                  "phonetic": "/tɜːmz/",
+                  "meaning": "The conditions of an agreement.",
+                  "example": "Read the terms before you sign.",
+                  "translations": {
+                    "hi": "शर्तें",
+                    "gu": "શરતો",
+                    "es": "condiciones"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u4_l2_estimate",
+                  "word": "estimate",
+                  "phonetic": "/ˈestɪmət/",
+                  "meaning": "An approximate calculation of cost.",
+                  "example": "They sent an estimate, not a final bill.",
+                  "translations": {
+                    "hi": "अनुमान",
+                    "gu": "અંદાજ",
+                    "es": "presupuesto"
+                  }
+                }
+              ],
+              "listen": ["Your contract renews on the first of next month unless you cancel before then.", "That charge looks wrong to me. The estimate we agreed was forty pounds lower."],
+              "speak": ["I think this charge is a mistake.", "When exactly is the payment due?"],
+              "grammar": {
+                "title": "Modals of obligation: must, have to, should",
+                "rule": "Must and have to mean it is required. Should means it is advisable, not compulsory.",
+                "explanation": "",
+                "examples": ["You must sign here.", "I have to renew it in May.", "You should read the terms."]
+              },
+              "quiz": [
+                {
+                  "id": "en_i_u4_l2_q1",
+                  "prompt": "Which sentence is advice, not a rule?",
+                  "options": ["You must pay today.", "You should compare prices.", "You have to sign.", "You must not cancel."],
+                  "answer": 1,
+                  "explanation": "Should gives advice.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u4_l2_q2",
+                  "prompt": "Complete: I ___ renew the contract before Friday.",
+                  "options": ["have", "have to", "having", "has to"],
+                  "answer": 1,
+                  "explanation": "Have to expresses obligation.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u4_l2_q3",
+                  "prompt": "Which word means an approximate cost?",
+                  "options": ["charge", "terms", "estimate", "account"],
+                  "answer": 2,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            },
+            {
+              "id": "en_i_u4_l3",
+              "title": "Disputing a charge",
+              "topic": "money",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_i_u4_l3_dispute",
+                  "word": "dispute",
+                  "phonetic": "/dɪˈspjuːt/",
+                  "meaning": "To formally disagree with something.",
+                  "example": "I want to dispute this charge.",
+                  "translations": {
+                    "hi": "विवाद करना",
+                    "gu": "વિવાદ કરવો",
+                    "es": "impugnar"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u4_l3_proof",
+                  "word": "proof",
+                  "phonetic": "/pruːf/",
+                  "meaning": "Something that shows a claim is true.",
+                  "example": "I have proof that I cancelled.",
+                  "translations": {
+                    "hi": "सबूत",
+                    "gu": "સાબિતી",
+                    "es": "prueba"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u4_l3_chase_up",
+                  "word": "chase up",
+                  "phonetic": "/tʃeɪs ʌp/",
+                  "meaning": "To push for an answer that has not come.",
+                  "example": "I had to chase it up twice.",
+                  "translations": {
+                    "hi": "पीछा करना",
+                    "gu": "પાછળ પડવું",
+                    "es": "insistir en"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u4_l3_reference",
+                  "word": "reference",
+                  "phonetic": "/ˈrefrəns/",
+                  "meaning": "A number used to find a record.",
+                  "example": "Quote the reference in your email.",
+                  "translations": {
+                    "hi": "संदर्भ संख्या",
+                    "gu": "સંદર્ભ ક્રમાંક",
+                    "es": "referencia"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u4_l3_resolve",
+                  "word": "resolve",
+                  "phonetic": "/rɪˈzɒlv/",
+                  "meaning": "To settle a problem.",
+                  "example": "They resolved it within a day.",
+                  "translations": {
+                    "hi": "हल करना",
+                    "gu": "ઉકેલવું",
+                    "es": "resolver"
+                  }
+                }
+              ],
+              "listen": ["I understand you are frustrated. Give me the reference number and I will look at it now.", "If we cannot resolve it today, I will pass it to the complaints team for you."],
+              "speak": ["I would like to dispute a charge on my account.", "I have already chased this up twice."],
+              "grammar": {
+                "title": "Complaining politely with softeners",
+                "rule": "I am afraid, there seems to be and I think there may be turn an accusation into a report.",
+                "explanation": "",
+                "examples": ["I am afraid there is a problem.", "There seems to be an error.", "I think there may be a mistake."]
+              },
+              "quiz": [
+                {
+                  "id": "en_i_u4_l3_q1",
+                  "prompt": "Which complaint is the most polite?",
+                  "options": ["You charged me wrongly.", "This is wrong.", "There seems to be an error on my bill.", "Fix this bill."],
+                  "answer": 2,
+                  "explanation": "Seems to be softens the claim.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u4_l3_q2",
+                  "prompt": "Complete: I am ___ there has been a mistake.",
+                  "options": ["afraid", "scared", "frightened", "worried"],
+                  "answer": 0,
+                  "explanation": "I am afraid is a fixed polite phrase.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u4_l3_q3",
+                  "prompt": "Which phrase means to push for an answer that has not come?",
+                  "options": ["resolve it", "chase it up", "put it off", "renew it"],
+                  "answer": 1,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en_i_u5",
+          "title": "Unit 5 - Health and Wellbeing",
+          "subtitle": "Symptoms, advice, habits, saying no",
+          "lessons": [
+            {
+              "id": "en_i_u5_l1",
+              "title": "Describing symptoms",
+              "topic": "health",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_i_u5_l1_ache",
+                  "word": "ache",
+                  "phonetic": "/eɪk/",
+                  "meaning": "A continuous dull pain.",
+                  "example": "I have had a dull ache all week.",
+                  "translations": {
+                    "hi": "दर्द",
+                    "gu": "દુખાવો",
+                    "es": "dolor"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u5_l1_sore",
+                  "word": "sore",
+                  "phonetic": "/sɔː/",
+                  "meaning": "Painful when touched or used.",
+                  "example": "My throat has been sore since Monday.",
+                  "translations": {
+                    "hi": "दुखता हुआ",
+                    "gu": "દુખતું",
+                    "es": "dolorido"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u5_l1_dizzy",
+                  "word": "dizzy",
+                  "phonetic": "/ˈdɪzi/",
+                  "meaning": "Feeling that everything is spinning.",
+                  "example": "I felt dizzy when I stood up.",
+                  "translations": {
+                    "hi": "चक्कर आना",
+                    "gu": "ચક્કર આવવા",
+                    "es": "mareado"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u5_l1_swollen",
+                  "word": "swollen",
+                  "phonetic": "/ˈswəʊlən/",
+                  "meaning": "Larger than normal because of injury.",
+                  "example": "My ankle is swollen.",
+                  "translations": {
+                    "hi": "सूजा हुआ",
+                    "gu": "સૂજેલું",
+                    "es": "hinchado"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u5_l1_steadily",
+                  "word": "steadily",
+                  "phonetic": "/ˈstedɪli/",
+                  "meaning": "At a constant, continuing rate.",
+                  "example": "It got worse steadily over the week.",
+                  "translations": {
+                    "hi": "लगातार",
+                    "gu": "સતત",
+                    "es": "constantemente"
+                  }
+                }
+              ],
+              "listen": ["It started about four days ago as a sore throat, and gradually became a cough.", "Any dizziness? Only when I stand up quickly, not otherwise."],
+              "speak": ["I have had a sore throat for four days.", "It gets worse in the evening."],
+              "grammar": {
+                "title": "For and since with the present perfect",
+                "rule": "For marks a length of time. Since marks the point it started.",
+                "explanation": "",
+                "examples": ["I have had it for three days.", "I have had it since Monday.", "She has been ill since the weekend."]
+              },
+              "quiz": [
+                {
+                  "id": "en_i_u5_l1_q1",
+                  "prompt": "Complete: I have had this cough ___ two weeks.",
+                  "options": ["since", "for", "from", "during"],
+                  "answer": 1,
+                  "explanation": "Two weeks is a length of time.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u5_l1_q2",
+                  "prompt": "Complete: She has felt unwell ___ Tuesday.",
+                  "options": ["for", "since", "from", "by"],
+                  "answer": 1,
+                  "explanation": "Tuesday is a starting point.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u5_l1_q3",
+                  "prompt": "Which word means slowly over time?",
+                  "options": ["suddenly", "gradually", "rarely", "already"],
+                  "answer": 1,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            },
+            {
+              "id": "en_i_u5_l2",
+              "title": "Giving and taking advice",
+              "topic": "health",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_i_u5_l2_rest",
+                  "word": "rest",
+                  "phonetic": "/rest/",
+                  "meaning": "To stop activity so your body recovers.",
+                  "example": "You should rest for a day or two.",
+                  "translations": {
+                    "hi": "आराम करना",
+                    "gu": "આરામ કરવો",
+                    "es": "descansar"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u5_l2_avoid",
+                  "word": "avoid",
+                  "phonetic": "/əˈvɔɪd/",
+                  "meaning": "To keep away from something.",
+                  "example": "Avoid heavy lifting this week.",
+                  "translations": {
+                    "hi": "टालना",
+                    "gu": "ટાળવું",
+                    "es": "evitar"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u5_l2_cut_down",
+                  "word": "cut down",
+                  "phonetic": "/kʌt daʊn/",
+                  "meaning": "To reduce the amount of something.",
+                  "example": "I am trying to cut down on sugar.",
+                  "translations": {
+                    "hi": "कम करना",
+                    "gu": "ઘટાડવું",
+                    "es": "reducir"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u5_l2_worth",
+                  "word": "worth",
+                  "phonetic": "/wɜːθ/",
+                  "meaning": "Good enough to justify the effort.",
+                  "example": "It is worth seeing a doctor.",
+                  "translations": {
+                    "hi": "योग्य",
+                    "gu": "લાયક",
+                    "es": "valer la pena"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u5_l2_otherwise",
+                  "word": "otherwise",
+                  "phonetic": "/ˈʌðəwaɪz/",
+                  "meaning": "If not, or in other respects.",
+                  "example": "Rest now, otherwise it will drag on.",
+                  "translations": {
+                    "hi": "अन्यथा",
+                    "gu": "અન્યથા",
+                    "es": "de lo contrario"
+                  }
+                }
+              ],
+              "listen": ["If I were you, I would cut down on coffee for a week and see whether it helps.", "It is probably nothing, but it is worth getting it checked."],
+              "speak": ["If I were you, I would rest.", "It is worth seeing someone about it."],
+              "grammar": {
+                "title": "Second conditional for advice",
+                "rule": "If I were you, I would is the standard way to advise without ordering.",
+                "explanation": "",
+                "examples": ["If I were you, I would wait.", "If I had that pain, I would call someone.", "If it were mine, I would replace it."]
+              },
+              "quiz": [
+                {
+                  "id": "en_i_u5_l2_q1",
+                  "prompt": "Complete: If I ___ you, I would rest.",
+                  "options": ["am", "was", "were", "be"],
+                  "answer": 2,
+                  "explanation": "The fixed phrase uses were.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u5_l2_q2",
+                  "prompt": "Complete: It is worth ___ a doctor.",
+                  "options": ["see", "to see", "seeing", "saw"],
+                  "answer": 2,
+                  "explanation": "Worth takes -ing.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u5_l2_q3",
+                  "prompt": "Which phrase means to reduce something?",
+                  "options": ["cut down", "put off", "call back", "hold on"],
+                  "answer": 0,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            },
+            {
+              "id": "en_i_u5_l3",
+              "title": "Saying no politely",
+              "topic": "daily",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_i_u5_l3_bow_out",
+                  "word": "bow out",
+                  "phonetic": "/baʊ aʊt/",
+                  "meaning": "To withdraw from something gracefully.",
+                  "example": "I had to bow out of the project.",
+                  "translations": {
+                    "hi": "हट जाना",
+                    "gu": "ખસી જવું",
+                    "es": "retirarse"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u5_l3_commitment",
+                  "word": "commitment",
+                  "phonetic": "/kəˈmɪtmənt/",
+                  "meaning": "Something you have promised to do.",
+                  "example": "I have a commitment that evening.",
+                  "translations": {
+                    "hi": "प्रतिबद्धता",
+                    "gu": "પ્રતિબદ્ધતા",
+                    "es": "compromiso"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u5_l3_capacity",
+                  "word": "capacity",
+                  "phonetic": "/kəˈpæsəti/",
+                  "meaning": "The amount you are able to take on.",
+                  "example": "I do not have capacity this month.",
+                  "translations": {
+                    "hi": "क्षमता",
+                    "gu": "ક્ષમતા",
+                    "es": "capacidad"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u5_l3_reschedule",
+                  "word": "reschedule",
+                  "phonetic": "/ˌriːˈʃedjuːl/",
+                  "meaning": "To move something to a different time.",
+                  "example": "Could we reschedule for next week?",
+                  "translations": {
+                    "hi": "पुनर्निर्धारित करना",
+                    "gu": "ફરી ગોઠવવું",
+                    "es": "reprogramar"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u5_l3_appreciate",
+                  "word": "appreciate",
+                  "phonetic": "/əˈpriːʃieɪt/",
+                  "meaning": "To be grateful for something.",
+                  "example": "I appreciate you asking me.",
+                  "translations": {
+                    "hi": "सराहना करना",
+                    "gu": "કદર કરવી",
+                    "es": "agradecer"
+                  }
+                }
+              ],
+              "listen": ["I really appreciate the offer, but I do not have capacity before the end of the month.", "I cannot make Thursday. Could we reschedule to the following week instead?"],
+              "speak": ["I appreciate the offer, but I cannot this month.", "Could we reschedule for next week?"],
+              "grammar": {
+                "title": "Softening a refusal",
+                "rule": "Thank first, refuse second, offer an alternative third. The order does most of the work.",
+                "explanation": "",
+                "examples": ["Thanks for thinking of me, but I cannot this time.", "I would love to, but I am not free until June.", "I cannot do Thursday - would Monday work?"]
+              },
+              "quiz": [
+                {
+                  "id": "en_i_u5_l3_q1",
+                  "prompt": "Which refusal is the most professional?",
+                  "options": ["No.", "I cannot.", "Thanks for asking, but I do not have capacity this month.", "Ask someone else."],
+                  "answer": 2,
+                  "explanation": "Thank, refuse, explain.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u5_l3_q2",
+                  "prompt": "Complete: I ___ the offer, but I have to decline.",
+                  "options": ["appreciate", "apprehend", "approve", "appropriate"],
+                  "answer": 0,
+                  "explanation": "Appreciate means to be grateful for.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u5_l3_q3",
+                  "prompt": "Which word means to move something to another time?",
+                  "options": ["decline", "reschedule", "resolve", "renew"],
+                  "answer": 1,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "en_i_u6",
+          "title": "Unit 6 - Technology and News",
+          "subtitle": "Devices, problems, reporting, sources",
+          "lessons": [
+            {
+              "id": "en_i_u6_l1",
+              "title": "When technology fails",
+              "topic": "technology",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_i_u6_l1_crash",
+                  "word": "crash",
+                  "phonetic": "/kræʃ/",
+                  "meaning": "To stop working suddenly.",
+                  "example": "The app crashes when I open photos.",
+                  "translations": {
+                    "hi": "क्रैश होना",
+                    "gu": "ક્રેશ થવું",
+                    "es": "bloquearse"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u6_l1_freeze",
+                  "word": "freeze",
+                  "phonetic": "/friːz/",
+                  "meaning": "To stop responding while still on.",
+                  "example": "The screen froze for a minute.",
+                  "translations": {
+                    "hi": "जम जाना",
+                    "gu": "થીજી જવું",
+                    "es": "colgarse"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u6_l1_restart",
+                  "word": "restart",
+                  "phonetic": "/ˌriːˈstɑːt/",
+                  "meaning": "To turn something off and on again.",
+                  "example": "Restarting fixed it.",
+                  "translations": {
+                    "hi": "पुनः आरंभ करना",
+                    "gu": "ફરી શરૂ કરવું",
+                    "es": "reiniciar"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u6_l1_settings",
+                  "word": "settings",
+                  "phonetic": "/ˈsetɪŋz/",
+                  "meaning": "The options that control how something works.",
+                  "example": "Check your notification settings.",
+                  "translations": {
+                    "hi": "सेटिंग्स",
+                    "gu": "સેટિંગ્સ",
+                    "es": "ajustes"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u6_l1_compatible",
+                  "word": "compatible",
+                  "phonetic": "/kəmˈpætəbl/",
+                  "meaning": "Able to work with something else.",
+                  "example": "The cable is not compatible.",
+                  "translations": {
+                    "hi": "संगत",
+                    "gu": "સુસંગત",
+                    "es": "compatible"
+                  }
+                }
+              ],
+              "listen": ["It freezes for about ten seconds and then crashes completely. Restarting helps for an hour.", "That model is not compatible with the newer charger, which is probably your problem."],
+              "speak": ["The app crashes when I open it.", "I restarted it, but the problem came back."],
+              "grammar": {
+                "title": "Describing repeated problems with present simple and continuous",
+                "rule": "Present simple for what always happens, continuous for a temporary phase.",
+                "explanation": "",
+                "examples": ["It crashes every time.", "It keeps freezing this week.", "It is doing it again."]
+              },
+              "quiz": [
+                {
+                  "id": "en_i_u6_l1_q1",
+                  "prompt": "Which describes something that always happens?",
+                  "options": ["It is crashing now.", "It crashes every time I open it.", "It crashed once.", "It will crash."],
+                  "answer": 1,
+                  "explanation": "Present simple describes a general truth.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u6_l1_q2",
+                  "prompt": "Complete: It ___ freezing since the update.",
+                  "options": ["keeps", "keep", "kept", "is keep"],
+                  "answer": 0,
+                  "explanation": "Keeps plus -ing describes a repeated problem.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u6_l1_q3",
+                  "prompt": "Which word means able to work with something else?",
+                  "options": ["reliable", "compatible", "available", "portable"],
+                  "answer": 1,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            },
+            {
+              "id": "en_i_u6_l2",
+              "title": "Talking about the news",
+              "topic": "media",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_i_u6_l2_apparently",
+                  "word": "apparently",
+                  "phonetic": "/əˈpærəntli/",
+                  "meaning": "According to what people say.",
+                  "example": "Apparently the road will close in May.",
+                  "translations": {
+                    "hi": "जाहिर तौर पर",
+                    "gu": "દેખીતી રીતે",
+                    "es": "por lo visto"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u6_l2_claim",
+                  "word": "claim",
+                  "phonetic": "/kleɪm/",
+                  "meaning": "To say something is true without proving it.",
+                  "example": "The report claims the figure is higher.",
+                  "translations": {
+                    "hi": "दावा करना",
+                    "gu": "દાવો કરવો",
+                    "es": "afirmar"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u6_l2_reliable_source",
+                  "word": "reliable source",
+                  "phonetic": "/rɪˈlaɪəbl sɔːs/",
+                  "meaning": "A source of information you can trust.",
+                  "example": "Is that a reliable source?",
+                  "translations": {
+                    "hi": "भरोसेमंद स्रोत",
+                    "gu": "ભરોસાપાત્ર સ્રોત",
+                    "es": "fuente fiable"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u6_l2_exaggerate",
+                  "word": "exaggerate",
+                  "phonetic": "/ɪɡˈzædʒəreɪt/",
+                  "meaning": "To make something sound bigger than it is.",
+                  "example": "The headline exaggerates the risk.",
+                  "translations": {
+                    "hi": "बढ़ा-चढ़ाकर कहना",
+                    "gu": "અતિશયોક્તિ કરવી",
+                    "es": "exagerar"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u6_l2_update",
+                  "word": "update",
+                  "phonetic": "/ˌʌpˈdeɪt/",
+                  "meaning": "To give the latest information.",
+                  "example": "They updated the story an hour later.",
+                  "translations": {
+                    "hi": "अद्यतन करना",
+                    "gu": "અપડેટ કરવું",
+                    "es": "actualizar"
+                  }
+                }
+              ],
+              "listen": ["Apparently they have updated the story twice, and the original claim is not in it any more.", "I would not repeat that until we see it from a reliable source."],
+              "speak": ["Apparently the decision has been delayed.", "I am not sure that is a reliable source."],
+              "grammar": {
+                "title": "Reporting what you are not sure about",
+                "rule": "Apparently, reportedly and it is said that mark information you have not verified.",
+                "explanation": "",
+                "examples": ["Apparently they cancelled it.", "It is said to be the largest.", "Reportedly, nobody was hurt."]
+              },
+              "quiz": [
+                {
+                  "id": "en_i_u6_l2_q1",
+                  "prompt": "Which sentence shows the speaker is not certain?",
+                  "options": ["They cancelled it.", "Apparently they cancelled it.", "They have cancelled it.", "They did cancel it."],
+                  "answer": 1,
+                  "explanation": "Apparently marks second-hand information.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u6_l2_q2",
+                  "prompt": "Complete: The article ___ that prices will fall.",
+                  "options": ["claims", "claim", "claiming", "is claim"],
+                  "answer": 0,
+                  "explanation": "The article is it, so the verb takes -s.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u6_l2_q3",
+                  "prompt": "Which word means to make something sound bigger than it is?",
+                  "options": ["update", "claim", "exaggerate", "report"],
+                  "answer": 2,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            },
+            {
+              "id": "en_i_u6_l3",
+              "title": "Explaining something technical",
+              "topic": "technology",
+              "xp": 50,
+              "words": [
+                {
+                  "id": "lw_en_i_u6_l3_basically",
+                  "word": "basically",
+                  "phonetic": "/ˈbeɪsɪkli/",
+                  "meaning": "Used to introduce a simple summary.",
+                  "example": "Basically, it stores your files remotely.",
+                  "translations": {
+                    "hi": "मूल रूप से",
+                    "gu": "મૂળભૂત રીતે",
+                    "es": "básicamente"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u6_l3_in_other_words",
+                  "word": "in other words",
+                  "phonetic": "/ɪn ˈʌðə wɜːdz/",
+                  "meaning": "Used to say something a second, simpler way.",
+                  "example": "In other words, it is a backup.",
+                  "translations": {
+                    "hi": "दूसरे शब्दों में",
+                    "gu": "બીજા શબ્દોમાં",
+                    "es": "en otras palabras"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u6_l3_for_instance",
+                  "word": "for instance",
+                  "phonetic": "/fɔːr ˈɪnstəns/",
+                  "meaning": "Used to introduce an example.",
+                  "example": "For instance, photos and documents.",
+                  "translations": {
+                    "hi": "उदाहरण के लिए",
+                    "gu": "ઉદાહરણ તરીકે",
+                    "es": "por ejemplo"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u6_l3_roughly",
+                  "word": "roughly",
+                  "phonetic": "/ˈrʌfli/",
+                  "meaning": "Approximately.",
+                  "example": "It takes roughly ten minutes.",
+                  "translations": {
+                    "hi": "लगभग",
+                    "gu": "લગભગ",
+                    "es": "aproximadamente"
+                  }
+                },
+                {
+                  "id": "lw_en_i_u6_l3_straightforward",
+                  "word": "straightforward",
+                  "phonetic": "/ˌstreɪtˈfɔːwəd/",
+                  "meaning": "Easy to understand or do.",
+                  "example": "The setup is straightforward.",
+                  "translations": {
+                    "hi": "सीधा-सादा",
+                    "gu": "સરળ",
+                    "es": "sencillo"
+                  }
+                }
+              ],
+              "listen": ["Basically it keeps a copy elsewhere. In other words, if this laptop dies, nothing is lost.", "It takes roughly ten minutes, and the setup itself is straightforward."],
+              "speak": ["Basically, it keeps a copy of everything.", "For instance, your photos and documents."],
+              "grammar": {
+                "title": "Sequencing and clarifying an explanation",
+                "rule": "First, then and finally order the steps. In other words and for instance make them land.",
+                "explanation": "",
+                "examples": ["First you install it.", "Then it runs in the background.", "Finally, you can restore anything."]
+              },
+              "quiz": [
+                {
+                  "id": "en_i_u6_l3_q1",
+                  "prompt": "Which phrase introduces an example?",
+                  "options": ["In other words", "For instance", "Basically", "Finally"],
+                  "answer": 1,
+                  "explanation": "For instance introduces an example.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u6_l3_q2",
+                  "prompt": "Which phrase restates something more simply?",
+                  "options": ["For instance", "In other words", "First", "Roughly"],
+                  "answer": 1,
+                  "explanation": "In other words restates.",
+                  "skill": "grammar"
+                },
+                {
+                  "id": "en_i_u6_l3_q3",
+                  "prompt": "Which word means easy to understand?",
+                  "options": ["compatible", "straightforward", "gradual", "reliable"],
+                  "answer": 1,
+                  "explanation": "",
+                  "skill": "vocabulary"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
