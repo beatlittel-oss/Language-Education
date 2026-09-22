@@ -1,0 +1,5404 @@
+{
+  "schema": "speakly.content.v1",
+  "doc": "vocabulary_topics",
+  "collection": "vocabulary",
+  "version": 1,
+  "updatedAt": "2026-09-22",
+  "locale": "en",
+  "count": 367,
+  "topicHints": {
+    "travel": [
+      "travel",
+      "trip",
+      "flight",
+      "fly",
+      "london",
+      "paris",
+      "dubai",
+      "airport",
+      "holiday",
+      "vacation",
+      "hotel",
+      "visa",
+      "abroad",
+      "tour",
+      "backpack",
+      "sightseeing"
+    ],
+    "work": [
+      "work",
+      "job",
+      "office",
+      "interview",
+      "boss",
+      "career",
+      "meeting",
+      "team",
+      "salary",
+      "resume",
+      "cv",
+      "colleague",
+      "promotion",
+      "shift"
+    ],
+    "food": [
+      "food",
+      "restaurant",
+      "eat",
+      "cook",
+      "dinner",
+      "menu",
+      "cafe",
+      "coffee",
+      "kitchen",
+      "recipe",
+      "baking",
+      "lunch",
+      "breakfast"
+    ],
+    "shopping": [
+      "shop",
+      "shopping",
+      "buy",
+      "mall",
+      "store",
+      "clothes",
+      "price",
+      "market",
+      "sale",
+      "discount",
+      "checkout"
+    ],
+    "technology": [
+      "tech",
+      "phone",
+      "laptop",
+      "computer",
+      "software",
+      "app",
+      "internet",
+      "wifi",
+      "code",
+      "ai",
+      "data",
+      "cloud",
+      "device"
+    ],
+    "health": [
+      "health",
+      "doctor",
+      "hospital",
+      "ill",
+      "sick",
+      "medicine",
+      "gym",
+      "fitness",
+      "pain",
+      "diet",
+      "sleep",
+      "therapy",
+      "dentist"
+    ],
+    "business": [
+      "business",
+      "client",
+      "invoice",
+      "startup",
+      "company",
+      "sales",
+      "revenue",
+      "contract",
+      "negotiation",
+      "investor",
+      "budget"
+    ],
+    "relationships": [
+      "friend",
+      "family",
+      "love",
+      "date",
+      "marriage",
+      "partner",
+      "relationship",
+      "argument",
+      "wedding",
+      "breakup"
+    ],
+    "education": [
+      "school",
+      "college",
+      "university",
+      "exam",
+      "study",
+      "student",
+      "course",
+      "class",
+      "degree",
+      "lecture",
+      "homework"
+    ],
+    "money": [
+      "money",
+      "bank",
+      "save",
+      "saving",
+      "loan",
+      "rent",
+      "tax",
+      "debt",
+      "invest",
+      "insurance",
+      "salary slip",
+      "mortgage"
+    ],
+    "environment": [
+      "environment",
+      "climate",
+      "recycle",
+      "pollution",
+      "energy",
+      "waste",
+      "green",
+      "nature",
+      "weather",
+      "carbon"
+    ],
+    "transport": [
+      "transport",
+      "car",
+      "bus",
+      "train",
+      "drive",
+      "traffic",
+      "cycle",
+      "metro",
+      "commuting",
+      "parking"
+    ],
+    "culture": [
+      "culture",
+      "festival",
+      "tradition",
+      "custom",
+      "religion",
+      "art",
+      "museum",
+      "history",
+      "language",
+      "etiquette"
+    ],
+    "emotions": [
+      "feel",
+      "feeling",
+      "emotion",
+      "happy",
+      "sad",
+      "angry",
+      "nervous",
+      "anxious",
+      "stress",
+      "mood",
+      "confidence"
+    ],
+    "media": [
+      "news",
+      "media",
+      "film",
+      "movie",
+      "series",
+      "book",
+      "music",
+      "social media",
+      "podcast",
+      "journalism"
+    ],
+    "sports": [
+      "sport",
+      "football",
+      "cricket",
+      "run",
+      "running",
+      "swim",
+      "match",
+      "team sport",
+      "training",
+      "tournament"
+    ],
+    "home": [
+      "home",
+      "house",
+      "flat",
+      "apartment",
+      "furniture",
+      "rent a room",
+      "repair",
+      "garden",
+      "kitchen sink",
+      "moving"
+    ],
+    "academic": [
+      "research",
+      "essay",
+      "thesis",
+      "argument",
+      "evidence",
+      "analysis",
+      "citation",
+      "hypothesis",
+      "academic"
+    ],
+    "daily": [
+      "daily",
+      "morning",
+      "routine",
+      "weekend",
+      "life",
+      "chores",
+      "errand",
+      "habit"
+    ],
+    "phrasal": ["phrasal", "phrase", "expression", "particle"],
+    "idioms": ["idiom", "saying", "figurative", "proverb"],
+    "slang": ["slang", "informal", "casual", "street", "colloquial"]
+  },
+  "items": [
+    {
+      "id": "vw_travel_airport",
+      "topic": "travel",
+      "word": "airport",
+      "phonetic": "/ˈeəpɔːt/",
+      "meaning": "The place where planes take off and land.",
+      "example": "We reached the airport two hours early.",
+      "level": 0,
+      "translations": {
+        "hi": "हवाई अड्डा",
+        "gu": "એરપોર્ટ",
+        "es": "aeropuerto"
+      }
+    },
+    {
+      "id": "vw_travel_luggage",
+      "topic": "travel",
+      "word": "luggage",
+      "phonetic": "/ˈlʌɡɪdʒ/",
+      "meaning": "The bags you travel with.",
+      "example": "My luggage did not arrive with the flight.",
+      "level": 0,
+      "translations": {
+        "hi": "सामान",
+        "gu": "સામાન",
+        "es": "equipaje"
+      }
+    },
+    {
+      "id": "vw_travel_passport",
+      "topic": "travel",
+      "word": "passport",
+      "phonetic": "/ˈpɑːspɔːt/",
+      "meaning": "The document that proves your nationality.",
+      "example": "My passport expires next year.",
+      "level": 0,
+      "translations": {
+        "hi": "पासपोर्ट",
+        "gu": "પાસપોર્ટ",
+        "es": "pasaporte"
+      }
+    },
+    {
+      "id": "vw_travel_suitcase",
+      "topic": "travel",
+      "word": "suitcase",
+      "phonetic": "/ˈsuːtkeɪs/",
+      "meaning": "A stiff bag for clothes when travelling.",
+      "example": "The suitcase was too heavy to lift.",
+      "level": 0,
+      "translations": {
+        "hi": "सूटकेस",
+        "gu": "સૂટકેસ",
+        "es": "maleta"
+      }
+    },
+    {
+      "id": "vw_travel_map",
+      "topic": "travel",
+      "word": "map",
+      "phonetic": "/mæp/",
+      "meaning": "A drawing that shows where places are.",
+      "example": "I still prefer a paper map.",
+      "level": 0,
+      "translations": {
+        "hi": "नक्शा",
+        "gu": "નકશો",
+        "es": "mapa"
+      }
+    },
+    {
+      "id": "vw_travel_guide",
+      "topic": "travel",
+      "word": "guide",
+      "phonetic": "/ɡaɪd/",
+      "meaning": "A person who shows visitors around.",
+      "example": "Our guide spoke four languages.",
+      "level": 0,
+      "translations": {
+        "hi": "गाइड",
+        "gu": "માર્ગદર્શક",
+        "es": "guía"
+      }
+    },
+    {
+      "id": "vw_travel_departure",
+      "topic": "travel",
+      "word": "departure",
+      "phonetic": "/dɪˈpɑːtʃə/",
+      "meaning": "The time or act of leaving.",
+      "example": "Departure is delayed by forty minutes.",
+      "level": 1,
+      "translations": {
+        "hi": "प्रस्थान",
+        "gu": "પ્રસ્થાન",
+        "es": "salida"
+      }
+    },
+    {
+      "id": "vw_travel_arrival",
+      "topic": "travel",
+      "word": "arrival",
+      "phonetic": "/əˈraɪvl/",
+      "meaning": "The time or act of reaching a place.",
+      "example": "Check the arrival board for the gate.",
+      "level": 1,
+      "translations": {
+        "hi": "आगमन",
+        "gu": "આગમન",
+        "es": "llegada"
+      }
+    },
+    {
+      "id": "vw_travel_visa",
+      "topic": "travel",
+      "word": "visa",
+      "phonetic": "/ˈviːzə/",
+      "meaning": "Official permission to enter a country.",
+      "example": "My visa took three weeks to arrive.",
+      "level": 1,
+      "translations": {
+        "hi": "वीज़ा",
+        "gu": "વિઝા",
+        "es": "visado"
+      }
+    },
+    {
+      "id": "vw_travel_delay",
+      "topic": "travel",
+      "word": "delay",
+      "phonetic": "/dɪˈleɪ/",
+      "meaning": "A wait beyond the planned time.",
+      "example": "A two-hour delay ruined the connection.",
+      "level": 1,
+      "translations": {
+        "hi": "देरी",
+        "gu": "વિલંબ",
+        "es": "retraso"
+      }
+    },
+    {
+      "id": "vw_travel_accommodation",
+      "topic": "travel",
+      "word": "accommodation",
+      "phonetic": "/əˌkɒməˈdeɪʃn/",
+      "meaning": "A place to stay.",
+      "example": "Accommodation is included in the price.",
+      "level": 1,
+      "translations": {
+        "hi": "आवास",
+        "gu": "રહેઠાણ",
+        "es": "alojamiento"
+      }
+    },
+    {
+      "id": "vw_travel_destination",
+      "topic": "travel",
+      "word": "destination",
+      "phonetic": "/ˌdestɪˈneɪʃn/",
+      "meaning": "The place you are travelling to.",
+      "example": "Our final destination was Porto.",
+      "level": 1,
+      "translations": {
+        "hi": "गंतव्य",
+        "gu": "ગંતવ્ય",
+        "es": "destino"
+      }
+    },
+    {
+      "id": "vw_travel_currency",
+      "topic": "travel",
+      "word": "currency",
+      "phonetic": "/ˈkʌrənsi/",
+      "meaning": "The money used in a country.",
+      "example": "Change some currency at the airport.",
+      "level": 1,
+      "translations": {
+        "hi": "मुद्रा",
+        "gu": "ચલણ",
+        "es": "moneda"
+      }
+    },
+    {
+      "id": "vw_travel_souvenir",
+      "topic": "travel",
+      "word": "souvenir",
+      "phonetic": "/ˌsuːvəˈnɪə/",
+      "meaning": "Something you buy to remember a trip.",
+      "example": "I bring back a fridge magnet as a souvenir.",
+      "level": 1,
+      "translations": {
+        "hi": "स्मृति चिह्न",
+        "gu": "સંભારણું",
+        "es": "recuerdo"
+      }
+    },
+    {
+      "id": "vw_travel_layover",
+      "topic": "travel",
+      "word": "layover",
+      "phonetic": "/ˈleɪəʊvə/",
+      "meaning": "A short stop between two flights.",
+      "example": "We had a four-hour layover in Dubai.",
+      "level": 2,
+      "translations": {
+        "hi": "ठहराव",
+        "gu": "સ્ટોપઓવર",
+        "es": "escala"
+      }
+    },
+    {
+      "id": "vw_travel_itinerary",
+      "topic": "travel",
+      "word": "itinerary",
+      "phonetic": "/aɪˈtɪnərəri/",
+      "meaning": "The plan of a trip, day by day.",
+      "example": "Send me the itinerary before we leave.",
+      "level": 2,
+      "translations": {
+        "hi": "यात्रा कार्यक्रम",
+        "gu": "યાત્રા કાર્યક્રમ",
+        "es": "itinerario"
+      }
+    },
+    {
+      "id": "vw_travel_jet_lag",
+      "topic": "travel",
+      "word": "jet lag",
+      "phonetic": "/ˈdʒet læɡ/",
+      "meaning": "Tiredness from crossing time zones.",
+      "example": "The jet lag lasted three days.",
+      "level": 2,
+      "translations": {
+        "hi": "जेट लैग",
+        "gu": "જેટ લેગ",
+        "es": "desfase horario"
+      }
+    },
+    {
+      "id": "vw_travel_off_the_beaten_track",
+      "topic": "travel",
+      "word": "off the beaten track",
+      "phonetic": "/ɒf ðə ˈbiːtn træk/",
+      "meaning": "Away from the usual tourist places.",
+      "example": "The village is well off the beaten track.",
+      "level": 2,
+      "translations": {
+        "hi": "अनजान जगह",
+        "gu": "અજાણી જગ્યા",
+        "es": "fuera de lo común"
+      }
+    },
+    {
+      "id": "vw_travel_stopover",
+      "topic": "travel",
+      "word": "stopover",
+      "phonetic": "/ˈstɒpəʊvə/",
+      "meaning": "A planned overnight break in a journey.",
+      "example": "We booked a stopover in Istanbul.",
+      "level": 2,
+      "translations": {
+        "hi": "रात्रि विश्राम",
+        "gu": "રાત્રિ વિરામ",
+        "es": "escala larga"
+      }
+    },
+    {
+      "id": "vw_travel_excursion",
+      "topic": "travel",
+      "word": "excursion",
+      "phonetic": "/ɪkˈskɜːʃn/",
+      "meaning": "A short organised trip.",
+      "example": "The hotel runs a day excursion to the lake.",
+      "level": 2,
+      "translations": {
+        "hi": "भ्रमण",
+        "gu": "પર્યટન",
+        "es": "excursión"
+      }
+    },
+    {
+      "id": "vw_work_meeting",
+      "topic": "work",
+      "word": "meeting",
+      "phonetic": "/ˈmiːtɪŋ/",
+      "meaning": "When people come together to talk about work.",
+      "example": "The meeting starts in ten minutes.",
+      "level": 0,
+      "translations": {
+        "hi": "बैठक",
+        "gu": "બેઠક",
+        "es": "reunión"
+      }
+    },
+    {
+      "id": "vw_work_manager",
+      "topic": "work",
+      "word": "manager",
+      "phonetic": "/ˈmænɪdʒə/",
+      "meaning": "The person who leads a team.",
+      "example": "Ask your manager before you book it.",
+      "level": 0,
+      "translations": {
+        "hi": "प्रबंधक",
+        "gu": "મેનેજર",
+        "es": "gerente"
+      }
+    },
+    {
+      "id": "vw_work_task",
+      "topic": "work",
+      "word": "task",
+      "phonetic": "/tɑːsk/",
+      "meaning": "One piece of work to be done.",
+      "example": "I finished the last task at six.",
+      "level": 0,
+      "translations": {
+        "hi": "कार्य",
+        "gu": "કાર્ય",
+        "es": "tarea"
+      }
+    },
+    {
+      "id": "vw_work_break",
+      "topic": "work",
+      "word": "break",
+      "phonetic": "/breɪk/",
+      "meaning": "A short rest from working.",
+      "example": "We take a break at eleven.",
+      "level": 0,
+      "translations": {
+        "hi": "विराम",
+        "gu": "વિરામ",
+        "es": "descanso"
+      }
+    },
+    {
+      "id": "vw_work_colleague",
+      "topic": "work",
+      "word": "colleague",
+      "phonetic": "/ˈkɒliːɡ/",
+      "meaning": "A person you work with.",
+      "example": "My colleague will cover for me.",
+      "level": 1,
+      "translations": {
+        "hi": "सहकर्मी",
+        "gu": "સહકર્મી",
+        "es": "colega"
+      }
+    },
+    {
+      "id": "vw_work_salary",
+      "topic": "work",
+      "word": "salary",
+      "phonetic": "/ˈsæləri/",
+      "meaning": "The money you are paid for your job.",
+      "example": "They offered a higher salary.",
+      "level": 1,
+      "translations": {
+        "hi": "वेतन",
+        "gu": "પગાર",
+        "es": "salario"
+      }
+    },
+    {
+      "id": "vw_work_promotion",
+      "topic": "work",
+      "word": "promotion",
+      "phonetic": "/prəˈməʊʃn/",
+      "meaning": "A move to a more senior job.",
+      "example": "She got a promotion after two years.",
+      "level": 1,
+      "translations": {
+        "hi": "प्रोन्नति",
+        "gu": "બઢતી",
+        "es": "ascenso"
+      }
+    },
+    {
+      "id": "vw_work_feedback",
+      "topic": "work",
+      "word": "feedback",
+      "phonetic": "/ˈfiːdbæk/",
+      "meaning": "Comments about how well you did something.",
+      "example": "Thanks for the honest feedback.",
+      "level": 1,
+      "translations": {
+        "hi": "प्रतिक्रिया",
+        "gu": "પ્રતિભાવ",
+        "es": "comentarios"
+      }
+    },
+    {
+      "id": "vw_work_overtime",
+      "topic": "work",
+      "word": "overtime",
+      "phonetic": "/ˈəʊvətaɪm/",
+      "meaning": "Extra hours worked beyond normal time.",
+      "example": "I did overtime twice this week.",
+      "level": 1,
+      "translations": {
+        "hi": "अतिरिक्त समय",
+        "gu": "ઓવરટાઇમ",
+        "es": "horas extra"
+      }
+    },
+    {
+      "id": "vw_work_shift",
+      "topic": "work",
+      "word": "shift",
+      "phonetic": "/ʃɪft/",
+      "meaning": "A fixed block of working hours.",
+      "example": "I am on the night shift this month.",
+      "level": 1,
+      "translations": {
+        "hi": "पाली",
+        "gu": "શિફ્ટ",
+        "es": "turno"
+      }
+    },
+    {
+      "id": "vw_work_recruit",
+      "topic": "work",
+      "word": "recruit",
+      "phonetic": "/rɪˈkruːt/",
+      "meaning": "To find and hire new people.",
+      "example": "We are recruiting two designers.",
+      "level": 1,
+      "translations": {
+        "hi": "भर्ती करना",
+        "gu": "ભરતી કરવી",
+        "es": "reclutar"
+      }
+    },
+    {
+      "id": "vw_work_probation",
+      "topic": "work",
+      "word": "probation",
+      "phonetic": "/prəˈbeɪʃn/",
+      "meaning": "A trial period at the start of a job.",
+      "example": "Probation lasts three months here.",
+      "level": 2,
+      "translations": {
+        "hi": "परिवीक्षा",
+        "gu": "પ્રોબેશન",
+        "es": "periodo de prueba"
+      }
+    },
+    {
+      "id": "vw_work_workload",
+      "topic": "work",
+      "word": "workload",
+      "phonetic": "/ˈwɜːkləʊd/",
+      "meaning": "The amount of work you have.",
+      "example": "My workload doubled this month.",
+      "level": 2,
+      "translations": {
+        "hi": "कार्यभार",
+        "gu": "કામનો બોજ",
+        "es": "carga de trabajo"
+      }
+    },
+    {
+      "id": "vw_work_negotiate",
+      "topic": "work",
+      "word": "negotiate",
+      "phonetic": "/nɪˈɡəʊʃieɪt/",
+      "meaning": "To discuss until both sides agree.",
+      "example": "We negotiated a better price.",
+      "level": 2,
+      "translations": {
+        "hi": "बातचीत करना",
+        "gu": "વાટાઘાટ કરવી",
+        "es": "negociar"
+      }
+    },
+    {
+      "id": "vw_work_resign",
+      "topic": "work",
+      "word": "resign",
+      "phonetic": "/rɪˈzaɪn/",
+      "meaning": "To officially leave a job.",
+      "example": "He resigned last Monday.",
+      "level": 2,
+      "translations": {
+        "hi": "इस्तीफा देना",
+        "gu": "રાજીનામું આપવું",
+        "es": "renunciar"
+      }
+    },
+    {
+      "id": "vw_work_delegate",
+      "topic": "work",
+      "word": "delegate",
+      "phonetic": "/ˈdelɪɡeɪt/",
+      "meaning": "To give part of your work to someone else.",
+      "example": "Good managers delegate early.",
+      "level": 2,
+      "translations": {
+        "hi": "सौंपना",
+        "gu": "સોંપવું",
+        "es": "delegar"
+      }
+    },
+    {
+      "id": "vw_work_handover",
+      "topic": "work",
+      "word": "handover",
+      "phonetic": "/ˈhændəʊvə/",
+      "meaning": "Passing work and context to another person.",
+      "example": "Write a handover before your holiday.",
+      "level": 2,
+      "translations": {
+        "hi": "हस्तांतरण",
+        "gu": "સોંપણી",
+        "es": "traspaso"
+      }
+    },
+    {
+      "id": "vw_work_burnout",
+      "topic": "work",
+      "word": "burnout",
+      "phonetic": "/ˈbɜːnaʊt/",
+      "meaning": "Exhaustion caused by long-term stress at work.",
+      "example": "Three people left with burnout.",
+      "level": 2,
+      "translations": {
+        "hi": "थकान",
+        "gu": "બર્નઆઉટ",
+        "es": "agotamiento"
+      }
+    },
+    {
+      "id": "vw_work_appraisal",
+      "topic": "work",
+      "word": "appraisal",
+      "phonetic": "/əˈpreɪzl/",
+      "meaning": "A formal review of your performance.",
+      "example": "My appraisal is in December.",
+      "level": 2,
+      "translations": {
+        "hi": "मूल्यांकन",
+        "gu": "મૂલ્યાંકન",
+        "es": "evaluación"
+      }
+    },
+    {
+      "id": "vw_work_stand_in_for",
+      "topic": "work",
+      "word": "stand in for",
+      "phonetic": "/stænd ɪn fɔː/",
+      "meaning": "To do someone's job while they are away.",
+      "example": "I am standing in for Rosa this week.",
+      "level": 2,
+      "translations": {
+        "hi": "जगह लेना",
+        "gu": "સ્થાને કામ કરવું",
+        "es": "sustituir a"
+      }
+    },
+    {
+      "id": "vw_food_spicy",
+      "topic": "food",
+      "word": "spicy",
+      "phonetic": "/ˈspaɪsi/",
+      "meaning": "Having a strong hot taste.",
+      "example": "This curry is too spicy for me.",
+      "level": 0,
+      "translations": {
+        "hi": "तीखा",
+        "gu": "તીખું",
+        "es": "picante"
+      }
+    },
+    {
+      "id": "vw_food_delicious",
+      "topic": "food",
+      "word": "delicious",
+      "phonetic": "/dɪˈlɪʃəs/",
+      "meaning": "Tasting extremely good.",
+      "example": "That was a delicious meal.",
+      "level": 0,
+      "translations": {
+        "hi": "स्वादिष्ट",
+        "gu": "સ્વાદિષ્ટ",
+        "es": "delicioso"
+      }
+    },
+    {
+      "id": "vw_food_boil",
+      "topic": "food",
+      "word": "boil",
+      "phonetic": "/bɔɪl/",
+      "meaning": "To cook in very hot water.",
+      "example": "Boil the rice for ten minutes.",
+      "level": 0,
+      "translations": {
+        "hi": "उबालना",
+        "gu": "ઉકાળવું",
+        "es": "hervir"
+      }
+    },
+    {
+      "id": "vw_food_fry",
+      "topic": "food",
+      "word": "fry",
+      "phonetic": "/fraɪ/",
+      "meaning": "To cook in hot oil.",
+      "example": "Fry the onions until golden.",
+      "level": 0,
+      "translations": {
+        "hi": "तलना",
+        "gu": "તળવું",
+        "es": "freír"
+      }
+    },
+    {
+      "id": "vw_food_snack",
+      "topic": "food",
+      "word": "snack",
+      "phonetic": "/snæk/",
+      "meaning": "A small amount of food between meals.",
+      "example": "I had a snack at four.",
+      "level": 0,
+      "translations": {
+        "hi": "नाश्ता",
+        "gu": "નાસ્તો",
+        "es": "tentempié"
+      }
+    },
+    {
+      "id": "vw_food_fresh",
+      "topic": "food",
+      "word": "fresh",
+      "phonetic": "/freʃ/",
+      "meaning": "Recently made or picked, not old.",
+      "example": "The bread is fresh this morning.",
+      "level": 0,
+      "translations": {
+        "hi": "ताज़ा",
+        "gu": "તાજું",
+        "es": "fresco"
+      }
+    },
+    {
+      "id": "vw_food_vegetarian",
+      "topic": "food",
+      "word": "vegetarian",
+      "phonetic": "/ˌvedʒəˈteəriən/",
+      "meaning": "Someone who eats no meat.",
+      "example": "Do you have a vegetarian option?",
+      "level": 1,
+      "translations": {
+        "hi": "शाकाहारी",
+        "gu": "શાકાહારી",
+        "es": "vegetariano"
+      }
+    },
+    {
+      "id": "vw_food_recipe",
+      "topic": "food",
+      "word": "recipe",
+      "phonetic": "/ˈresəpi/",
+      "meaning": "The instructions for cooking a dish.",
+      "example": "Send me the recipe for that cake.",
+      "level": 1,
+      "translations": {
+        "hi": "विधि",
+        "gu": "રેસીપી",
+        "es": "receta"
+      }
+    },
+    {
+      "id": "vw_food_ingredient",
+      "topic": "food",
+      "word": "ingredient",
+      "phonetic": "/ɪnˈɡriːdiənt/",
+      "meaning": "One of the things you cook with.",
+      "example": "Salt is the cheapest ingredient.",
+      "level": 1,
+      "translations": {
+        "hi": "सामग्री",
+        "gu": "સામગ્રી",
+        "es": "ingrediente"
+      }
+    },
+    {
+      "id": "vw_food_portion",
+      "topic": "food",
+      "word": "portion",
+      "phonetic": "/ˈpɔːʃn/",
+      "meaning": "The amount of food served to one person.",
+      "example": "The portions here are enormous.",
+      "level": 1,
+      "translations": {
+        "hi": "हिस्सा",
+        "gu": "ભાગ",
+        "es": "ración"
+      }
+    },
+    {
+      "id": "vw_food_takeaway",
+      "topic": "food",
+      "word": "takeaway",
+      "phonetic": "/ˈteɪkəweɪ/",
+      "meaning": "Food bought to eat somewhere else.",
+      "example": "We ordered a takeaway on Friday.",
+      "level": 1,
+      "translations": {
+        "hi": "टेकअवे",
+        "gu": "ટેકઅવે",
+        "es": "comida para llevar"
+      }
+    },
+    {
+      "id": "vw_food_allergy",
+      "topic": "food",
+      "word": "allergy",
+      "phonetic": "/ˈælədʒi/",
+      "meaning": "A bad reaction your body has to something.",
+      "example": "I have a nut allergy.",
+      "level": 1,
+      "translations": {
+        "hi": "एलर्जी",
+        "gu": "એલર્જી",
+        "es": "alergia"
+      }
+    },
+    {
+      "id": "vw_food_seasoning",
+      "topic": "food",
+      "word": "seasoning",
+      "phonetic": "/ˈsiːzənɪŋ/",
+      "meaning": "Salt, pepper and spices added to food.",
+      "example": "It needs more seasoning.",
+      "level": 1,
+      "translations": {
+        "hi": "मसाला",
+        "gu": "મસાલો",
+        "es": "condimento"
+      }
+    },
+    {
+      "id": "vw_food_leftovers",
+      "topic": "food",
+      "word": "leftovers",
+      "phonetic": "/ˈleftəʊvəz/",
+      "meaning": "Food that was not eaten.",
+      "example": "We ate the leftovers for lunch.",
+      "level": 2,
+      "translations": {
+        "hi": "बचा हुआ खाना",
+        "gu": "બચેલું ખાવાનું",
+        "es": "sobras"
+      }
+    },
+    {
+      "id": "vw_food_bland",
+      "topic": "food",
+      "word": "bland",
+      "phonetic": "/blænd/",
+      "meaning": "Having very little flavour.",
+      "example": "The soup was warm but bland.",
+      "level": 2,
+      "translations": {
+        "hi": "फीका",
+        "gu": "ફિક્કું",
+        "es": "soso"
+      }
+    },
+    {
+      "id": "vw_food_savoury",
+      "topic": "food",
+      "word": "savoury",
+      "phonetic": "/ˈseɪvəri/",
+      "meaning": "Salty or spicy rather than sweet.",
+      "example": "I prefer a savoury breakfast.",
+      "level": 2,
+      "translations": {
+        "hi": "नमकीन",
+        "gu": "ખારું",
+        "es": "salado"
+      }
+    },
+    {
+      "id": "vw_food_simmer",
+      "topic": "food",
+      "word": "simmer",
+      "phonetic": "/ˈsɪmə/",
+      "meaning": "To cook gently just below boiling.",
+      "example": "Let the sauce simmer for an hour.",
+      "level": 2,
+      "translations": {
+        "hi": "धीमी आंच पर पकाना",
+        "gu": "ધીમા તાપે પકાવવું",
+        "es": "cocer a fuego lento"
+      }
+    },
+    {
+      "id": "vw_food_acquired_taste",
+      "topic": "food",
+      "word": "acquired taste",
+      "phonetic": "/əˈkwaɪəd teɪst/",
+      "meaning": "Something you only enjoy after trying it repeatedly.",
+      "example": "Olives are an acquired taste.",
+      "level": 2,
+      "translations": {
+        "hi": "धीरे-धीरे पसंद आने वाला स्वाद",
+        "gu": "ધીમે ધીમે ગમતો સ્વાદ",
+        "es": "gusto adquirido"
+      }
+    },
+    {
+      "id": "vw_food_hearty",
+      "topic": "food",
+      "word": "hearty",
+      "phonetic": "/ˈhɑːti/",
+      "meaning": "Large, filling and satisfying.",
+      "example": "A hearty stew after a cold walk.",
+      "level": 2,
+      "translations": {
+        "hi": "भरपेट",
+        "gu": "ભરપેટ",
+        "es": "contundente"
+      }
+    },
+    {
+      "id": "vw_food_garnish",
+      "topic": "food",
+      "word": "garnish",
+      "phonetic": "/ˈɡɑːnɪʃ/",
+      "meaning": "A small decoration added to a dish.",
+      "example": "A garnish of fresh coriander finishes it.",
+      "level": 2,
+      "translations": {
+        "hi": "सजावट",
+        "gu": "શણગાર",
+        "es": "guarnición"
+      }
+    },
+    {
+      "id": "vw_shopping_discount",
+      "topic": "shopping",
+      "word": "discount",
+      "phonetic": "/ˈdɪskaʊnt/",
+      "meaning": "Money taken off the normal price.",
+      "example": "They gave me a ten percent discount.",
+      "level": 1,
+      "translations": {
+        "hi": "छूट",
+        "gu": "ડિસ્કાઉન્ટ",
+        "es": "descuento"
+      }
+    },
+    {
+      "id": "vw_shopping_loyalty_card",
+      "topic": "shopping",
+      "word": "loyalty card",
+      "phonetic": "/ˈlɔɪəlti kɑːd/",
+      "meaning": "A card that collects points as you shop.",
+      "example": "Scan the loyalty card before you pay.",
+      "level": 1,
+      "translations": {
+        "hi": "लॉयल्टी कार्ड",
+        "gu": "લોયલ્ટી કાર્ડ",
+        "es": "tarjeta de fidelidad"
+      }
+    },
+    {
+      "id": "vw_shopping_fitting_room",
+      "topic": "shopping",
+      "word": "fitting room",
+      "phonetic": "/ˈfɪtɪŋ ruːm/",
+      "meaning": "The small room where you try clothes on.",
+      "example": "The fitting room is on your left.",
+      "level": 0,
+      "translations": {
+        "hi": "ट्रायल रूम",
+        "gu": "ટ્રાયલ રૂમ",
+        "es": "probador"
+      }
+    },
+    {
+      "id": "vw_shopping_trolley",
+      "topic": "shopping",
+      "word": "trolley",
+      "phonetic": "/ˈtrɒli/",
+      "meaning": "The metal basket on wheels in a supermarket.",
+      "example": "The trolley wheel keeps sticking.",
+      "level": 0,
+      "translations": {
+        "hi": "ट्रॉली",
+        "gu": "ટ્રોલી",
+        "es": "carrito"
+      }
+    },
+    {
+      "id": "vw_shopping_queue",
+      "topic": "shopping",
+      "word": "queue",
+      "phonetic": "/kjuː/",
+      "meaning": "A line of people waiting.",
+      "example": "The queue went out of the door.",
+      "level": 0,
+      "translations": {
+        "hi": "कतार",
+        "gu": "કતાર",
+        "es": "cola"
+      }
+    },
+    {
+      "id": "vw_shopping_checkout",
+      "topic": "shopping",
+      "word": "checkout",
+      "phonetic": "/ˈtʃekaʊt/",
+      "meaning": "Where you pay in a shop.",
+      "example": "There were only two checkouts open.",
+      "level": 0,
+      "translations": {
+        "hi": "भुगतान काउंटर",
+        "gu": "ચેકઆઉટ",
+        "es": "caja"
+      }
+    },
+    {
+      "id": "vw_shopping_brand",
+      "topic": "shopping",
+      "word": "brand",
+      "phonetic": "/brænd/",
+      "meaning": "The name of a company that makes something.",
+      "example": "I do not mind which brand it is.",
+      "level": 1,
+      "translations": {
+        "hi": "ब्रांड",
+        "gu": "બ્રાન્ડ",
+        "es": "marca"
+      }
+    },
+    {
+      "id": "vw_shopping_exchange",
+      "topic": "shopping",
+      "word": "exchange",
+      "phonetic": "/ɪksˈtʃeɪndʒ/",
+      "meaning": "To swap a purchase for a different one.",
+      "example": "Can I exchange it for a larger one?",
+      "level": 1,
+      "translations": {
+        "hi": "अदला-बदली",
+        "gu": "બદલી",
+        "es": "cambio"
+      }
+    },
+    {
+      "id": "vw_shopping_warranty",
+      "topic": "shopping",
+      "word": "warranty",
+      "phonetic": "/ˈwɒrənti/",
+      "meaning": "A promise to repair a product if it breaks.",
+      "example": "The warranty runs for two years.",
+      "level": 1,
+      "translations": {
+        "hi": "वारंटी",
+        "gu": "વોરંટી",
+        "es": "garantía"
+      }
+    },
+    {
+      "id": "vw_shopping_affordable",
+      "topic": "shopping",
+      "word": "affordable",
+      "phonetic": "/əˈfɔːdəbl/",
+      "meaning": "Cheap enough for you to buy.",
+      "example": "We need an affordable option.",
+      "level": 1,
+      "translations": {
+        "hi": "किफायती",
+        "gu": "પોસાય તેવું",
+        "es": "asequible"
+      }
+    },
+    {
+      "id": "vw_shopping_out_of_stock",
+      "topic": "shopping",
+      "word": "out of stock",
+      "phonetic": "/aʊt əv stɒk/",
+      "meaning": "Not available to buy right now.",
+      "example": "That model is out of stock.",
+      "level": 1,
+      "translations": {
+        "hi": "स्टॉक में नहीं",
+        "gu": "સ્ટોકમાં નથી",
+        "es": "agotado"
+      }
+    },
+    {
+      "id": "vw_shopping_second_hand",
+      "topic": "shopping",
+      "word": "second-hand",
+      "phonetic": "/ˌsekənd ˈhænd/",
+      "meaning": "Owned by someone else before you.",
+      "example": "I bought the bike second-hand.",
+      "level": 1,
+      "translations": {
+        "hi": "पुराना",
+        "gu": "સેકન્ડ હેન્ડ",
+        "es": "de segunda mano"
+      }
+    },
+    {
+      "id": "vw_shopping_bargain",
+      "topic": "shopping",
+      "word": "bargain",
+      "phonetic": "/ˈbɑːɡɪn/",
+      "meaning": "Something bought cheaply, or to argue over price.",
+      "example": "Ten euros was a real bargain.",
+      "level": 2,
+      "translations": {
+        "hi": "सस्ता सौदा",
+        "gu": "સોદો",
+        "es": "chollo"
+      }
+    },
+    {
+      "id": "vw_shopping_overpriced",
+      "topic": "shopping",
+      "word": "overpriced",
+      "phonetic": "/ˌəʊvəˈpraɪst/",
+      "meaning": "Costing more than it is worth.",
+      "example": "The coffee there is badly overpriced.",
+      "level": 2,
+      "translations": {
+        "hi": "अधिक कीमत वाला",
+        "gu": "વધુ કિંમતનું",
+        "es": "sobrevalorado"
+      }
+    },
+    {
+      "id": "vw_shopping_haggle",
+      "topic": "shopping",
+      "word": "haggle",
+      "phonetic": "/ˈhæɡl/",
+      "meaning": "To argue about a price until you agree.",
+      "example": "You are expected to haggle at that market.",
+      "level": 2,
+      "translations": {
+        "hi": "मोलभाव करना",
+        "gu": "ભાવતાલ કરવો",
+        "es": "regatear"
+      }
+    },
+    {
+      "id": "vw_shopping_impulse_buy",
+      "topic": "shopping",
+      "word": "impulse buy",
+      "phonetic": "/ˈɪmpʌls baɪ/",
+      "meaning": "Something bought without planning to.",
+      "example": "The whole shelf is designed for impulse buys.",
+      "level": 2,
+      "translations": {
+        "hi": "बिना सोचे खरीदारी",
+        "gu": "અચાનક ખરીદી",
+        "es": "compra impulsiva"
+      }
+    },
+    {
+      "id": "vw_shopping_rip_off",
+      "topic": "shopping",
+      "word": "rip-off",
+      "phonetic": "/ˈrɪp ɒf/",
+      "meaning": "Something far too expensive for what it is.",
+      "example": "Twelve pounds for that is a rip-off.",
+      "level": 2,
+      "translations": {
+        "hi": "ठगी",
+        "gu": "છેતરપિંડી",
+        "es": "timo"
+      }
+    },
+    {
+      "id": "vw_shopping_browse",
+      "topic": "shopping",
+      "word": "browse",
+      "phonetic": "/braʊz/",
+      "meaning": "To look around a shop without buying.",
+      "example": "I am just browsing, thanks.",
+      "level": 1,
+      "translations": {
+        "hi": "देखना",
+        "gu": "જોવું",
+        "es": "mirar"
+      }
+    },
+    {
+      "id": "vw_technology_charger",
+      "topic": "technology",
+      "word": "charger",
+      "phonetic": "/ˈtʃɑːdʒə/",
+      "meaning": "The cable that fills a battery.",
+      "example": "I left my charger at home.",
+      "level": 0,
+      "translations": {
+        "hi": "चार्जर",
+        "gu": "ચાર્જર",
+        "es": "cargador"
+      }
+    },
+    {
+      "id": "vw_technology_sync",
+      "topic": "technology",
+      "word": "sync",
+      "phonetic": "/sɪŋk/",
+      "meaning": "To make two copies match.",
+      "example": "The files sync automatically.",
+      "level": 1,
+      "translations": {
+        "hi": "सिंक करना",
+        "gu": "સિંક કરવું",
+        "es": "sincronizar"
+      }
+    },
+    {
+      "id": "vw_technology_password",
+      "topic": "technology",
+      "word": "password",
+      "phonetic": "/ˈpɑːswɜːd/",
+      "meaning": "A secret word that unlocks an account.",
+      "example": "Change your password every year.",
+      "level": 0,
+      "translations": {
+        "hi": "पासवर्ड",
+        "gu": "પાસવર્ડ",
+        "es": "contraseña"
+      }
+    },
+    {
+      "id": "vw_technology_download",
+      "topic": "technology",
+      "word": "download",
+      "phonetic": "/ˌdaʊnˈləʊd/",
+      "meaning": "To copy a file from the internet.",
+      "example": "Download the file before the flight.",
+      "level": 0,
+      "translations": {
+        "hi": "डाउनलोड",
+        "gu": "ડાઉનલોડ",
+        "es": "descargar"
+      }
+    },
+    {
+      "id": "vw_technology_screen",
+      "topic": "technology",
+      "word": "screen",
+      "phonetic": "/skriːn/",
+      "meaning": "The part of a device you look at.",
+      "example": "The screen cracked but it still works.",
+      "level": 0,
+      "translations": {
+        "hi": "स्क्रीन",
+        "gu": "સ્ક્રીન",
+        "es": "pantalla"
+      }
+    },
+    {
+      "id": "vw_technology_battery",
+      "topic": "technology",
+      "word": "battery",
+      "phonetic": "/ˈbætri/",
+      "meaning": "The part that stores power.",
+      "example": "The battery lasts about a day.",
+      "level": 0,
+      "translations": {
+        "hi": "बैटरी",
+        "gu": "બેટરી",
+        "es": "batería"
+      }
+    },
+    {
+      "id": "vw_technology_device",
+      "topic": "technology",
+      "word": "device",
+      "phonetic": "/dɪˈvaɪs/",
+      "meaning": "A machine like a phone or laptop.",
+      "example": "The app works on any device.",
+      "level": 1,
+      "translations": {
+        "hi": "उपकरण",
+        "gu": "ઉપકરણ",
+        "es": "dispositivo"
+      }
+    },
+    {
+      "id": "vw_technology_reliable",
+      "topic": "technology",
+      "word": "reliable",
+      "phonetic": "/rɪˈlaɪəbl/",
+      "meaning": "Working well every time.",
+      "example": "It is not the fastest, but it is reliable.",
+      "level": 1,
+      "translations": {
+        "hi": "भरोसेमंद",
+        "gu": "ભરોસાપાત્ર",
+        "es": "fiable"
+      }
+    },
+    {
+      "id": "vw_technology_subscription",
+      "topic": "technology",
+      "word": "subscription",
+      "phonetic": "/səbˈskrɪpʃn/",
+      "meaning": "A regular payment for a service.",
+      "example": "I cancelled my subscription.",
+      "level": 1,
+      "translations": {
+        "hi": "सदस्यता",
+        "gu": "સબ્સ્ક્રિપ્શન",
+        "es": "suscripción"
+      }
+    },
+    {
+      "id": "vw_technology_backup",
+      "topic": "technology",
+      "word": "backup",
+      "phonetic": "/ˈbækʌp/",
+      "meaning": "A spare copy of your files.",
+      "example": "The backup runs every night.",
+      "level": 1,
+      "translations": {
+        "hi": "बैकअप",
+        "gu": "બેકઅપ",
+        "es": "copia de seguridad"
+      }
+    },
+    {
+      "id": "vw_technology_storage",
+      "topic": "technology",
+      "word": "storage",
+      "phonetic": "/ˈstɔːrɪdʒ/",
+      "meaning": "Space for keeping files.",
+      "example": "I have run out of storage again.",
+      "level": 1,
+      "translations": {
+        "hi": "भंडारण",
+        "gu": "સંગ્રહ",
+        "es": "almacenamiento"
+      }
+    },
+    {
+      "id": "vw_technology_notification",
+      "topic": "technology",
+      "word": "notification",
+      "phonetic": "/ˌnəʊtɪfɪˈkeɪʃn/",
+      "meaning": "A message a phone shows you.",
+      "example": "I turned notifications off after eight.",
+      "level": 1,
+      "translations": {
+        "hi": "सूचना",
+        "gu": "સૂચના",
+        "es": "notificación"
+      }
+    },
+    {
+      "id": "vw_technology_troubleshoot",
+      "topic": "technology",
+      "word": "troubleshoot",
+      "phonetic": "/ˈtrʌblʃuːt/",
+      "meaning": "To find and fix a problem.",
+      "example": "I spent an hour troubleshooting the router.",
+      "level": 2,
+      "translations": {
+        "hi": "समस्या सुलझाना",
+        "gu": "સમસ્યા ઉકેલવી",
+        "es": "solucionar problemas"
+      }
+    },
+    {
+      "id": "vw_technology_bandwidth",
+      "topic": "technology",
+      "word": "bandwidth",
+      "phonetic": "/ˈbændwɪdθ/",
+      "meaning": "How much data a connection can carry.",
+      "example": "Video calls eat bandwidth.",
+      "level": 2,
+      "translations": {
+        "hi": "बैंडविड्थ",
+        "gu": "બેન્ડવિડ્થ",
+        "es": "ancho de banda"
+      }
+    },
+    {
+      "id": "vw_technology_encryption",
+      "topic": "technology",
+      "word": "encryption",
+      "phonetic": "/ɪnˈkrɪpʃn/",
+      "meaning": "Scrambling data so others cannot read it.",
+      "example": "The messages use end-to-end encryption.",
+      "level": 2,
+      "translations": {
+        "hi": "एन्क्रिप्शन",
+        "gu": "એન્ક્રિપ્શન",
+        "es": "cifrado"
+      }
+    },
+    {
+      "id": "vw_technology_glitch",
+      "topic": "technology",
+      "word": "glitch",
+      "phonetic": "/ɡlɪtʃ/",
+      "meaning": "A small temporary fault.",
+      "example": "It was a glitch, not a real failure.",
+      "level": 2,
+      "translations": {
+        "hi": "खराबी",
+        "gu": "ખામી",
+        "es": "fallo"
+      }
+    },
+    {
+      "id": "vw_technology_obsolete",
+      "topic": "technology",
+      "word": "obsolete",
+      "phonetic": "/ˈɒbsəliːt/",
+      "meaning": "No longer used because something better exists.",
+      "example": "That format is obsolete now.",
+      "level": 2,
+      "translations": {
+        "hi": "अप्रचलित",
+        "gu": "અપ્રચલિત",
+        "es": "obsoleto"
+      }
+    },
+    {
+      "id": "vw_technology_interface",
+      "topic": "technology",
+      "word": "interface",
+      "phonetic": "/ˈɪntəfeɪs/",
+      "meaning": "The part of a system a person interacts with.",
+      "example": "The interface is cluttered.",
+      "level": 2,
+      "translations": {
+        "hi": "इंटरफ़ेस",
+        "gu": "ઇન્ટરફેસ",
+        "es": "interfaz"
+      }
+    },
+    {
+      "id": "vw_technology_roll_out",
+      "topic": "technology",
+      "word": "roll out",
+      "phonetic": "/rəʊl aʊt/",
+      "meaning": "To release something gradually to users.",
+      "example": "We roll out the feature next week.",
+      "level": 2,
+      "translations": {
+        "hi": "चरणबद्ध शुरुआत",
+        "gu": "તબક્કાવાર શરૂઆત",
+        "es": "desplegar"
+      }
+    },
+    {
+      "id": "vw_technology_workaround",
+      "topic": "technology",
+      "word": "workaround",
+      "phonetic": "/ˈwɜːkəraʊnd/",
+      "meaning": "A temporary way past a problem.",
+      "example": "There is a workaround until the fix ships.",
+      "level": 2,
+      "translations": {
+        "hi": "अस्थायी उपाय",
+        "gu": "કામચલાઉ ઉપાય",
+        "es": "solución alternativa"
+      }
+    },
+    {
+      "id": "vw_daily_chores",
+      "topic": "daily",
+      "word": "chores",
+      "phonetic": "/tʃɔːz/",
+      "meaning": "Small jobs around the house.",
+      "example": "I do the chores on Sunday.",
+      "level": 1,
+      "translations": {
+        "hi": "घरेलू काम",
+        "gu": "ઘરકામ",
+        "es": "tareas"
+      }
+    },
+    {
+      "id": "vw_daily_errand",
+      "topic": "daily",
+      "word": "errand",
+      "phonetic": "/ˈerənd/",
+      "meaning": "A short trip to do something useful.",
+      "example": "I have two errands to run.",
+      "level": 2,
+      "translations": {
+        "hi": "छोटा काम",
+        "gu": "નાનું કામ",
+        "es": "recado"
+      }
+    },
+    {
+      "id": "vw_daily_borrow",
+      "topic": "daily",
+      "word": "borrow",
+      "phonetic": "/ˈbɒrəʊ/",
+      "meaning": "To take something and give it back later.",
+      "example": "Can I borrow your pen?",
+      "level": 0,
+      "translations": {
+        "hi": "उधार लेना",
+        "gu": "ઉછીનું લેવું",
+        "es": "prestar"
+      }
+    },
+    {
+      "id": "vw_daily_alarm",
+      "topic": "daily",
+      "word": "alarm",
+      "phonetic": "/əˈlɑːm/",
+      "meaning": "A sound that wakes you up.",
+      "example": "I set three alarms and ignore two.",
+      "level": 0,
+      "translations": {
+        "hi": "अलार्म",
+        "gu": "એલાર્મ",
+        "es": "alarma"
+      }
+    },
+    {
+      "id": "vw_daily_nap",
+      "topic": "daily",
+      "word": "nap",
+      "phonetic": "/næp/",
+      "meaning": "A short sleep during the day.",
+      "example": "A twenty-minute nap is enough.",
+      "level": 0,
+      "translations": {
+        "hi": "झपकी",
+        "gu": "ઝોકું",
+        "es": "siesta"
+      }
+    },
+    {
+      "id": "vw_daily_queue_up",
+      "topic": "daily",
+      "word": "queue up",
+      "phonetic": "/kjuː ʌp/",
+      "meaning": "To join a line and wait.",
+      "example": "We queued up for an hour.",
+      "level": 0,
+      "translations": {
+        "hi": "कतार में लगना",
+        "gu": "કતારમાં ઊભા રહેવું",
+        "es": "hacer cola"
+      }
+    },
+    {
+      "id": "vw_daily_habit",
+      "topic": "daily",
+      "word": "habit",
+      "phonetic": "/ˈhæbɪt/",
+      "meaning": "Something you do regularly without deciding.",
+      "example": "Checking my phone is a bad habit.",
+      "level": 1,
+      "translations": {
+        "hi": "आदत",
+        "gu": "આદત",
+        "es": "hábito"
+      }
+    },
+    {
+      "id": "vw_daily_afford",
+      "topic": "daily",
+      "word": "afford",
+      "phonetic": "/əˈfɔːd/",
+      "meaning": "To have enough money for something.",
+      "example": "I cannot afford a new phone yet.",
+      "level": 1,
+      "translations": {
+        "hi": "खर्च उठाना",
+        "gu": "પોસાવું",
+        "es": "permitirse"
+      }
+    },
+    {
+      "id": "vw_daily_postpone",
+      "topic": "daily",
+      "word": "postpone",
+      "phonetic": "/pəˈspəʊn/",
+      "meaning": "To move something to a later time.",
+      "example": "We postponed the dinner to Friday.",
+      "level": 1,
+      "translations": {
+        "hi": "स्थगित करना",
+        "gu": "મુલતવી રાખવું",
+        "es": "posponer"
+      }
+    },
+    {
+      "id": "vw_daily_spare",
+      "topic": "daily",
+      "word": "spare",
+      "phonetic": "/speə/",
+      "meaning": "Extra, kept in case it is needed.",
+      "example": "I keep a spare key with my neighbour.",
+      "level": 1,
+      "translations": {
+        "hi": "अतिरिक्त",
+        "gu": "વધારાનું",
+        "es": "de repuesto"
+      }
+    },
+    {
+      "id": "vw_daily_rush",
+      "topic": "daily",
+      "word": "rush",
+      "phonetic": "/rʌʃ/",
+      "meaning": "To move or act very quickly.",
+      "example": "There is no need to rush.",
+      "level": 1,
+      "translations": {
+        "hi": "जल्दबाज़ी",
+        "gu": "ઉતાવળ",
+        "es": "prisa"
+      }
+    },
+    {
+      "id": "vw_daily_run_late",
+      "topic": "daily",
+      "word": "run late",
+      "phonetic": "/rʌn leɪt/",
+      "meaning": "To be behind schedule.",
+      "example": "Sorry, I am running late.",
+      "level": 1,
+      "translations": {
+        "hi": "देर होना",
+        "gu": "મોડું થવું",
+        "es": "ir con retraso"
+      }
+    },
+    {
+      "id": "vw_daily_procrastinate",
+      "topic": "daily",
+      "word": "procrastinate",
+      "phonetic": "/prəˈkræstɪneɪt/",
+      "meaning": "To keep delaying something you should do.",
+      "example": "I procrastinate most on small tasks.",
+      "level": 2,
+      "translations": {
+        "hi": "टालमटोल करना",
+        "gu": "ટાળ્યા કરવું",
+        "es": "procrastinar"
+      }
+    },
+    {
+      "id": "vw_daily_juggle",
+      "topic": "daily",
+      "word": "juggle",
+      "phonetic": "/ˈdʒʌɡl/",
+      "meaning": "To manage several things at once.",
+      "example": "She juggles work and two children.",
+      "level": 2,
+      "translations": {
+        "hi": "संभालना",
+        "gu": "સંભાળવું",
+        "es": "compaginar"
+      }
+    },
+    {
+      "id": "vw_daily_wind_down",
+      "topic": "daily",
+      "word": "wind down",
+      "phonetic": "/waɪnd daʊn/",
+      "meaning": "To relax gradually at the end of the day.",
+      "example": "I wind down with a book.",
+      "level": 2,
+      "translations": {
+        "hi": "आराम करना",
+        "gu": "આરામ કરવો",
+        "es": "relajarse"
+      }
+    },
+    {
+      "id": "vw_daily_get_round_to",
+      "topic": "daily",
+      "word": "get round to",
+      "phonetic": "/ɡet raʊnd tuː/",
+      "meaning": "To finally do something you kept delaying.",
+      "example": "I never got round to calling her.",
+      "level": 2,
+      "translations": {
+        "hi": "आखिरकार करना",
+        "gu": "આખરે કરવું",
+        "es": "encontrar el momento para"
+      }
+    },
+    {
+      "id": "vw_health_appointment",
+      "topic": "health",
+      "word": "appointment",
+      "phonetic": "/əˈpɔɪntmənt/",
+      "meaning": "A fixed time to see someone.",
+      "example": "I have an appointment at four.",
+      "level": 1,
+      "translations": {
+        "hi": "अपॉइंटमेंट",
+        "gu": "એપોઇન્ટમેન્ટ",
+        "es": "cita"
+      }
+    },
+    {
+      "id": "vw_health_symptom",
+      "topic": "health",
+      "word": "symptom",
+      "phonetic": "/ˈsɪmptəm/",
+      "meaning": "A sign that you are ill.",
+      "example": "The main symptom is a dry cough.",
+      "level": 1,
+      "translations": {
+        "hi": "लक्षण",
+        "gu": "લક્ષણ",
+        "es": "síntoma"
+      }
+    },
+    {
+      "id": "vw_health_prescription",
+      "topic": "health",
+      "word": "prescription",
+      "phonetic": "/prɪˈskrɪpʃn/",
+      "meaning": "A doctor's note for medicine.",
+      "example": "The pharmacy needs the prescription.",
+      "level": 2,
+      "translations": {
+        "hi": "नुस्खा",
+        "gu": "પ્રિસ્ક્રિપ્શન",
+        "es": "receta médica"
+      }
+    },
+    {
+      "id": "vw_health_recover",
+      "topic": "health",
+      "word": "recover",
+      "phonetic": "/rɪˈkʌvə/",
+      "meaning": "To become well again.",
+      "example": "It took a week to recover.",
+      "level": 1,
+      "translations": {
+        "hi": "स्वस्थ होना",
+        "gu": "સાજા થવું",
+        "es": "recuperarse"
+      }
+    },
+    {
+      "id": "vw_health_exhausted",
+      "topic": "health",
+      "word": "exhausted",
+      "phonetic": "/ɪɡˈzɔːstɪd/",
+      "meaning": "Extremely tired.",
+      "example": "I was exhausted after the shift.",
+      "level": 1,
+      "translations": {
+        "hi": "बहुत थका हुआ",
+        "gu": "થાકી ગયેલું",
+        "es": "agotado"
+      }
+    },
+    {
+      "id": "vw_health_injury",
+      "topic": "health",
+      "word": "injury",
+      "phonetic": "/ˈɪndʒəri/",
+      "meaning": "Damage to your body.",
+      "example": "A knee injury stopped him playing.",
+      "level": 1,
+      "translations": {
+        "hi": "चोट",
+        "gu": "ઈજા",
+        "es": "lesión"
+      }
+    },
+    {
+      "id": "vw_health_headache",
+      "topic": "health",
+      "word": "headache",
+      "phonetic": "/ˈhedeɪk/",
+      "meaning": "A pain in your head.",
+      "example": "I have had a headache all morning.",
+      "level": 0,
+      "translations": {
+        "hi": "सिरदर्द",
+        "gu": "માથાનો દુખાવો",
+        "es": "dolor de cabeza"
+      }
+    },
+    {
+      "id": "vw_health_fever",
+      "topic": "health",
+      "word": "fever",
+      "phonetic": "/ˈfiːvə/",
+      "meaning": "A body temperature that is too high.",
+      "example": "She had a fever for two days.",
+      "level": 0,
+      "translations": {
+        "hi": "बुखार",
+        "gu": "તાવ",
+        "es": "fiebre"
+      }
+    },
+    {
+      "id": "vw_health_relapse",
+      "topic": "health",
+      "word": "relapse",
+      "phonetic": "/rɪˈlæps/",
+      "meaning": "To become ill again after improving.",
+      "example": "She had a relapse in the second week.",
+      "level": 2,
+      "translations": {
+        "hi": "पुनरावृत्ति",
+        "gu": "ફરી બગડવું",
+        "es": "recaída"
+      }
+    },
+    {
+      "id": "vw_health_checkup",
+      "topic": "health",
+      "word": "checkup",
+      "phonetic": "/ˈtʃekʌp/",
+      "meaning": "A routine medical examination.",
+      "example": "I go for a checkup every year.",
+      "level": 1,
+      "translations": {
+        "hi": "जांच",
+        "gu": "તપાસ",
+        "es": "revisión"
+      }
+    },
+    {
+      "id": "vw_health_dose",
+      "topic": "health",
+      "word": "dose",
+      "phonetic": "/dəʊs/",
+      "meaning": "The amount of medicine to take at once.",
+      "example": "Do not take a second dose.",
+      "level": 1,
+      "translations": {
+        "hi": "खुराक",
+        "gu": "માત્રા",
+        "es": "dosis"
+      }
+    },
+    {
+      "id": "vw_health_side_effect",
+      "topic": "health",
+      "word": "side effect",
+      "phonetic": "/ˈsaɪd ɪfekt/",
+      "meaning": "An unwanted result of a medicine.",
+      "example": "Drowsiness is a common side effect.",
+      "level": 1,
+      "translations": {
+        "hi": "दुष्प्रभाव",
+        "gu": "આડઅસર",
+        "es": "efecto secundario"
+      }
+    },
+    {
+      "id": "vw_health_chronic",
+      "topic": "health",
+      "word": "chronic",
+      "phonetic": "/ˈkrɒnɪk/",
+      "meaning": "Lasting a long time and hard to cure.",
+      "example": "Chronic pain changes how you plan a day.",
+      "level": 2,
+      "translations": {
+        "hi": "पुराना",
+        "gu": "લાંબા ગાળાનું",
+        "es": "crónico"
+      }
+    },
+    {
+      "id": "vw_health_diagnosis",
+      "topic": "health",
+      "word": "diagnosis",
+      "phonetic": "/ˌdaɪəɡˈnəʊsɪs/",
+      "meaning": "The doctor's decision about what is wrong.",
+      "example": "The diagnosis took three visits.",
+      "level": 2,
+      "translations": {
+        "hi": "निदान",
+        "gu": "નિદાન",
+        "es": "diagnóstico"
+      }
+    },
+    {
+      "id": "vw_health_immunity",
+      "topic": "health",
+      "word": "immunity",
+      "phonetic": "/ɪˈmjuːnəti/",
+      "meaning": "Your body's ability to resist an illness.",
+      "example": "Immunity fades after a year or so.",
+      "level": 2,
+      "translations": {
+        "hi": "प्रतिरक्षा",
+        "gu": "રોગપ્રતિકારકતા",
+        "es": "inmunidad"
+      }
+    },
+    {
+      "id": "vw_health_come_down_with",
+      "topic": "health",
+      "word": "come down with",
+      "phonetic": "/kʌm daʊn wɪð/",
+      "meaning": "To start to have an illness.",
+      "example": "I think I am coming down with something.",
+      "level": 2,
+      "translations": {
+        "hi": "बीमार पड़ना",
+        "gu": "બીમાર પડવું",
+        "es": "caer con"
+      }
+    },
+    {
+      "id": "vw_health_under_the_weather",
+      "topic": "health",
+      "word": "under the weather",
+      "phonetic": "/ˈʌndə ðə ˈweðə/",
+      "meaning": "Slightly ill.",
+      "example": "I am a bit under the weather today.",
+      "level": 2,
+      "translations": {
+        "hi": "तबीयत ठीक नहीं",
+        "gu": "તબિયત બરાબર નથી",
+        "es": "pachucho"
+      }
+    },
+    {
+      "id": "vw_business_invoice",
+      "topic": "business",
+      "word": "invoice",
+      "phonetic": "/ˈɪnvɔɪs/",
+      "meaning": "A document asking for payment.",
+      "example": "Send the invoice by Friday.",
+      "level": 2,
+      "translations": {
+        "hi": "बीजक",
+        "gu": "ઇન્વોઇસ",
+        "es": "factura"
+      }
+    },
+    {
+      "id": "vw_business_client",
+      "topic": "business",
+      "word": "client",
+      "phonetic": "/ˈklaɪənt/",
+      "meaning": "A person or company that buys from you.",
+      "example": "The client approved the design.",
+      "level": 1,
+      "translations": {
+        "hi": "ग्राहक",
+        "gu": "ગ્રાહક",
+        "es": "cliente"
+      }
+    },
+    {
+      "id": "vw_business_revenue",
+      "topic": "business",
+      "word": "revenue",
+      "phonetic": "/ˈrevənjuː/",
+      "meaning": "The money a business takes in.",
+      "example": "Revenue grew by twelve percent.",
+      "level": 2,
+      "translations": {
+        "hi": "आय",
+        "gu": "આવક",
+        "es": "ingresos"
+      }
+    },
+    {
+      "id": "vw_business_stakeholder",
+      "topic": "business",
+      "word": "stakeholder",
+      "phonetic": "/ˈsteɪkhəʊldə/",
+      "meaning": "Anyone affected by a project.",
+      "example": "Every stakeholder needs the summary.",
+      "level": 2,
+      "translations": {
+        "hi": "हितधारक",
+        "gu": "હિતધારક",
+        "es": "interesado"
+      }
+    },
+    {
+      "id": "vw_business_proposal",
+      "topic": "business",
+      "word": "proposal",
+      "phonetic": "/prəˈpəʊzl/",
+      "meaning": "A written plan you offer.",
+      "example": "They rejected our first proposal.",
+      "level": 1,
+      "translations": {
+        "hi": "प्रस्ताव",
+        "gu": "પ્રસ્તાવ",
+        "es": "propuesta"
+      }
+    },
+    {
+      "id": "vw_business_launch",
+      "topic": "business",
+      "word": "launch",
+      "phonetic": "/lɔːntʃ/",
+      "meaning": "To start selling something new.",
+      "example": "We launch the product in May.",
+      "level": 1,
+      "translations": {
+        "hi": "शुरुआत",
+        "gu": "લોન્ચ",
+        "es": "lanzamiento"
+      }
+    },
+    {
+      "id": "vw_business_supplier",
+      "topic": "business",
+      "word": "supplier",
+      "phonetic": "/səˈplaɪə/",
+      "meaning": "A company that provides goods to you.",
+      "example": "Our supplier raised prices twice.",
+      "level": 1,
+      "translations": {
+        "hi": "आपूर्तिकर्ता",
+        "gu": "સપ્લાયર",
+        "es": "proveedor"
+      }
+    },
+    {
+      "id": "vw_business_contract",
+      "topic": "business",
+      "word": "contract",
+      "phonetic": "/ˈkɒntrækt/",
+      "meaning": "A written legal agreement.",
+      "example": "Read the contract before signing.",
+      "level": 1,
+      "translations": {
+        "hi": "अनुबंध",
+        "gu": "કરાર",
+        "es": "contrato"
+      }
+    },
+    {
+      "id": "vw_business_target",
+      "topic": "business",
+      "word": "target",
+      "phonetic": "/ˈtɑːɡɪt/",
+      "meaning": "A result you aim for.",
+      "example": "We missed the quarterly target.",
+      "level": 1,
+      "translations": {
+        "hi": "लक्ष्य",
+        "gu": "લક્ષ્ય",
+        "es": "objetivo"
+      }
+    },
+    {
+      "id": "vw_business_turnover",
+      "topic": "business",
+      "word": "turnover",
+      "phonetic": "/ˈtɜːnəʊvə/",
+      "meaning": "The total money a business takes in a year.",
+      "example": "Turnover doubled but profit did not.",
+      "level": 2,
+      "translations": {
+        "hi": "कुल कारोबार",
+        "gu": "કુલ વેપાર",
+        "es": "facturación"
+      }
+    },
+    {
+      "id": "vw_business_margin",
+      "topic": "business",
+      "word": "margin",
+      "phonetic": "/ˈmɑːdʒɪn/",
+      "meaning": "The profit left after costs.",
+      "example": "The margin on hardware is thin.",
+      "level": 2,
+      "translations": {
+        "hi": "लाभ मार्जिन",
+        "gu": "માર્જિન",
+        "es": "margen"
+      }
+    },
+    {
+      "id": "vw_business_scalable",
+      "topic": "business",
+      "word": "scalable",
+      "phonetic": "/ˈskeɪləbl/",
+      "meaning": "Able to grow without breaking.",
+      "example": "The process is not scalable yet.",
+      "level": 2,
+      "translations": {
+        "hi": "विस्तार योग्य",
+        "gu": "વિસ્તારક્ષમ",
+        "es": "escalable"
+      }
+    },
+    {
+      "id": "vw_business_due_diligence",
+      "topic": "business",
+      "word": "due diligence",
+      "phonetic": "/djuː ˈdɪlɪdʒəns/",
+      "meaning": "Careful checking before a deal.",
+      "example": "Due diligence took six weeks.",
+      "level": 2,
+      "translations": {
+        "hi": "उचित जांच",
+        "gu": "યોગ્ય તપાસ",
+        "es": "diligencia debida"
+      }
+    },
+    {
+      "id": "vw_business_overheads",
+      "topic": "business",
+      "word": "overheads",
+      "phonetic": "/ˈəʊvəhedz/",
+      "meaning": "The fixed costs of running a business.",
+      "example": "Overheads ate the whole increase.",
+      "level": 2,
+      "translations": {
+        "hi": "स्थायी खर्च",
+        "gu": "સ્થિર ખર્ચ",
+        "es": "gastos generales"
+      }
+    },
+    {
+      "id": "vw_business_break_even",
+      "topic": "business",
+      "word": "break even",
+      "phonetic": "/breɪk ˈiːvn/",
+      "meaning": "To make neither a profit nor a loss.",
+      "example": "We break even in month nine.",
+      "level": 2,
+      "translations": {
+        "hi": "बराबरी पर आना",
+        "gu": "સરભર થવું",
+        "es": "alcanzar el punto de equilibrio"
+      }
+    },
+    {
+      "id": "vw_business_undercut",
+      "topic": "business",
+      "word": "undercut",
+      "phonetic": "/ˌʌndəˈkʌt/",
+      "meaning": "To sell more cheaply than a competitor.",
+      "example": "They undercut us by fifteen percent.",
+      "level": 2,
+      "translations": {
+        "hi": "कम दाम लगाना",
+        "gu": "ઓછા ભાવે વેચવું",
+        "es": "vender más barato que"
+      }
+    },
+    {
+      "id": "vw_business_liability",
+      "topic": "business",
+      "word": "liability",
+      "phonetic": "/ˌlaɪəˈbɪləti/",
+      "meaning": "A legal responsibility, usually for a cost.",
+      "example": "The clause limits our liability.",
+      "level": 2,
+      "translations": {
+        "hi": "देनदारी",
+        "gu": "જવાબદારી",
+        "es": "responsabilidad"
+      }
+    },
+    {
+      "id": "vw_relationships_argue",
+      "topic": "relationships",
+      "word": "argue",
+      "phonetic": "/ˈɑːɡjuː/",
+      "meaning": "To disagree in an angry way.",
+      "example": "We argue about small things.",
+      "level": 1,
+      "translations": {
+        "hi": "बहस करना",
+        "gu": "દલીલ કરવી",
+        "es": "discutir"
+      }
+    },
+    {
+      "id": "vw_relationships_trust",
+      "topic": "relationships",
+      "word": "trust",
+      "phonetic": "/trʌst/",
+      "meaning": "To believe someone is honest.",
+      "example": "It takes years to build trust.",
+      "level": 1,
+      "translations": {
+        "hi": "भरोसा",
+        "gu": "વિશ્વાસ",
+        "es": "confianza"
+      }
+    },
+    {
+      "id": "vw_relationships_supportive",
+      "topic": "relationships",
+      "word": "supportive",
+      "phonetic": "/səˈpɔːtɪv/",
+      "meaning": "Giving help and encouragement.",
+      "example": "My family was very supportive.",
+      "level": 1,
+      "translations": {
+        "hi": "सहायक",
+        "gu": "સહાયક",
+        "es": "comprensivo"
+      }
+    },
+    {
+      "id": "vw_relationships_get_along",
+      "topic": "relationships",
+      "word": "get along",
+      "phonetic": "/ɡet əˈlɒŋ/",
+      "meaning": "To have a good relationship.",
+      "example": "We get along really well.",
+      "level": 1,
+      "translations": {
+        "hi": "मेल-मिलाप",
+        "gu": "સારું બનવું",
+        "es": "llevarse bien"
+      }
+    },
+    {
+      "id": "vw_relationships_fall_out",
+      "topic": "relationships",
+      "word": "fall out",
+      "phonetic": "/fɔːl aʊt/",
+      "meaning": "To stop being friends after a fight.",
+      "example": "They fell out over money.",
+      "level": 2,
+      "translations": {
+        "hi": "अनबन होना",
+        "gu": "અણબનાવ",
+        "es": "pelearse"
+      }
+    },
+    {
+      "id": "vw_relationships_close",
+      "topic": "relationships",
+      "word": "close",
+      "phonetic": "/kləʊs/",
+      "meaning": "Emotionally near to someone.",
+      "example": "I am close to my cousin.",
+      "level": 0,
+      "translations": {
+        "hi": "करीबी",
+        "gu": "નજીકનું",
+        "es": "cercano"
+      }
+    },
+    {
+      "id": "vw_relationships_reassure",
+      "topic": "relationships",
+      "word": "reassure",
+      "phonetic": "/ˌriːəˈʃʊə/",
+      "meaning": "To remove someone's worry.",
+      "example": "He reassured me it was normal.",
+      "level": 1,
+      "translations": {
+        "hi": "आश्वस्त करना",
+        "gu": "ખાતરી આપવી",
+        "es": "tranquilizar"
+      }
+    },
+    {
+      "id": "vw_relationships_forgive",
+      "topic": "relationships",
+      "word": "forgive",
+      "phonetic": "/fəˈɡɪv/",
+      "meaning": "To stop being angry about something.",
+      "example": "She forgave him quickly.",
+      "level": 1,
+      "translations": {
+        "hi": "माफ करना",
+        "gu": "માફ કરવું",
+        "es": "perdonar"
+      }
+    },
+    {
+      "id": "vw_relationships_loyal",
+      "topic": "relationships",
+      "word": "loyal",
+      "phonetic": "/ˈlɔɪəl/",
+      "meaning": "Staying faithful to someone over time.",
+      "example": "He is a loyal friend.",
+      "level": 1,
+      "translations": {
+        "hi": "वफादार",
+        "gu": "વફાદાર",
+        "es": "leal"
+      }
+    },
+    {
+      "id": "vw_relationships_misunderstanding",
+      "topic": "relationships",
+      "word": "misunderstanding",
+      "phonetic": "/ˌmɪsʌndəˈstændɪŋ/",
+      "meaning": "A failure to understand correctly.",
+      "example": "It was a misunderstanding, not a lie.",
+      "level": 1,
+      "translations": {
+        "hi": "गलतफहमी",
+        "gu": "ગેરસમજ",
+        "es": "malentendido"
+      }
+    },
+    {
+      "id": "vw_relationships_considerate",
+      "topic": "relationships",
+      "word": "considerate",
+      "phonetic": "/kənˈsɪdərət/",
+      "meaning": "Thinking about how others feel.",
+      "example": "It was considerate of her to call ahead.",
+      "level": 1,
+      "translations": {
+        "hi": "विचारशील",
+        "gu": "વિચારશીલ",
+        "es": "considerado"
+      }
+    },
+    {
+      "id": "vw_relationships_reconcile",
+      "topic": "relationships",
+      "word": "reconcile",
+      "phonetic": "/ˈrekənsaɪl/",
+      "meaning": "To become friendly again after a quarrel.",
+      "example": "They reconciled after two years.",
+      "level": 2,
+      "translations": {
+        "hi": "मेल कराना",
+        "gu": "સમાધાન કરવું",
+        "es": "reconciliarse"
+      }
+    },
+    {
+      "id": "vw_relationships_resentment",
+      "topic": "relationships",
+      "word": "resentment",
+      "phonetic": "/rɪˈzentmənt/",
+      "meaning": "Anger kept quietly over a long time.",
+      "example": "Unspoken resentment is the real problem.",
+      "level": 2,
+      "translations": {
+        "hi": "नाराज़गी",
+        "gu": "નારાજગી",
+        "es": "resentimiento"
+      }
+    },
+    {
+      "id": "vw_relationships_take_for_granted",
+      "topic": "relationships",
+      "word": "take for granted",
+      "phonetic": "/teɪk fɔː ˈɡrɑːntɪd/",
+      "meaning": "To stop appreciating someone.",
+      "example": "It is easy to take family for granted.",
+      "level": 2,
+      "translations": {
+        "hi": "महत्व न देना",
+        "gu": "કદર ન કરવી",
+        "es": "dar por sentado"
+      }
+    },
+    {
+      "id": "vw_relationships_drift_apart",
+      "topic": "relationships",
+      "word": "drift apart",
+      "phonetic": "/drɪft əˈpɑːt/",
+      "meaning": "To gradually become less close.",
+      "example": "We drifted apart after university.",
+      "level": 2,
+      "translations": {
+        "hi": "दूर हो जाना",
+        "gu": "દૂર થઈ જવું",
+        "es": "distanciarse"
+      }
+    },
+    {
+      "id": "vw_relationships_hit_it_off",
+      "topic": "relationships",
+      "word": "hit it off",
+      "phonetic": "/hɪt ɪt ɒf/",
+      "meaning": "To like each other immediately.",
+      "example": "They hit it off at the first meeting.",
+      "level": 2,
+      "translations": {
+        "hi": "तुरंत जमना",
+        "gu": "તરત ફાવવું",
+        "es": "congeniar"
+      }
+    },
+    {
+      "id": "vw_education_assignment",
+      "topic": "education",
+      "word": "assignment",
+      "phonetic": "/əˈsaɪnmənt/",
+      "meaning": "A piece of work a teacher gives you.",
+      "example": "The assignment is due tomorrow.",
+      "level": 1,
+      "translations": {
+        "hi": "असाइनमेंट",
+        "gu": "એસાઇનમેન્ટ",
+        "es": "tarea escolar"
+      }
+    },
+    {
+      "id": "vw_education_revise",
+      "topic": "education",
+      "word": "revise",
+      "phonetic": "/rɪˈvaɪz/",
+      "meaning": "To study again before an exam.",
+      "example": "I revise for an hour every night.",
+      "level": 1,
+      "translations": {
+        "hi": "दोहराना",
+        "gu": "પુનરાવર્તન કરવું",
+        "es": "repasar"
+      }
+    },
+    {
+      "id": "vw_education_degree",
+      "topic": "education",
+      "word": "degree",
+      "phonetic": "/dɪˈɡriː/",
+      "meaning": "A qualification from a university.",
+      "example": "She has a degree in economics.",
+      "level": 1,
+      "translations": {
+        "hi": "डिग्री",
+        "gu": "ડિગ્રી",
+        "es": "título"
+      }
+    },
+    {
+      "id": "vw_education_scholarship",
+      "topic": "education",
+      "word": "scholarship",
+      "phonetic": "/ˈskɒləʃɪp/",
+      "meaning": "Money given to you to study.",
+      "example": "He won a full scholarship.",
+      "level": 2,
+      "translations": {
+        "hi": "छात्रवृत्ति",
+        "gu": "શિષ્યવૃત્તિ",
+        "es": "beca"
+      }
+    },
+    {
+      "id": "vw_education_struggle",
+      "topic": "education",
+      "word": "struggle",
+      "phonetic": "/ˈstrʌɡl/",
+      "meaning": "To find something very hard.",
+      "example": "I struggled with grammar at first.",
+      "level": 1,
+      "translations": {
+        "hi": "संघर्ष करना",
+        "gu": "સંઘર્ષ કરવો",
+        "es": "costar"
+      }
+    },
+    {
+      "id": "vw_education_lesson",
+      "topic": "education",
+      "word": "lesson",
+      "phonetic": "/ˈlesn/",
+      "meaning": "One period of teaching.",
+      "example": "The lesson lasts fifty minutes.",
+      "level": 0,
+      "translations": {
+        "hi": "पाठ",
+        "gu": "પાઠ",
+        "es": "clase"
+      }
+    },
+    {
+      "id": "vw_education_notes",
+      "topic": "education",
+      "word": "notes",
+      "phonetic": "/nəʊts/",
+      "meaning": "What you write down while learning.",
+      "example": "Can I copy your notes?",
+      "level": 0,
+      "translations": {
+        "hi": "नोट्स",
+        "gu": "નોંધ",
+        "es": "apuntes"
+      }
+    },
+    {
+      "id": "vw_education_subject",
+      "topic": "education",
+      "word": "subject",
+      "phonetic": "/ˈsʌbdʒɪkt/",
+      "meaning": "An area of study such as history.",
+      "example": "Maths was my worst subject.",
+      "level": 0,
+      "translations": {
+        "hi": "विषय",
+        "gu": "વિષય",
+        "es": "asignatura"
+      }
+    },
+    {
+      "id": "vw_education_term",
+      "topic": "education",
+      "word": "term",
+      "phonetic": "/tɜːm/",
+      "meaning": "One of the parts a school year is divided into.",
+      "example": "The term ends in December.",
+      "level": 1,
+      "translations": {
+        "hi": "सत्र",
+        "gu": "સત્ર",
+        "es": "trimestre"
+      }
+    },
+    {
+      "id": "vw_education_tuition",
+      "topic": "education",
+      "word": "tuition",
+      "phonetic": "/tjuˈɪʃn/",
+      "meaning": "Teaching, or the fee paid for it.",
+      "example": "Tuition went up again this year.",
+      "level": 1,
+      "translations": {
+        "hi": "शिक्षण शुल्क",
+        "gu": "ટ્યુશન",
+        "es": "matrícula"
+      }
+    },
+    {
+      "id": "vw_education_curriculum",
+      "topic": "education",
+      "word": "curriculum",
+      "phonetic": "/kəˈrɪkjələm/",
+      "meaning": "Everything a course covers.",
+      "example": "The curriculum changed last year.",
+      "level": 2,
+      "translations": {
+        "hi": "पाठ्यक्रम",
+        "gu": "અભ્યાસક્રમ",
+        "es": "plan de estudios"
+      }
+    },
+    {
+      "id": "vw_education_dissertation",
+      "topic": "education",
+      "word": "dissertation",
+      "phonetic": "/ˌdɪsəˈteɪʃn/",
+      "meaning": "A long piece of research writing.",
+      "example": "My dissertation ran to eighty pages.",
+      "level": 2,
+      "translations": {
+        "hi": "शोध प्रबंध",
+        "gu": "શોધનિબંધ",
+        "es": "tesina"
+      }
+    },
+    {
+      "id": "vw_education_plagiarism",
+      "topic": "education",
+      "word": "plagiarism",
+      "phonetic": "/ˈpleɪdʒərɪzəm/",
+      "meaning": "Using someone's work as your own.",
+      "example": "Plagiarism means an automatic fail.",
+      "level": 2,
+      "translations": {
+        "hi": "साहित्यिक चोरी",
+        "gu": "સાહિત્યચોરી",
+        "es": "plagio"
+      }
+    },
+    {
+      "id": "vw_education_cram",
+      "topic": "education",
+      "word": "cram",
+      "phonetic": "/kræm/",
+      "meaning": "To study intensively just before an exam.",
+      "example": "I crammed the whole night before.",
+      "level": 2,
+      "translations": {
+        "hi": "रटना",
+        "gu": "ગોખવું",
+        "es": "empollar"
+      }
+    },
+    {
+      "id": "vw_education_fall_behind",
+      "topic": "education",
+      "word": "fall behind",
+      "phonetic": "/fɔːl bɪˈhaɪnd/",
+      "meaning": "To progress more slowly than others.",
+      "example": "I fell behind after missing two weeks.",
+      "level": 2,
+      "translations": {
+        "hi": "पिछड़ जाना",
+        "gu": "પાછળ પડી જવું",
+        "es": "quedarse atrás"
+      }
+    },
+    {
+      "id": "vw_education_grasp",
+      "topic": "education",
+      "word": "grasp",
+      "phonetic": "/ɡrɑːsp/",
+      "meaning": "To understand something fully.",
+      "example": "It took a month to grasp the concept.",
+      "level": 2,
+      "translations": {
+        "hi": "समझ लेना",
+        "gu": "સમજી લેવું",
+        "es": "captar"
+      }
+    },
+    {
+      "id": "vw_money_budget",
+      "topic": "money",
+      "word": "budget",
+      "phonetic": "/ˈbʌdʒɪt/",
+      "meaning": "A plan for how to spend your money.",
+      "example": "My budget does not stretch to that.",
+      "level": 1,
+      "translations": {
+        "hi": "बजट",
+        "gu": "બજેટ",
+        "es": "presupuesto"
+      }
+    },
+    {
+      "id": "vw_money_savings",
+      "topic": "money",
+      "word": "savings",
+      "phonetic": "/ˈseɪvɪŋz/",
+      "meaning": "Money you have kept rather than spent.",
+      "example": "I moved my savings to a better account.",
+      "level": 0,
+      "translations": {
+        "hi": "बचत",
+        "gu": "બચત",
+        "es": "ahorros"
+      }
+    },
+    {
+      "id": "vw_money_loan",
+      "topic": "money",
+      "word": "loan",
+      "phonetic": "/ləʊn/",
+      "meaning": "Money borrowed that must be repaid.",
+      "example": "The loan runs for five years.",
+      "level": 1,
+      "translations": {
+        "hi": "ऋण",
+        "gu": "લોન",
+        "es": "préstamo"
+      }
+    },
+    {
+      "id": "vw_money_interest",
+      "topic": "money",
+      "word": "interest",
+      "phonetic": "/ˈɪntrəst/",
+      "meaning": "The extra money paid for borrowing.",
+      "example": "The interest rate went up again.",
+      "level": 1,
+      "translations": {
+        "hi": "ब्याज",
+        "gu": "વ્યાજ",
+        "es": "interés"
+      }
+    },
+    {
+      "id": "vw_money_debt",
+      "topic": "money",
+      "word": "debt",
+      "phonetic": "/det/",
+      "meaning": "Money you owe.",
+      "example": "She cleared her debt last year.",
+      "level": 1,
+      "translations": {
+        "hi": "कर्ज",
+        "gu": "દેવું",
+        "es": "deuda"
+      }
+    },
+    {
+      "id": "vw_money_salary_slip",
+      "topic": "money",
+      "word": "salary slip",
+      "phonetic": "/ˈsæləri slɪp/",
+      "meaning": "The document showing your pay and deductions.",
+      "example": "Check your salary slip for the tax code.",
+      "level": 1,
+      "translations": {
+        "hi": "वेतन पर्ची",
+        "gu": "પગાર સ્લિપ",
+        "es": "nómina"
+      }
+    },
+    {
+      "id": "vw_money_expense",
+      "topic": "money",
+      "word": "expense",
+      "phonetic": "/ɪkˈspens/",
+      "meaning": "Money spent on something.",
+      "example": "Travel is my biggest expense.",
+      "level": 1,
+      "translations": {
+        "hi": "खर्च",
+        "gu": "ખર્ચ",
+        "es": "gasto"
+      }
+    },
+    {
+      "id": "vw_money_insurance",
+      "topic": "money",
+      "word": "insurance",
+      "phonetic": "/ɪnˈʃʊərəns/",
+      "meaning": "Regular payments that cover you against loss.",
+      "example": "The insurance did not cover flooding.",
+      "level": 1,
+      "translations": {
+        "hi": "बीमा",
+        "gu": "વીમો",
+        "es": "seguro"
+      }
+    },
+    {
+      "id": "vw_money_deposit",
+      "topic": "money",
+      "word": "deposit",
+      "phonetic": "/dɪˈpɒzɪt/",
+      "meaning": "Money paid up front to secure something.",
+      "example": "The deposit was two months' rent.",
+      "level": 1,
+      "translations": {
+        "hi": "जमा राशि",
+        "gu": "થાપણ",
+        "es": "depósito"
+      }
+    },
+    {
+      "id": "vw_money_installment",
+      "topic": "money",
+      "word": "installment",
+      "phonetic": "/ɪnˈstɔːlmənt/",
+      "meaning": "One of several regular payments.",
+      "example": "I pay in twelve installments.",
+      "level": 1,
+      "translations": {
+        "hi": "किस्त",
+        "gu": "હપ્તો",
+        "es": "plazo"
+      }
+    },
+    {
+      "id": "vw_money_mortgage",
+      "topic": "money",
+      "word": "mortgage",
+      "phonetic": "/ˈmɔːɡɪdʒ/",
+      "meaning": "A long loan used to buy a home.",
+      "example": "The mortgage has eighteen years left.",
+      "level": 2,
+      "translations": {
+        "hi": "गिरवी ऋण",
+        "gu": "ગીરો લોન",
+        "es": "hipoteca"
+      }
+    },
+    {
+      "id": "vw_money_inflation",
+      "topic": "money",
+      "word": "inflation",
+      "phonetic": "/ɪnˈfleɪʃn/",
+      "meaning": "The general rise in prices over time.",
+      "example": "Inflation ate the pay rise.",
+      "level": 2,
+      "translations": {
+        "hi": "मुद्रास्फीति",
+        "gu": "ફુગાવો",
+        "es": "inflación"
+      }
+    },
+    {
+      "id": "vw_money_dividend",
+      "topic": "money",
+      "word": "dividend",
+      "phonetic": "/ˈdɪvɪdend/",
+      "meaning": "A share of profit paid to owners.",
+      "example": "The dividend was cut this year.",
+      "level": 2,
+      "translations": {
+        "hi": "लाभांश",
+        "gu": "ડિવિડન્ડ",
+        "es": "dividendo"
+      }
+    },
+    {
+      "id": "vw_money_frugal",
+      "topic": "money",
+      "word": "frugal",
+      "phonetic": "/ˈfruːɡl/",
+      "meaning": "Careful with money, not wasteful.",
+      "example": "He is frugal without being mean.",
+      "level": 2,
+      "translations": {
+        "hi": "मितव्ययी",
+        "gu": "કરકસરિયું",
+        "es": "frugal"
+      }
+    },
+    {
+      "id": "vw_money_make_ends_meet",
+      "topic": "money",
+      "word": "make ends meet",
+      "phonetic": "/meɪk endz miːt/",
+      "meaning": "To have just enough money to live on.",
+      "example": "Two jobs and they barely make ends meet.",
+      "level": 2,
+      "translations": {
+        "hi": "गुज़ारा करना",
+        "gu": "ગુજરાન ચલાવવું",
+        "es": "llegar a fin de mes"
+      }
+    },
+    {
+      "id": "vw_money_splash_out",
+      "topic": "money",
+      "word": "splash out",
+      "phonetic": "/splæʃ aʊt/",
+      "meaning": "To spend a lot on something unnecessary.",
+      "example": "We splashed out on a proper holiday.",
+      "level": 2,
+      "translations": {
+        "hi": "खुलकर खर्च करना",
+        "gu": "છૂટથી ખર્ચ કરવો",
+        "es": "derrochar"
+      }
+    },
+    {
+      "id": "vw_environment_recycle",
+      "topic": "environment",
+      "word": "recycle",
+      "phonetic": "/ˌriːˈsaɪkl/",
+      "meaning": "To turn used material into something new.",
+      "example": "We recycle glass and paper.",
+      "level": 0,
+      "translations": {
+        "hi": "पुनर्चक्रण",
+        "gu": "રિસાયકલ",
+        "es": "reciclar"
+      }
+    },
+    {
+      "id": "vw_environment_pollution",
+      "topic": "environment",
+      "word": "pollution",
+      "phonetic": "/pəˈluːʃn/",
+      "meaning": "Harmful substances in air, water or land.",
+      "example": "Air pollution is worst in winter.",
+      "level": 1,
+      "translations": {
+        "hi": "प्रदूषण",
+        "gu": "પ્રદૂષણ",
+        "es": "contaminación"
+      }
+    },
+    {
+      "id": "vw_environment_waste",
+      "topic": "environment",
+      "word": "waste",
+      "phonetic": "/weɪst/",
+      "meaning": "Things thrown away, or to use badly.",
+      "example": "Food waste is the easiest to fix.",
+      "level": 0,
+      "translations": {
+        "hi": "कचरा",
+        "gu": "કચરો",
+        "es": "residuos"
+      }
+    },
+    {
+      "id": "vw_environment_energy",
+      "topic": "environment",
+      "word": "energy",
+      "phonetic": "/ˈenədʒi/",
+      "meaning": "Power used to run things.",
+      "example": "Renewable energy is cheaper now.",
+      "level": 0,
+      "translations": {
+        "hi": "ऊर्जा",
+        "gu": "ઊર્જા",
+        "es": "energía"
+      }
+    },
+    {
+      "id": "vw_environment_climate",
+      "topic": "environment",
+      "word": "climate",
+      "phonetic": "/ˈklaɪmət/",
+      "meaning": "The usual weather of a region over years.",
+      "example": "The climate here is changing fast.",
+      "level": 1,
+      "translations": {
+        "hi": "जलवायु",
+        "gu": "આબોહવા",
+        "es": "clima"
+      }
+    },
+    {
+      "id": "vw_environment_sustainable",
+      "topic": "environment",
+      "word": "sustainable",
+      "phonetic": "/səˈsteɪnəbl/",
+      "meaning": "Able to continue without using things up.",
+      "example": "A sustainable supply chain costs more.",
+      "level": 1,
+      "translations": {
+        "hi": "टिकाऊ",
+        "gu": "ટકાઉ",
+        "es": "sostenible"
+      }
+    },
+    {
+      "id": "vw_environment_emissions",
+      "topic": "environment",
+      "word": "emissions",
+      "phonetic": "/ɪˈmɪʃnz/",
+      "meaning": "Gases released into the air.",
+      "example": "Emissions fell by eight percent.",
+      "level": 1,
+      "translations": {
+        "hi": "उत्सर्जन",
+        "gu": "ઉત્સર્જન",
+        "es": "emisiones"
+      }
+    },
+    {
+      "id": "vw_environment_conservation",
+      "topic": "environment",
+      "word": "conservation",
+      "phonetic": "/ˌkɒnsəˈveɪʃn/",
+      "meaning": "Protecting nature from damage.",
+      "example": "The land is under conservation.",
+      "level": 1,
+      "translations": {
+        "hi": "संरक्षण",
+        "gu": "સંરક્ષણ",
+        "es": "conservación"
+      }
+    },
+    {
+      "id": "vw_environment_drought",
+      "topic": "environment",
+      "word": "drought",
+      "phonetic": "/draʊt/",
+      "meaning": "A long period with no rain.",
+      "example": "The drought lasted eleven months.",
+      "level": 1,
+      "translations": {
+        "hi": "सूखा",
+        "gu": "દુષ્કાળ",
+        "es": "sequía"
+      }
+    },
+    {
+      "id": "vw_environment_renewable",
+      "topic": "environment",
+      "word": "renewable",
+      "phonetic": "/rɪˈnjuːəbl/",
+      "meaning": "Naturally replaced, like wind or sun.",
+      "example": "Half the grid is renewable now.",
+      "level": 1,
+      "translations": {
+        "hi": "नवीकरणीय",
+        "gu": "નવીકરણીય",
+        "es": "renovable"
+      }
+    },
+    {
+      "id": "vw_environment_carbon_footprint",
+      "topic": "environment",
+      "word": "carbon footprint",
+      "phonetic": "/ˈkɑːbən ˈfʊtprɪnt/",
+      "meaning": "The total emissions something causes.",
+      "example": "Flying dominates my carbon footprint.",
+      "level": 2,
+      "translations": {
+        "hi": "कार्बन पदचिह्न",
+        "gu": "કાર્બન ફૂટપ્રિન્ટ",
+        "es": "huella de carbono"
+      }
+    },
+    {
+      "id": "vw_environment_biodiversity",
+      "topic": "environment",
+      "word": "biodiversity",
+      "phonetic": "/ˌbaɪəʊdaɪˈvɜːsəti/",
+      "meaning": "The variety of living things in a place.",
+      "example": "Hedgerows support biodiversity.",
+      "level": 2,
+      "translations": {
+        "hi": "जैव विविधता",
+        "gu": "જૈવવિવિધતા",
+        "es": "biodiversidad"
+      }
+    },
+    {
+      "id": "vw_environment_depletion",
+      "topic": "environment",
+      "word": "depletion",
+      "phonetic": "/dɪˈpliːʃn/",
+      "meaning": "Using something up until little is left.",
+      "example": "Groundwater depletion is irreversible here.",
+      "level": 2,
+      "translations": {
+        "hi": "क्षय",
+        "gu": "ઘટાડો",
+        "es": "agotamiento"
+      }
+    },
+    {
+      "id": "vw_environment_phase_out",
+      "topic": "environment",
+      "word": "phase out",
+      "phonetic": "/feɪz aʊt/",
+      "meaning": "To stop using something gradually.",
+      "example": "They will phase out the old boilers.",
+      "level": 2,
+      "translations": {
+        "hi": "चरणबद्ध समाप्ति",
+        "gu": "તબક્કાવાર બંધ કરવું",
+        "es": "eliminar gradualmente"
+      }
+    },
+    {
+      "id": "vw_environment_offset",
+      "topic": "environment",
+      "word": "offset",
+      "phonetic": "/ˈɒfset/",
+      "meaning": "To balance harm in one place with good elsewhere.",
+      "example": "The airline offers to offset your flight.",
+      "level": 2,
+      "translations": {
+        "hi": "भरपाई",
+        "gu": "ભરપાઈ",
+        "es": "compensar"
+      }
+    },
+    {
+      "id": "vw_transport_traffic",
+      "topic": "transport",
+      "word": "traffic",
+      "phonetic": "/ˈtræfɪk/",
+      "meaning": "The vehicles moving on a road.",
+      "example": "The traffic was terrible this morning.",
+      "level": 0,
+      "translations": {
+        "hi": "यातायात",
+        "gu": "ટ્રાફિક",
+        "es": "tráfico"
+      }
+    },
+    {
+      "id": "vw_transport_fare",
+      "topic": "transport",
+      "word": "fare",
+      "phonetic": "/feə/",
+      "meaning": "The money you pay to travel.",
+      "example": "The fare went up in April.",
+      "level": 0,
+      "translations": {
+        "hi": "किराया",
+        "gu": "ભાડું",
+        "es": "tarifa"
+      }
+    },
+    {
+      "id": "vw_transport_timetable",
+      "topic": "transport",
+      "word": "timetable",
+      "phonetic": "/ˈtaɪmteɪbl/",
+      "meaning": "A list of when services run.",
+      "example": "Check the weekend timetable.",
+      "level": 0,
+      "translations": {
+        "hi": "समय-सारणी",
+        "gu": "સમયપત્રક",
+        "es": "horario"
+      }
+    },
+    {
+      "id": "vw_transport_parking",
+      "topic": "transport",
+      "word": "parking",
+      "phonetic": "/ˈpɑːkɪŋ/",
+      "meaning": "Leaving a vehicle somewhere, or the place for it.",
+      "example": "Parking is free after six.",
+      "level": 0,
+      "translations": {
+        "hi": "पार्किंग",
+        "gu": "પાર્કિંગ",
+        "es": "aparcamiento"
+      }
+    },
+    {
+      "id": "vw_transport_route",
+      "topic": "transport",
+      "word": "route",
+      "phonetic": "/ruːt/",
+      "meaning": "The way you go from one place to another.",
+      "example": "There is a quieter route through the park.",
+      "level": 1,
+      "translations": {
+        "hi": "मार्ग",
+        "gu": "માર્ગ",
+        "es": "ruta"
+      }
+    },
+    {
+      "id": "vw_transport_rush_hour",
+      "topic": "transport",
+      "word": "rush hour",
+      "phonetic": "/rʌʃ aʊə/",
+      "meaning": "The busiest travel time of day.",
+      "example": "Avoid the bridge at rush hour.",
+      "level": 1,
+      "translations": {
+        "hi": "व्यस्त समय",
+        "gu": "ધસારાનો સમય",
+        "es": "hora punta"
+      }
+    },
+    {
+      "id": "vw_transport_detour",
+      "topic": "transport",
+      "word": "detour",
+      "phonetic": "/ˈdiːtʊə/",
+      "meaning": "A longer way round because of a closure.",
+      "example": "Roadworks forced a long detour.",
+      "level": 1,
+      "translations": {
+        "hi": "चक्कर",
+        "gu": "ફેરો",
+        "es": "desvío"
+      }
+    },
+    {
+      "id": "vw_transport_breakdown",
+      "topic": "transport",
+      "word": "breakdown",
+      "phonetic": "/ˈbreɪkdaʊn/",
+      "meaning": "When a vehicle stops working.",
+      "example": "A breakdown on the motorway cost us an hour.",
+      "level": 1,
+      "translations": {
+        "hi": "खराबी",
+        "gu": "ભંગાણ",
+        "es": "avería"
+      }
+    },
+    {
+      "id": "vw_transport_season_ticket",
+      "topic": "transport",
+      "word": "season ticket",
+      "phonetic": "/ˈsiːzn ˈtɪkɪt/",
+      "meaning": "A ticket valid for a long period.",
+      "example": "A season ticket pays for itself by March.",
+      "level": 1,
+      "translations": {
+        "hi": "सीजन टिकट",
+        "gu": "સીઝન ટિકિટ",
+        "es": "abono"
+      }
+    },
+    {
+      "id": "vw_transport_congestion",
+      "topic": "transport",
+      "word": "congestion",
+      "phonetic": "/kənˈdʒestʃən/",
+      "meaning": "Too many vehicles for the space.",
+      "example": "The charge reduced congestion by a fifth.",
+      "level": 2,
+      "translations": {
+        "hi": "भीड़भाड़",
+        "gu": "ભીડ",
+        "es": "congestión"
+      }
+    },
+    {
+      "id": "vw_transport_gridlock",
+      "topic": "transport",
+      "word": "gridlock",
+      "phonetic": "/ˈɡrɪdlɒk/",
+      "meaning": "Traffic so heavy that nothing moves.",
+      "example": "One accident caused total gridlock.",
+      "level": 2,
+      "translations": {
+        "hi": "जाम",
+        "gu": "જામ",
+        "es": "atasco total"
+      }
+    },
+    {
+      "id": "vw_transport_pull_over",
+      "topic": "transport",
+      "word": "pull over",
+      "phonetic": "/pʊl ˈəʊvə/",
+      "meaning": "To stop a vehicle at the side of the road.",
+      "example": "He pulled over to check the map.",
+      "level": 2,
+      "translations": {
+        "hi": "किनारे रोकना",
+        "gu": "બાજુએ રોકવું",
+        "es": "detenerse"
+      }
+    },
+    {
+      "id": "vw_transport_set_off",
+      "topic": "transport",
+      "word": "set off",
+      "phonetic": "/set ɒf/",
+      "meaning": "To begin a journey.",
+      "example": "We set off before dawn.",
+      "level": 1,
+      "translations": {
+        "hi": "रवाना होना",
+        "gu": "નીકળવું",
+        "es": "salir"
+      }
+    },
+    {
+      "id": "vw_transport_miss_the_connection",
+      "topic": "transport",
+      "word": "miss the connection",
+      "phonetic": "/mɪs ðə kəˈnekʃn/",
+      "meaning": "To arrive too late for the next service.",
+      "example": "A ten-minute delay made us miss the connection.",
+      "level": 2,
+      "translations": {
+        "hi": "कनेक्शन छूटना",
+        "gu": "કનેક્શન ચૂકી જવું",
+        "es": "perder el enlace"
+      }
+    },
+    {
+      "id": "vw_culture_festival",
+      "topic": "culture",
+      "word": "festival",
+      "phonetic": "/ˈfestɪvl/",
+      "meaning": "A time of celebration, often yearly.",
+      "example": "The festival lasts five days.",
+      "level": 0,
+      "translations": {
+        "hi": "त्योहार",
+        "gu": "તહેવાર",
+        "es": "festival"
+      }
+    },
+    {
+      "id": "vw_culture_tradition",
+      "topic": "culture",
+      "word": "tradition",
+      "phonetic": "/trəˈdɪʃn/",
+      "meaning": "A custom passed down over generations.",
+      "example": "It is a family tradition.",
+      "level": 0,
+      "translations": {
+        "hi": "परंपरा",
+        "gu": "પરંપરા",
+        "es": "tradición"
+      }
+    },
+    {
+      "id": "vw_culture_custom",
+      "topic": "culture",
+      "word": "custom",
+      "phonetic": "/ˈkʌstəm/",
+      "meaning": "A usual way of doing things in a place.",
+      "example": "Removing your shoes is the custom here.",
+      "level": 1,
+      "translations": {
+        "hi": "रिवाज",
+        "gu": "રિવાજ",
+        "es": "costumbre"
+      }
+    },
+    {
+      "id": "vw_culture_heritage",
+      "topic": "culture",
+      "word": "heritage",
+      "phonetic": "/ˈherɪtɪdʒ/",
+      "meaning": "The history and culture a group inherits.",
+      "example": "The old town has heritage status.",
+      "level": 1,
+      "translations": {
+        "hi": "विरासत",
+        "gu": "વારસો",
+        "es": "patrimonio"
+      }
+    },
+    {
+      "id": "vw_culture_etiquette",
+      "topic": "culture",
+      "word": "etiquette",
+      "phonetic": "/ˈetɪket/",
+      "meaning": "The rules of polite behaviour.",
+      "example": "Business etiquette varies a lot.",
+      "level": 1,
+      "translations": {
+        "hi": "शिष्टाचार",
+        "gu": "શિષ્ટાચાર",
+        "es": "etiqueta"
+      }
+    },
+    {
+      "id": "vw_culture_diverse",
+      "topic": "culture",
+      "word": "diverse",
+      "phonetic": "/daɪˈvɜːs/",
+      "meaning": "Made up of many different kinds.",
+      "example": "The neighbourhood is very diverse.",
+      "level": 1,
+      "translations": {
+        "hi": "विविध",
+        "gu": "વૈવિધ્યસભર",
+        "es": "diverso"
+      }
+    },
+    {
+      "id": "vw_culture_ritual",
+      "topic": "culture",
+      "word": "ritual",
+      "phonetic": "/ˈrɪtʃuəl/",
+      "meaning": "A set of actions performed the same way each time.",
+      "example": "Sunday lunch is almost a ritual.",
+      "level": 1,
+      "translations": {
+        "hi": "अनुष्ठान",
+        "gu": "વિધિ",
+        "es": "ritual"
+      }
+    },
+    {
+      "id": "vw_culture_stereotype",
+      "topic": "culture",
+      "word": "stereotype",
+      "phonetic": "/ˈsteriətaɪp/",
+      "meaning": "A fixed, oversimplified idea about a group.",
+      "example": "The film leans on every stereotype.",
+      "level": 2,
+      "translations": {
+        "hi": "रूढ़िवादिता",
+        "gu": "રૂઢિગત ધારણા",
+        "es": "estereotipo"
+      }
+    },
+    {
+      "id": "vw_culture_assimilate",
+      "topic": "culture",
+      "word": "assimilate",
+      "phonetic": "/əˈsɪmɪleɪt/",
+      "meaning": "To become part of a different culture.",
+      "example": "The second generation assimilated quickly.",
+      "level": 2,
+      "translations": {
+        "hi": "घुलमिल जाना",
+        "gu": "ભળી જવું",
+        "es": "asimilarse"
+      }
+    },
+    {
+      "id": "vw_culture_taboo",
+      "topic": "culture",
+      "word": "taboo",
+      "phonetic": "/təˈbuː/",
+      "meaning": "Something a culture forbids discussing or doing.",
+      "example": "Money remains a taboo subject there.",
+      "level": 2,
+      "translations": {
+        "hi": "वर्जित",
+        "gu": "નિષિદ્ધ",
+        "es": "tabú"
+      }
+    },
+    {
+      "id": "vw_culture_norm",
+      "topic": "culture",
+      "word": "norm",
+      "phonetic": "/nɔːm/",
+      "meaning": "The usual or expected behaviour.",
+      "example": "Punctuality is the norm in that office.",
+      "level": 2,
+      "translations": {
+        "hi": "मानदंड",
+        "gu": "ધોરણ",
+        "es": "norma"
+      }
+    },
+    {
+      "id": "vw_culture_multicultural",
+      "topic": "culture",
+      "word": "multicultural",
+      "phonetic": "/ˌmʌltiˈkʌltʃərəl/",
+      "meaning": "Containing several cultures side by side.",
+      "example": "It is a genuinely multicultural city.",
+      "level": 2,
+      "translations": {
+        "hi": "बहुसांस्कृतिक",
+        "gu": "બહુસાંસ્કૃતિક",
+        "es": "multicultural"
+      }
+    },
+    {
+      "id": "vw_culture_indigenous",
+      "topic": "culture",
+      "word": "indigenous",
+      "phonetic": "/ɪnˈdɪdʒənəs/",
+      "meaning": "Originating naturally in a particular place.",
+      "example": "Indigenous languages are being recorded.",
+      "level": 2,
+      "translations": {
+        "hi": "स्वदेशी",
+        "gu": "સ્થાનિક",
+        "es": "indígena"
+      }
+    },
+    {
+      "id": "vw_emotions_nervous",
+      "topic": "emotions",
+      "word": "nervous",
+      "phonetic": "/ˈnɜːvəs/",
+      "meaning": "Worried about something that is coming.",
+      "example": "I get nervous before presentations.",
+      "level": 0,
+      "translations": {
+        "hi": "घबराया हुआ",
+        "gu": "ગભરાયેલું",
+        "es": "nervioso"
+      }
+    },
+    {
+      "id": "vw_emotions_proud",
+      "topic": "emotions",
+      "word": "proud",
+      "phonetic": "/praʊd/",
+      "meaning": "Pleased about something you achieved.",
+      "example": "I am proud of how far I have come.",
+      "level": 0,
+      "translations": {
+        "hi": "गर्वित",
+        "gu": "ગર્વિત",
+        "es": "orgulloso"
+      }
+    },
+    {
+      "id": "vw_emotions_lonely",
+      "topic": "emotions",
+      "word": "lonely",
+      "phonetic": "/ˈləʊnli/",
+      "meaning": "Unhappy because you are alone.",
+      "example": "The first month abroad was lonely.",
+      "level": 0,
+      "translations": {
+        "hi": "अकेला",
+        "gu": "એકલું",
+        "es": "solo"
+      }
+    },
+    {
+      "id": "vw_emotions_relieved",
+      "topic": "emotions",
+      "word": "relieved",
+      "phonetic": "/rɪˈliːvd/",
+      "meaning": "Happy that a worry has ended.",
+      "example": "I was relieved when the results came.",
+      "level": 1,
+      "translations": {
+        "hi": "राहत महसूस करना",
+        "gu": "રાહત અનુભવવી",
+        "es": "aliviado"
+      }
+    },
+    {
+      "id": "vw_emotions_frustrated",
+      "topic": "emotions",
+      "word": "frustrated",
+      "phonetic": "/frʌˈstreɪtɪd/",
+      "meaning": "Annoyed because you cannot do something.",
+      "example": "I get frustrated when I lose the word.",
+      "level": 1,
+      "translations": {
+        "hi": "निराश",
+        "gu": "હતાશ",
+        "es": "frustrado"
+      }
+    },
+    {
+      "id": "vw_emotions_overwhelmed",
+      "topic": "emotions",
+      "word": "overwhelmed",
+      "phonetic": "/ˌəʊvəˈwelmd/",
+      "meaning": "Unable to cope with how much there is.",
+      "example": "I felt overwhelmed by the first week.",
+      "level": 1,
+      "translations": {
+        "hi": "अभिभूत",
+        "gu": "ભારે લાગવું",
+        "es": "abrumado"
+      }
+    },
+    {
+      "id": "vw_emotions_grateful",
+      "topic": "emotions",
+      "word": "grateful",
+      "phonetic": "/ˈɡreɪtfl/",
+      "meaning": "Thankful for something someone did.",
+      "example": "I am grateful for the second chance.",
+      "level": 1,
+      "translations": {
+        "hi": "आभारी",
+        "gu": "આભારી",
+        "es": "agradecido"
+      }
+    },
+    {
+      "id": "vw_emotions_anxious",
+      "topic": "emotions",
+      "word": "anxious",
+      "phonetic": "/ˈæŋkʃəs/",
+      "meaning": "Persistently worried without a clear cause.",
+      "example": "I felt anxious for no reason.",
+      "level": 1,
+      "translations": {
+        "hi": "चिंतित",
+        "gu": "ચિંતિત",
+        "es": "ansioso"
+      }
+    },
+    {
+      "id": "vw_emotions_content",
+      "topic": "emotions",
+      "word": "content",
+      "phonetic": "/kənˈtent/",
+      "meaning": "Quietly satisfied with what you have.",
+      "example": "He seems content with the smaller role.",
+      "level": 2,
+      "translations": {
+        "hi": "संतुष्ट",
+        "gu": "સંતુષ્ટ",
+        "es": "satisfecho"
+      }
+    },
+    {
+      "id": "vw_emotions_apprehensive",
+      "topic": "emotions",
+      "word": "apprehensive",
+      "phonetic": "/ˌæprɪˈhensɪv/",
+      "meaning": "Uneasy about what might happen.",
+      "example": "I am apprehensive about the move.",
+      "level": 2,
+      "translations": {
+        "hi": "आशंकित",
+        "gu": "આશંકિત",
+        "es": "aprensivo"
+      }
+    },
+    {
+      "id": "vw_emotions_indifferent",
+      "topic": "emotions",
+      "word": "indifferent",
+      "phonetic": "/ɪnˈdɪfrənt/",
+      "meaning": "Having no feeling either way.",
+      "example": "She was indifferent to the outcome.",
+      "level": 2,
+      "translations": {
+        "hi": "उदासीन",
+        "gu": "ઉદાસીન",
+        "es": "indiferente"
+      }
+    },
+    {
+      "id": "vw_emotions_resilient",
+      "topic": "emotions",
+      "word": "resilient",
+      "phonetic": "/rɪˈzɪliənt/",
+      "meaning": "Able to recover quickly from difficulty.",
+      "example": "Children are more resilient than we assume.",
+      "level": 2,
+      "translations": {
+        "hi": "लचीला",
+        "gu": "સ્થિતિસ્થાપક",
+        "es": "resiliente"
+      }
+    },
+    {
+      "id": "vw_emotions_bittersweet",
+      "topic": "emotions",
+      "word": "bittersweet",
+      "phonetic": "/ˌbɪtəˈswiːt/",
+      "meaning": "Happy and sad at the same time.",
+      "example": "The last day was bittersweet.",
+      "level": 2,
+      "translations": {
+        "hi": "मीठा-कड़वा",
+        "gu": "મીઠું-કડવું",
+        "es": "agridulce"
+      }
+    },
+    {
+      "id": "vw_emotions_cheer_up",
+      "topic": "emotions",
+      "word": "cheer up",
+      "phonetic": "/tʃɪə ʌp/",
+      "meaning": "To become or make someone happier.",
+      "example": "The news cheered her up.",
+      "level": 1,
+      "translations": {
+        "hi": "खुश करना",
+        "gu": "ખુશ કરવું",
+        "es": "animar"
+      }
+    },
+    {
+      "id": "vw_media_headline",
+      "topic": "media",
+      "word": "headline",
+      "phonetic": "/ˈhedlaɪn/",
+      "meaning": "The title of a news story.",
+      "example": "The headline was worse than the article.",
+      "level": 1,
+      "translations": {
+        "hi": "सुर्खी",
+        "gu": "હેડલાઇન",
+        "es": "titular"
+      }
+    },
+    {
+      "id": "vw_media_episode",
+      "topic": "media",
+      "word": "episode",
+      "phonetic": "/ˈepɪsəʊd/",
+      "meaning": "One part of a series.",
+      "example": "The last episode airs on Sunday.",
+      "level": 0,
+      "translations": {
+        "hi": "एपिसोड",
+        "gu": "એપિસોડ",
+        "es": "episodio"
+      }
+    },
+    {
+      "id": "vw_media_plot",
+      "topic": "media",
+      "word": "plot",
+      "phonetic": "/plɒt/",
+      "meaning": "What happens in a story.",
+      "example": "The plot falls apart at the end.",
+      "level": 0,
+      "translations": {
+        "hi": "कथानक",
+        "gu": "કથાનક",
+        "es": "trama"
+      }
+    },
+    {
+      "id": "vw_media_channel",
+      "topic": "media",
+      "word": "channel",
+      "phonetic": "/ˈtʃænl/",
+      "meaning": "A television or online station.",
+      "example": "Which channel is it on?",
+      "level": 0,
+      "translations": {
+        "hi": "चैनल",
+        "gu": "ચેનલ",
+        "es": "canal"
+      }
+    },
+    {
+      "id": "vw_media_review",
+      "topic": "media",
+      "word": "review",
+      "phonetic": "/rɪˈvjuː/",
+      "meaning": "A written opinion about something.",
+      "example": "The reviews were mixed.",
+      "level": 1,
+      "translations": {
+        "hi": "समीक्षा",
+        "gu": "સમીક્ષા",
+        "es": "reseña"
+      }
+    },
+    {
+      "id": "vw_media_broadcast",
+      "topic": "media",
+      "word": "broadcast",
+      "phonetic": "/ˈbrɔːdkɑːst/",
+      "meaning": "To send out a programme.",
+      "example": "The match is broadcast live.",
+      "level": 1,
+      "translations": {
+        "hi": "प्रसारण",
+        "gu": "પ્રસારણ",
+        "es": "emitir"
+      }
+    },
+    {
+      "id": "vw_media_coverage",
+      "topic": "media",
+      "word": "coverage",
+      "phonetic": "/ˈkʌvərɪdʒ/",
+      "meaning": "How much reporting something gets.",
+      "example": "The coverage was relentless.",
+      "level": 1,
+      "translations": {
+        "hi": "कवरेज",
+        "gu": "કવરેજ",
+        "es": "cobertura"
+      }
+    },
+    {
+      "id": "vw_media_subtitle",
+      "topic": "media",
+      "word": "subtitle",
+      "phonetic": "/ˈsʌbtaɪtl/",
+      "meaning": "Text on screen showing what is said.",
+      "example": "I watch everything with subtitles.",
+      "level": 1,
+      "translations": {
+        "hi": "उपशीर्षक",
+        "gu": "સબટાઇટલ",
+        "es": "subtítulo"
+      }
+    },
+    {
+      "id": "vw_media_spoiler",
+      "topic": "media",
+      "word": "spoiler",
+      "phonetic": "/ˈspɔɪlə/",
+      "meaning": "Information that ruins a surprise.",
+      "example": "Do not post spoilers before Friday.",
+      "level": 1,
+      "translations": {
+        "hi": "स्पॉइलर",
+        "gu": "સ્પોઇલર",
+        "es": "spoiler"
+      }
+    },
+    {
+      "id": "vw_media_bias",
+      "topic": "media",
+      "word": "bias",
+      "phonetic": "/ˈbaɪəs/",
+      "meaning": "An unfair preference in reporting.",
+      "example": "Every outlet has some bias.",
+      "level": 2,
+      "translations": {
+        "hi": "पक्षपात",
+        "gu": "પક્ષપાત",
+        "es": "sesgo"
+      }
+    },
+    {
+      "id": "vw_media_clickbait",
+      "topic": "media",
+      "word": "clickbait",
+      "phonetic": "/ˈklɪkbeɪt/",
+      "meaning": "A headline designed to make you click.",
+      "example": "Pure clickbait, and it worked.",
+      "level": 2,
+      "translations": {
+        "hi": "क्लिकबेट",
+        "gu": "ક્લિકબેટ",
+        "es": "cebo de clics"
+      }
+    },
+    {
+      "id": "vw_media_censorship",
+      "topic": "media",
+      "word": "censorship",
+      "phonetic": "/ˈsensəʃɪp/",
+      "meaning": "Suppressing parts of what is published.",
+      "example": "Censorship pushed the story abroad.",
+      "level": 2,
+      "translations": {
+        "hi": "सेंसरशिप",
+        "gu": "સેન્સરશીપ",
+        "es": "censura"
+      }
+    },
+    {
+      "id": "vw_media_narrative",
+      "topic": "media",
+      "word": "narrative",
+      "phonetic": "/ˈnærətɪv/",
+      "meaning": "The version of a story being told.",
+      "example": "Both sides pushed a narrative.",
+      "level": 2,
+      "translations": {
+        "hi": "कथा",
+        "gu": "કથન",
+        "es": "narrativa"
+      }
+    },
+    {
+      "id": "vw_media_binge_watch",
+      "topic": "media",
+      "word": "binge-watch",
+      "phonetic": "/ˈbɪndʒ wɒtʃ/",
+      "meaning": "To watch many episodes in one sitting.",
+      "example": "We binge-watched the whole season.",
+      "level": 2,
+      "translations": {
+        "hi": "लगातार देखना",
+        "gu": "સળંગ જોવું",
+        "es": "ver de un tirón"
+      }
+    },
+    {
+      "id": "vw_sports_match",
+      "topic": "sports",
+      "word": "match",
+      "phonetic": "/mætʃ/",
+      "meaning": "A game between two teams or players.",
+      "example": "The match starts at eight.",
+      "level": 0,
+      "translations": {
+        "hi": "मैच",
+        "gu": "મેચ",
+        "es": "partido"
+      }
+    },
+    {
+      "id": "vw_sports_score",
+      "topic": "sports",
+      "word": "score",
+      "phonetic": "/skɔː/",
+      "meaning": "The points in a game, or to get a point.",
+      "example": "What was the final score?",
+      "level": 0,
+      "translations": {
+        "hi": "स्कोर",
+        "gu": "સ્કોર",
+        "es": "marcador"
+      }
+    },
+    {
+      "id": "vw_sports_coach",
+      "topic": "sports",
+      "word": "coach",
+      "phonetic": "/kəʊtʃ/",
+      "meaning": "The person who trains a team.",
+      "example": "The coach changed the formation.",
+      "level": 0,
+      "translations": {
+        "hi": "कोच",
+        "gu": "કોચ",
+        "es": "entrenador"
+      }
+    },
+    {
+      "id": "vw_sports_fit",
+      "topic": "sports",
+      "word": "fit",
+      "phonetic": "/fɪt/",
+      "meaning": "In good physical condition.",
+      "example": "I am fitter than I was last year.",
+      "level": 0,
+      "translations": {
+        "hi": "फिट",
+        "gu": "ફિટ",
+        "es": "en forma"
+      }
+    },
+    {
+      "id": "vw_sports_tournament",
+      "topic": "sports",
+      "word": "tournament",
+      "phonetic": "/ˈtʊənəmənt/",
+      "meaning": "A series of matches to find a winner.",
+      "example": "The tournament runs for three weeks.",
+      "level": 1,
+      "translations": {
+        "hi": "टूर्नामेंट",
+        "gu": "ટુર્નામેન્ટ",
+        "es": "torneo"
+      }
+    },
+    {
+      "id": "vw_sports_opponent",
+      "topic": "sports",
+      "word": "opponent",
+      "phonetic": "/əˈpəʊnənt/",
+      "meaning": "The person or team you play against.",
+      "example": "Our opponent is unbeaten.",
+      "level": 1,
+      "translations": {
+        "hi": "प्रतिद्वंद्वी",
+        "gu": "પ્રતિસ્પર્ધી",
+        "es": "rival"
+      }
+    },
+    {
+      "id": "vw_sports_substitute",
+      "topic": "sports",
+      "word": "substitute",
+      "phonetic": "/ˈsʌbstɪtjuːt/",
+      "meaning": "A player who replaces another.",
+      "example": "The substitute scored immediately.",
+      "level": 1,
+      "translations": {
+        "hi": "विकल्प खिलाड़ी",
+        "gu": "અવેજી ખેલાડી",
+        "es": "suplente"
+      }
+    },
+    {
+      "id": "vw_sports_draw",
+      "topic": "sports",
+      "word": "draw",
+      "phonetic": "/drɔː/",
+      "meaning": "A result where neither side wins.",
+      "example": "It ended in a two-all draw.",
+      "level": 1,
+      "translations": {
+        "hi": "बराबरी",
+        "gu": "બરાબરી",
+        "es": "empate"
+      }
+    },
+    {
+      "id": "vw_sports_stamina",
+      "topic": "sports",
+      "word": "stamina",
+      "phonetic": "/ˈstæmɪnə/",
+      "meaning": "The ability to keep going for a long time.",
+      "example": "My stamina improved after a month.",
+      "level": 1,
+      "translations": {
+        "hi": "सहनशक्ति",
+        "gu": "સહનશક્તિ",
+        "es": "resistencia"
+      }
+    },
+    {
+      "id": "vw_sports_underdog",
+      "topic": "sports",
+      "word": "underdog",
+      "phonetic": "/ˈʌndədɒɡ/",
+      "meaning": "The side expected to lose.",
+      "example": "Everyone loves an underdog.",
+      "level": 2,
+      "translations": {
+        "hi": "कमज़ोर पक्ष",
+        "gu": "નબળો પક્ષ",
+        "es": "el que menos opciones tiene"
+      }
+    },
+    {
+      "id": "vw_sports_comeback",
+      "topic": "sports",
+      "word": "comeback",
+      "phonetic": "/ˈkʌmbæk/",
+      "meaning": "A recovery from a losing position.",
+      "example": "It was the comeback of the season.",
+      "level": 2,
+      "translations": {
+        "hi": "वापसी",
+        "gu": "પુનરાગમન",
+        "es": "remontada"
+      }
+    },
+    {
+      "id": "vw_sports_warm_up",
+      "topic": "sports",
+      "word": "warm up",
+      "phonetic": "/wɔːm ʌp/",
+      "meaning": "To exercise gently before playing.",
+      "example": "Warm up for ten minutes first.",
+      "level": 1,
+      "translations": {
+        "hi": "वार्म अप",
+        "gu": "વોર્મ અપ",
+        "es": "calentar"
+      }
+    },
+    {
+      "id": "vw_sports_knock_out",
+      "topic": "sports",
+      "word": "knock out",
+      "phonetic": "/nɒk aʊt/",
+      "meaning": "To eliminate from a competition.",
+      "example": "They were knocked out in the semi-final.",
+      "level": 2,
+      "translations": {
+        "hi": "बाहर करना",
+        "gu": "બહાર કરવું",
+        "es": "eliminar"
+      }
+    },
+    {
+      "id": "vw_home_lease",
+      "topic": "home",
+      "word": "lease",
+      "phonetic": "/liːs/",
+      "meaning": "A contract allowing you to use a property.",
+      "example": "The lease runs for twelve months.",
+      "level": 1,
+      "translations": {
+        "hi": "पट्टा",
+        "gu": "લીઝ",
+        "es": "contrato de arrendamiento"
+      }
+    },
+    {
+      "id": "vw_home_landlord",
+      "topic": "home",
+      "word": "landlord",
+      "phonetic": "/ˈlændlɔːd/",
+      "meaning": "The person who owns the property you rent.",
+      "example": "The landlord fixed the boiler.",
+      "level": 1,
+      "translations": {
+        "hi": "मकान मालिक",
+        "gu": "મકાનમાલિક",
+        "es": "casero"
+      }
+    },
+    {
+      "id": "vw_home_tenant",
+      "topic": "home",
+      "word": "tenant",
+      "phonetic": "/ˈtenənt/",
+      "meaning": "A person who rents a property.",
+      "example": "The previous tenant left furniture.",
+      "level": 1,
+      "translations": {
+        "hi": "किरायेदार",
+        "gu": "ભાડૂત",
+        "es": "inquilino"
+      }
+    },
+    {
+      "id": "vw_home_balcony",
+      "topic": "home",
+      "word": "balcony",
+      "phonetic": "/ˈbælkəni/",
+      "meaning": "A small platform outside an upper window.",
+      "example": "The flat has a tiny balcony.",
+      "level": 0,
+      "translations": {
+        "hi": "बालकनी",
+        "gu": "બાલ્કની",
+        "es": "balcón"
+      }
+    },
+    {
+      "id": "vw_home_basement",
+      "topic": "home",
+      "word": "basement",
+      "phonetic": "/ˈbeɪsmənt/",
+      "meaning": "A room below ground level.",
+      "example": "The washing machine is in the basement.",
+      "level": 0,
+      "translations": {
+        "hi": "तहखाना",
+        "gu": "ભોંયરું",
+        "es": "sótano"
+      }
+    },
+    {
+      "id": "vw_home_leak",
+      "topic": "home",
+      "word": "leak",
+      "phonetic": "/liːk/",
+      "meaning": "Water escaping where it should not.",
+      "example": "There is a leak under the sink.",
+      "level": 1,
+      "translations": {
+        "hi": "रिसाव",
+        "gu": "લીકેજ",
+        "es": "fuga"
+      }
+    },
+    {
+      "id": "vw_home_utilities",
+      "topic": "home",
+      "word": "utilities",
+      "phonetic": "/juːˈtɪlətiz/",
+      "meaning": "Services like water, gas and electricity.",
+      "example": "Utilities are not included in the rent.",
+      "level": 1,
+      "translations": {
+        "hi": "उपयोगिता सेवाएं",
+        "gu": "ઉપયોગિતા સેવાઓ",
+        "es": "suministros"
+      }
+    },
+    {
+      "id": "vw_home_furnished",
+      "topic": "home",
+      "word": "furnished",
+      "phonetic": "/ˈfɜːnɪʃt/",
+      "meaning": "Already containing furniture.",
+      "example": "We took a furnished place.",
+      "level": 1,
+      "translations": {
+        "hi": "सुसज्जित",
+        "gu": "ફર્નિચરવાળું",
+        "es": "amueblado"
+      }
+    },
+    {
+      "id": "vw_home_mortgage_free",
+      "topic": "home",
+      "word": "mortgage-free",
+      "phonetic": "/ˈmɔːɡɪdʒ friː/",
+      "meaning": "Owned outright, with no loan left.",
+      "example": "They will be mortgage-free by sixty.",
+      "level": 2,
+      "translations": {
+        "hi": "कर्ज मुक्त",
+        "gu": "લોનમુક્ત",
+        "es": "sin hipoteca"
+      }
+    },
+    {
+      "id": "vw_home_damp",
+      "topic": "home",
+      "word": "damp",
+      "phonetic": "/dæmp/",
+      "meaning": "Unpleasantly wet, usually in a wall.",
+      "example": "Damp is the real problem, not the paint.",
+      "level": 2,
+      "translations": {
+        "hi": "सीलन",
+        "gu": "ભેજ",
+        "es": "humedad"
+      }
+    },
+    {
+      "id": "vw_home_renovate",
+      "topic": "home",
+      "word": "renovate",
+      "phonetic": "/ˈrenəveɪt/",
+      "meaning": "To repair and improve a building.",
+      "example": "They renovated the kitchen last spring.",
+      "level": 2,
+      "translations": {
+        "hi": "नवीनीकरण करना",
+        "gu": "નવીનીકરણ કરવું",
+        "es": "reformar"
+      }
+    },
+    {
+      "id": "vw_home_move_out",
+      "topic": "home",
+      "word": "move out",
+      "phonetic": "/muːv aʊt/",
+      "meaning": "To leave a home permanently.",
+      "example": "We move out at the end of the month.",
+      "level": 1,
+      "translations": {
+        "hi": "घर छोड़ना",
+        "gu": "ઘર છોડવું",
+        "es": "mudarse"
+      }
+    },
+    {
+      "id": "vw_home_settle_in",
+      "topic": "home",
+      "word": "settle in",
+      "phonetic": "/ˈsetl ɪn/",
+      "meaning": "To become comfortable in a new place.",
+      "example": "It took a month to settle in.",
+      "level": 2,
+      "translations": {
+        "hi": "बसना",
+        "gu": "સ્થાયી થવું",
+        "es": "acostumbrarse"
+      }
+    },
+    {
+      "id": "vw_academic_findings",
+      "topic": "academic",
+      "word": "findings",
+      "phonetic": "/ˈfaɪndɪŋz/",
+      "meaning": "What a piece of research discovered.",
+      "example": "The findings were published in March.",
+      "level": 1,
+      "translations": {
+        "hi": "निष्कर्ष",
+        "gu": "તારણો",
+        "es": "hallazgos"
+      }
+    },
+    {
+      "id": "vw_academic_argument",
+      "topic": "academic",
+      "word": "argument",
+      "phonetic": "/ˈɑːɡjumənt/",
+      "meaning": "A reasoned case for a position.",
+      "example": "The argument has one weak step.",
+      "level": 1,
+      "translations": {
+        "hi": "तर्क",
+        "gu": "દલીલ",
+        "es": "argumento"
+      }
+    },
+    {
+      "id": "vw_academic_summary",
+      "topic": "academic",
+      "word": "summary",
+      "phonetic": "/ˈsʌməri/",
+      "meaning": "A short account of the main points.",
+      "example": "Write a one-page summary.",
+      "level": 1,
+      "translations": {
+        "hi": "सारांश",
+        "gu": "સારાંશ",
+        "es": "resumen"
+      }
+    },
+    {
+      "id": "vw_academic_source",
+      "topic": "academic",
+      "word": "source",
+      "phonetic": "/sɔːs/",
+      "meaning": "Where information came from.",
+      "example": "Always name your source.",
+      "level": 1,
+      "translations": {
+        "hi": "स्रोत",
+        "gu": "સ્રોત",
+        "es": "fuente"
+      }
+    },
+    {
+      "id": "vw_academic_hypothesis",
+      "topic": "academic",
+      "word": "hypothesis",
+      "phonetic": "/haɪˈpɒθəsɪs/",
+      "meaning": "An idea proposed to be tested.",
+      "example": "The hypothesis was not supported.",
+      "level": 2,
+      "translations": {
+        "hi": "परिकल्पना",
+        "gu": "પરિકલ્પના",
+        "es": "hipótesis"
+      }
+    },
+    {
+      "id": "vw_academic_methodology",
+      "topic": "academic",
+      "word": "methodology",
+      "phonetic": "/ˌmeθəˈdɒlədʒi/",
+      "meaning": "The way a study was carried out.",
+      "example": "The methodology section is too vague.",
+      "level": 2,
+      "translations": {
+        "hi": "कार्यप्रणाली",
+        "gu": "પદ્ધતિ",
+        "es": "metodología"
+      }
+    },
+    {
+      "id": "vw_academic_correlation",
+      "topic": "academic",
+      "word": "correlation",
+      "phonetic": "/ˌkɒrəˈleɪʃn/",
+      "meaning": "A relationship between two measurements.",
+      "example": "Correlation is not causation.",
+      "level": 2,
+      "translations": {
+        "hi": "सहसंबंध",
+        "gu": "સહસંબંધ",
+        "es": "correlación"
+      }
+    },
+    {
+      "id": "vw_academic_bias_in_sampling",
+      "topic": "academic",
+      "word": "bias in sampling",
+      "phonetic": "/ˈbaɪəs ɪn ˈsɑːmplɪŋ/",
+      "meaning": "Choosing a group that misrepresents the whole.",
+      "example": "Online polls suffer bias in sampling.",
+      "level": 2,
+      "translations": {
+        "hi": "नमूना पक्षपात",
+        "gu": "નમૂના પક્ષપાત",
+        "es": "sesgo de muestreo"
+      }
+    },
+    {
+      "id": "vw_academic_peer_review",
+      "topic": "academic",
+      "word": "peer review",
+      "phonetic": "/pɪə rɪˈvjuː/",
+      "meaning": "Checking by other experts before publication.",
+      "example": "It has not passed peer review yet.",
+      "level": 2,
+      "translations": {
+        "hi": "सहकर्मी समीक्षा",
+        "gu": "સમકક્ષ સમીક્ષા",
+        "es": "revisión por pares"
+      }
+    },
+    {
+      "id": "vw_academic_replicate",
+      "topic": "academic",
+      "word": "replicate",
+      "phonetic": "/ˈreplɪkeɪt/",
+      "meaning": "To repeat a study and get the same result.",
+      "example": "Three labs failed to replicate it.",
+      "level": 2,
+      "translations": {
+        "hi": "दोहराना",
+        "gu": "પુનરાવર્તન કરવું",
+        "es": "replicar"
+      }
+    },
+    {
+      "id": "vw_academic_substantiate",
+      "topic": "academic",
+      "word": "substantiate",
+      "phonetic": "/səbˈstænʃieɪt/",
+      "meaning": "To support a claim with proof.",
+      "example": "The claim was never substantiated.",
+      "level": 2,
+      "translations": {
+        "hi": "प्रमाणित करना",
+        "gu": "સાબિત કરવું",
+        "es": "fundamentar"
+      }
+    },
+    {
+      "id": "vw_academic_caveat",
+      "topic": "academic",
+      "word": "caveat",
+      "phonetic": "/ˈkæviæt/",
+      "meaning": "A warning about a limitation.",
+      "example": "One caveat: the sample was small.",
+      "level": 2,
+      "translations": {
+        "hi": "चेतावनी",
+        "gu": "ચેતવણી",
+        "es": "advertencia"
+      }
+    },
+    {
+      "id": "vw_academic_in_light_of",
+      "topic": "academic",
+      "word": "in light of",
+      "phonetic": "/ɪn laɪt əv/",
+      "meaning": "Considering, because of.",
+      "example": "In light of the new data, we revised it.",
+      "level": 2,
+      "translations": {
+        "hi": "के आलोक में",
+        "gu": "ના પ્રકાશમાં",
+        "es": "a la luz de"
+      }
+    },
+    {
+      "id": "vw_phrasal_look_forward_to",
+      "topic": "phrasal",
+      "word": "look forward to",
+      "phonetic": "/lʊk ˈfɔːwəd tuː/",
+      "meaning": "To feel happy about something coming.",
+      "example": "I look forward to meeting you.",
+      "level": 1,
+      "translations": {
+        "hi": "उत्सुक होना",
+        "gu": "આતુર હોવું",
+        "es": "tener ganas de"
+      }
+    },
+    {
+      "id": "vw_phrasal_give_up",
+      "topic": "phrasal",
+      "word": "give up",
+      "phonetic": "/ɡɪv ʌp/",
+      "meaning": "To stop trying.",
+      "example": "Do not give up after one mistake.",
+      "level": 0,
+      "translations": {
+        "hi": "छोड़ देना",
+        "gu": "છોડી દેવું",
+        "es": "rendirse"
+      }
+    },
+    {
+      "id": "vw_phrasal_figure_out",
+      "topic": "phrasal",
+      "word": "figure out",
+      "phonetic": "/ˈfɪɡə aʊt/",
+      "meaning": "To understand after thinking.",
+      "example": "I figured out the problem.",
+      "level": 1,
+      "translations": {
+        "hi": "समझ जाना",
+        "gu": "સમજી જવું",
+        "es": "averiguar"
+      }
+    },
+    {
+      "id": "vw_phrasal_hold_off",
+      "topic": "phrasal",
+      "word": "hold off",
+      "phonetic": "/həʊld ɒf/",
+      "meaning": "To wait before acting.",
+      "example": "Let us hold off until we hear back.",
+      "level": 2,
+      "translations": {
+        "hi": "रुकना",
+        "gu": "થોભવું",
+        "es": "esperar"
+      }
+    },
+    {
+      "id": "vw_phrasal_run_into",
+      "topic": "phrasal",
+      "word": "run into",
+      "phonetic": "/rʌn ˈɪntuː/",
+      "meaning": "To meet someone by chance.",
+      "example": "I ran into my old teacher.",
+      "level": 1,
+      "translations": {
+        "hi": "अचानक मिलना",
+        "gu": "અચાનક મળવું",
+        "es": "encontrarse con"
+      }
+    },
+    {
+      "id": "vw_phrasal_come_up_with",
+      "topic": "phrasal",
+      "word": "come up with",
+      "phonetic": "/kʌm ʌp wɪð/",
+      "meaning": "To think of an idea.",
+      "example": "She came up with the name.",
+      "level": 2,
+      "translations": {
+        "hi": "सोच निकालना",
+        "gu": "વિચાર લાવવો",
+        "es": "idear"
+      }
+    },
+    {
+      "id": "vw_phrasal_catch_up",
+      "topic": "phrasal",
+      "word": "catch up",
+      "phonetic": "/kætʃ ʌp/",
+      "meaning": "To reach the same level, or to share news.",
+      "example": "Let us catch up next week.",
+      "level": 1,
+      "translations": {
+        "hi": "पकड़ना",
+        "gu": "પકડવું",
+        "es": "poner al día"
+      }
+    },
+    {
+      "id": "vw_phrasal_turn_down",
+      "topic": "phrasal",
+      "word": "turn down",
+      "phonetic": "/tɜːn daʊn/",
+      "meaning": "To refuse an offer.",
+      "example": "He turned down the job.",
+      "level": 1,
+      "translations": {
+        "hi": "ठुकराना",
+        "gu": "નકારવું",
+        "es": "rechazar"
+      }
+    },
+    {
+      "id": "vw_phrasal_bring_up",
+      "topic": "phrasal",
+      "word": "bring up",
+      "phonetic": "/brɪŋ ʌp/",
+      "meaning": "To mention a subject.",
+      "example": "Do not bring that up tonight.",
+      "level": 1,
+      "translations": {
+        "hi": "मुद्दा उठाना",
+        "gu": "મુદ્દો ઉઠાવવો",
+        "es": "sacar a colación"
+      }
+    },
+    {
+      "id": "vw_phrasal_carry_on",
+      "topic": "phrasal",
+      "word": "carry on",
+      "phonetic": "/ˈkæri ɒn/",
+      "meaning": "To continue doing something.",
+      "example": "Carry on, I am listening.",
+      "level": 0,
+      "translations": {
+        "hi": "जारी रखना",
+        "gu": "ચાલુ રાખવું",
+        "es": "continuar"
+      }
+    },
+    {
+      "id": "vw_phrasal_look_after",
+      "topic": "phrasal",
+      "word": "look after",
+      "phonetic": "/lʊk ˈɑːftə/",
+      "meaning": "To take care of.",
+      "example": "Can you look after the dog?",
+      "level": 0,
+      "translations": {
+        "hi": "देखभाल करना",
+        "gu": "સંભાળ રાખવી",
+        "es": "cuidar"
+      }
+    },
+    {
+      "id": "vw_phrasal_sort_out",
+      "topic": "phrasal",
+      "word": "sort out",
+      "phonetic": "/sɔːt aʊt/",
+      "meaning": "To resolve or organise something.",
+      "example": "I will sort it out this afternoon.",
+      "level": 1,
+      "translations": {
+        "hi": "सुलझाना",
+        "gu": "ઉકેલવું",
+        "es": "arreglar"
+      }
+    },
+    {
+      "id": "vw_phrasal_point_out",
+      "topic": "phrasal",
+      "word": "point out",
+      "phonetic": "/pɔɪnt aʊt/",
+      "meaning": "To draw attention to a fact.",
+      "example": "She pointed out the error politely.",
+      "level": 1,
+      "translations": {
+        "hi": "इशारा करना",
+        "gu": "ધ્યાન દોરવું",
+        "es": "señalar"
+      }
+    },
+    {
+      "id": "vw_phrasal_back_down",
+      "topic": "phrasal",
+      "word": "back down",
+      "phonetic": "/bæk daʊn/",
+      "meaning": "To stop insisting on your position.",
+      "example": "Neither side would back down.",
+      "level": 2,
+      "translations": {
+        "hi": "पीछे हटना",
+        "gu": "પીછેહઠ કરવી",
+        "es": "echarse atrás"
+      }
+    },
+    {
+      "id": "vw_phrasal_account_for",
+      "topic": "phrasal",
+      "word": "account for",
+      "phonetic": "/əˈkaʊnt fɔː/",
+      "meaning": "To explain, or to form a part of.",
+      "example": "Travel accounts for half the budget.",
+      "level": 2,
+      "translations": {
+        "hi": "हिसाब देना",
+        "gu": "હિસાબ આપવો",
+        "es": "explicar"
+      }
+    },
+    {
+      "id": "vw_phrasal_rule_out",
+      "topic": "phrasal",
+      "word": "rule out",
+      "phonetic": "/ruːl aʊt/",
+      "meaning": "To decide something is not possible.",
+      "example": "We cannot rule that out yet.",
+      "level": 2,
+      "translations": {
+        "hi": "खारिज करना",
+        "gu": "નકારી કાઢવું",
+        "es": "descartar"
+      }
+    },
+    {
+      "id": "vw_phrasal_go_through_with",
+      "topic": "phrasal",
+      "word": "go through with",
+      "phonetic": "/ɡəʊ θruː wɪð/",
+      "meaning": "To do something difficult you planned.",
+      "example": "She went through with the move.",
+      "level": 2,
+      "translations": {
+        "hi": "अंजाम देना",
+        "gu": "પાર પાડવું",
+        "es": "llevar a cabo"
+      }
+    },
+    {
+      "id": "vw_idioms_the_last_straw",
+      "topic": "idioms",
+      "word": "the last straw",
+      "phonetic": "/ðə lɑːst strɔː/",
+      "meaning": "The final problem that makes you act.",
+      "example": "The cancelled flight was the last straw.",
+      "level": 2,
+      "translations": {
+        "hi": "आखिरी हद",
+        "gu": "છેલ્લી હદ",
+        "es": "la gota que colma el vaso"
+      }
+    },
+    {
+      "id": "vw_idioms_read_between_the_lines",
+      "topic": "idioms",
+      "word": "read between the lines",
+      "phonetic": "/riːd bɪˈtwiːn ðə laɪnz/",
+      "meaning": "To understand what is implied but not said.",
+      "example": "Read between the lines of that email.",
+      "level": 2,
+      "translations": {
+        "hi": "छिपा अर्थ समझना",
+        "gu": "છૂપો અર્થ સમજવો",
+        "es": "leer entre líneas"
+      }
+    },
+    {
+      "id": "vw_idioms_face_the_music",
+      "topic": "idioms",
+      "word": "face the music",
+      "phonetic": "/feɪs ðə ˈmjuːzɪk/",
+      "meaning": "To accept criticism for what you did.",
+      "example": "He had to face the music on Monday.",
+      "level": 2,
+      "translations": {
+        "hi": "परिणाम भुगतना",
+        "gu": "પરિણામ ભોગવવું",
+        "es": "afrontar las consecuencias"
+      }
+    },
+    {
+      "id": "vw_idioms_a_blessing_in_disguise",
+      "topic": "idioms",
+      "word": "a blessing in disguise",
+      "phonetic": "/ə ˈblesɪŋ ɪn dɪsˈɡaɪz/",
+      "meaning": "Something bad that turns out well.",
+      "example": "Losing that job was a blessing in disguise.",
+      "level": 2,
+      "translations": {
+        "hi": "छिपा हुआ वरदान",
+        "gu": "છૂપો આશીર્વાદ",
+        "es": "no hay mal que por bien no venga"
+      }
+    },
+    {
+      "id": "vw_idioms_go_the_extra_mile",
+      "topic": "idioms",
+      "word": "go the extra mile",
+      "phonetic": "/ɡəʊ ði ˈekstrə maɪl/",
+      "meaning": "To do more than is required.",
+      "example": "She always goes the extra mile for clients.",
+      "level": 2,
+      "translations": {
+        "hi": "अतिरिक्त प्रयास करना",
+        "gu": "વધારાનો પ્રયાસ કરવો",
+        "es": "hacer un esfuerzo extra"
+      }
+    },
+    {
+      "id": "vw_idioms_in_the_long_run",
+      "topic": "idioms",
+      "word": "in the long run",
+      "phonetic": "/ɪn ðə lɒŋ rʌn/",
+      "meaning": "Over a long period of time.",
+      "example": "It is cheaper in the long run.",
+      "level": 1,
+      "translations": {
+        "hi": "लंबे समय में",
+        "gu": "લાંબા ગાળે",
+        "es": "a la larga"
+      }
+    },
+    {
+      "id": "vw_idioms_call_it_a_day",
+      "topic": "idioms",
+      "word": "call it a day",
+      "phonetic": "/kɔːl ɪt ə deɪ/",
+      "meaning": "To stop working for now.",
+      "example": "It is nine - let us call it a day.",
+      "level": 1,
+      "translations": {
+        "hi": "काम बंद करना",
+        "gu": "કામ બંધ કરવું",
+        "es": "dejarlo por hoy"
+      }
+    },
+    {
+      "id": "vw_idioms_touch_base",
+      "topic": "idioms",
+      "word": "touch base",
+      "phonetic": "/tʌtʃ beɪs/",
+      "meaning": "To make brief contact to check progress.",
+      "example": "Let us touch base on Thursday.",
+      "level": 2,
+      "translations": {
+        "hi": "संपर्क करना",
+        "gu": "સંપર્ક કરવો",
+        "es": "ponerse en contacto"
+      }
+    },
+    {
+      "id": "vw_idioms_the_tip_of_the_iceberg",
+      "topic": "idioms",
+      "word": "the tip of the iceberg",
+      "phonetic": "/ðə tɪp əv ði ˈaɪsbɜːɡ/",
+      "meaning": "A small visible part of a large problem.",
+      "example": "The complaints are the tip of the iceberg.",
+      "level": 2,
+      "translations": {
+        "hi": "हिमशैल का सिरा",
+        "gu": "હિમશિલાની ટોચ",
+        "es": "la punta del iceberg"
+      }
+    },
+    {
+      "id": "vw_idioms_get_the_hang_of",
+      "topic": "idioms",
+      "word": "get the hang of",
+      "phonetic": "/ɡet ðə hæŋ əv/",
+      "meaning": "To learn how to do something.",
+      "example": "You get the hang of it after a week.",
+      "level": 1,
+      "translations": {
+        "hi": "पकड़ में आना",
+        "gu": "હાથ બેસી જવો",
+        "es": "cogerle el truco a"
+      }
+    },
+    {
+      "id": "vw_idioms_beat_around_the_bush",
+      "topic": "idioms",
+      "word": "beat around the bush",
+      "phonetic": "/biːt əraʊnd ðə bʊʃ/",
+      "meaning": "To avoid saying something directly.",
+      "example": "Stop beating around the bush.",
+      "level": 2,
+      "translations": {
+        "hi": "घुमा-फिरा कर बात करना",
+        "gu": "આડીઅવળી વાત કરવી",
+        "es": "andarse por las ramas"
+      }
+    },
+    {
+      "id": "vw_idioms_once_in_a_blue_moon",
+      "topic": "idioms",
+      "word": "once in a blue moon",
+      "phonetic": "/wʌns ɪn ə bluː muːn/",
+      "meaning": "Very rarely.",
+      "example": "We meet once in a blue moon now.",
+      "level": 2,
+      "translations": {
+        "hi": "कभी-कभार",
+        "gu": "ક્યારેક જ",
+        "es": "de higos a brevas"
+      }
+    },
+    {
+      "id": "vw_slang_hang_out",
+      "topic": "slang",
+      "word": "hang out",
+      "phonetic": "/hæŋ aʊt/",
+      "meaning": "To spend relaxed time together.",
+      "example": "We hung out at the park.",
+      "level": 1,
+      "translations": {
+        "hi": "समय बिताना",
+        "gu": "સમય પસાર કરવો",
+        "es": "pasar el rato"
+      }
+    },
+    {
+      "id": "vw_slang_no_worries",
+      "topic": "slang",
+      "word": "no worries",
+      "phonetic": "/nəʊ ˈwʌriz/",
+      "meaning": "A relaxed way to say it is fine.",
+      "example": "No worries, take your time.",
+      "level": 0,
+      "translations": {
+        "hi": "कोई बात नहीं",
+        "gu": "કોઈ વાંધો નહીં",
+        "es": "no pasa nada"
+      }
+    },
+    {
+      "id": "vw_slang_grab_a_bite",
+      "topic": "slang",
+      "word": "grab a bite",
+      "phonetic": "/ɡræb ə baɪt/",
+      "meaning": "To eat something quickly.",
+      "example": "Let us grab a bite before the film.",
+      "level": 1,
+      "translations": {
+        "hi": "जल्दी खाना",
+        "gu": "ઝડપથી ખાવું",
+        "es": "picar algo"
+      }
+    },
+    {
+      "id": "vw_slang_swamped",
+      "topic": "slang",
+      "word": "swamped",
+      "phonetic": "/swɒmpt/",
+      "meaning": "Extremely busy.",
+      "example": "Sorry, I was swamped at work.",
+      "level": 2,
+      "translations": {
+        "hi": "बहुत व्यस्त",
+        "gu": "ખૂબ વ્યસ્ત",
+        "es": "desbordado"
+      }
+    },
+    {
+      "id": "vw_slang_cost_a_fortune",
+      "topic": "slang",
+      "word": "cost a fortune",
+      "phonetic": "/kɒst ə ˈfɔːtʃuːn/",
+      "meaning": "To be very expensive.",
+      "example": "That laptop cost a fortune.",
+      "level": 2,
+      "translations": {
+        "hi": "बहुत महंगा",
+        "gu": "ખૂબ મોંઘું",
+        "es": "costar un riñón"
+      }
+    },
+    {
+      "id": "vw_slang_my_bad",
+      "topic": "slang",
+      "word": "my bad",
+      "phonetic": "/maɪ bæd/",
+      "meaning": "A casual admission of a mistake.",
+      "example": "My bad, I sent the wrong file.",
+      "level": 1,
+      "translations": {
+        "hi": "मेरी गलती",
+        "gu": "મારી ભૂલ",
+        "es": "culpa mía"
+      }
+    },
+    {
+      "id": "vw_slang_a_heads_up",
+      "topic": "slang",
+      "word": "a heads-up",
+      "phonetic": "/ə ˈhedz ʌp/",
+      "meaning": "An advance warning.",
+      "example": "Thanks for the heads-up.",
+      "level": 1,
+      "translations": {
+        "hi": "पूर्व सूचना",
+        "gu": "અગાઉથી જાણ",
+        "es": "un aviso"
+      }
+    },
+    {
+      "id": "vw_slang_up_for_it",
+      "topic": "slang",
+      "word": "up for it",
+      "phonetic": "/ʌp fɔː ɪt/",
+      "meaning": "Willing and keen to do something.",
+      "example": "Are you up for it on Saturday?",
+      "level": 1,
+      "translations": {
+        "hi": "तैयार",
+        "gu": "તૈયાર",
+        "es": "apuntarse"
+      }
+    },
+    {
+      "id": "vw_slang_knackered",
+      "topic": "slang",
+      "word": "knackered",
+      "phonetic": "/ˈnækəd/",
+      "meaning": "Very tired, informally.",
+      "example": "I am absolutely knackered.",
+      "level": 2,
+      "translations": {
+        "hi": "बहुत थका",
+        "gu": "ખૂબ થાકેલું",
+        "es": "hecho polvo"
+      }
+    },
+    {
+      "id": "vw_slang_a_stretch",
+      "topic": "slang",
+      "word": "a stretch",
+      "phonetic": "/ə stretʃ/",
+      "meaning": "Difficult to believe or achieve.",
+      "example": "Finishing by Friday is a stretch.",
+      "level": 2,
+      "translations": {
+        "hi": "मुश्किल बात",
+        "gu": "મુશ્કેલ વાત",
+        "es": "difícil de creer"
+      }
+    },
+    {
+      "id": "vw_slang_wing_it",
+      "topic": "slang",
+      "word": "wing it",
+      "phonetic": "/wɪŋ ɪt/",
+      "meaning": "To do something without preparing.",
+      "example": "I had no slides, so I winged it.",
+      "level": 2,
+      "translations": {
+        "hi": "बिना तैयारी करना",
+        "gu": "તૈયારી વગર કરવું",
+        "es": "improvisar sobre la marcha"
+      }
+    },
+    {
+      "id": "vw_general_confident",
+      "topic": "general",
+      "word": "confident",
+      "phonetic": "/ˈkɒnfɪdənt/",
+      "meaning": "Feeling sure about yourself.",
+      "example": "I feel confident speaking English.",
+      "level": 1,
+      "translations": {
+        "hi": "आत्मविश्वासी",
+        "gu": "આત્મવિશ્વાસુ",
+        "es": "seguro"
+      }
+    },
+    {
+      "id": "vw_general_improve",
+      "topic": "general",
+      "word": "improve",
+      "phonetic": "/ɪmˈpruːv/",
+      "meaning": "To get better.",
+      "example": "My listening improved a lot.",
+      "level": 0,
+      "translations": {
+        "hi": "सुधारना",
+        "gu": "સુધારવું",
+        "es": "mejorar"
+      }
+    },
+    {
+      "id": "vw_general_oversight",
+      "topic": "general",
+      "word": "oversight",
+      "phonetic": "/ˈəʊvəsaɪt/",
+      "meaning": "A small failure to notice something.",
+      "example": "Leaving her name off was an oversight.",
+      "level": 2,
+      "translations": {
+        "hi": "चूक",
+        "gu": "ચૂક",
+        "es": "descuido"
+      }
+    },
+    {
+      "id": "vw_general_practise",
+      "topic": "general",
+      "word": "practise",
+      "phonetic": "/ˈpræktɪs/",
+      "meaning": "To do something regularly to get better.",
+      "example": "I practise for ten minutes daily.",
+      "level": 0,
+      "translations": {
+        "hi": "अभ्यास करना",
+        "gu": "અભ્યાસ કરવો",
+        "es": "practicar"
+      }
+    },
+    {
+      "id": "vw_general_fluent",
+      "topic": "general",
+      "word": "fluent",
+      "phonetic": "/ˈfluːənt/",
+      "meaning": "Able to speak easily and smoothly.",
+      "example": "She is fluent in three languages.",
+      "level": 1,
+      "translations": {
+        "hi": "धाराप्रवाह",
+        "gu": "પ્રવાહી",
+        "es": "fluido"
+      }
+    },
+    {
+      "id": "vw_general_accent",
+      "topic": "general",
+      "word": "accent",
+      "phonetic": "/ˈæksent/",
+      "meaning": "The way you sound when you speak.",
+      "example": "Everyone has an accent.",
+      "level": 1,
+      "translations": {
+        "hi": "उच्चारण",
+        "gu": "ઉચ્ચાર",
+        "es": "acento"
+      }
+    },
+    {
+      "id": "vw_general_polite",
+      "topic": "general",
+      "word": "polite",
+      "phonetic": "/pəˈlaɪt/",
+      "meaning": "Showing good manners.",
+      "example": "Adding please sounds more polite.",
+      "level": 0,
+      "translations": {
+        "hi": "विनम्र",
+        "gu": "નમ્ર",
+        "es": "cortés"
+      }
+    },
+    {
+      "id": "vw_general_obvious",
+      "topic": "general",
+      "word": "obvious",
+      "phonetic": "/ˈɒbviəs/",
+      "meaning": "Easy to see or understand.",
+      "example": "The answer was obvious afterwards.",
+      "level": 1,
+      "translations": {
+        "hi": "स्पष्ट",
+        "gu": "સ્પષ્ટ",
+        "es": "obvio"
+      }
+    },
+    {
+      "id": "vw_general_although",
+      "topic": "general",
+      "word": "although",
+      "phonetic": "/ɔːlˈðəʊ/",
+      "meaning": "Used to join two contrasting ideas.",
+      "example": "Although it rained, we walked.",
+      "level": 1,
+      "translations": {
+        "hi": "हालांकि",
+        "gu": "જોકે",
+        "es": "aunque"
+      }
+    },
+    {
+      "id": "vw_general_useful",
+      "topic": "general",
+      "word": "useful",
+      "phonetic": "/ˈjuːsfl/",
+      "meaning": "Helpful for a purpose.",
+      "example": "That was a useful tip.",
+      "level": 0,
+      "translations": {
+        "hi": "उपयोगी",
+        "gu": "ઉપયોગી",
+        "es": "útil"
+      }
+    },
+    {
+      "id": "vw_general_difficult",
+      "topic": "general",
+      "word": "difficult",
+      "phonetic": "/ˈdɪfɪkəlt/",
+      "meaning": "Hard to do or understand.",
+      "example": "The exam was difficult but fair.",
+      "level": 0,
+      "translations": {
+        "hi": "कठिन",
+        "gu": "મુશ્કેલ",
+        "es": "difícil"
+      }
+    },
+    {
+      "id": "vw_general_decide",
+      "topic": "general",
+      "word": "decide",
+      "phonetic": "/dɪˈsaɪd/",
+      "meaning": "To choose after thinking.",
+      "example": "We decided to wait a week.",
+      "level": 0,
+      "translations": {
+        "hi": "निर्णय लेना",
+        "gu": "નિર્ણય લેવો",
+        "es": "decidir"
+      }
+    },
+    {
+      "id": "vw_general_prefer",
+      "topic": "general",
+      "word": "prefer",
+      "phonetic": "/prɪˈfɜː/",
+      "meaning": "To like one thing more than another.",
+      "example": "I prefer tea to coffee.",
+      "level": 0,
+      "translations": {
+        "hi": "पसंद करना",
+        "gu": "પસંદ કરવું",
+        "es": "preferir"
+      }
+    },
+    {
+      "id": "vw_general_available",
+      "topic": "general",
+      "word": "available",
+      "phonetic": "/əˈveɪləbl/",
+      "meaning": "Free to be used or seen.",
+      "example": "Are you available on Thursday?",
+      "level": 1,
+      "translations": {
+        "hi": "उपलब्ध",
+        "gu": "ઉપલબ્ધ",
+        "es": "disponible"
+      }
+    },
+    {
+      "id": "vw_general_necessary",
+      "topic": "general",
+      "word": "necessary",
+      "phonetic": "/ˈnesəsəri/",
+      "meaning": "Needed, not optional.",
+      "example": "A visa is necessary for that trip.",
+      "level": 1,
+      "translations": {
+        "hi": "आवश्यक",
+        "gu": "જરૂરી",
+        "es": "necesario"
+      }
+    },
+    {
+      "id": "vw_general_accurate",
+      "topic": "general",
+      "word": "accurate",
+      "phonetic": "/ˈækjərət/",
+      "meaning": "Correct in every detail.",
+      "example": "The figures are accurate to the penny.",
+      "level": 1,
+      "translations": {
+        "hi": "सटीक",
+        "gu": "ચોક્કસ",
+        "es": "exacto"
+      }
+    },
+    {
+      "id": "vw_general_reluctant",
+      "topic": "general",
+      "word": "reluctant",
+      "phonetic": "/rɪˈlʌktənt/",
+      "meaning": "Unwilling, doing something slowly.",
+      "example": "He was reluctant to agree.",
+      "level": 2,
+      "translations": {
+        "hi": "अनिच्छुक",
+        "gu": "અનિચ્છુક",
+        "es": "reacio"
+      }
+    },
+    {
+      "id": "vw_general_deliberate",
+      "topic": "general",
+      "word": "deliberate",
+      "phonetic": "/dɪˈlɪbərət/",
+      "meaning": "Done on purpose.",
+      "example": "That omission was deliberate.",
+      "level": 2,
+      "translations": {
+        "hi": "जानबूझकर",
+        "gu": "ઇરાદાપૂર્વક",
+        "es": "deliberado"
+      }
+    },
+    {
+      "id": "vw_general_plausible",
+      "topic": "general",
+      "word": "plausible",
+      "phonetic": "/ˈplɔːzəbl/",
+      "meaning": "Seeming reasonable, though maybe untrue.",
+      "example": "It is plausible but unproven.",
+      "level": 2,
+      "translations": {
+        "hi": "विश्वसनीय",
+        "gu": "માનવા જેવું",
+        "es": "verosímil"
+      }
+    },
+    {
+      "id": "vw_general_inevitable",
+      "topic": "general",
+      "word": "inevitable",
+      "phonetic": "/ɪnˈevɪtəbl/",
+      "meaning": "Certain to happen.",
+      "example": "The delay was inevitable.",
+      "level": 2,
+      "translations": {
+        "hi": "अपरिहार्य",
+        "gu": "અનિવાર્ય",
+        "es": "inevitable"
+      }
+    },
+    {
+      "id": "vw_general_arbitrary",
+      "topic": "general",
+      "word": "arbitrary",
+      "phonetic": "/ˈɑːbɪtrəri/",
+      "meaning": "Chosen with no clear reason.",
+      "example": "The deadline felt arbitrary.",
+      "level": 2,
+      "translations": {
+        "hi": "मनमाना",
+        "gu": "મનસ્વી",
+        "es": "arbitrario"
+      }
+    },
+    {
+      "id": "vw_general_ambiguous",
+      "topic": "general",
+      "word": "ambiguous",
+      "phonetic": "/æmˈbɪɡjuəs/",
+      "meaning": "Having more than one possible meaning.",
+      "example": "The wording is ambiguous.",
+      "level": 2,
+      "translations": {
+        "hi": "अस्पष्ट",
+        "gu": "સંદિગ્ધ",
+        "es": "ambiguo"
+      }
+    }
+  ]
+}
