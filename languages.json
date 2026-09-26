@@ -78,16 +78,7 @@
       "flag": "🇮🇹",
       "locale": "it-IT",
       "courseReady": false
-    },
-    {
-      "id": "lang_ar",
-      "code": "ar",
-      "englishName": "Arabic",
-      "nativeName": "العربية",
-      "flag": "🇸🇦",
-      "locale": "ar-SA",
-      "courseReady": false
-    },
+    },  
     {
       "id": "lang_ja",
       "code": "ja",
